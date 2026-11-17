@@ -6,6 +6,36 @@ interface FeeModalProps {
   onClose: () => void;
 }
 
+const FEE_TIERS = [
+  {
+    label: 'Tanpa Minimal',
+    minLabel: 'TANPA MINIMAL',
+    potongan: 'Potongan hingga Rp35.000',
+    fee: 'Rp5.000',
+    feeNum: 5000,
+    icon: '🛍️',
+    highlight: false
+  },
+  {
+    label: 'Min. Rp50.000',
+    minLabel: 'MIN. Rp50.000',
+    potongan: 'Potongan hingga Rp30.000',
+    fee: 'Rp4.000',
+    feeNum: 4000,
+    icon: '🛒',
+    highlight: true
+  },
+  {
+    label: 'Min. Rp70.000',
+    minLabel: 'MIN. Rp70.000',
+    potongan: 'Potongan hingga Rp30.000',
+    fee: 'Rp3.000',
+    feeNum: 3000,
+    icon: '🧺',
+    highlight: false
+  }
+];
+
 export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
   return (
     <ModalWrapper
@@ -26,57 +56,51 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
         </p>
       </div>
 
-      <div className="space-y-3 mb-5">
-        {/* Tier 1 */}
-        <div className="bg-white rounded-2xl border-2 border-[#EADFC8] p-3 shadow-xs">
-          <div className="flex items-start justify-between gap-2 mb-2">
-            <div>
-              <h3 className="font-bold text-[#1A1614] text-sm">Diskon 50% · Min. Rp70.000</h3>
-              <p className="text-[11px] text-[#A08972]">Potongan hingga Rp30.000</p>
+      <div className="grid grid-cols-3 gap-2.5 mb-5">
+        {FEE_TIERS.map((tier) => (
+          <div
+            key={tier.label}
+            className={`rounded-2xl border-2 p-3 shadow-xs text-center flex flex-col items-center gap-1.5 ${
+              tier.highlight
+                ? 'border-[#6B4423] bg-[#FAF6F0]'
+                : 'border-[#EADFC8] bg-white'
+            }`}
+          >
+            {/* Icon */}
+            <div className={`w-10 h-10 rounded-full border-2 flex items-center justify-center text-lg ${
+              tier.highlight ? 'border-[#6B4423] bg-white' : 'border-[#EADFC8] bg-[#FAF6F0]'
+            }`}>
+              {tier.icon}
             </div>
-            <div className="bg-[#FEF3C7] text-[#D97706] font-extrabold text-[11px] px-2 py-1 rounded-lg shrink-0">
-              Diskon 50%
-            </div>
-          </div>
-          <div className="flex items-center justify-between border-t border-[#EADFC8] border-dashed pt-2 mt-2">
-            <span className="text-xs font-semibold text-[#6B4423]">Biaya Jasdor:</span>
-            <span className="font-black text-sm text-[#1A1614]">Rp3.500</span>
-          </div>
-        </div>
 
-        {/* Tier 2 */}
-        <div className="bg-white rounded-2xl border-2 border-[#EADFC8] p-3 shadow-xs">
-          <div className="flex items-start justify-between gap-2 mb-2">
-            <div>
-              <h3 className="font-bold text-[#1A1614] text-sm">Diskon 50% · Min. Rp50.000</h3>
-              <p className="text-[11px] text-[#A08972]">Potongan hingga Rp30.000</p>
+            {/* Diskon badge */}
+            <div className="text-[10px] font-extrabold text-[#6B4423] leading-tight text-center">
+              <div>DISKON 50%</div>
+              <div className="font-bold text-[#1A1614]">{tier.minLabel}</div>
             </div>
-            <div className="bg-[#FEF3C7] text-[#D97706] font-extrabold text-[11px] px-2 py-1 rounded-lg shrink-0">
-              Diskon 50%
-            </div>
-          </div>
-          <div className="flex items-center justify-between border-t border-[#EADFC8] border-dashed pt-2 mt-2">
-            <span className="text-xs font-semibold text-[#6B4423]">Biaya Jasdor:</span>
-            <span className="font-black text-sm text-[#1A1614]">Rp5.000</span>
-          </div>
-        </div>
 
-        {/* Tier 3 */}
-        <div className="bg-white rounded-2xl border-2 border-[#EADFC8] p-3 shadow-xs">
-          <div className="flex items-start justify-between gap-2 mb-2">
-            <div>
-              <h3 className="font-bold text-[#1A1614] text-sm">Diskon 50% · Tanpa Minimal</h3>
-              <p className="text-[11px] text-[#A08972]">Potongan hingga Rp35.000</p>
-            </div>
-            <div className="bg-[#FEF3C7] text-[#D97706] font-extrabold text-[11px] px-2 py-1 rounded-lg shrink-0">
-              Diskon 50%
+            {/* Potongan */}
+            <p className="text-[9.5px] text-[#A08972] leading-tight">{tier.potongan}</p>
+
+            {/* Divider */}
+            <div className="w-full border-t border-dashed border-[#EADFC8] my-0.5" />
+
+            {/* Fee label */}
+            <p className="text-[9.5px] font-semibold text-[#6B4423]">
+              DISKON 50%<br />
+              <span className="text-[8.5px] font-normal text-[#A08972]">Biaya Jasdor:</span>
+            </p>
+
+            {/* Fee amount */}
+            <div className={`w-full py-1.5 rounded-xl text-center font-black text-sm ${
+              tier.highlight
+                ? 'bg-[#1A1614] text-white'
+                : 'bg-[#EBE3D5] text-[#1A1614]'
+            }`}>
+              {tier.fee}
             </div>
           </div>
-          <div className="flex items-center justify-between border-t border-[#EADFC8] border-dashed pt-2 mt-2">
-            <span className="text-xs font-semibold text-[#6B4423]">Biaya Jasdor:</span>
-            <span className="font-black text-sm text-[#1A1614]">Rp6.000</span>
-          </div>
-        </div>
+        ))}
       </div>
 
       <div className="bg-blue-50 text-blue-800 text-[11px] p-3 rounded-xl border border-blue-100 mb-4 leading-relaxed">
@@ -93,4 +117,3 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
     </ModalWrapper>
   );
 };
-

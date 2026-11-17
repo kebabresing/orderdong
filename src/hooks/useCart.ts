@@ -87,13 +87,13 @@ export function useCart() {
   if (subtotal > 0) {
     if (subtotal >= 70000) {
       discount = Math.min(Math.floor(subtotal * 0.5), 30000);
-      fee = 3500;
+      fee = 3000;
     } else if (subtotal >= 50000) {
       discount = Math.min(Math.floor(subtotal * 0.5), 30000);
-      fee = 5000;
-    } else {
-      discount = Math.min(Math.floor(subtotal * 0.5), 20000);
       fee = 4000;
+    } else {
+      discount = Math.min(Math.floor(subtotal * 0.5), 35000);
+      fee = 5000;
     }
   }
 
