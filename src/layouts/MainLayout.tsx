@@ -15,7 +15,6 @@ import { FaqModal } from '../components/modals/FaqModal';
 import { AboutModal } from '../components/modals/AboutModal';
 import { WifiModal } from '../components/modals/WifiModal';
 import { FeeModal } from '../components/modals/FeeModal';
-import { WelcomePopup } from '../components/modals/WelcomePopup';
 
 import { useOutlet } from '../hooks/useOutlet';
 import { useCart } from '../hooks/useCart';
@@ -46,23 +45,6 @@ export const MainLayout: React.FC = () => {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isWifiOpen, setIsWifiOpen] = useState(false);
   const [isFeeOpen, setIsFeeOpen] = useState(false);
-  const [isWelcomeOpen, setIsWelcomeOpen] = useState(false);
-
-  // Check welcome popup on mount
-  useEffect(() => {
-    const dismissUntil = localStorage.getItem('jasdor_welcome_dismiss_until');
-    if (dismissUntil) {
-      const expiry = parseInt(dismissUntil, 10);
-      if (Date.now() < expiry) {
-        return; // still silenced
-      }
-    }
-    // Show welcome popup after 1s
-    const timer = setTimeout(() => {
-      setIsWelcomeOpen(true);
-    }, 800);
-    return () => clearTimeout(timer);
-  }, []);
 
   // Listen to hash changes for browser back/forward or deep links
   useEffect(() => {
@@ -213,11 +195,6 @@ export const MainLayout: React.FC = () => {
       <FeeModal
         isOpen={isFeeOpen}
         onClose={() => setIsFeeOpen(false)}
-      />
-
-      <WelcomePopup
-        isOpen={isWelcomeOpen}
-        onClose={() => setIsWelcomeOpen(false)}
       />
     </div>
   );
