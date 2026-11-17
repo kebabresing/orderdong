@@ -7,13 +7,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jakarta Box Tower, Basement Floor, Jl. Kebon Sirih No.48-50, RT.11/RW.2, Gambir, Jakarta Pusat, Jakarta, 10110",
     "distance": "200 m",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1823787,
+    "lng_hint": 106.8239683,
     "is_open": true,
     "hours": "07:00 - 18:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=JB%20Tower"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1823787,106.8239683"
   },
   {
     "id": "400",
@@ -21,13 +21,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Skyline Building, Lantai 1, Jl Mh. Thamrin No. 9, Jakarta Pusat, 12920",
     "distance": "500 m",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.18651653,
+    "lng_hint": 106.8236445,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Skyline%20Building"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.18651653,106.8236445"
   },
   {
     "id": "401",
@@ -35,13 +35,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sabang Jakarta Pusat, Jl. H. Agus Salim No.40, Gondangdia, Menteng, Central Jakarta City, Jakarta 10340",
     "distance": "600 m",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.18598223,
+    "lng_hint": 106.82496486,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sabang%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.18598223,106.82496486"
   },
   {
     "id": "388",
@@ -49,13 +49,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pusat Mode Tanah Abang, Jl. H. Fachrudin No.51, RT.14/RW.6, Kp. Bali, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10250",
     "distance": "900 m",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1873326,
+    "lng_hint": 106.815867,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pusat%20Mode%20Tanah%20Abang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1873326,106.815867"
   },
   {
     "id": "1352",
@@ -63,13 +63,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "MRT Bundaran HI x BLU, Jl. Jenderal Sudirman, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta",
     "distance": "1.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.190616,
+    "lng_hint": 106.822785,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=MRT%20Bundaran%20HI%20x%20BLU"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.190616,106.822785"
   },
   {
     "id": "389",
@@ -77,13 +77,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Gambir Selatan, Jl. Medan Merdeka Tim. No.1, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110",
     "distance": "1.1 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1765935,
+    "lng_hint": 106.8305453,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Gambir%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1765935,106.8305453"
   },
   {
     "id": "409",
@@ -91,13 +91,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Plaza Indonesia, Lantai LB, Jl. M.H. Thamrin No.Kav. 28-30, RT.9/RW.5, Gondangdia, Menteng, Jakarta Pusat, 10350",
     "distance": "1.2 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1929989,
+    "lng_hint": 106.8222671,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Plaza%20Indonesia"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1929989,106.8222671"
   },
   {
     "id": "363",
@@ -105,13 +105,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cideng, Jl. Cideng Barat No.57, RT.12/RW.1, Cideng, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10150",
     "distance": "1.5 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.173543,
+    "lng_hint": 106.811171,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cideng"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.173543,106.811171"
   },
   {
     "id": "419",
@@ -119,13 +119,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Central Grand Indonesia 2nd Floor (East Mall), Jl. M.H. Thamrin No.1, Kb. Melati, Kec. Menteng, Kota Jakarta Pusat",
     "distance": "1.6 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1963426,
+    "lng_hint": 106.8223835,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Central%20Grand%20Indonesia%202nd%20Floor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1963426,106.8223835"
   },
   {
     "id": "405",
@@ -133,13 +133,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Thamrin City, Lantai Dasar, Jl. K.H. Mas Mansyur, Kb. Melati, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10230",
     "distance": "1.6 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1949231,
+    "lng_hint": 106.8170567,
     "is_open": true,
     "hours": "08:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Thamrin%20City"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1949231,106.8170567"
   },
   {
     "id": "366",
@@ -147,13 +147,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ir. H. Juanda 3 Jakarta, Jl. Ir H Juanda 3 Rt 09/02 Kebon Kelapa, Kec. Gambir, Jakarta Pusat, DKI Jakarta 10120",
     "distance": "1.8 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.165407,
+    "lng_hint": 106.823641,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ir.%20H.%20Juanda%203%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.165407,106.823641"
   },
   {
     "id": "380",
@@ -161,13 +161,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko KS Tubun Jakarta Barat, Jl. KS Tubun No. 32 A Rt 02 Rw 07 Kel. Kota Bambu, Kec. Palmerah, Jakarta Barat 11420",
     "distance": "1.8 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1888194,
+    "lng_hint": 106.8072074,
     "is_open": true,
     "hours": "00:10 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20KS%20Tubun%20Jakarta%20Barat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1888194,106.8072074"
   },
   {
     "id": "377",
@@ -175,13 +175,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Raffles Square Juanda Jakarta, Jalan Veteran 2A 8 1, RT.8/RW.1, Ps. Baru, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110",
     "distance": "1.9 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.167196,
+    "lng_hint": 106.830679,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Raffles%20Square%20Juanda%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.167196,106.830679"
   },
   {
     "id": "429",
@@ -189,13 +189,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Thamrine Nine, Jl. MH Thamrin Plaza UOB No.10, RT.14/RW.20, Kb. Melati, Tanah Abang, DKI Jakarta",
     "distance": "1.9 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1990906,
+    "lng_hint": 106.8220741,
     "is_open": true,
     "hours": "07:00 - 19:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Thamrine%20Nine"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1990906,106.8220741"
   },
   {
     "id": "353",
@@ -203,13 +203,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Shell Hasyim Ashari Jakarta Pusat, Jl. KH. Hasyim Ashari No.8-10, RT.1/RW.4, Petojo Utara, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10130",
     "distance": "2.1 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1651031,
+    "lng_hint": 106.8125625,
     "is_open": true,
     "hours": "06:00 - 19:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Hasyim%20Ashari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1651031,106.8125625"
   },
   {
     "id": "437",
@@ -217,13 +217,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Taman Ismail Marzuki (Gedung Ali Sadikin Lt.2), Jl. Cikini Raya No.73, RT.8/RW.2, Cikini, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta",
     "distance": "2.1 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1891859,
+    "lng_hint": 106.8397307,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Ismail%20Marzuki"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1891859,106.8397307"
   },
   {
     "id": "408",
@@ -231,13 +231,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Plaza Atrium, Lantai Ground Floor, Jl. Senen Raya, Senen, Jakarta Pusat, 10410",
     "distance": "2.2 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1772981,
+    "lng_hint": 106.8412329,
     "is_open": true,
     "hours": "10:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Plaza%20Atrium"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1772981,106.8412329"
   },
   {
     "id": "364",
@@ -245,13 +245,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pecenongan Jakarta Pusat, Jalan Pecenongan, Raya F No.67, Kecamatan Gambir, Jakarta, Daerah Khusus Ibukota Jakarta 10120",
     "distance": "2.2 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1624141,
+    "lng_hint": 106.8265145,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pecenongan%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1624141,106.8265145"
   },
   {
     "id": "350",
@@ -259,13 +259,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Biak Jakarta Pusat, Jl. Biak No.45, RT.1/RW.5, Cideng, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10150",
     "distance": "2.3 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1661448,
+    "lng_hint": 106.808041,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Biak%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1661448,106.808041"
   },
   {
     "id": "384",
@@ -273,13 +273,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rumah Sakit Pelni, Jl. K.S. Tubun RT.10/RW.1, Slipi, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11410",
     "distance": "2.3 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1928181,
+    "lng_hint": 106.8042507,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS%20Pelni"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1928181,106.8042507"
   },
   {
     "id": "351",
@@ -287,13 +287,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko AM Sangaji, Jl. A.M Sangaji, RT.8/RW.5, Petojo Utara, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10130",
     "distance": "2.3 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.163711,
+    "lng_hint": 106.812912,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20AM%20Sangaji"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.163711,106.812912"
   },
   {
     "id": "450",
@@ -301,13 +301,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cik Ditiro Menteng, Jl. Tengku Cik Ditiro 29A, Menteng, Jakarta Pusat,10310",
     "distance": "2.4 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1977261,
+    "lng_hint": 106.8370888,
     "is_open": true,
     "hours": "06:10 - 21:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cik%20Ditiro%20Menteng"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1977261,106.8370888"
   },
   {
     "id": "432",
@@ -315,13 +315,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Wisma BNI 46, Lantai 1, Jl. Jend. Sudirman No.Kav 1, RT.6/RW.8, Kb. Melati, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220",
     "distance": "2.4 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.2033589,
+    "lng_hint": 106.82000232,
     "is_open": true,
     "hours": "07:00 - 19:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Wisma%20BNI%2046"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2033589,106.82000232"
   },
   {
     "id": "346",
@@ -329,13 +329,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko KH Hasyim Ashari Jakarta, Jl. KH. Hasyim Ashari No.80, RT.2/RW.4, Duri Pulo, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10140",
     "distance": "2.5 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1657167,
+    "lng_hint": 106.8064192,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20KH%20Hasyim%20Ashari%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1657167,106.8064192"
   },
   {
     "id": "458",
@@ -343,13 +343,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina COCO 31.103.03 Cikini, Jl. Cikini Raya No.113-115 10 4, RT.10/RW.4, Cikini, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10340",
     "distance": "2.6 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1962537,
+    "lng_hint": 106.8403356,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20COCO%2031.103.03%20Cikini"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1962537,106.8403356"
   },
   {
     "id": "368",
@@ -357,13 +357,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sawah Besar, Jl. Krekot Bunder Raya No. 29, RT 4 / RW 6, Pasar Baru, Kec. Sawah Besar, Jakarta Pusat 10710",
     "distance": "2.6 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.160005,
+    "lng_hint": 106.83197,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sawah%20Besar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.160005,106.83197"
   },
   {
     "id": "407",
@@ -371,13 +371,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Senen, Jl. Pasar Senen No. 3, Senen, Kec. Senen, Jakarta Pusat 10410",
     "distance": "2.6 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1747181,
+    "lng_hint": 106.844251,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Senen"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1747181,106.844251"
   },
   {
     "id": "365",
@@ -385,13 +385,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pusat Jantung Nasional Harapan Kita, Jl. Letjen S. Parman Kav.87, RW.8, Kota Bambu Utara, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11420",
     "distance": "2.7 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1854459,
+    "lng_hint": 106.7984925,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pusat%20Jantung%20Nasional%20Harapan%20Kita"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1854459,106.7984925"
   },
   {
     "id": "352",
@@ -399,13 +399,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mandala Tomang, Jl. Mandala Raya No.26, RT.1/RW.2, Tomang, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11440",
     "distance": "2.7 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.175412,
+    "lng_hint": 106.798594,
     "is_open": true,
     "hours": "06:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mandala%20Tomang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.175412,106.798594"
   },
   {
     "id": "431",
@@ -413,13 +413,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sudirman Park Blok B, No. 1, Lantai Dasar GF, Jl. K.H. Mas Mansyur No.Kav.35, RT.12/RW.11, Karet Tengsin, Tanahabang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10220",
     "distance": "2.7 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.20530745,
+    "lng_hint": 106.81756625,
     "is_open": true,
     "hours": "07:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sudirman%20Park"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.20530745,106.81756625"
   },
   {
     "id": "448",
@@ -427,13 +427,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Setiabudi Jakarta Selatan,  Jl. Setiabudi Raya Jl. Setia Budi Barat No.12, RT.3/RW.3, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta",
     "distance": "2.9 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.2077707,
+    "lng_hint": 106.82430457,
     "is_open": true,
     "hours": "00:05 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Setiabudi%20Jakarta%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2077707,106.82430457"
   },
   {
     "id": "374",
@@ -441,13 +441,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Gunung Sahari, Jl. Gn. Sahari No.54, RT.1/RW.1, Gn. Sahari Sel., Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720",
     "distance": "2.9 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.160711,
+    "lng_hint": 106.838283,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Gunung%20Sahari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.160711,106.838283"
   },
   {
     "id": "383",
@@ -455,13 +455,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kemayoran (DT), Jl Garuda, RT. 15 / RW. 1, Gunung Sahari, Kemayoran, Jakarta Pusat 10610",
     "distance": "3.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.162672,
+    "lng_hint": 106.841515,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kemayoran%20%28Drive%20Thru%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.162672,106.841515"
   },
   {
     "id": "376",
@@ -469,13 +469,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina COCO S Parman, 31.114.01, Jl. S. Parman, Slipi, Jakarta Barat 11410",
     "distance": "3.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1935874,
+    "lng_hint": 106.7976738,
     "is_open": true,
     "hours": "07:00 - 21:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20S.%20Parman"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1935874,106.7976738"
   },
   {
     "id": "369",
@@ -483,13 +483,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Plaza Slipi Jaya, Jl. Letjen S. Parman, RT.14/RW.1, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480",
     "distance": "3.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1892425,
+    "lng_hint": 106.7961898,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Plaza%20Slipi%20Jaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1892425,106.7961898"
   },
   {
     "id": "476",
@@ -497,13 +497,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RSCM Gedung Kirana, Jl. Kimia No 8 - 10 RT.10 / RW.1, Pegangsaan, Kec. Menteng, Jakarta Pusat 1032",
     "distance": "3.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1975458,
+    "lng_hint": 106.844416,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RSCM%20Gedung%20Kirana"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1975458,106.844416"
   },
   {
     "id": "417",
@@ -511,13 +511,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.105.05 Letjen Suprapto (Container), Jl Letjen Suprapto No. 56, Tanah Tinggi, Johar Baru Kota Jakarta Pusat DKI Jalarta 10540",
     "distance": "3.0 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.1752302,
+    "lng_hint": 106.8483139,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Tanah%20Tinggi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1752302,106.8483139"
   },
   {
     "id": "1349",
@@ -525,13 +525,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kepu Selatan Jakarta Pusat, Jl. Kepu Sel. No.56, RT.12/RW.1, Bungur, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10460",
     "distance": "3.1 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.16838,
+    "lng_hint": 106.846485,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kepu%20Selatan%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16838,106.846485"
   },
   {
     "id": "464",
@@ -539,13 +539,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasar Kenari (Bondex), RT.1/RW.3, Kenari, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10430",
     "distance": "3.1 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.19254,
+    "lng_hint": 106.847961,
     "is_open": true,
     "hours": "07:00 - 17:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasar%20Kenari%20%28Bondex%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.19254,106.847961"
   },
   {
     "id": "449",
@@ -553,13 +553,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kramat Sentiong Jakarta, Jl. Kramat Sentiong Rt.06/12 Kramat, Kec. Senen, Kota Jakarta Pusat 10440",
     "distance": "3.2 km",
     "city_hint": "Jakarta Pusat",
-    "lat_hint": -6.1818,
-    "lng_hint": 106.8223,
+    "lat_hint": -6.186867,
+    "lng_hint": 106.8504,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kramat%20Sentiong%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.186867,106.8504"
   },
   {
     "id": "545",
@@ -567,13 +567,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lippo Mall Kemang, Lantai LG, Jl. Pangeran Antasari No. 33A, Kemang, Mampang Prapatan, Jakarta Selatan - 12150",
     "distance": "200 m",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.260254,
+    "lng_hint": 106.812128,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lippo%20Mall%20Kemang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.260254,106.812128"
   },
   {
     "id": "549",
@@ -581,13 +581,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Antasari, Jl. Pangeran Antasari No.68, RT.4/RW.11, Cipete Utara, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12150",
     "distance": "500 m",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2654789,
+    "lng_hint": 106.8081927,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Antasari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2654789,106.8081927"
   },
   {
     "id": "537",
@@ -595,13 +595,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "La Codefin Kemang, GF, Jl. Kemang I No. 3-5, RT.11/RW.1, Bangka, Mampang Prapatan, Jakarta Selatan - 12780",
     "distance": "600 m",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2561977,
+    "lng_hint": 106.812852,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Codefin%20Kemang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2561977,106.812852"
   },
   {
     "id": "1354",
@@ -609,13 +609,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Abdul Majid Jakarta Selatan, 17, Jl. Abdul Majid Raya No.41, RT.17/RW.2, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta",
     "distance": "700 m",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2662577,
+    "lng_hint": 106.8060625,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Abdul%20Majid%20Jakarta%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2662577,106.8060625"
   },
   {
     "id": "569",
@@ -623,13 +623,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kemang Timur, Jl. Kemang Timur, Pejaten Bar., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta",
     "distance": "1.8 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2712038,
+    "lng_hint": 106.8234547,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kemang%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2712038,106.8234547"
   },
   {
     "id": "571",
@@ -637,13 +637,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Kemang Selatan No. 14 D RT 5 / RW 4 Cipete Sel. Kec. Cilandak, Kota Jakarta Selatan , DKI Jakarta 12410",
     "distance": "1.8 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2738581,
+    "lng_hint": 106.820734,
     "is_open": true,
     "hours": "09:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl.%20Kemang%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2738581,106.820734"
   },
   {
     "id": "560",
@@ -651,13 +651,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mampang Business Park, Blok A.6 Jl. Warung Buncit Raya No.301, RT.10/RW.2, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760",
     "distance": "2.0 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2571497,
+    "lng_hint": 106.828199,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mampang%20Business%20Park"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2571497,106.828199"
   },
   {
     "id": "514",
@@ -665,13 +665,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cikajang, Jl. Cikajang No.58, RT.13/RW.6, Petogogan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12170",
     "distance": "2.1 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.242481,
+    "lng_hint": 106.8096939,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cikajang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.242481,106.8096939"
   },
   {
     "id": "557",
@@ -679,13 +679,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cipete Raya, Jl. Cipete Raya, Cipete Selatan, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12410",
     "distance": "2.1 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2775926,
+    "lng_hint": 106.8006115,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cipete%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2775926,106.8006115"
   },
   {
     "id": "502",
@@ -693,13 +693,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasaraya Blok M, Lantai Ground Floor, Jl. Iskandarsyah II, Kebayoran Baru, Jakarta Selatan, 12160",
     "distance": "2.2 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2437334,
+    "lng_hint": 106.8028541,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasaraya%20Blok%20M"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2437334,106.8028541"
   },
   {
     "id": "541",
@@ -707,13 +707,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mampang, Jl. Mampang Prapatan Raya, Tegal Parang, Kec. Mampang Prapatan, Jakarta Selatan, DKI Jakarta 12790",
     "distance": "2.3 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2480554,
+    "lng_hint": 106.8261436,
     "is_open": true,
     "hours": "00:05 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mampang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2480554,106.8261436"
   },
   {
     "id": "523",
@@ -721,13 +721,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko H Nawi, Jl. H. Nawi Raya No.6 No.45B Block C-2, RT.6/RW.10, North Gandaria, Kebayoran Baru, South Jakarta City, Jakarta 12140",
     "distance": "2.3 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.263739,
+    "lng_hint": 106.790223,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20H%20Nawi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.263739,106.790223"
   },
   {
     "id": "493",
@@ -735,13 +735,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Blok M Plaza (6th Floor), Jl. Bulungan No.76, RT.6/RW.6, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130",
     "distance": "2.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2440611,
+    "lng_hint": 106.7975318,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Blok%20M%20Plaza%20%286th%20Floor%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2440611,106.7975318"
   },
   {
     "id": "494",
@@ -749,13 +749,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Blok M Plaza (LG), Panglima Polim St No.76, RT.6/RW.6, Kramat Pela, Kebayoran Baru, South Jakarta City, Jakarta 12130",
     "distance": "2.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2441455,
+    "lng_hint": 106.7974513,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Blok%20M%20Plaza%20%28LG%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2441455,106.7974513"
   },
   {
     "id": "495",
@@ -763,13 +763,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Radio Dalam, Jl. Antene I No.3, RT.10/RW.1, Gandaria Utara, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12140",
     "distance": "2.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.249882,
+    "lng_hint": 106.791857,
     "is_open": true,
     "hours": "07:30 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Radio%20Dalam%20%28FCK%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.249882,106.791857"
   },
   {
     "id": "524",
@@ -777,13 +777,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 31.12702 Kapten Tendean, Jln. Kapten Tendean No. 38 12710",
     "distance": "2.6 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.24013936,
+    "lng_hint": 106.82040444,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Kapten%20Tendean%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.24013936,106.82040444"
   },
   {
     "id": "486",
@@ -791,13 +791,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gandaria Kramat Pela, Jl. Gandaria 1 No. No.39, Rt.001/Rw.9 Kel. Kramat Pela, Kec. Kebayoran Baru Jakarta Selatan",
     "distance": "2.8 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2467266,
+    "lng_hint": 106.7897493,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gandaria%20Kramat%20Pela"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2467266,106.7897493"
   },
   {
     "id": "580",
@@ -805,13 +805,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gedung Aurum Container, Jl. Ampera Raya No.12, RT.8/RW.2, Cilandak Tim., Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560",
     "distance": "2.8 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2858223,
+    "lng_hint": 106.8187053,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gedung%20Aurum"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2858223,106.8187053"
   },
   {
     "id": "529",
@@ -819,13 +819,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Menara Tendean Office, Ground Floor unit GF.9, Jl. Kapten Tendean No. 6, RT.1, RW.5, Kuningan Barat, Mampang Prapatan, Jakarta Selatan",
     "distance": "2.8 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.239947,
+    "lng_hint": 106.8240778,
     "is_open": true,
     "hours": "07:17 - 17:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=M%20Ten"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.239947,106.8240778"
   },
   {
     "id": "521",
@@ -833,13 +833,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Food Court PIM 1 - Area 51, Metro Pondok Indah Kav. IV, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta",
     "distance": "2.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2661171,
+    "lng_hint": 106.784822,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Food%20Court%20PIM%201%20-%20Area%2051"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2661171,106.784822"
   },
   {
     "id": "584",
@@ -847,13 +847,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "The Park Pejaten, Jl. Warung Jati Barat No.39, RT.1/RW.5, Jati Padang, Ps. Minggu, Kota Jakarta Selatan, 12540",
     "distance": "2.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2803107,
+    "lng_hint": 106.8289176,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Park%20Pejaten"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2803107,106.8289176"
   },
   {
     "id": "481",
@@ -861,13 +861,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kyai Maja, 10, Jl. Kyai Maja No.29, RT.10/RW.7, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130",
     "distance": "3.0 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2409117,
+    "lng_hint": 106.7934914,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kyai%20Maja"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2409117,106.7934914"
   },
   {
     "id": "519",
@@ -875,13 +875,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pondok Indah Mall 2, Lantai 3, Food Court Unit FC 03, Jl. Metro Pondok Indah No.Kav. IV, Kebayoran Lama, Kota Jakarta Selatan, 12310",
     "distance": "3.1 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2666465,
+    "lng_hint": 106.7830768,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=PIM%202"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2666465,106.7830768"
   },
   {
     "id": "515",
@@ -889,13 +889,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gedung Parkir Menara Jamsostek, Lantai 1, Jl. Jendral Gatot Subroto No.Kav.38, Mampang Prapatan, Jakarta Selatan, 12710",
     "distance": "3.3 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2334944,
+    "lng_hint": 106.8214198,
     "is_open": true,
     "hours": "07:00 - 18:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Menara%20Jamsostek"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2334944,106.8214198"
   },
   {
     "id": "591",
@@ -903,13 +903,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Taman Margasatwa Raya No.21-22\nRT.7/RW.5, Jati Padang\nKec. Ps. Minggu\nKota Jakarta Selatan\nDaerah Khusus Ibukota Jakarta 12540",
     "distance": "3.3 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.287112,
+    "lng_hint": 106.825919,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Jatipadang%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.287112,106.825919"
   },
   {
     "id": "587",
@@ -917,13 +917,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Beltway Office Park, Jl. Ampera Raya, RW.2, Ragunan, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12540",
     "distance": "3.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2913879,
+    "lng_hint": 106.8185237,
     "is_open": true,
     "hours": "07:00 - 18:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Beltway%20Office%20Park"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2913879,106.8185237"
   },
   {
     "id": "509",
@@ -931,13 +931,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Foodcourt PIM 3, Jl. Kartika Utama No.1, Kebayoran Lama - Jakarta Selatan",
     "distance": "3.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2639331,
+    "lng_hint": 106.7800629,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Food%20Court%20PIM%203"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2639331,106.7800629"
   },
   {
     "id": "592",
@@ -945,13 +945,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pejaten Raya, Jl. Pejaten Raya, Pejaten Barat, Pasar Minggu, Jakarta Selatan, DKI Jakarta 12510",
     "distance": "3.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.279456,
+    "lng_hint": 106.835568,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pejaten%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.279456,106.835568"
   },
   {
     "id": "517",
@@ -959,13 +959,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.129.02 Gatot Subroto (Container), Jl. Gatot Subroto No.kav 31, RT.4/RW.3, Kuningan, Kuningan Tim., Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950",
     "distance": "3.4 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.23291657,
+    "lng_hint": 106.82251861,
     "is_open": true,
     "hours": "00:01 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Gatot%20Subroto%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.23291657,106.82251861"
   },
   {
     "id": "573",
@@ -973,13 +973,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cilandak Town Square, Lantai 1, Jl. TB Simatupang Kav. 17, RT.2/RW.1, Cilandak Barat, Cilandak, Jakarta Selatan - 12430",
     "distance": "3.5 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.291453,
+    "lng_hint": 106.800507,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cilandak%20Town%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.291453,106.800507"
   },
   {
     "id": "469",
@@ -987,13 +987,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gandaria City, Mainstreet Ground Floor #MG-10 & S-10. Jl. Arteri Pd. Indah, RT. 10 / RW. 6, Kebayoran Lama Utara, Kec. Kby. Lama, Jakarta Selatan 12240",
     "distance": "3.5 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2448061,
+    "lng_hint": 106.7833974,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gandaria%20City"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2448061,106.7833974"
   },
   {
     "id": "465",
@@ -1001,13 +1001,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gandaria City (Island), Lower Ground Floor #IU-L03B. Jl. Arteri Pd. Indah, RT. 10 / RW. 6, Kebayoran Lama Utara, Kec. Kby. Lama, Jakarta Selatan 12240",
     "distance": "3.6 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.244217,
+    "lng_hint": 106.7835346,
     "is_open": true,
     "hours": "10:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gandaria%20City%20%28Island%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.244217,106.7835346"
   },
   {
     "id": "528",
@@ -1015,13 +1015,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tempo Scan Tower, Lantai Basement Jl. H. R. Rasuna Said No.Kav3-4 Setia Budi, Jakarta Selatan, 12950",
     "distance": "3.6 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.235233,
+    "lng_hint": 106.82925,
     "is_open": true,
     "hours": "07:00 - 17:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tempo%20Scan%20Tower"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.235233,106.82925"
   },
   {
     "id": "513",
@@ -1029,13 +1029,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sopo Del Tower, Lantai Ground Floor, Jl. Mega Kuningan Barat III, Kuningan Timur, Jakarta Selatan",
     "distance": "3.7 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.230537,
+    "lng_hint": 106.824038,
     "is_open": true,
     "hours": "07:00 - 17:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sopo%20Del%20Tower"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.230537,106.824038"
   },
   {
     "id": "546",
@@ -1043,13 +1043,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Shell Gatot Subroto, Jl. Gatot Subroto No.63, Menteng Dalam, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12870",
     "distance": "3.7 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2408533,
+    "lng_hint": 106.83712282,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Shell%20Gatot%20Subroto"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2408533,106.83712282"
   },
   {
     "id": "527",
@@ -1057,13 +1057,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Menara Karya, Lantai Basement Unit.F Jl. H.R Rasuna Said, Kuningan Timur, Jakarta Selatan, 12950",
     "distance": "3.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2327004,
+    "lng_hint": 106.8312803,
     "is_open": true,
     "hours": "07:00 - 18:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Menara%20Karya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2327004,106.8312803"
   },
   {
     "id": "447",
@@ -1071,13 +1071,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.10206 Hanglekir  (Container), Jl. Hang Lekir I No.4, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270",
     "distance": "3.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2291578,
+    "lng_hint": 106.7971314,
     "is_open": true,
     "hours": "07:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.10206%20Hanglekir"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2291578,106.7971314"
   },
   {
     "id": "593",
@@ -1085,13 +1085,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cilandak KKO, Jl. Raya Cilandak KKO No.Blok A/3, RT.1/RW.5, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550",
     "distance": "3.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2962398,
+    "lng_hint": 106.8157562,
     "is_open": true,
     "hours": "00:15 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cilandak%20KKO"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2962398,106.8157562"
   },
   {
     "id": "466",
@@ -1099,13 +1099,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34.122.08 Kebayoran Lama, Jl. Ciputat Raya No.9, RW.8, Kby. Lama Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240",
     "distance": "3.9 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2488612,
+    "lng_hint": 106.7777344,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%2034.122.08%20Kebayoran%20Lama"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2488612,106.7777344"
   },
   {
     "id": "475",
@@ -1113,13 +1113,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pacific Place, Lantai Lower Ground, Jl. Jend. Sudirman No.52-53, Kby. Baru, Kota Jakarta Selatan, 12190",
     "distance": "4.0 km",
     "city_hint": "Jakarta Selatan",
-    "lat_hint": -6.2615,
-    "lng_hint": 106.8106,
+    "lat_hint": -6.2252808,
+    "lng_hint": 106.8098108,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pacific%20Place"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2252808,106.8098108"
   },
   {
     "id": "300",
@@ -1127,13 +1127,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Kedoya, Jl. Kedoya Raya No.4, RT.11/RW.7, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, 11520",
     "distance": "300 m",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.16877265,
+    "lng_hint": 106.76127065,
     "is_open": true,
     "hours": "07:00 - 20:40 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Kedoya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16877265,106.76127065"
   },
   {
     "id": "309",
@@ -1141,13 +1141,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Greenville, Jalan Taman Ratu Indah Blok AA-2 No.30, Kel, RT.14/RW.7, Kedoya Utara, Kebon Jeruk, Jakarta, 11520",
     "distance": "900 m",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1697687,
+    "lng_hint": 106.7671299,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Greenville"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1697687,106.7671299"
   },
   {
     "id": "308",
@@ -1155,13 +1155,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Daan Mogot 1, Jl. Raya Daan Mogot No.147, RT.4/RW.5, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510",
     "distance": "1.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1635758,
+    "lng_hint": 106.7742731,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Daan%20Mogot%201"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1635758,106.7742731"
   },
   {
     "id": "316",
@@ -1169,13 +1169,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Metro Park Residence, Jl. Pilar Mas Utama No.Kav. 28, Kedoya Sel., Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520",
     "distance": "2.0 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1861388,
+    "lng_hint": 106.7573675,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Metro%20Park%20Residence"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1861388,106.7573675"
   },
   {
     "id": "317",
@@ -1183,13 +1183,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pesanggrahan, Jl Pesanggrahan No. 8B, Kembangan Selatan, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta",
     "distance": "2.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1880847,
+    "lng_hint": 106.7555921,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pesanggrahan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1880847,106.7555921"
   },
   {
     "id": "324",
@@ -1197,13 +1197,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "The Vida, GF, Jl. Perjuangan No.8 1 7, RT.1/RW.7, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530",
     "distance": "2.6 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1912616,
+    "lng_hint": 106.7592114,
     "is_open": true,
     "hours": "07:00 - 17:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Vida%20Kebon%20Jeruk"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1912616,106.7592114"
   },
   {
     "id": "331",
@@ -1211,13 +1211,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pejuangan Kebon Jeruk, Jl. Pejuangan No. 10, RT. 9 / RW. 10, Kebon Jeruk, Kec. Kebon Jeruk, Jakarta Barat 11530",
     "distance": "2.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.19368949,
+    "lng_hint": 106.76293538,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pejuangan%20Kebon%20Jeruk"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.19368949,106.76293538"
   },
   {
     "id": "323",
@@ -1225,13 +1225,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Citraland Mall, LG, Jl. S. Parman, Tanjung Duren Utara, Grogol Petamburan, Jakarta Barat - 11470",
     "distance": "3.0 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.168609,
+    "lng_hint": 106.786354,
     "is_open": true,
     "hours": "10:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Ciputra%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.168609,106.786354"
   },
   {
     "id": "329",
@@ -1239,13 +1239,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tanjung Duren Jakarta Barat, 1, Jl. Tanjung Duren Raya No.15A, RT.1/RW.6, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470",
     "distance": "3.1 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.17387015,
+    "lng_hint": 106.7858621,
     "is_open": true,
     "hours": "00:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tanjung%20Duren%20Jakarta%20Barat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.17387015,106.7858621"
   },
   {
     "id": "305",
@@ -1253,13 +1253,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lippo Mall Puri, Lantai Lower Ground Floor, Jl. Puri Indah Boulevard Blok U No. 1, Puri Indah, Jakarta Barat",
     "distance": "3.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.189811,
+    "lng_hint": 106.739014,
     "is_open": true,
     "hours": "10:00 - 21:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lippo%20Mall%20Puri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.189811,106.739014"
   },
   {
     "id": "303",
@@ -1267,13 +1267,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lippo Mall Puri @ The St. Moritz, GF, Jl. Puri Indah Boulevard Blok U No. 1, Kembangan Selatan, Kembangan, Jakarta Barat - 11610",
     "distance": "3.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1887443,
+    "lng_hint": 106.7390587,
     "is_open": true,
     "hours": "10:00 - 21:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lippo%20Mall%20Puri%202"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1887443,106.7390587"
   },
   {
     "id": "339",
@@ -1281,13 +1281,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP Meruya (Container), Jl. Meruya no.26 RT 001 Rw 005, Jakarta Barat",
     "distance": "3.3 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1983712,
+    "lng_hint": 106.7602886,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Meruya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1983712,106.7602886"
   },
   {
     "id": "347",
@@ -1295,13 +1295,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Jalan Panjang, Jl. Panjang No.45C, RT.1/RW.11, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530",
     "distance": "3.3 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1963471,
+    "lng_hint": 106.7692995,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Jalan%20Panjang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1963471,106.7692995"
   },
   {
     "id": "340",
@@ -1309,13 +1309,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "NEO SOHO, Lt. GF, Letjen S. Parman Street No.Kav. 28, RT.3/RW.5, Grogol petamburan, Jakarta Barat, Jakarta, 11470",
     "distance": "3.5 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1746688,
+    "lng_hint": 106.7900257,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Central%20Park%202"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1746688,106.7900257"
   },
   {
     "id": "299",
@@ -1323,13 +1323,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Puri Indah Mall, Lantai Dasar - Unit #70A, Jl. Puri Agung No.1, RT.1/RW.2, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610",
     "distance": "3.5 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.188254,
+    "lng_hint": 106.7341763,
     "is_open": true,
     "hours": "08:00 - 21:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Puri%20Indah%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.188254,106.7341763"
   },
   {
     "id": "318",
@@ -1337,13 +1337,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Meruya Utara Jakarta Barat, Jl. Meruya Ilir Raya, Blok B5 No.15A  Meruya Utara, Kec. Kembangan, Jakarta Barat 11610",
     "distance": "3.5 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1973725,
+    "lng_hint": 106.7455758,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Meruya%20Utara%20Jakarta%20Barat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1973725,106.7455758"
   },
   {
     "id": "293",
@@ -1351,13 +1351,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Duta Mas Jelambar, Ruko taman duta mas blok D 9A, No.3 RT 011/05, RT.11/RW.5, Wijaya Kusuma, Kec. Grogol Petamburan, Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460",
     "distance": "3.6 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.144298,
+    "lng_hint": 106.780361,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Duta%20Mas%20Jelambar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.144298,106.780361"
   },
   {
     "id": "345",
@@ -1365,13 +1365,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Central Park, Lower Ground Floor, Letjen S. Parman Street No.28, RT.12/RW.6, Tanjung Duren Selatan, Grogol petamburan, Jakarta Barat, 11470",
     "distance": "3.7 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.177523,
+    "lng_hint": 106.791285,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Central%20Park%201"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.177523,106.791285"
   },
   {
     "id": "270",
@@ -1379,13 +1379,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "The Crest West Vista, Shop House, Jl. Lingkar Luar Barat No.8, RT.9/RW.6, Duri Kosambi, Cengkareng, Jakarta Barat - 11750",
     "distance": "3.7 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1581255,
+    "lng_hint": 106.72672713,
     "is_open": true,
     "hours": "07:00 - 20:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Crest%20West%20Vista"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1581255,106.72672713"
   },
   {
     "id": "348",
@@ -1393,13 +1393,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall Taman Anggrek, GF Floor, Letjen S. Parman St, RT.12/RW.1, South Tanjung Duren, Grogol petamburan, West Jakarta City, Jakarta 11470",
     "distance": "3.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1785779,
+    "lng_hint": 106.7918838,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Taman%20Anggrek%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1785779,106.7918838"
   },
   {
     "id": "314",
@@ -1407,13 +1407,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina Meruya Utara 34.116.12, Jalan Kembang Kerep No. 56, RT 02 / RW 02 Meruya Utara Kembangan RT.2, RT.2/RW.2, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620",
     "distance": "3.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1978561,
+    "lng_hint": 106.7421724,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.116.12%20Meruya%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1978561,106.7421724"
   },
   {
     "id": "354",
@@ -1421,13 +1421,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.115.08 Panjang Kelapa Dua (Container), Jl. Panjang Arteri Klp. Dua Raya No.18, RT.2/RW.2, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530",
     "distance": "3.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.2004491,
+    "lng_hint": 106.7692999,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Panjang%20Kelapa%20Dua"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2004491,106.7692999"
   },
   {
     "id": "1371",
@@ -1435,13 +1435,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jelambar Baru Jakarta Barat, Jl. Jelambar Baru Raya No.40C 4, RT.4/RW.1, Jelambar Baru, Kec. Grogol petamburan, Kota Jakarta Barat",
     "distance": "3.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1551943,
+    "lng_hint": 106.790795,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jelambar%20Baru%20Jakarta%20Barat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1551943,106.790795"
   },
   {
     "id": "271",
@@ -1449,13 +1449,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Semanan, Jl. Taman Semanan Indah No.8 5, RT.5/RW.7, Duri Kosambi, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus        Ibukota Jakarta 11750",
     "distance": "3.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.16371639,
+    "lng_hint": 106.72414498,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Semanan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16371639,106.72414498"
   },
   {
     "id": "268",
@@ -1463,13 +1463,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina Kamal Muara. JKT Jln. Kapuk Kamal Raya No.15 RT.1/RW.3 Kamal Muara Penjaringan, Kota Jakarta Utara 14470.",
     "distance": "3.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.134093,
+    "lng_hint": 106.751468,
     "is_open": true,
     "hours": "07:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Kamal%20Muara%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.134093,106.751468"
   },
   {
     "id": "289",
@@ -1477,13 +1477,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasar Jaya Teluk Gong 2, Jl. Teluk Gong Raya No.16, RT.10/RW.7, Pejagalan, Kec. Penjaringan, Kota Jakarta Utara, Daerah Khusus Ibukota Jakarta 14450",
     "distance": "4.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1380913,
+    "lng_hint": 106.7813087,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasar%20Jaya%20Teluk%20Gong%202"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1380913,106.7813087"
   },
   {
     "id": "313",
@@ -1491,13 +1491,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Season City, GF 1, Jl. Prof. Dr. Latumeten No.33, RT.13/RW.1, Jemb. Besi, Kec. Tambora, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11320",
     "distance": "4.5 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.153063,
+    "lng_hint": 106.7963093,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Season%20City"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.153063,106.7963093"
   },
   {
     "id": "260",
@@ -1505,13 +1505,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Mutiara Palem, Blok A-5/07, Cengkareng Timur, Jakarta Barat 11730",
     "distance": "4.6 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.137525,
+    "lng_hint": 106.730694,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Mutiara%20Palem"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.137525,106.730694"
   },
   {
     "id": "283",
@@ -1519,13 +1519,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34-11708 Duri Kosambi, Jl. Raya Duri Kosambi No.80, RT.1/RW.8, Duri Kosambi, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11750",
     "distance": "4.7 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1827153,
+    "lng_hint": 106.7188017,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034-11708%20Duri%20Kosambi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1827153,106.7188017"
   },
   {
     "id": "1331",
@@ -1533,13 +1533,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Haji Lebar, Jl. H. Lebar No.29 blok 45, RT.2/RW.10, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620",
     "distance": "4.7 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.2004284,
+    "lng_hint": 106.7315938,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Haji%20Lebar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2004284,106.7315938"
   },
   {
     "id": "371",
@@ -1547,13 +1547,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jalan Panjang Kelapa Dua, 7, Jl. Panjang Arteri Klp. Dua Raya No.24B, RT.7/RW.5, Klp. Dua, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11550",
     "distance": "4.8 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.2099232,
+    "lng_hint": 106.7709551,
     "is_open": true,
     "hours": "00:05 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jalan%20Panjang%20Kelapa%20Dua"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2099232,106.7709551"
   },
   {
     "id": "259",
@@ -1561,13 +1561,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34.11711 Cendrawasih Cengkareng (Container), Jl. Cendrawasih Raya No.99, RT.6/RW.6, Cengkareng Bar., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730",
     "distance": "4.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.144815,
+    "lng_hint": 106.721185,
     "is_open": true,
     "hours": "08:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.11711%20Cendrawasih%20Cengkareng"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.144815,106.721185"
   },
   {
     "id": "375",
@@ -1575,13 +1575,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rawa Belong Jakarta, Jl. Rw. Belong No.12 3, RT.3/RW.15, Palmerah, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11540",
     "distance": "4.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.2051562,
+    "lng_hint": 106.7831532,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rawa%20Belong%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2051562,106.7831532"
   },
   {
     "id": "322",
@@ -1589,13 +1589,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Duri, Jl Duri Utara, Duri Utara, Kec. Tambora, Kota Jakarta Barat, DKI Jakarta 11270",
     "distance": "4.9 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.15522,
+    "lng_hint": 106.8014258,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Duri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.15522,106.8014258"
   },
   {
     "id": "256",
@@ -1603,13 +1603,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Elang Laut, Jl. Boulevard Raya No. 37, PIK, Jakarta Utara",
     "distance": "5.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.1241476,
+    "lng_hint": 106.7446194,
     "is_open": true,
     "hours": "06:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Elang%20Laut"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1241476,106.7446194"
   },
   {
     "id": "326",
@@ -1617,13 +1617,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Meruya Selatan Jakarta, Jl. Meruya Selatan, RT.7/RW.2, Meruya Sel., Kec. Kembangan, Kota Jakarta Barat",
     "distance": "5.2 km",
     "city_hint": "Jakarta Barat",
-    "lat_hint": -6.1683,
-    "lng_hint": 106.7588,
+    "lat_hint": -6.2103562,
+    "lng_hint": 106.7378311,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Meruya%20Selatan%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2103562,106.7378311"
   },
   {
     "id": "579",
@@ -1631,13 +1631,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pahlawan Revolusi Jakarta Timur, Jl. Pahlawan Revolusi Nomor 41 RT 004 / RW 08, Kelurahan Klender, Kec. Duren Sawit, Jakarta Timur 13470",
     "distance": "600 m",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2193567,
+    "lng_hint": 106.8998434,
     "is_open": true,
     "hours": "00:10 - 23:05 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pahlawan%20Revolusi%20Jakarta%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2193567,106.8998434"
   },
   {
     "id": "606",
@@ -1645,13 +1645,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kol. Sugiono Duren Sawit, Jl. Kolonel Sugiono No.41 14, RT.14/RW.9, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440",
     "distance": "800 m",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2294413,
+    "lng_hint": 106.9066268,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kol.%20Sugiono%20Duren%20Sawit"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2294413,106.9066268"
   },
   {
     "id": "596",
@@ -1659,13 +1659,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Bambu, Jl. Pahlawan Revolusi No.18, RT.8/RW.9, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430",
     "distance": "900 m",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.23231636,
+    "lng_hint": 106.89746446,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Bambu%20%28FCK%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.23231636,106.89746446"
   },
   {
     "id": "603",
@@ -1673,13 +1673,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mal Cipinang Indah, Lower Ground no.7, Jl. Raya Kalimalang No.kav. 88, RT.18/RW.3, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420",
     "distance": "1.6 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.238329,
+    "lng_hint": 106.894206,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Cipinang%20Indah"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.238329,106.894206"
   },
   {
     "id": "563",
@@ -1687,13 +1687,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall @Basura, Lantai GF, Jl. Basuki Rahmat No.1A, Cipinang Besar Selatan, Kota Jakarta Timur, 13410",
     "distance": "2.4 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2236044,
+    "lng_hint": 106.87883,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20%40BASSURA%20CITY"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2236044,106.87883"
   },
   {
     "id": "558",
@@ -1701,13 +1701,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Cipinang, Jl. Bekasi Tim. Raya No.154, RT.8/RW.13, Cipinang Besar Utara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410",
     "distance": "2.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.21535033,
+    "lng_hint": 106.87961642,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Cipinang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.21535033,106.87961642"
   },
   {
     "id": "616",
@@ -1715,13 +1715,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Raden Inten DODO 34-13409 (Container), Jl. Raden Inten II No.17, RT.7/RW.10, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440",
     "distance": "2.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.22563862,
+    "lng_hint": 106.9230877,
     "is_open": true,
     "hours": "09:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20DODO%20Pertamina%20%28Raden%20Inten%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.22563862,106.9230877"
   },
   {
     "id": "600",
@@ -1729,13 +1729,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun KCJB Halim, Jalan Tol Jakarta – Cikampek KM 0+800 RT. 14/RW. 15, Halim Perdana Kusuma, Makasar, Jakarta Timur 13610",
     "distance": "2.9 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.24514408,
+    "lng_hint": 106.88432583,
     "is_open": true,
     "hours": "06:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20KCJB%20Halim"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.24514408,106.88432583"
   },
   {
     "id": "547",
@@ -1743,13 +1743,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Persahabatan Jakarta Timur, Jl. Persahabatan Raya No. 1, RT.1 / RW.18, Pisangan Timur, Kec. Pulo Gadung, Jakarta Timur 13240",
     "distance": "3.0 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.20230964,
+    "lng_hint": 106.88617439,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Persahabatan%20Jakarta%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.20230964,106.88617439"
   },
   {
     "id": "544",
@@ -1757,13 +1757,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pisangan, Jalan Pisangan Lama III No.2A RT002 RW007, Pisangan Timur, Kec. Pulo Gadung, Jakarta Timur 13230",
     "distance": "3.1 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.20680173,
+    "lng_hint": 106.87871399,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pisangan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.20680173,106.87871399"
   },
   {
     "id": "631",
@@ -1771,13 +1771,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 31.134.02 Kalimalang Duren Sawit, Jl.Raya Kalimalang RT 1/7 Duret Sawit Jakarta Timur 13440",
     "distance": "3.2 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.247662,
+    "lng_hint": 106.91799906,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Kalimalang%20Duren%20Sawit%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.247662,106.91799906"
   },
   {
     "id": "586",
@@ -1785,13 +1785,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.139.09 Radjiman Cakung (Container), Jl. Dr. KRT Radjiman Widyodiningrat No.25, RT.3/RW.7, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930",
     "distance": "3.2 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2065503,
+    "lng_hint": 106.9228371,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Radjiman%20Cakung%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2065503,106.9228371"
   },
   {
     "id": "614",
@@ -1799,13 +1799,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Malaka Sari, Jl. Teratai Putih Raya Rt 01/01, Malaka Jaya, Kec. Duren Sawit, Kota Jakarta Timur, DKI Jakarta 13460",
     "distance": "3.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2189179,
+    "lng_hint": 106.9311218,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Malaka%20Sari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2189179,106.9311218"
   },
   {
     "id": "539",
@@ -1813,13 +1813,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Paus No. 8C, RT 001 RW 007, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibu Kota Jakarta 13220",
     "distance": "3.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.19525133,
+    "lng_hint": 106.89103682,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Rawamangun%20%28Jl.%20Paus%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.19525133,106.89103682"
   },
   {
     "id": "562",
@@ -1827,13 +1827,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Otista, Jl. Otto Iskandardinata No.64c, RT.1/RW.4, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330",
     "distance": "3.8 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2315253,
+    "lng_hint": 106.8665493,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Otista"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2315253,106.8665493"
   },
   {
     "id": "627",
@@ -1841,13 +1841,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-134.15 Pondok Kopi, Jl. Jend. R.S. Soekanto, RT.4/RW.2, Pd. Kopi, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460",
     "distance": "4.0 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2270047,
+    "lng_hint": 106.9364172,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%2034-134.15%20Pondok%20Kopi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2270047,106.9364172"
   },
   {
     "id": "538",
@@ -1855,13 +1855,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taruna Pulogadung, Jl. Taruna, RT.14/RW.3, Jati, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13224",
     "distance": "4.2 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.18737247,
+    "lng_hint": 106.89988631,
     "is_open": true,
     "hours": "08:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taruna%20Pulogadung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.18737247,106.89988631"
   },
   {
     "id": "641",
@@ -1869,13 +1869,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jaticempaka Kota Bekasi, Jl H Basyar Raya No 275B. Kecamatan Pondok Gede, RT.001/RW.007, Jaticempaka, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17411",
     "distance": "4.4 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2591273,
+    "lng_hint": 106.9212991,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jaticempaka%20Kota%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2591273,106.9212991"
   },
   {
     "id": "637",
@@ -1883,13 +1883,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Kelapa, Jl Pondok Kelapa Raya, Pondok Kelapa, Kec. Duren Sawit, Jakarta Timur, DKI Jakarta 13450",
     "distance": "4.4 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.24449333,
+    "lng_hint": 106.93453419,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Kelapa"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.24449333,106.93453419"
   },
   {
     "id": "552",
@@ -1897,13 +1897,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bukit Duri Tebet, Jl. Bukit Duri Tanjakan No. 108 A, RT.6/RW.9, Bukit Duri, Kec. Tebet, Jakarta Selatan 12840",
     "distance": "4.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2249973,
+    "lng_hint": 106.8592553,
     "is_open": true,
     "hours": "06:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bukit%20Duri%20Tebet"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2249973,106.8592553"
   },
   {
     "id": "532",
@@ -1911,13 +1911,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Matraman Jakarta Timur, Jl. Matraman Raya No. 212 Unit C - D, RT 4 / RW 3, Bali Mester, Kec. Jatinegara, Jakarta Timur 13320",
     "distance": "4.5 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.213466,
+    "lng_hint": 106.8612,
     "is_open": true,
     "hours": "00:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Matraman%20Jakarta%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.213466,106.8612"
   },
   {
     "id": "595",
@@ -1925,13 +1925,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alfamidi Penggilingan, Jl. Raya Penggilingan, RT.13/RW.7, Cakung, East Jakarta City, Jakarta 13940",
     "distance": "4.7 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.200936,
+    "lng_hint": 106.935297,
     "is_open": true,
     "hours": "00:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alfamidi%20Penggilingan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.200936,106.935297"
   },
   {
     "id": "511",
@@ -1939,13 +1939,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Green Pramuka Square, Lantai Ground Floor, Jl. Rawa Jaya No.49, Cemp. Putih, Kota Jakarta Pusat, 10570",
     "distance": "4.9 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1892574,
+    "lng_hint": 106.8743014,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Green%20Pramuka%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1892574,106.8743014"
   },
   {
     "id": "556",
@@ -1953,13 +1953,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pulogadung Trade Center (PTC),  Blok I No.11, Jl.Raya Bekasi KM 21, Rawa Terate, Cakung, Jakarta Timur",
     "distance": "4.9 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1831455,
+    "lng_hint": 106.9154547,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pulogadung%20Trade%20Center%20%28PTC%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1831455,106.9154547"
   },
   {
     "id": "585",
@@ -1967,13 +1967,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dewi Sartika, Jl. Dewi Sartika No.292B, Cawang, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13630",
     "distance": "5.1 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2534422,
+    "lng_hint": 106.8645172,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dewi%20Sartika"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2534422,106.8645172"
   },
   {
     "id": "551",
@@ -1981,13 +1981,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tebet Jakarta, Jl. Tebet Raya, Tebet Timur, Kec. Tebet, Kota Jakarta Selatan, DKI Jakarta 12820",
     "distance": "5.1 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.22860135,
+    "lng_hint": 106.85457935,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tebet%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.22860135,106.85457935"
   },
   {
     "id": "501",
@@ -1995,13 +1995,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Utan Kayu (Container), Jl. Utan Kayu Raya No.24, RT.6/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
     "distance": "5.3 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1936254,
+    "lng_hint": 106.8646036,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Utan%20Kayu%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1936254,106.8646036"
   },
   {
     "id": "605",
@@ -2009,13 +2009,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pusat Grosir Cililitan, Lantai Lower Ground, Jl. Dewi Sartika, Cililitan, Kramatjati, Kota Jakarta Timur, 13640",
     "distance": "5.7 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2625151,
+    "lng_hint": 106.8651657,
     "is_open": true,
     "hours": "09:30 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pusat%20Grosir%20Cililitan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2625151,106.8651657"
   },
   {
     "id": "650",
@@ -2023,13 +2023,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jatiwaringin, Jl. Raya Jatiwaringin No.135, Jatiwaringin, Kec. Pd. Gede, Kota Bks, Jawa Barat 17411",
     "distance": "5.7 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.275245,
+    "lng_hint": 106.9126544,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jatiwaringin"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.275245,106.9126544"
   },
   {
     "id": "651",
@@ -2037,13 +2037,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Spbu Pertamina 34.17128 Jatiwaringin, Jl. Raya Jatiwaringin no 234 Rt 003/ Rw. 006 Jatiwaringin Kecamatan Pondok Gede, Kota Bekasi Jawa Barat 17411",
     "distance": "5.8 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.2754111,
+    "lng_hint": 106.9128977,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Jatiwaringin"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2754111,106.9128977"
   },
   {
     "id": "487",
@@ -2051,13 +2051,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mardani Jakarta Pusat, Jl. Mardani Raya No 6, RT. 1 / RW. 10, Cempaka Putih Barat, Kec. Cempaka Putih, Jakarta Pusat 10560",
     "distance": "5.8 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1874927,
+    "lng_hint": 106.8636595,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mardani%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1874927,106.8636595"
   },
   {
     "id": "507",
@@ -2065,13 +2065,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.132.05 Perintis Kemerdekaan Jakarta Timur, Jl. Perintis Kemerdekaan No.50, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13210",
     "distance": "5.8 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1736444,
+    "lng_hint": 106.890814,
     "is_open": true,
     "hours": "06:30 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%2034.132.05%20Perintis%20Kemerdekaan%20Jakarta%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1736444,106.890814"
   },
   {
     "id": "617",
@@ -2079,13 +2079,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RS. Polri, Jl. Raya Bogor No.5, RT.1/RW.5, Kramat Jati, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13510",
     "distance": "6.0 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.269201,
+    "lng_hint": 106.86966,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS.%20Polri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.269201,106.86966"
   },
   {
     "id": "578",
@@ -2093,13 +2093,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Duren Kalibata, Jl. Raya Kalibata, Rajawati, Kec. Pancoran, Kota Jakarta Selatan 12750",
     "distance": "6.0 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.25523238,
+    "lng_hint": 106.85510477,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Duren%20Kalibata"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.25523238,106.85510477"
   },
   {
     "id": "559",
@@ -2107,13 +2107,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tebet Barat, Jl. Tebet barat Raya Rt.03/06 Tebet barat, Kec.Tebet, Kota Jakarta Selatan, DKI Jakarta 12810",
     "distance": "6.2 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.241584,
+    "lng_hint": 106.847322,
     "is_open": true,
     "hours": "00:20 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tebet%20Barat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.241584,106.847322"
   },
   {
     "id": "621",
@@ -2121,13 +2121,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-13907 Pulo Gebang (Container), Jl. Raya pulogebang blok nangka rt. 10/06 Jakarta Timur",
     "distance": "6.2 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.20769363,
+    "lng_hint": 106.95398271,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Pulo%20Gebang%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.20769363,106.95398271"
   },
   {
     "id": "484",
@@ -2135,13 +2135,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RS. Saint Carolus, Unit C9, Jl. Salemba Raya No.41, RT.3/RW.5, Paseban, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10440",
     "distance": "6.3 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.196537,
+    "lng_hint": 106.8511853,
     "is_open": true,
     "hours": "09:00 - 20:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS%20Saint%20Carolus%20Jakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.196537,106.8511853"
   },
   {
     "id": "477",
@@ -2149,13 +2149,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Cemp. Putih 107-12, RT.7/RW.8, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10510",
     "distance": "6.3 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.17623,
+    "lng_hint": 106.871056,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cempaka%20Putih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.17623,106.871056"
   },
   {
     "id": "510",
@@ -2163,13 +2163,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Minangkabau Jakarta Selatan (Container), Jl. Minangkabau Timur No.33, RT.6/RW.8, Ps. Manggis, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12970",
     "distance": "6.3 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.21296709,
+    "lng_hint": 106.84437999,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Minangkabau%20Jakarta%20Selatan%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.21296709,106.84437999"
   },
   {
     "id": "473",
@@ -2177,13 +2177,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cempaka Putih, Jl. Cempaka Putih Raya No.20 C, RT.7/RW.8 Cempaka Putih., Kec. Cempaka Putih, Kota Jakarta Pusat, DKI Jakarta 10510",
     "distance": "6.4 km",
     "city_hint": "Jakarta Timur",
-    "lat_hint": -6.225,
-    "lng_hint": 106.9004,
+    "lat_hint": -6.1761753,
+    "lng_hint": 106.8703265,
     "is_open": true,
     "hours": "08:30 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Chigo%20Ruko%20Cempaka%20Putih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1761753,106.8703265"
   },
   {
     "id": "381",
@@ -2191,13 +2191,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Danau Sunter Utara, Jalan Danau Sunter Utara, RT.8/RW.15, Sunter Agung, Kec. Tj. Priok, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14350",
     "distance": "700 m",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1375901,
+    "lng_hint": 106.8701488,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Danau%20Sunter%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1375901,106.8701488"
   },
   {
     "id": "382",
@@ -2205,13 +2205,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Danau Agung Sunter, Jl. Danau Agung 2 No.20B Blok D6, RT.20/RW.10, Sunter Agung, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14350",
     "distance": "800 m",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.145089,
+    "lng_hint": 106.861291,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Agung%20Sunter"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.145089,106.861291"
   },
   {
     "id": "367",
@@ -2219,13 +2219,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Food Centrum, Lantai 1, Ruko Puri Mutiara, Jl. Griya Utama Blok BA-BB-BC, Tj. Priok",
     "distance": "1.1 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.141402,
+    "lng_hint": 106.854474,
     "is_open": true,
     "hours": "10:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Food%20Centrum%20Sunter"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.141402,106.854474"
   },
   {
     "id": "402",
@@ -2233,13 +2233,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Green Lake Sunter, Jl. Danau Sunter Selatan RT 15/16 Sunter Agung, Tanjung Priok Jakarta Utara",
     "distance": "1.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1452826,
+    "lng_hint": 106.8766136,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Green%20Lake%20Sunter"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1452826,106.8766136"
   },
   {
     "id": "355",
@@ -2247,13 +2247,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34.14413 Kemayoran, VR6W+6WJ, Jl. Benyamin Suaeb, Pademangan Tim., Kec. Pademangan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14410",
     "distance": "1.9 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1393425,
+    "lng_hint": 106.8470179,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.14413%20Kemayoran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1393425,106.8470179"
   },
   {
     "id": "415",
@@ -2261,13 +2261,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Sunter Indah, Jl. Taman Sunter Indah No.2 blok HJ2, Sunter Jaya, Kec. Tj. Priok, Jakarta, Daerah Khusus Ibukota Jakarta 14360",
     "distance": "1.9 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.151207,
+    "lng_hint": 106.875898,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Sunter%20Indah"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.151207,106.875898"
   },
   {
     "id": "421",
@@ -2275,13 +2275,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sumur Batu, Jl. Sumur Batu Raya No.416, RT.2/RW.2, Sumur Batu, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640",
     "distance": "2.5 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.16109682,
+    "lng_hint": 106.86646461,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sumur%20Batu"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16109682,106.86646461"
   },
   {
     "id": "423",
@@ -2289,13 +2289,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alfamidi Sumur Batu (Container), Jl. Sumur Batu Raya No.2, RT.11/RW.2, Sumur Batu, Kemayoran, Central Jakarta City, Jakarta 10640",
     "distance": "2.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1618128,
+    "lng_hint": 106.8660812,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alfamidi%20Sumur%20Batu%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1618128,106.8660812"
   },
   {
     "id": "1380",
@@ -2303,13 +2303,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pademangan Jakarta Utara, Jl. Pademangan 1 No.4 29b, RT.2/RW.6, Kel. Pademangan Timur, Kec. Pademangan, North Jakarta City, Jakarta 14410",
     "distance": "2.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1430375,
+    "lng_hint": 106.8409013,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pademangan%20Jakarta%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1430375,106.8409013"
   },
   {
     "id": "392",
@@ -2317,13 +2317,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Citra Tower Kemayoran, LG, Jl. Casa No.170, RT.13/RW.6, Kebon Kosong, Kemayoran, Jakarta Pusat, Jakarta, 10630",
     "distance": "2.7 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1597152,
+    "lng_hint": 106.852779,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Citra%20Tower%20Kemayoran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1597152,106.852779"
   },
   {
     "id": "358",
@@ -2331,13 +2331,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Warakas Jakarta Utara, VVMG+5WQ, Jl. Warakas III Gg. 6, RT.7/RW.1, Warakas, Kec. Tj. Priok, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14370",
     "distance": "2.8 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.116981,
+    "lng_hint": 106.877408,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Warakas%20Jakarta%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.116981,106.877408"
   },
   {
     "id": "439",
@@ -2345,13 +2345,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Sunter Kemayoran, 45, Jl. Sunter Kemayoran No.45, RW.9, Sunter Jaya, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14350",
     "distance": "2.9 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.16189303,
+    "lng_hint": 106.87524296,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Sunter%20Kemayoran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16189303,106.87524296"
   },
   {
     "id": "430",
@@ -2359,13 +2359,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall Artha Gading, Ground Floor, Jl. Artha Gading Selatan No. 1, Kelapa Gading, RT.18/RW.8, Kec. Kelapa Gading, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14240",
     "distance": "3.1 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1450347,
+    "lng_hint": 106.8915078,
     "is_open": true,
     "hours": "09:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Artha%20Gading"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1450347,106.8915078"
   },
   {
     "id": "1366",
@@ -2373,13 +2373,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Industri Raya Jakarta Pusat, Jl. Industri Raya No.21D, RT.13/RW.1, Kel. Gn. Sahari Utara, Kec. Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720",
     "distance": "3.1 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1475473,
+    "lng_hint": 106.837175,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Industri%20Raya%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1475473,106.837175"
   },
   {
     "id": "403",
@@ -2387,13 +2387,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Utan Panjang, Jalan Utan Panjang, RT.13/RW.10, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, DKI Jakarta 10630",
     "distance": "3.3 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.16524662,
+    "lng_hint": 106.85224984,
     "is_open": true,
     "hours": "00:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Utan%20Panjang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.16524662,106.85224984"
   },
   {
     "id": "445",
@@ -2401,13 +2401,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall of Indonesia, Lobby 8, Jl. Boulevard Bar. Raya No.12, RT.18/RW.19, Kelapa Gading Barat, Kec. Kelapa Gading, Jakarta Utara, Daerah Khusus Ibukota Jakarta 14240",
     "distance": "3.5 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1518603,
+    "lng_hint": 106.8923611,
     "is_open": true,
     "hours": "10:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20Mall%20of%20Indonesia"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1518603,106.8923611"
   },
   {
     "id": "333",
@@ -2415,13 +2415,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mangga Dua Square, Jl. Gn. Sahari No.1, RT.11/RW.6, Ancol, Kec. Pademangan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14420",
     "distance": "3.5 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.138383,
+    "lng_hint": 106.832031,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mangga%20Dua%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.138383,106.832031"
   },
   {
     "id": "443",
@@ -2429,13 +2429,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RS Yarsi Jakarta Pusat, Jl. Letjen Suprapto Kav 13, RT. 10 / RW. 5, Cempaka Putih Timur, Kec. Cempaka Putih, Jakarta Pusat 10510",
     "distance": "3.5 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1698059,
+    "lng_hint": 106.8692526,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS%20Yarsi%20Jakarta%20Pusat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1698059,106.8692526"
   },
   {
     "id": "438",
@@ -2443,13 +2443,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Artha Gading, Jalan Bulevard Artha Gading BI A2 West Kelapa Gading, RT.18/RW.RT.18, RW.8, Kec. Klp. Gading, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14240",
     "distance": "3.5 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.14502037,
+    "lng_hint": 106.8953282,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Artha%20Gading"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.14502037,106.8953282"
   },
   {
     "id": "451",
@@ -2457,13 +2457,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko MOI, Ruko Italian walk Blok J11, MOI, Kelapa Gading, Jakarta Utara 14350",
     "distance": "3.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1525,
+    "lng_hint": 106.892895,
     "is_open": true,
     "hours": "07:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20MOI"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1525,106.892895"
   },
   {
     "id": "357",
@@ -2471,13 +2471,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-14304 Tongkol (Container), Jl. Tongkol Kebon Bawang,Tanjung Priok, RT.6/RW.8, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14310",
     "distance": "3.7 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1109767,
+    "lng_hint": 106.8834229,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Tongkol%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1109767,106.8834229"
   },
   {
     "id": "1312",
@@ -2485,13 +2485,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jalan Bugis Jakarta Utara, Jl. Bugis No.76, RT.12/RW.6, Kb. Bawang, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14320",
     "distance": "3.8 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1157239,
+    "lng_hint": 106.8901168,
     "is_open": true,
     "hours": "00:15 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jalan%20Bugis%20Jakarta%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1157239,106.8901168"
   },
   {
     "id": "341",
@@ -2499,13 +2499,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pangeran Jayakarta, Jl. Pangeran Jayakarta No.129 Blok A8, Mangga Dua Sel., Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10730",
     "distance": "3.8 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1427194,
+    "lng_hint": 106.8298587,
     "is_open": true,
     "hours": "06:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pangeran%20Jayakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1427194,106.8298587"
   },
   {
     "id": "434",
@@ -2513,13 +2513,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Letjen Suprapto Cempaka Putih, Jl. Letjen Suprapto No.8D, RT.2/RW.1, Cempaka Putih, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640",
     "distance": "3.9 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.173477,
+    "lng_hint": 106.858441,
     "is_open": true,
     "hours": "06:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Letjen%20Suprapto%20Cempaka%20Putih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.173477,106.858441"
   },
   {
     "id": "359",
@@ -2527,13 +2527,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Enggano, Jl. Enggano No. 28, RT.005/RW.07, Kec. Tanjung Priok, Jakarta Utara 14310",
     "distance": "4.0 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1102862,
+    "lng_hint": 106.8863153,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Enggano"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1102862,106.8863153"
   },
   {
     "id": "343",
@@ -2541,13 +2541,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RS Husada (Container), Jl. Raya Mangga Besar No.137-139, RW.1, Mangga Dua Sel., Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10730",
     "distance": "4.1 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1473845,
+    "lng_hint": 106.8278736,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS%20Husada%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1473845,106.8278736"
   },
   {
     "id": "1313",
@@ -2555,13 +2555,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cemara Angin Jakarta Utara, Jl. Cemara Angin No.Blok AA/33, RT.4/RW.6, Rawabadak Utara, Kec. Koja, Jkt Utara, Daerah Khusus Ibukota Jakarta 14230",
     "distance": "4.4 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1217974,
+    "lng_hint": 106.9004511,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cemara%20Angin%20Jakarta%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1217974,106.9004511"
   },
   {
     "id": "338",
@@ -2569,13 +2569,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lokasari Square, Ground Floor, Jl. Mangga Besar IX No.81, RT.6/RW.2, Tangki, Taman Sari, Jakarta Barat - 11170",
     "distance": "4.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.1465389,
+    "lng_hint": 106.8235531,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lokasari%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1465389,106.8235531"
   },
   {
     "id": "320",
@@ -2583,13 +2583,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasar Pagi Mangga Dua, Pasar Pagi Mangga Dua Lt. Dasar L-003 Rt.011/005 Ancol, Kc. Pademangan, Jakarta Utara, DKI Jakarta 14430",
     "distance": "4.6 km",
     "city_hint": "Jakarta Utara",
-    "lat_hint": -6.1384,
-    "lng_hint": 106.864,
+    "lat_hint": -6.136355,
+    "lng_hint": 106.822426,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasar%20Pagi%20Mangga%20Dua"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.136355,106.822426"
   },
   {
     "id": "228",
@@ -2597,13 +2597,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasar Lama Tangerang, Jl. Kisamaun No.3, RT.003/RW.007, Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118",
     "distance": "400 m",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1821344,
+    "lng_hint": 106.6307859,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasar%20Lama%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1821344,106.6307859"
   },
   {
     "id": "1320",
@@ -2611,13 +2611,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko TMP Taruna Tangerang, Jl. Taman Makam Pahlawan Taruna No 34-35 Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118",
     "distance": "700 m",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.179902,
+    "lng_hint": 106.638189,
     "is_open": true,
     "hours": "06:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20TMP%20Taruna%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.179902,106.638189"
   },
   {
     "id": "225",
@@ -2625,13 +2625,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Daan Mogot, Jl Daan Mogot Rt.001 Rw.004, Sukarasa, Tangerang, Banten 15111",
     "distance": "800 m",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.171146,
+    "lng_hint": 106.631824,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Daan%20Mogot"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.171146,106.631824"
   },
   {
     "id": "221",
@@ -2639,13 +2639,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Otista Tangerang, Jl. Otto Iskandardinata No. 82 D, RT 004 / RW 011, Kel. Gerendeng, Kec. Karawaci, Kota Tangerang, Banten 15113",
     "distance": "1.0 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1721974,
+    "lng_hint": 106.6248463,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Otista%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1721974,106.6248463"
   },
   {
     "id": "233",
@@ -2653,13 +2653,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall Balekota Tangerang, GC 03A, Jl. Jenderal Sudirman Km. 10, Buaran Indah, Tangerang, Banten 15119",
     "distance": "1.3 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.179496,
+    "lng_hint": 106.643521,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Balekota%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.179496,106.643521"
   },
   {
     "id": "237",
@@ -2667,13 +2667,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Babakan Tangerang, Jl. Maulana Yusuf No. 47 B & 47 C, RT 002 / RW 003, Babakan, Kec. Tangerang, Kota Tangerang, Banten 15118",
     "distance": "1.3 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1895173,
+    "lng_hint": 106.636311,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Babakan%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1895173,106.636311"
   },
   {
     "id": "227",
@@ -2681,13 +2681,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cimone Pantura Tangerang, Jl. Raya Merdeka No.1, RT.1/RW.001, Pabuaran, Kec. Karawaci, Kota Tangerang, Banten 15114",
     "distance": "1.6 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1844018,
+    "lng_hint": 106.6187608,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cimone%20Pantura%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1844018,106.6187608"
   },
   {
     "id": "239",
@@ -2695,13 +2695,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tangcity Mall, Unit L2 B0001-FC, Jl. Jenderal Sudirman, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
     "distance": "1.8 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.193951,
+    "lng_hint": 106.6338209,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Chigo%20x%20Flip%20Tangcity%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.193951,106.6338209"
   },
   {
     "id": "241",
@@ -2709,13 +2709,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tangerang City Mall, GF, Jalan Jend. Sudirman No. 1 Cikokol, RT.001/RW.005, Babakan, Kec. Tangerang, Kota Tangerang, Banten 15117",
     "distance": "1.8 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.194318,
+    "lng_hint": 106.633462,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tangerang%20City%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.194318,106.633462"
   },
   {
     "id": "245",
@@ -2723,13 +2723,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Hasyim Ashari Tangerang, Jl. KH. Hasyim Ashari Nomor 8 D, RT 001 / RW 008, Buaran Indah, Kec. Tangerang, Kota Tangerang, Banten 15119",
     "distance": "2.1 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1852896,
+    "lng_hint": 106.6496826,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Hasyim%20Ashari%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1852896,106.6496826"
   },
   {
     "id": "234",
@@ -2737,13 +2737,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shinta Tangerang, Jl. Teuku Umar No.83, RT.004/RW.005, Karawaci, Kec. Karawaci, Kota Tangerang, Banten 15115",
     "distance": "2.1 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.19537803,
+    "lng_hint": 106.62377863,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shinta%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.19537803,106.62377863"
   },
   {
     "id": "248",
@@ -2751,13 +2751,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko The Modern Arcade Tangerang, Ruko The Modern Arcade Blok TMA/B.12 & TMA/B.15, Jl. Hartono Raya, RT 003 / RW 006, Kelapa Indah, Kota Tangerang, Banten 15117",
     "distance": "2.2 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.19700298,
+    "lng_hint": 106.63778245,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20The%20Modern%20Arcade%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.19700298,106.63778245"
   },
   {
     "id": "216",
@@ -2765,13 +2765,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Moh Toha Tangerang, Jl. Moh. Toha, Margasari, Kec. Tangerang, Kota Tangerang, Banten 15114",
     "distance": "2.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1710427,
+    "lng_hint": 106.6117647,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Moh%20Toha%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1710427,106.6117647"
   },
   {
     "id": "252",
@@ -2779,13 +2779,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU COCO 31.151.02 Modernland (Container), Jl. Hartono Raya, RT.001/RW.006, Klp. Indah, Kec. Tangerang, Kota Tangerang, Banten 15117",
     "distance": "2.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.200605,
+    "lng_hint": 106.6405267,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20COCO%2031.151.02%20Modernland"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.200605,106.6405267"
   },
   {
     "id": "242",
@@ -2793,13 +2793,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Taman Royal Cipondoh, Jl. Permata Raya, RT.004/RW.015, Tanah Tinggi, Kec. Cipondoh, Kota Tangerang, Banten 15119",
     "distance": "2.8 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1770881,
+    "lng_hint": 106.656881,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Royal%20Cipondoh"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1770881,106.656881"
   },
   {
     "id": "214",
@@ -2807,13 +2807,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Nambo Jaya Tangerang, Jl. Moh. Toha Km 2, Rt 001 Rw 004, Kel. Nambo Jaya, Kec. Karawaci, Kota Tangerang, Banten 15112",
     "distance": "3.1 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1712568,
+    "lng_hint": 106.6048079,
     "is_open": true,
     "hours": "00:30 - 22:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Nambo%20Jaya%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1712568,106.6048079"
   },
   {
     "id": "263",
@@ -2821,13 +2821,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Azores, Perumahan Banjar WIjaya Blok B7A No 15, Tangerang",
     "distance": "3.5 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.196573,
+    "lng_hint": 106.657739,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Azores"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.196573,106.657739"
   },
   {
     "id": "236",
@@ -2835,13 +2835,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Beringin Raya, Jl. Beringin Raya, RT.002/RW.002, Nusa Jaya, Kec. Karawaci, Kota Tangerang, Banten 15116",
     "distance": "3.6 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2055109,
+    "lng_hint": 106.6150935,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Beringin%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2055109,106.6150935"
   },
   {
     "id": "213",
@@ -2849,13 +2849,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Sangiang Jaya, Jl. Prabu Kian Santang No.34, RT.004/RW.004, Sangiang Jaya, Kec. Periuk, Kota Tangerang, Banten 15132",
     "distance": "3.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1748573,
+    "lng_hint": 106.5985124,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Sangiang%20Jaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1748573,106.5985124"
   },
   {
     "id": "1322",
@@ -2863,13 +2863,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko 88 Berlian Tangerang, Ruko 88 Berlian Commercial Estate Blok D1 dan D2, Jl. Empu Gandring Rt 04 / Rw 03, Kel. Cibodas, Kec. Cibodas, Kota Tangerang, Banten 15138",
     "distance": "3.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.200552,
+    "lng_hint": 106.606909,
     "is_open": true,
     "hours": "00:01 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%2088%20Berlian%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.200552,106.606909"
   },
   {
     "id": "1365",
@@ -2877,13 +2877,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Imam Bonjol Tangerang, Jl. Imam Bonjol No. 3, Rt 001 Rw 005, Kel. Panunggangan Barat, Kec. Cibodas, Kota Tangerang, Banten 15138",
     "distance": "4.2 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2138253,
+    "lng_hint": 106.6191887,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Imam%20Bonjol%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2138253,106.6191887"
   },
   {
     "id": "262",
@@ -2891,13 +2891,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko MH Thamrin Tangerang, QJMJ+CF3, JL. Thamrin, Cikokol, RT.004/RW.001, Panunggangan Utara, Kec. Tangerang, Kota Tangerang, Banten 15117",
     "distance": "4.2 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.216484,
+    "lng_hint": 106.63114,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20MH%20Thamrin%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.216484,106.63114"
   },
   {
     "id": "207",
@@ -2905,13 +2905,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bandara Mas, Jln. Marsekal Suryadharma, Gedung Milenium, Rt 001 Rw 001, Kebun Sayur, Kelurahan Selapang Jaya, Kec Neglasari, tangerang",
     "distance": "4.5 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1376989,
+    "lng_hint": 106.6328489,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bandara%20Mas"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1376989,106.6328489"
   },
   {
     "id": "264",
@@ -2919,13 +2919,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cipondoh, Jl. KH. Hasyim Ashari No.118 Ruko-6, RT.001/RW.010, Cipondoh, Kec. Cipondoh, Kota Tangerang, Banten 15146",
     "distance": "4.5 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.191348,
+    "lng_hint": 106.6707233,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cipondoh"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.191348,106.6707233"
   },
   {
     "id": "220",
@@ -2933,13 +2933,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jatiuwung Tangerang, Jl. Gatot Subroto Blok JS No, RT.003/RW.001, Keroncong, Kec. Jatiuwung, Kota Tangerang, Banten 15134",
     "distance": "4.8 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1906914,
+    "lng_hint": 106.5898752,
     "is_open": true,
     "hours": "08:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jatiuwung%20Tangerang%20%28FCK%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1906914,106.5898752"
   },
   {
     "id": "261",
@@ -2947,13 +2947,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Peak Avenue Karawaci, Lippo Karawaci Utara Komplek Ruko Peak Avenue, Jalan Kalimantan.705, Plaza No.5, RT.002/RW.009, Panunggangan Bar., Kec. Cibodas, Kota Tangerang, Banten 15138",
     "distance": "4.9 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2219143,
+    "lng_hint": 106.6236572,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Peak%20Avenue%20Karawaci"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2219143,106.6236572"
   },
   {
     "id": "250",
@@ -2961,13 +2961,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Palem Semi Karawaci, Jl Lingkar Palem Semi Ruko CBD No 3A, Tangerang 15810",
     "distance": "5.0 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.219769,
+    "lng_hint": 106.614461,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Palem%20Semi%20Karawaci"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.219769,106.614461"
   },
   {
     "id": "267",
@@ -2975,13 +2975,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.151.32 MH Thamrin Serpong (Container), Jl. MH. Thamrin, RT.001/RW.001, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15117",
     "distance": "5.1 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2238626,
+    "lng_hint": 106.6369517,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20MH%20Thamrin%20Serpong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2238626,106.6369517"
   },
   {
     "id": "211",
@@ -2989,13 +2989,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Garuda HQ (Container) Relocation,Garuda City Center, RT.001/RW.010, Pajang, Kec. Benda, Kota Tangerang, Banten 15126",
     "distance": "5.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.131107,
+    "lng_hint": 106.644839,
     "is_open": true,
     "hours": "07:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Garuda%20Head%20Quarter"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.131107,106.644839"
   },
   {
     "id": "238",
@@ -3003,13 +3003,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Harapan Kita Karawaci Tangerang, Jl. Borobudur Raya Blok M No 8 Kel. Bencongan Kec. Curug Tangerang Banten 15138",
     "distance": "5.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.216655,
+    "lng_hint": 106.601496,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Harapan%20Kita%20Karawaci%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.216655,106.601496"
   },
   {
     "id": "255",
@@ -3017,13 +3017,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Poris, Jl. Poris Paradise Eksklusif No. 6 RT 003 / RW 003 . Poris Gaga Kec. Cipondoh Kota Tangerang Banten 15122",
     "distance": "5.8 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.17180193,
+    "lng_hint": 106.68356633,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Poris"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.17180193,106.68356633"
   },
   {
     "id": "254",
@@ -3031,13 +3031,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Supermall Karawaci, Lantai 1, Jl. Boulevard Palem Raya No. 7, Bencongan, Kelapa Dua, Tangerang, Banten - 15810",
     "distance": "6.0 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.22696554,
+    "lng_hint": 106.6074502,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Supermall%20Karawaci"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.22696554,106.6074502"
   },
   {
     "id": "202",
@@ -3045,13 +3045,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "City Plaza Kotabumi, GF, Jl. Raya Kutabumi, Kuta Baru, Kec. Ps. Kemis, Tangerang, Banten 15560",
     "distance": "6.3 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.153465,
+    "lng_hint": 106.5808478,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=City%20Plaza%20Kotabumi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.153465,106.5808478"
   },
   {
     "id": "282",
@@ -3059,13 +3059,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alam Sutera (DT), Jl. Jalur Sutera No.Kav.22C-2 RT.002/RW.006, East Panunggangan, Pinang, Tangerang City, Banten 15143",
     "distance": "6.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2292833,
+    "lng_hint": 106.6592551,
     "is_open": true,
     "hours": "00:05 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alam%20Sutera%20%28DT%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2292833,106.6592551"
   },
   {
     "id": "281",
@@ -3073,13 +3073,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM 14, QMPG+8RC, RT.011/RW.002, Kunciran Jaya, Pinang, Tangerang City, Banten 15144",
     "distance": "6.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2148112,
+    "lng_hint": 106.6771544,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%2014"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2148112,106.6771544"
   },
   {
     "id": "266",
@@ -3087,13 +3087,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kelapa Dua Tangerang, Jl. Mawaddah Raya Komplek Islami Village Blok J 12 No. 7/8, Kec. Klp. Dua, Tangerang, Banten",
     "distance": "6.4 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2348668,
+    "lng_hint": 106.6195234,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kelapa%20Dua%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2348668,106.6195234"
   },
   {
     "id": "244",
@@ -3101,13 +3101,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Fakultas Kedokteran UPH, Jl. Jenderal Sudirman No.20, Bencongan, Kec. Kelapa Dua, Kab. Tangerang, Banten 15810",
     "distance": "6.6 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.2259255,
+    "lng_hint": 106.5969849,
     "is_open": true,
     "hours": "06:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Fakultas%20Kedokteran%20UPH"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2259255,106.5969849"
   },
   {
     "id": "206",
@@ -3115,13 +3115,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bandara Soekarno Hatta Terminal 2D, Bandara Terminal 2 D, RT.001/RW.010, Pajang, Benda, Tangerang City, Banten 15126",
     "distance": "6.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.1220198,
+    "lng_hint": 106.6523709,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=T2D%20Keberangkatan%20Bandara%20Soekarno%20Hatta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1220198,106.6523709"
   },
   {
     "id": "210",
@@ -3129,13 +3129,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Terminal 2 E Kedatangan Bandara Soekarno Hatta, Bandar Udara International Soekarno Hatta Terminal 2E, Pajang, Benda, Tangerang City, Banten 15126",
     "distance": "6.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.122497,
+    "lng_hint": 106.653565,
     "is_open": true,
     "hours": "06:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=T2E%20Kedatangan%20Bandara%20Soekarno%20Hatta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.122497,106.653565"
   },
   {
     "id": "208",
@@ -3143,13 +3143,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Terminal 2F Soekarno Hatta Airport, Terminal 2F Bandar Udara Internasional Soekarno–Hatta, Pajang, Benda, Kota Tangerang, Banten 15126",
     "distance": "6.7 km",
     "city_hint": "Tangerang",
-    "lat_hint": -6.1783,
-    "lng_hint": 106.6319,
+    "lat_hint": -6.122036,
+    "lng_hint": 106.65398,
     "is_open": true,
     "hours": "05:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=T2F%20Keberangkatan%20Bandara%20Soekarno%20Hatta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.122036,106.65398"
   },
   {
     "id": "370",
@@ -3157,13 +3157,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "The Breeze BSD, The Breeze BSD City Unit L.26, Jl. BSD Green Office Park, Sampora, BSD, Kab. Tangerang, Banten 15345",
     "distance": "100 m",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.30158837,
+    "lng_hint": 106.6529814,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Breeze%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.30158837,106.6529814"
   },
   {
     "id": "361",
@@ -3171,13 +3171,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "AEON Mall, Lantai 1, Jl. BSD Raya Utama, Pagedangan, Tangerang, Banten, 15345",
     "distance": "1.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3050126,
+    "lng_hint": 106.6434973,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Aeon%20Mall%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3050126,106.6434973"
   },
   {
     "id": "379",
@@ -3185,13 +3185,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko The Icon BSD, Jl. Horizon Broadway, Ruko M 1 No. 17, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
     "distance": "1.6 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.31474672,
+    "lng_hint": 106.64589996,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20The%20Icon%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.31474672,106.64589996"
   },
   {
     "id": "373",
@@ -3199,13 +3199,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Teras Kota, Ground Floor, CBD Lot VII B, Jl. Pahlawan Seribu, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15322",
     "distance": "1.8 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2957052,
+    "lng_hint": 106.6672617,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Teras%20Kota"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2957052,106.6672617"
   },
   {
     "id": "410",
@@ -3213,13 +3213,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Raya Serpong Tangerang, Jl. Raya Serpong No.77, Serpong, Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
     "distance": "2.2 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.317729,
+    "lng_hint": 106.6637512,
     "is_open": true,
     "hours": "06:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Raya%20Serpong%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.317729,106.6637512"
   },
   {
     "id": "356",
@@ -3227,13 +3227,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Golden Road E1 BSD, English 1 BSD. Ruko Sektor VII B (Golden Road) Blok S No. 106-110 Jl. Pahlawan Seribu Tangerang, Lengkong Wetan, Serpong Sub-District, South Tangerang City, Banten 15322",
     "distance": "2.3 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2846087,
+    "lng_hint": 106.664094,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Road%20English%201%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2846087,106.664094"
   },
   {
     "id": "385",
@@ -3241,13 +3241,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Cisauk Tangerang, Jl. Raya Cisauk Lapan No.3, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15338",
     "distance": "2.5 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.32147764,
+    "lng_hint": 106.64133353,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Cisauk%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.32147764,106.64133353"
   },
   {
     "id": "330",
@@ -3255,13 +3255,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 31.153.02 BSD Pahlawan Seribu, Jl. Pahlawan Seribu Kav. Commercial BSD City",
     "distance": "3.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.27511,
+    "lng_hint": 106.658432,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.27511,106.658432"
   },
   {
     "id": "311",
@@ -3269,13 +3269,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gading Serpong, Ruko Maggiore Square, Jl. Lausanne Boulevard No. 30, Gading Serpong, Kel. Cihuni, Pagedangan, Kab. Tangerang",
     "distance": "3.5 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.273306,
+    "lng_hint": 106.639264,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Maggiore%20Gading%20Serpong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.273306,106.639264"
   },
   {
     "id": "394",
@@ -3283,13 +3283,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Citra Garden Serpong English 1 Cisauk, Citra Garden Serpong Ruko La Vallee Jl. Raya Cisauk Lapan No.29, Cisauk, Kec. Cisauk, Kabupaten Tangerang, Banten 15344",
     "distance": "3.6 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3301312,
+    "lng_hint": 106.6367232,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Citra%20Garden%20Serpong%20English%201%20Cisauk"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3301312,106.6367232"
   },
   {
     "id": "414",
@@ -3297,13 +3297,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Barcelona BSD, Jl. Letnan Sutopo No.39 Blok E9, Rw. Mekar Jaya, Kec. Serpong, Kota Tangerang Selatan, Banten 15322",
     "distance": "3.6 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.302508,
+    "lng_hint": 106.6847454,
     "is_open": true,
     "hours": "06:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Barcelona%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.302508,106.6847454"
   },
   {
     "id": "454",
@@ -3311,13 +3311,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP BSD Delatinos, Jl. Rawa Buntu RT 006 RW 001, Rawa Buntu, Serpong, Tangerang Selatan, Banten - 15318",
     "distance": "3.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.320289,
+    "lng_hint": 106.681763,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20BSD%20Delatinos"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.320289,106.681763"
   },
   {
     "id": "455",
@@ -3325,13 +3325,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP BSD Delatinos, Jl. Rawa Buntu RT 006 RW 001, Rawa Buntu, Serpong, Tangerang, Banten - 15318",
     "distance": "3.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3205818,
+    "lng_hint": 106.6816888,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Chigo%20BP%20Delatinos"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3205818,106.6816888"
   },
   {
     "id": "404",
@@ -3339,13 +3339,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Serpong Garden, Komplek Serpong Garden Ruko 3 No. 2, Kel. Cibogo, Kec. Cisauk Banten",
     "distance": "3.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.334326,
+    "lng_hint": 106.638448,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Serpong%20Garden"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.334326,106.638448"
   },
   {
     "id": "467",
@@ -3353,13 +3353,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rawabuntu Tangerang, Jl. Raya Viktor Bsd No.33, Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15310 Ibukota Jakarta 10430",
     "distance": "4.1 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.322621,
+    "lng_hint": 106.683168,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rawabuntu%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.322621,106.683168"
   },
   {
     "id": "490",
@@ -3367,13 +3367,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34. 153.12 Puspitek, Jl. Raya Taman Makam Pahlawan Seribu, Kademangan, Setu, Kademangan, Kec. Setu, Kota Tangerang Selatan, Banten 15314",
     "distance": "4.7 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3389226,
+    "lng_hint": 106.6725583,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Puspitek"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3389226,106.6725583"
   },
   {
     "id": "296",
@@ -3381,13 +3381,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko  Madison Grande, Ruko Madison Serpong, Jl Boulevard Diponegoro, Gading, Kec.Serpong, Kab. Tangerang, Banten 15334",
     "distance": "4.7 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.270184,
+    "lng_hint": 106.624036,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Madison%20Grande"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.270184,106.624036"
   },
   {
     "id": "310",
@@ -3395,13 +3395,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Eastvara BSD, Eastvara Mall, Jl. BSD Boulevard Utara, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15854",
     "distance": "4.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2942313,
+    "lng_hint": 106.6087015,
     "is_open": true,
     "hours": "08:15 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Eastvara%20BSD"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2942313,106.6087015"
   },
   {
     "id": "295",
@@ -3409,13 +3409,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sorrento Gading Serpong, Ruko North Sorrento Square, Jl. Ir.Sukarno, Cihuni, Kec. Pagedangan, Kabupaten Tangerang, Banten 15332",
     "distance": "4.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.26319506,
+    "lng_hint": 106.630903,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sorrento%20Gading%20Serpong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.26319506,106.630903"
   },
   {
     "id": "478",
@@ -3423,13 +3423,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Ciater Raya Blok Rh No.17, RT.1/RW.8, Rawa Mekar Jaya, Serpong Sub-District, South Tangerang City, Banten 15310",
     "distance": "5.1 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.314253,
+    "lng_hint": 106.696844,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Ciater%20Pamulang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.314253,106.696844"
   },
   {
     "id": "312",
@@ -3437,13 +3437,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pagedangan Tangerang Selatan, Jl. Raya Pagedangan No.3, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
     "distance": "5.3 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3009799,
+    "lng_hint": 106.604574,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pagedangan%20Tangerang%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3009799,106.604574"
   },
   {
     "id": "1359",
@@ -3451,13 +3451,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Botanica Avenue II Tangerang Selatan, Jl. Graha Raya Bintaro Blok BV / II Nomor 01 dan 02, Kel. Parigi Baru, Kec. Pondok Aren, Tangerang Selatan, Banten 15228",
     "distance": "5.5 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2734405,
+    "lng_hint": 106.6932766,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Botanica%20Avenue%20II%20Tangerang%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2734405,106.6932766"
   },
   {
     "id": "284",
@@ -3465,13 +3465,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bolsena Blok B No 18 & 19, Kelapa Dua, Tangerang Regency, Banten 15810",
     "distance": "5.9 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2591848,
+    "lng_hint": 106.6205805,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bolsena"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2591848,106.6205805"
   },
   {
     "id": "386",
@@ -3479,13 +3479,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Marchand Hype Station, Ruko No. 08, Jl. Emerald Boulevard, Parigi, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15227",
     "distance": "6.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2763271,
+    "lng_hint": 106.7000523,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Marchand%20Hype%20Station"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2763271,106.7000523"
   },
   {
     "id": "344",
@@ -3493,13 +3493,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Vazza Graha Raya, Jl. Graha Raya Bintaro, Pd. Kacang Bar., Kec. Pd. Aren, Kota Tangerang Selatan, Banten",
     "distance": "6.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2597486,
+    "lng_hint": 106.6863312,
     "is_open": true,
     "hours": "07:00 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Vazza%20Graha%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2597486,106.6863312"
   },
   {
     "id": "294",
@@ -3507,13 +3507,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Living World Alam Sutera, GF, Jl. Alam Sutera Boulevard Kav. 2, Serpong Utara, Kota Tangerang Selatan, Banten, 15325",
     "distance": "6.3 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.245113,
+    "lng_hint": 106.652686,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Living%20World%20Alam%20Sutera"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.245113,106.652686"
   },
   {
     "id": "278",
@@ -3521,13 +3521,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Digital Serpong (SDC Serpong), Unit #GF-C 11A, Garden Walk, SDC Serpong, Jl. Scientia Boulevard Curug Sangereng Kelapa Dua Tangerang 15810",
     "distance": "6.3 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2575849,
+    "lng_hint": 106.6162336,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Summarecon%20Digital%20Center%20%28SDC%20Serpong%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2575849,106.6162336"
   },
   {
     "id": "280",
@@ -3535,13 +3535,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Melody Gading Serpong, Jl. Boulevard Allogio, Ruko Melody 2, Gading Serpong, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334",
     "distance": "6.4 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2673608,
+    "lng_hint": 106.6053602,
     "is_open": true,
     "hours": "06:40 - 21:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Melody%20Gading%20Serpong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2673608,106.6053602"
   },
   {
     "id": "530",
@@ -3549,13 +3549,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Puspitek Tangerang, Jl. Raya Puspitek No 88 A - C Rt 001 Rw 001 Kel. Buaran, Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
     "distance": "6.4 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.34722173,
+    "lng_hint": 106.68746051,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Puspitek%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.34722173,106.68746051"
   },
   {
     "id": "306",
@@ -3563,13 +3563,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Jagung Timur, Jl. Pondok Jagung Timur, Pondok Jagung Timur, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326",
     "distance": "6.6 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.245357,
+    "lng_hint": 106.670152,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Jagung%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.245357,106.670152"
   },
   {
     "id": "508",
@@ -3577,13 +3577,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bukit Serua Ciputat, Jl. Raya Bukit Sarua No. 89, Serua, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414",
     "distance": "6.8 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.3170377,
+    "lng_hint": 106.7119978,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bukit%20Serua%20Ciputat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3170377,106.7119978"
   },
   {
     "id": "277",
@@ -3605,13 +3605,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bintaro Sektor 9, Jl. Bintaro Utama 9 Jl. Titihan Blok Ja 1 No.4, Pondok Pucung, Pondok Aren, South Tangerang City, Banten 15229",
     "distance": "7.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2807737,
+    "lng_hint": 106.7117423,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bintaro%20Sektor%209"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2807737,106.7117423"
   },
   {
     "id": "292",
@@ -3619,13 +3619,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.153.19 Alam Sutera (Container), Pakualam, North Serpong, South Tangerang City, Banten 15320",
     "distance": "7.0 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.238723,
+    "lng_hint": 106.6588692,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Alam%20Sutra"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.238723,106.6588692"
   },
   {
     "id": "536",
@@ -3633,13 +3633,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Serpong Paradise Walk, GF, Jl. Raya Puspiptek, Babakan, Setu, Tangerang, Banten, 15315",
     "distance": "7.1 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.348165,
+    "lng_hint": 106.695905,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Serpong%20Paradise%20Walk"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.348165,106.695905"
   },
   {
     "id": "372",
@@ -3661,13 +3661,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Mall Serpong, Lantai Ground Floor, Gading Serpong, Sentra. Jl. Boulevard Raya Gading Serpong, Kelapa Dua, Tangerang,15810",
     "distance": "7.2 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2411827,
+    "lng_hint": 106.6285658,
     "is_open": true,
     "hours": "09:55 - 21:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Summarecon%20Mall%20Serpong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2411827,106.6285658"
   },
   {
     "id": "543",
@@ -3675,13 +3675,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Puspitek, Jl. Raya Puspiptek, Bakti Jaya, Kec. Setu, Kota Tangerang Selatan, Banten 15310",
     "distance": "7.4 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.346859,
+    "lng_hint": 106.700913,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Puspitek%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.346859,106.700913"
   },
   {
     "id": "398",
@@ -3689,13 +3689,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Padang Merdeka Bintaro, Ruko Kebayoran Square Business Park, Jalan Boulevard Bintaro Jaya, Parigi, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15227",
     "distance": "7.5 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.2727012,
+    "lng_hint": 106.7138529,
     "is_open": true,
     "hours": "07:00 - 22:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Padang%20Merdeka%20Bintaro"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2727012,106.7138529"
   },
   {
     "id": "304",
@@ -3703,13 +3703,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Graha Raya, Jl. Boulevard Graha Raya Ruko Orlin Arcade Blk. JA Paku Jaya, Kec. Tangerang, Kota Tangerang Selatan, Banten 15810",
     "distance": "7.6 km",
     "city_hint": "Tangerang Selatan BSD",
-    "lat_hint": -6.3016,
-    "lng_hint": 106.6522,
+    "lat_hint": -6.238234,
+    "lng_hint": 106.677277,
     "is_open": true,
     "hours": "06:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Graha%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.238234,106.677277"
   },
   {
     "id": "653",
@@ -3717,13 +3717,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bintara, Jl. Bintara Raya No.9, Bintara, Bekasi Barat, Bekasi 17134",
     "distance": "1.2 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2333507,
+    "lng_hint": 106.9663185,
     "is_open": true,
     "hours": "06:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bintara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2333507,106.9663185"
   },
   {
     "id": "1383",
@@ -3731,13 +3731,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Patriot Bekasi, Jl. Patriot No.95, RT.005/RW.003, Jakasampurna, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17145",
     "distance": "1.2 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2441898,
+    "lng_hint": 106.9670331,
     "is_open": true,
     "hours": "00:01 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Patriot%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2441898,106.9670331"
   },
   {
     "id": "1327",
@@ -3745,13 +3745,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sultan Agung Bekasi, Jl. Jend. Sudirman No.km 31, RT.010/RW.016, Kayuringin Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17143",
     "distance": "1.5 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2306353,
+    "lng_hint": 106.986594,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultan%20Agung%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2306353,106.986594"
   },
   {
     "id": "690",
@@ -3759,13 +3759,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Metropolitan Mall, Lantai 2, Jl. KH. Noer Ali, Pekayon Jaya, Bekasi Selatan, Kota Bekasi, Jawa Barat, 17148",
     "distance": "1.9 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2487164,
+    "lng_hint": 106.9896201,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Metropolitan%20Mall%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2487164,106.9896201"
   },
   {
     "id": "676",
@@ -3773,13 +3773,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Galaxy, Jl. Taman Galaxy Raya No.#15, RT.002/RW.014, Jaka Setia, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17147",
     "distance": "2.0 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.255426,
+    "lng_hint": 106.968764,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Galaxy"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.255426,106.968764"
   },
   {
     "id": "694",
@@ -3787,13 +3787,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mega Bekasi Hypermall, Lantai 3, Jl. Jend. Ahmad Yani No.1, Marga Jaya, Bekasi Selatan, Bekasi, Jawa Barat, 17141",
     "distance": "2.2 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2491281,
+    "lng_hint": 106.9924819,
     "is_open": true,
     "hours": "10:00 - 20:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mega%20Bekasi%20Hypermall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2491281,106.9924819"
   },
   {
     "id": "663",
@@ -3801,13 +3801,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Grand Kota Bintang, Jl. Raya Kalimalang, Unit Ruko no. A09, Pondok Bambu, Bekasi Barat, 17145",
     "distance": "2.3 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.248787,
+    "lng_hint": 106.95723,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Grand%20Kota%20Bintang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.248787,106.95723"
   },
   {
     "id": "669",
@@ -3815,13 +3815,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Topaz Summarecon Bekasi, Jalan Boulevard Baru, Ruko TOPAZ A06, RT.001/RW.011, Harapan Mulya, Medan Satria, Kota Bekasi, Jawa Barat 17143",
     "distance": "2.5 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2257867,
+    "lng_hint": 106.9948248,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Topaz%20Summarecon%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2257867,106.9948248"
   },
   {
     "id": "699",
@@ -3829,13 +3829,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pakuwon Mall Bekasi, Jl. Raya Pekayon No.002, RT.001, Pekayon Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat",
     "distance": "2.6 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.256861,
+    "lng_hint": 106.9892225,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pakuwon%20Mall%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.256861,106.9892225"
   },
   {
     "id": "693",
@@ -3843,13 +3843,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Veteran Bekasi, Jl. Veteran No.11, RT.002/RW.2, Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141",
     "distance": "2.6 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.24409277,
+    "lng_hint": 106.99837492,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Veteran%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.24409277,106.99837492"
   },
   {
     "id": "684",
@@ -3857,13 +3857,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Dapur Kitchen Bekasi, Jl. Perjuangan 3, Marga Mulya, Bekasi Utara, Kota Bekasi, Jawa Barat 17142",
     "distance": "2.7 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2359413,
+    "lng_hint": 107.0001911,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Dapur%20Kitchen%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2359413,107.0001911"
   },
   {
     "id": "662",
@@ -3871,13 +3871,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Caman Raya No.1, RT.008/RW.001, Jatibening, Kec. Pondokgede, Kota Bks, Jawa Barat 17412",
     "distance": "3.0 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.252408,
+    "lng_hint": 106.952677,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Grand%20Icon%20Caman"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.252408,106.952677"
   },
   {
     "id": "702",
@@ -3885,13 +3885,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko RA Kartini Bekasi, Jl. RA Kartini No.6, RT.003/RW.003, Margahayu, Kec. Bekasi Tim., Kota Bks, Jawa Barat",
     "distance": "3.1 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2476945,
+    "lng_hint": 107.00162211,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20RA%20Kartini%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2476945,107.00162211"
   },
   {
     "id": "673",
@@ -3899,13 +3899,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Mall Bekasi, Downtown Walk, Jl. Boulevard Ahmad Yani, Marga Mulya, Bekasi Utara, Kota Bekasi, Jawa Barat, 17142",
     "distance": "3.1 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2257011,
+    "lng_hint": 107.0011003,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Summarecon%20Mall%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2257011,107.0011003"
   },
   {
     "id": "706",
@@ -3913,13 +3913,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pekayon Bekasi, Jl. Raya Pekayon Nomor 10 E-F, RT 003 / RW 021, Pekayon Jaya, Kec. Bekasi Selatan, Kota Bekasi, Jawa Barat 17148",
     "distance": "3.3 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2670392,
+    "lng_hint": 106.9836835,
     "is_open": true,
     "hours": "08:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pekayon%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2670392,106.9836835"
   },
   {
     "id": "701",
@@ -3927,13 +3927,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Galaxy Bekasi, Jl. Boulevard Raya RT 004, RW 019, Jaka Setia, Kec. Bekasi Selatan, Kota Bekasi, Jawa Barat",
     "distance": "3.7 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2717271,
+    "lng_hint": 106.9713957,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Grand%20Galaxy%20City%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2717271,106.9713957"
   },
   {
     "id": "714",
@@ -3941,13 +3941,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Cut Mutia, Jl. Cut Mutia No.139b, RT.001/RW.002, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17114",
     "distance": "3.9 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.26024087,
+    "lng_hint": 107.00283457,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Cut%20Mutia"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.26024087,107.00283457"
   },
   {
     "id": "686",
@@ -3955,13 +3955,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Agus Salim Bekasi, Jl. KH. Agus Salim No. 3a, RT 007 / RW 007, Bekasi Jaya, Kec. Bekasi Timur, Kota Bekasi, Jawa Barat 17112",
     "distance": "4.0 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.229585,
+    "lng_hint": 107.010603,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Agus%20Salim%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.229585,107.010603"
   },
   {
     "id": "671",
@@ -3969,13 +3969,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Jatibening, Jl. Dr. Ratna, RT.001/RW.001, Jatibening, Kec. Pondokgede, Kota Bks, Jawa Barat 17412",
     "distance": "4.0 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2639168,
+    "lng_hint": 106.9499361,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Jatibening"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2639168,106.9499361"
   },
   {
     "id": "720",
@@ -3983,13 +3983,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.17131 Rawalumbu (Container), Jl. Pramuka No.39, RT.004/RW.002, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17114",
     "distance": "4.4 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2690304,
+    "lng_hint": 107.0012685,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.17131%20Rawalumbu"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2690304,107.0012685"
   },
   {
     "id": "1361",
@@ -3997,13 +3997,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Caman Raya Bekasi, Jl. Caman Raya No.58,RT.002/RW.003, Jatibening, Kec. Pd. Gede, Kota Bks, Jawa Barat 17412",
     "distance": "4.7 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2663937,
+    "lng_hint": 106.943634,
     "is_open": true,
     "hours": "00:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Caman%20Raya%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2663937,106.943634"
   },
   {
     "id": "721",
@@ -4011,13 +4011,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kemang Pratama Bekasi,,Jl. Kemang Pratama Raya Blok AN-41, RT.004/RW.001, Bojong Rawalumbu, Kec. Rawalumbu, Kota Bks, Jawa Barat 17116",
     "distance": "4.7 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.278053,
+    "lng_hint": 106.990499,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kemang%20Pratama%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.278053,106.990499"
   },
   {
     "id": "1369",
@@ -4025,13 +4025,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jatirasa Jatiasih, Jl. Raya Jatiasih No.120, RT.007/RW.005, Jatirasa, Kec. Jatiasih, Kota Bks, Jawa Barat 17424",
     "distance": "4.9 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2823502,
+    "lng_hint": 106.9699328,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jatirasa%20Jatiasih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2823502,106.9699328"
   },
   {
     "id": "649",
@@ -4039,13 +4039,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kaliabang, Ruko Kaliabang Artha Loka Jl. Kaliabang no 77, RT.001/RW.020, Harapan Jaya, Bekasi Utara, Bekasi City, West Java 17122",
     "distance": "4.9 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2020457,
+    "lng_hint": 107.0001759,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kaliabang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2020457,107.0001759"
   },
   {
     "id": "703",
@@ -4053,13 +4053,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Cerewed Bekasi, Ground Floor, Jl. Mekar Sari RT 004/RW008, Duren Jaya, Bekasi Timur, Jawa Barat, 17111",
     "distance": "5.2 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.23186,
+    "lng_hint": 107.022018,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Cerewed%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.23186,107.022018"
   },
   {
     "id": "722",
@@ -4067,13 +4067,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-17119 Bulak Kapal ( Container ), Jl. HM Joyo Martono No.8 Bulak Kapal Bekasi",
     "distance": "5.5 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.252765,
+    "lng_hint": 107.0230088,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Bulak%20Kapal"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.252765,107.0230088"
   },
   {
     "id": "615",
@@ -4081,13 +4081,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina (Ujung Menteng), SPBU Pertamina 34-13908, Jl Raya Bekasi Rt.05/02, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 17132",
     "distance": "5.5 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.1893542,
+    "lng_hint": 106.9671191,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Ujung%20Menteng%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1893542,106.9671191"
   },
   {
     "id": "729",
@@ -4095,13 +4095,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.17120 Pengasinan (Container) , Jl Pengasinan Raya RT 04/RW03 Kel. Pengasinan Kec. Rawa Lumbu Bekasi",
     "distance": "5.6 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2680351,
+    "lng_hint": 107.0167756,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Pengasinan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2680351,107.0167756"
   },
   {
     "id": "1342",
@@ -4109,13 +4109,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pahlawan Bulak Kapal, Jl. Pahlawan, RT.005/RW.004, Duren Jaya, Kec. Bekasi Tim., Kota Bks, Jawa Barat 17111",
     "distance": "5.6 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2449281,
+    "lng_hint": 107.0258471,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pahlawan%20Bulak%20Kapal"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2449281,107.0258471"
   },
   {
     "id": "730",
@@ -4123,13 +4123,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pengasinan Bekasi, Jl. Raya Pengasinan, RT.004/RW.003, Pengasinan, Kec. Rawalumbu, bekasi timur, Jawa Barat 17115",
     "distance": "5.7 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2689892,
+    "lng_hint": 107.0167903,
     "is_open": true,
     "hours": "00:10 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pengasinan%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2689892,107.0167903"
   },
   {
     "id": "622",
@@ -4137,13 +4137,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Boulevard Hijau Bekasi, Komplek Sentra Niaga, Jl. Boulevard Hijau Raya, Pejuang, Kecamatan Medan Satria, Bekasi",
     "distance": "5.8 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.1861236,
+    "lng_hint": 106.9811299,
     "is_open": true,
     "hours": "06:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Boulevard%20Hijau%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1861236,106.9811299"
   },
   {
     "id": "670",
@@ -4151,13 +4151,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RS Primaya Bekasi Utara, Golden City, Villa Indah Permai, Jl. Kaliabang No.1, RT.001/RW.033, Tlk. Pucung, Kec. Bekasi Utara, Kota Bks, Jawa Barat 17122",
     "distance": "5.9 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2068164,
+    "lng_hint": 107.0185507,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RS%20Primaya%20Bekasi%20Utara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2068164,107.0185507"
   },
   {
     "id": "604",
@@ -4165,13 +4165,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Grand Cakung Mall, Ground Floor, Jl. Sri Sultan Hamengkubuwono IX KM.25, RW.1, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960",
     "distance": "6.1 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.1865747,
+    "lng_hint": 106.9584902,
     "is_open": true,
     "hours": "09:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Grand%20Cakung%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.1865747,106.9584902"
   },
   {
     "id": "696",
@@ -4179,13 +4179,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dr Ratna Bekasi, Jl. Dr. Ratna, RT.005/RW.017, Jatikramat, Kec. Jatiasih, Kota Bks, Jawa Barat 17421",
     "distance": "6.1 km",
     "city_hint": "Bekasi",
-    "lat_hint": -6.2383,
-    "lng_hint": 106.9756,
+    "lat_hint": -6.2864408,
+    "lng_hint": 106.9490707,
     "is_open": true,
     "hours": "00:05 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dr%20Ratna%20Bekasi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.2864408,106.9490707"
   },
   {
     "id": "675",
@@ -4193,13 +4193,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sawangan Depok, Jl. Raya Sawangan, Depok (ex Indomaret), RT.004, RW.004, Kel. Rangkapan Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16435",
     "distance": "900 m",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.394393,
+    "lng_hint": 106.7917347,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sawangan%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.394393,106.7917347"
   },
   {
     "id": "682",
@@ -4207,13 +4207,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pancoran Mas Depok, Jl. Raya Sawangan No.23c, Mampang, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16433",
     "distance": "1.0 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3950614,
+    "lng_hint": 106.7997943,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pancoran%20Mas%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3950614,106.7997943"
   },
   {
     "id": "697",
@@ -4221,13 +4221,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Nusantara Depok, Jl. Nusantara Raya No.294, Depok Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16432",
     "distance": "2.4 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3945919,
+    "lng_hint": 106.8142832,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Nusantara%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3945919,106.8142832"
   },
   {
     "id": "665",
@@ -4235,13 +4235,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.165.11 Sawangan Baru Depok (Container), Jl. Raya Muchtar, Sawangan Baru, Kec. Sawangan, RT 03 RW 07 Sawangan, Kota Depok, Jawa Barat 16511",
     "distance": "2.5 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4007227,
+    "lng_hint": 106.7714616,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Sawangan%20Baru%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4007227,106.7714616"
   },
   {
     "id": "711",
@@ -4249,13 +4249,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-16411 Kartini (Container), Jl. R.A Kartini No. 7, Pancoranmas, Depok, Jawa Barat, Indonesia 16431",
     "distance": "2.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4045755,
+    "lng_hint": 106.8189818,
     "is_open": true,
     "hours": "06:45 - 21:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Kartini"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4045755,106.8189818"
   },
   {
     "id": "1329",
@@ -4263,13 +4263,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kartini Depok, Jl. Kartini No.18, RT.02/RW.02, Depok, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16431",
     "distance": "2.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4083254,
+    "lng_hint": 106.8178058,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kartini%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4083254,106.8178058"
   },
   {
     "id": "683",
@@ -4277,13 +4277,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Apotek Roxy Nusantara Depok (Container), Jalan Nusantara Raya, Beji, Kecamatan Beji, Kota Depok, Jawa Barat 16421",
     "distance": "3.0 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3843702,
+    "lng_hint": 106.8147616,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Apotik%20Roxy%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3843702,106.8147616"
   },
   {
     "id": "659",
@@ -4291,13 +4291,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Raden Sanim Depok, Ruko Berlian 9, Jl. R. Sanim No.R5, Tanah Baru, Depok, Kota Depok, Jawa Barat 16426",
     "distance": "3.5 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.37140048,
+    "lng_hint": 106.80059424,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Raden%20Sanim%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.37140048,106.80059424"
   },
   {
     "id": "727",
@@ -4305,13 +4305,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Citayam Centre, Jl Raya Citayam Bojong Pondok Terong Cipayung Depok Jawa Barat",
     "distance": "3.6 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4302797,
+    "lng_hint": 106.8105217,
     "is_open": true,
     "hours": "08:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Citayam%20Centre"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4302797,106.8105217"
   },
   {
     "id": "698",
@@ -4319,13 +4319,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Dmall, Lantai Ground Floor, Jl. Margonda Raya Kav. 88, Kemiri Muka, Beji,",
     "distance": "4.0 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3867953,
+    "lng_hint": 106.8263033,
     "is_open": true,
     "hours": "07:00 - 21:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=D%27Mall%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3867953,106.8263033"
   },
   {
     "id": "731",
@@ -4333,13 +4333,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Waterpark Grand Depok City, Jl. Boulevard Grand Depok City Raya No.19, Tirtajaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16412",
     "distance": "4.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4207199,
+    "lng_hint": 106.8287239,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Waterpark%20Grand%20Depok%20City"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4207199,106.8287239"
   },
   {
     "id": "655",
@@ -4347,13 +4347,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "M Kahfi, Jl. Moh Kahfi 1 Rt 07/03, Tanah Baru, Kec. Beji, Kota Depok, Jawa Barat 16426",
     "distance": "4.5 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.363497,
+    "lng_hint": 106.80644,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=M%20Kahfi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.363497,106.80644"
   },
   {
     "id": "633",
@@ -4361,13 +4361,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.165.12 Limo Raya (Container), Jl. Limo Raya No. 2, Limo, Kec. Limo,Kota Depok, Jawa barat",
     "distance": "4.5 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3663402,
+    "lng_hint": 106.7750656,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Limo%20Raya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3663402,106.7750656"
   },
   {
     "id": "724",
@@ -4375,13 +4375,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tole Iskandar, Jl. Tole Iskandar, Mekarjaya, Kec. Sukmajaya, Kota Depok 16415",
     "distance": "4.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.403481,
+    "lng_hint": 106.8363631,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tole%20Iskandar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.403481,106.8363631"
   },
   {
     "id": "713",
@@ -4389,13 +4389,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sentosa Depok, Jl. Sentosa Raya No.4B, Mekar Jaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16411",
     "distance": "4.9 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3926637,
+    "lng_hint": 106.8372094,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sentosa%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3926637,106.8372094"
   },
   {
     "id": "1344",
@@ -4403,13 +4403,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alfamidi Raga Jaya, Jl. Tugu Macan, RT.01/RW.06, Ragajaya, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16920",
     "distance": "5.1 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4477452,
+    "lng_hint": 106.7851326,
     "is_open": true,
     "hours": "07:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alfamidi%20Raga%20Jaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4477452,106.7851326"
   },
   {
     "id": "735",
@@ -4417,13 +4417,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Citayam, Pabuaran, Bojonggede, Bogor Regency, West Java",
     "distance": "5.2 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.448165,
+    "lng_hint": 106.802341,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Citayam"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.448165,106.802341"
   },
   {
     "id": "661",
@@ -4431,13 +4431,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kukusan UI Depok, Ruko Jl. K.H.M. Usman No. 29C, Kukusan, Depok, Jawa Barat",
     "distance": "5.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3599916,
+    "lng_hint": 106.8168784,
     "is_open": true,
     "hours": "00:01 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kukusan%20UI%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3599916,106.8168784"
   },
   {
     "id": "646",
@@ -4445,13 +4445,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Shilla Sawangan, Senopati Boulevard Vasanta Eco Town D6-009, Bojongsari Lama, Sawangan, Depok City, West Java 16516",
     "distance": "5.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.40099613,
+    "lng_hint": 106.74623892,
     "is_open": true,
     "hours": "07:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Shilla%20Sawangan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.40099613,106.74623892"
   },
   {
     "id": "733",
@@ -4459,13 +4459,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Raden Saleh Depok, Ruko Lakrasamana, Jl. Raden Saleh No.50-52, Sukmajaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16000",
     "distance": "5.4 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4133509,
+    "lng_hint": 106.8421514,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Raden%20Saleh%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4133509,106.8421514"
   },
   {
     "id": "742",
@@ -4473,13 +4473,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Rajeg, Ruko Perum Galaxy Asri, Ruko No 4, Pondok Rajeg, Cibinong, Bogor Regency, West Java 16413",
     "distance": "5.4 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4445186,
+    "lng_hint": 106.8184863,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Rajeg"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4445186,106.8184863"
   },
   {
     "id": "688",
@@ -4487,13 +4487,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Margocity, LG-14, Jl. Margonda Raya No. 358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423",
     "distance": "5.6 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3721619,
+    "lng_hint": 106.8347952,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Margo%20City%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3721619,106.8347952"
   },
   {
     "id": "648",
@@ -4501,13 +4501,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.126.10 M. Kahfi II Jagakarsa , Jl. Moch. Kahfi II Jl. Muamalah II No.20, RT.4/RW.3, Cipedak, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630",
     "distance": "5.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3536307,
+    "lng_hint": 106.8110185,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28M.%20Kahfi%20II%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3536307,106.8110185"
   },
   {
     "id": "645",
@@ -4515,13 +4515,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bojongsari Sawangan, Jl. Raya Bojongsari Kecamatan No.Kelurahan, RT.02/RW.04, Bojongsari Lama, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
     "distance": "5.8 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.403931,
+    "lng_hint": 106.741935,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bojongsari%20Sawangan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.403931,106.741935"
   },
   {
     "id": "644",
@@ -4529,13 +4529,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Hyfresh Bojong Sari, Jl. Raya Bojongsari No.43 G, Bojongsari Lama, Kec. Bojongsari, Kota Depok, Jawa Barat 16516",
     "distance": "5.8 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.40129,
+    "lng_hint": 106.742011,
     "is_open": true,
     "hours": "08:30 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Hyfresh%20Bojongsari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.40129,106.742011"
   },
   {
     "id": "681",
@@ -4543,13 +4543,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Cina Depok, Jl. Margonda Raya, Pondok Cina, Kec. Beji, Kota Depok, Jawa Barat 16424",
     "distance": "5.9 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.367755,
+    "lng_hint": 106.834302,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Cina%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.367755,106.834302"
   },
   {
     "id": "667",
@@ -4557,13 +4557,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Universitas Indonesia, lantai 1, Gedung Pascasarjana Fakultas Ekonomi dan Bisnis Kampus  UI Depok, Jl. Prof. Dr. Sumitro Djojohadikusumo, Kampus UI Depok, 16424",
     "distance": "5.9 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.36035,
+    "lng_hint": 106.826043,
     "is_open": true,
     "hours": "07:30 - 18:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Universitas%20Indonesia"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.36035,106.826043"
   },
   {
     "id": "623",
@@ -4571,13 +4571,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Limo Cinere, Jl. Limo Raya No.101 E, Limo, Kec. Limo, Kota Depok, Jawa Barat 16515",
     "distance": "6.1 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3509412,
+    "lng_hint": 106.7763618,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Limo%20Cinere"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3509412,106.7763618"
   },
   {
     "id": "723",
@@ -4585,13 +4585,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kejayaan Depok, Jl. Kejayaan No. 4 Abadijaya, Kec. Sukmajaya. Kota Depok, Jawa Barat 16417",
     "distance": "6.5 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.391108,
+    "lng_hint": 106.85189,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kejayaan%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.391108,106.85189"
   },
   {
     "id": "656",
@@ -4599,13 +4599,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Parung, Jl. Raya Parung No. 667, Parung, Kec. Parung Bogor Jawa Barat 16330",
     "distance": "7.0 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.42055,
+    "lng_hint": 106.7333396,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Parung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.42055,106.7333396"
   },
   {
     "id": "609",
@@ -4613,13 +4613,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko South City (ALVA), South City Square, Jl Raya Wahyudi No.B1/16, Pd. Cabe Udik, Kec. Pamulang, Kota Tangerang Selatan, Banten 15418",
     "distance": "7.1 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.34463978,
+    "lng_hint": 106.76657104,
     "is_open": true,
     "hours": "08:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20South%20City%20%28ALVA%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.34463978,106.76657104"
   },
   {
     "id": "716",
@@ -4627,13 +4627,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-16410 Juanda Depok (Container), Jl. Hj Ir Juanda Bakti Jaya Depok 16416",
     "distance": "7.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3807853,
+    "lng_hint": 106.8563112,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Juanda%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3807853,106.8563112"
   },
   {
     "id": "624",
@@ -4641,13 +4641,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gandul, Ruko Mutiara Gandul Kav.Toko 8 Gandul Depok Jawa Barat 16514",
     "distance": "7.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3368853,
+    "lng_hint": 106.7947451,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gandul"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3368853,106.7947451"
   },
   {
     "id": "707",
@@ -4655,13 +4655,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Duta Depok, Ruko Aile Square, Jl. Raya Pondok Duta, Bakti Jaya, Sukma Jaya, Kota Depok, Jawa Barat 16951",
     "distance": "7.3 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3724741,
+    "lng_hint": 106.8529754,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Duta%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3724741,106.8529754"
   },
   {
     "id": "743",
@@ -4669,13 +4669,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Perumahan Jatijajar Depok, Jl. Perumahan Jatijajar, Jatijajar, Kec. Tapos, Kota Depok, Jawa Barat 16451",
     "distance": "7.6 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4103931,
+    "lng_hint": 106.8623866,
     "is_open": true,
     "hours": "00:01 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Perumahan%20Jatijajar%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4103931,106.8623866"
   },
   {
     "id": "658",
@@ -4683,13 +4683,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "LA Terrace, Ground Floor & Upper Ground, unit B6, Gedung Blok B, Jl. Raya Lenteng Agung No.18, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630",
     "distance": "7.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.345403,
+    "lng_hint": 106.8334824,
     "is_open": true,
     "hours": "00:10 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=LA%20Terrace"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.345403,106.8334824"
   },
   {
     "id": "602",
@@ -4697,13 +4697,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondok Cabe Tangerang, Jl. Pd. Cabe Raya No.107, Pd. Cabe Ilir, Kec. Pamulang, Kota Tangerang Selatan, Banten 15418",
     "distance": "7.7 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.33967777,
+    "lng_hint": 106.76571349,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondok%20Cabe%20Tangerang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.33967777,106.76571349"
   },
   {
     "id": "610",
@@ -4711,13 +4711,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Living Plaza Cinere, Ground Floor  G-11/ G-11A, Jl. Cinere Raya No.20, Cinere, Kec. Cinere, Kota Depok, Jawa Barat 16514",
     "distance": "7.9 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.3326835,
+    "lng_hint": 106.7824406,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Living%20Plaza%20Cinere%20Depok"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.3326835,106.7824406"
   },
   {
     "id": "754",
@@ -4725,13 +4725,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34-16920 Cilangkap, Jl.Raya Bogor No. 5 RT. 2 / RW. 13, Cilangkap, Tapos, Pabuaran, Depok, Jawa Barat 16916",
     "distance": "7.9 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.4425803,
+    "lng_hint": 106.853473,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034-16920%20Cilangkap"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4425803,106.853473"
   },
   {
     "id": "628",
@@ -4739,13 +4739,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ciganjur Jagakarsa, Kahfi Square, Jl. Moh. Kahfi 1 No.36C, Ciganjur, Jagakarsa, South Jakarta City, Jakarta 12630",
     "distance": "8.0 km",
     "city_hint": "Depok",
-    "lat_hint": -6.4025,
-    "lng_hint": 106.7942,
+    "lat_hint": -6.331603,
+    "lng_hint": 106.807861,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ciganjur%20Jagakarsa"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.331603,106.807861"
   },
   {
     "id": "802",
@@ -4753,13 +4753,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Botani Square Mall, Eatery Lantai 2, Jl. Raya Pajajaran No.69-71,Bogor Tengah",
     "distance": "500 m",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.601315,
+    "lng_hint": 106.807271,
     "is_open": true,
     "hours": "10:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Botani%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.601315,106.807271"
   },
   {
     "id": "803",
@@ -4767,13 +4767,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Botani Square Mall, Lantai G, Jl. Raya Pajajaran No.69-71,Bogor Tengah",
     "distance": "500 m",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.601315,
+    "lng_hint": 106.807271,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20Botani%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.601315,106.807271"
   },
   {
     "id": "794",
@@ -4781,13 +4781,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lodaya Bogor, Jl. Lodaya, RT.04/RW.2, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
     "distance": "900 m",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5887994,
+    "lng_hint": 106.8059464,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lodaya%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5887994,106.8059464"
   },
   {
     "id": "805",
@@ -4795,13 +4795,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Pajajaran Bogor, Ground Floor, Jl. Pajajaran, Kel. Baranangsiang, Kec. Bogor Timur, Kota Bogor, Jawa Barat 16143",
     "distance": "1.2 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.6073656,
+    "lng_hint": 106.8098381,
     "is_open": true,
     "hours": "08:00 - 20:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Pajajaran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.6073656,106.8098381"
   },
   {
     "id": "797",
@@ -4809,13 +4809,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pandu Raya Bogor, Jl. Achmad Adnawijaya No.100B, Tegal Gundil, Kec. Bogor Utara, Kota Bogor 16152",
     "distance": "1.9 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5844346,
+    "lng_hint": 106.817036,
     "is_open": true,
     "hours": "08:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pandu%20Raya%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5844346,106.817036"
   },
   {
     "id": "789",
@@ -4823,13 +4823,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kopi Kenangan, Ruko Sudirman Bogor, Jl. Jend. Sudirman No.60, RT.03/RW.05, Sempur, Kota Bogor,",
     "distance": "2.0 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.581866,
+    "lng_hint": 106.796962,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sudirman%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.581866,106.796962"
   },
   {
     "id": "791",
@@ -4837,13 +4837,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina Pertamina 34-16102 Pajajaran Bogor, Jl. Raya Pajajaran No.127 Rt.05/RW10 Bantarjati Kec Bogor Utara",
     "distance": "2.1 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.578666,
+    "lng_hint": 106.8066198,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20DODO%20Pertamina%20Pajajaran%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.578666,106.8066198"
   },
   {
     "id": "807",
@@ -4851,13 +4851,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pahlawan Bogor, Jl. Pahlawan No.150, RT.02/RW.08, Empang, Kec. Bogor Selatan, Kota Bogor, Jawa Barat 16132",
     "distance": "2.1 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.6159307,
+    "lng_hint": 106.8040539,
     "is_open": true,
     "hours": "08:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pahlawan%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.6159307,106.8040539"
   },
   {
     "id": "792",
@@ -4865,13 +4865,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pasirkuda Ciomas, Jl. Aria Surialaga No.4, Pasirkuda, Bogor, Jawa Barat",
     "distance": "2.9 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.6011993,
+    "lng_hint": 106.7796891,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pasirkuda%20Ciomas"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.6011993,106.7796891"
   },
   {
     "id": "811",
@@ -4879,13 +4879,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall Ekalokasari, Jl. Siliwangi No.123, RT.02/RW.01, Sukasari, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16142",
     "distance": "3.0 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.6215796,
+    "lng_hint": 106.8170508,
     "is_open": true,
     "hours": "10:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Ekalokasari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.6215796,106.8170508"
   },
   {
     "id": "814",
@@ -4893,13 +4893,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Bogor, Mountain View Terrace-Right Area, Jl.Summarecon Bogor Boulevard Utama Unit No 9 Type M-02, Sukatani, Kec.Sukaraja, Kab Bogor, Jawa Barat 16710",
     "distance": "4.3 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.61860241,
+    "lng_hint": 106.83867299,
     "is_open": true,
     "hours": "07:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Summarecon%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.61860241,106.83867299"
   },
   {
     "id": "815",
@@ -4907,13 +4907,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tajur Bogor, Jl. Raya Tajur No. 127, RT 04 / RW 05, Tajur, Kec. Bogor Timur, Kota Bogor, Jawa Barat 16141",
     "distance": "4.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.633287,
+    "lng_hint": 106.82578842,
     "is_open": true,
     "hours": "01:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tajur%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.633287,106.82578842"
   },
   {
     "id": "784",
@@ -4921,13 +4921,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34-16715 Kedung Halang (Container), Jl. Raya Pemda No.1 Rt.01/RW.07 Kedung Halang Bogor",
     "distance": "4.8 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5535854,
+    "lng_hint": 106.8075627,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Kedung%20Halang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5535854,106.8075627"
   },
   {
     "id": "782",
@@ -4935,13 +4935,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cilendek Bogor, Jl. Brigjen Saptadji Hadiprawira, Cilendek Barat, Bogor - Jawa Barat",
     "distance": "5.2 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.570662,
+    "lng_hint": 106.767471,
     "is_open": true,
     "hours": "07:30 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cilendek%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.570662,106.767471"
   },
   {
     "id": "779",
@@ -4949,13 +4949,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Transmart Yasmin Bogor, Ground Floor, Jl. KH. Nur Abdul Rohman, Cibadak, Tanah Sereal, Bogor, Jawa Barat - 16166",
     "distance": "5.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.556402,
+    "lng_hint": 106.775424,
     "is_open": true,
     "hours": "09:50 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bogor%20Great%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.556402,106.775424"
   },
   {
     "id": "804",
@@ -4963,13 +4963,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Aeon Mall Sentul City, Unit GF IC-G10, Jl. MH. Thamrin, Citaringgul, Kec. Babakan Madang, Bogor, Jawa Barat 16810",
     "distance": "6.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5675374,
+    "lng_hint": 106.8579871,
     "is_open": true,
     "hours": "10:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=AEON%20Mall%20Sentul%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5675374,106.8579871"
   },
   {
     "id": "776",
@@ -4977,13 +4977,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Dramaga Bogor, Jl. Raya Dramaga Km 7, RT.001 RW.003, Ciherang, Kec. Dramaga, Kabupaten Bogor, Jawa Barat 16680",
     "distance": "7.0 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5726795,
+    "lng_hint": 106.7476387,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Dramaga%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5726795,106.7476387"
   },
   {
     "id": "772",
@@ -4991,13 +4991,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cilebut, Permata Bogor Residence 2 Jalan Pendidikan, Jl. Raya Cilebut Blk. C, Cilebut Bar., Kabupaten Bogor, Jawa Barat",
     "distance": "7.4 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5306837,
+    "lng_hint": 106.7979286,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cilebut"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5306837,106.7979286"
   },
   {
     "id": "773",
@@ -5005,13 +5005,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Cilebut, Cilebut Timur, Sukaraja, Bogor Regency, West Java",
     "distance": "7.4 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.53051,
+    "lng_hint": 106.800461,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Cilebut"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.53051,106.800461"
   },
   {
     "id": "813",
@@ -5019,13 +5019,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Marktlane Sentul, Upper Ground Floor (UG-07), Jl. Pakuan No.3, Sumur Batu, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810",
     "distance": "8.1 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5842248,
+    "lng_hint": 106.8779409,
     "is_open": true,
     "hours": "08:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Marktlane%20Sentul"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5842248,106.8779409"
   },
   {
     "id": "819",
@@ -5033,13 +5033,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Rancamaya, Jl. Mayjen H.R. Edi Sukma, Harjasari, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
     "distance": "8.2 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.66002472,
+    "lng_hint": 106.84534449,
     "is_open": true,
     "hours": "07:30 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Rancamaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.66002472,106.84534449"
   },
   {
     "id": "822",
@@ -5047,13 +5047,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gadog Ciawi, Jl. Raya Puncak - Cianjur No. 27 Gadog",
     "distance": "8.9 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.6551319,
+    "lng_hint": 106.8612388,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gadog%20Ciawi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.6551319,106.8612388"
   },
   {
     "id": "783",
@@ -5061,13 +5061,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl Alternatif Sentul Kelurahan Cijujung, Kecamatan Sukaraja, Kabupaten Bogor, Jawa Barat\nKabupaten Bogor\n16711",
     "distance": "9.3 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.52009,
+    "lng_hint": 106.83878,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20BP%20Alternatif%20Sentul"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.52009,106.83878"
   },
   {
     "id": "787",
@@ -5075,13 +5075,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Babakan Madang Bogor, Jl.Sirkuit Sentul Ruko 3 RT003 RW002 Desa, Sentul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810",
     "distance": "9.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.5267559,
+    "lng_hint": 106.8564214,
     "is_open": true,
     "hours": "08:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Babakan%20Madang%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5267559,106.8564214"
   },
   {
     "id": "824",
@@ -5089,13 +5089,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Cibogo, Jalan Raya Puncak Cibogo, Cipayung Datar, Kec. Megamendung, Bogor, Jawa Barat 16770",
     "distance": "10.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.651051,
+    "lng_hint": 106.885373,
     "is_open": true,
     "hours": "00:10 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Cibogo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.651051,106.885373"
   },
   {
     "id": "745",
@@ -5103,13 +5103,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kemang Bogor, Jl. Raya Parung Bogor, Kemang, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310",
     "distance": "12.0 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.500635,
+    "lng_hint": 106.757314,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kemang%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.500635,106.757314"
   },
   {
     "id": "765",
@@ -5117,13 +5117,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sukahati Cibinong, Jl. Raya Sukahati Cibinong Jawa Barat",
     "distance": "12.2 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.48782965,
+    "lng_hint": 106.81668724,
     "is_open": true,
     "hours": "07:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sukahati%20Cibinong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.48782965,106.81668724"
   },
   {
     "id": "1324",
@@ -5131,13 +5131,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pakansari Bogor, Jl. Gor Pakansari, Pakansari, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16915",
     "distance": "12.4 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4889989,
+    "lng_hint": 106.8345406,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pakansari%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4889989,106.8345406"
   },
   {
     "id": "753",
@@ -5159,13 +5159,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cibinong City Mall, First Floor, IS 1st 11, Jl Tegar Beriman No 1, Cibinong, Bogor, Jawa Barat 16915",
     "distance": "13.2 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4842509,
+    "lng_hint": 106.8421272,
     "is_open": true,
     "hours": "10:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cibinong%20City%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4842509,106.8421272"
   },
   {
     "id": "1381",
@@ -5173,13 +5173,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pahlawan Citereup, Jl. Pahlawan Citereup RT.002/Rw.002, Karangasem Timur, Citereup Kab. Bogor, Jawa Barat 16810",
     "distance": "14.4 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4912274,
+    "lng_hint": 106.8808495,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pahlawan%20Citereup"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4912274,106.8808495"
   },
   {
     "id": "774",
@@ -5187,13 +5187,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 31.169.01 Mayor Oking Cibinong (Container), Jl. Mayor Oking Km.2 Cibinong 16961",
     "distance": "14.6 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4810047,
+    "lng_hint": 106.8672044,
     "is_open": true,
     "hours": "00:01 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Mayor%20Oking%20Cibinong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4810047,106.8672044"
   },
   {
     "id": "762",
@@ -5201,13 +5201,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.169.34 Cikaret Cibinong, Jl. Raya Cikaret No.53, RW.1, Harapan Jaya, Cibinong, Bogor, Jawa Barat 16914",
     "distance": "14.9 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4678879,
+    "lng_hint": 106.8401606,
     "is_open": true,
     "hours": "07:15 - 20:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Cikaret%20Cibinong"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4678879,106.8401606"
   },
   {
     "id": "719",
@@ -5215,13 +5215,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 34-16303 Jampang Parung (Container), Jl. Raya Parung No.2 Rt3/RW5 Jampang Kec. Kemang Jampang Bogor Jawa Barat",
     "distance": "15.4 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.4804514,
+    "lng_hint": 106.7315339,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034-16303%20Jampang%20Parung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.4804514,106.7315339"
   },
   {
     "id": "831",
@@ -5229,13 +5229,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Puncak Bogor, Jl. Raya Puncak - Cianjur No.551, Cisarua, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750",
     "distance": "15.8 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.672301,
+    "lng_hint": 106.927551,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Puncak%20Bogor"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.672301,106.927551"
   },
   {
     "id": "833",
@@ -5243,13 +5243,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cisarua Puncak, Jl. Raya Puncak, Citeko, Cisarua, Bogor, Jawa Barat",
     "distance": "17.0 km",
     "city_hint": "Bogor",
-    "lat_hint": -6.5971,
-    "lng_hint": 106.806,
+    "lat_hint": -6.682379,
+    "lng_hint": 106.934174,
     "is_open": true,
     "hours": "09:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cisarua%20Puncak"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.682379,106.934174"
   },
   {
     "id": "877",
@@ -5257,13 +5257,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Burangrang Bandung, Jl. Burangrang No.1 Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40262",
     "distance": "600 m",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9231389,
+    "lng_hint": 107.6201111,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burangrang%C2%A0Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9231389,107.6201111"
   },
   {
     "id": "874",
@@ -5271,13 +5271,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Banda No.30, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
     "distance": "1.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.906525,
+    "lng_hint": 107.617012,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Graha%20POS%20RE%20Martadinata"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.906525,107.617012"
   },
   {
     "id": "879",
@@ -5285,13 +5285,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.40236 Laswi (Container),Jl.Laswi No 136,Samoja Kec.Batununggal,Kota Bandung Jawa Barat 40273",
     "distance": "1.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9234595,
+    "lng_hint": 107.6278131,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.40236%20Laswi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9234595,107.6278131"
   },
   {
     "id": "873",
@@ -5299,13 +5299,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko JL. Merdeka Bandung (ALVA), Jl. Merdeka No.21, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117",
     "distance": "1.3 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.909574,
+    "lng_hint": 107.610507,
     "is_open": true,
     "hours": "08:00 - 18:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20JL.%20Merdeka%20Bandung%20%28ALVA%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.909574,107.610507"
   },
   {
     "id": "872",
@@ -5313,13 +5313,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bandung Electronic Center, Unit LU S-07, Jl. Purnawarman No.13-15, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117",
     "distance": "1.5 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.908257,
+    "lng_hint": 107.6088796,
     "is_open": true,
     "hours": "00:01 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bandung%20Electronic%20Center"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.908257,107.6088796"
   },
   {
     "id": "875",
@@ -5327,13 +5327,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Yogya Grand Kepatihan,Jl.Kepatihan No.18,Balonggede,Kec.Regol,Kota Bandung,Jawa Barat 40251",
     "distance": "1.6 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9238214,
+    "lng_hint": 107.6061034,
     "is_open": true,
     "hours": "08:15 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Yogya%20Grand%20Kepatihan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9238214,107.6061034"
   },
   {
     "id": "881",
@@ -5341,13 +5341,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Trans Studio Mall Bandung, Jl. Gatot Subroto No.289, Cibangkong, Kec. Batununggal, Kota Bandung, Jawa Barat 40273",
     "distance": "1.9 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.925542,
+    "lng_hint": 107.6340873,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Trans%20Studio%20Mall%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.925542,107.6340873"
   },
   {
     "id": "886",
@@ -5355,13 +5355,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Buah Batu, Jl. Buah Batu No.189, Turangga, Lengkong, Bandung 40265",
     "distance": "2.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.941163,
+    "lng_hint": 107.627076,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Buah%20Batu"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.941163,107.627076"
   },
   {
     "id": "871",
@@ -5369,13 +5369,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Hypersquare, Jl. Pasir Kaliki No.25/27, Kelurahan, Kebon Jeruk, Andir, Bandung City, West Java 40181",
     "distance": "2.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.916069,
+    "lng_hint": 107.593845,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Paskal"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.916069,107.593845"
   },
   {
     "id": "869",
@@ -5383,13 +5383,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pajajaran Bandung, Jl.  Pajajaran No. 74, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat",
     "distance": "2.9 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.90646,
+    "lng_hint": 107.595768,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pajajaran%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.90646,107.595768"
   },
   {
     "id": "868",
@@ -5397,13 +5397,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jalan Cihampelas No. 160, Unit SG-10 & SG-12, Young Street Level, Kel. Cipaganti, Kec. Coblong, Bandung - 40131 (sebelah Mujigae dan Mixue)",
     "distance": "3.0 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8940061,
+    "lng_hint": 107.6051747,
     "is_open": true,
     "hours": "09:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cihampelas%20Walk"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8940061,107.6051747"
   },
   {
     "id": "1308",
@@ -5411,13 +5411,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ibrahim Adjie Bandung, Jl. Ibrahim Adjie No. 312, Kel. Binong, Kec. Batununggal, Kota Bandung, Jawa Barat 40275",
     "distance": "3.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9342404,
+    "lng_hint": 107.6424937,
     "is_open": true,
     "hours": "00:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ibrahim%20Adjie%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9342404,107.6424937"
   },
   {
     "id": "867",
@@ -5425,13 +5425,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rsup hasan sadikin bandung",
     "distance": "3.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8982005,
+    "lng_hint": 107.5982016,
     "is_open": true,
     "hours": "06:00 - 17:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RSUP%20Dr%20Hasan%20Sadikin%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8982005,107.5982016"
   },
   {
     "id": "882",
@@ -5439,13 +5439,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Antapani, Jalan Terusan Jakarta No.95c Kecamatan Antapani, Kota Bandung 40291",
     "distance": "3.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9125087,
+    "lng_hint": 107.6527203,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Antapani"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9125087,107.6527203"
   },
   {
     "id": "885",
@@ -5453,13 +5453,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "M Toha Bandung, Jl. Moch. Toha No 292 Rt 05 Rw 03 Kel. Karasak, Kec. Astanaanyar, Kota Bandung, Jawa Barat 40243",
     "distance": "4.0 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.952868,
+    "lng_hint": 107.610743,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=M%20Toha%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.952868,107.610743"
   },
   {
     "id": "866",
@@ -5467,13 +5467,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Paris Van Java, Unit CL-A, Jl. Sukajadi No.131-139, Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
     "distance": "4.0 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.889724,
+    "lng_hint": 107.595863,
     "is_open": true,
     "hours": "09:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Paris%20Van%20Java"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.889724,107.595863"
   },
   {
     "id": "865",
@@ -5481,13 +5481,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Djunjunan Pasteur Bandung (DT), Jl. Dr. Djunjunan No.126 - 128, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat",
     "distance": "4.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8949843,
+    "lng_hint": 107.5887674,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Djunjunan%20Pasteur%20Bandung%20%28Drive%20Thru%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8949843,107.5887674"
   },
   {
     "id": "888",
@@ -5495,13 +5495,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Batununggal Bandung, Jl. Batununggal Indah Raya No.150-Bandung, Kecamatan Bandung Kidul Jawa Barat 40266",
     "distance": "4.3 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9546759,
+    "lng_hint": 107.6297312,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Batununggal%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9546759,107.6297312"
   },
   {
     "id": "864",
@@ -5509,13 +5509,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Toserba Yogya (Ciumbuleuit), Lantai 1, Jl. Ciumbuleuit No.147, Hegarmanah, Kec. Cidadap, Kota Bandung, Jawa Barat 40141",
     "distance": "4.9 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8758588,
+    "lng_hint": 107.6041449,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Toserba%20Yogya%20%28Ciumbuleuit%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8758588,107.6041449"
   },
   {
     "id": "889",
@@ -5523,13 +5523,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Metro Indah Mall, Soekarno-Hatta St No.590, Sekejati, Buahbatu, Bandung City, West Java 40286",
     "distance": "5.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9420098,
+    "lng_hint": 107.6587398,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Metro%20Indah%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9420098,107.6587398"
   },
   {
     "id": "880",
@@ -5537,13 +5537,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cibaduyut, Jl Cibaduyut Raya No 142, Cibaduyut, Kec. Bojongloa Kidul, Bandung, Jawa Barat 40236",
     "distance": "5.2 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.956145,
+    "lng_hint": 107.5931136,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cibaduyut"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.956145,107.5931136"
   },
   {
     "id": "883",
@@ -5551,13 +5551,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cikadut, Jl. AH. Nasution (Sindanglaya), Jatihandap, Kec. Mandalajati, Kota Bandung, Jawa Barat 4029",
     "distance": "5.3 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.903853,
+    "lng_hint": 107.664987,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cikadut"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.903853,107.664987"
   },
   {
     "id": "863",
@@ -5565,13 +5565,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Surya Sumantri, Jl. Surya Sumantri No.68, Sukagali, Sukajadi, Bandung 40164",
     "distance": "5.4 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.886703,
+    "lng_hint": 107.581477,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Surya%20Sumantri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.886703,107.581477"
   },
   {
     "id": "891",
@@ -5579,13 +5579,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Margacinta,Jl.Margacinta no.99,Mustika Hegar Regency Ruko Barat No.9,Margasari,Kec.Buah Batu,Kota Bandung Jawa Barat 40286",
     "distance": "5.5 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9553716,
+    "lng_hint": 107.6514117,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Margacinta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9553716,107.6514117"
   },
   {
     "id": "1309",
@@ -5593,13 +5593,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Arcamanik Bandung, Jl. Golf Barat Raya No. 33 RT 005 RW 012, Kel. Sukamiskin, Kec. Arcamanik, Kota Bandung, Jawa Barat 40293",
     "distance": "5.7 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9174872,
+    "lng_hint": 107.6708063,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Arcamanik%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9174872,107.6708063"
   },
   {
     "id": "892",
@@ -5607,13 +5607,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Transmart Buah Batu Square Bandung, Ground Floor, Jl. Raya Bojongsoang No. 321, Cipagalo, Bojongsoang, Bandung, Jawa Barat - 40287",
     "distance": "5.9 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9669417,
+    "lng_hint": 107.6384683,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Transmart%20Buah%20Batu%20Square%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9669417,107.6384683"
   },
   {
     "id": "862",
@@ -5621,13 +5621,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "JL, Dr. Setiabudi No.192 Hegarmanah Kec. Cidadap, Kota Bandung - Jawa Barat 40152",
     "distance": "6.1 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8690636,
+    "lng_hint": 107.5936744,
     "is_open": true,
     "hours": "07:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jalan%20Setia%20Budi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8690636,107.5936744"
   },
   {
     "id": "895",
@@ -5635,13 +5635,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bojongsoang Bandung, Jl. Raya Bojongsoang No. 150 Rt 04, Rw 01, Lengkong, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40287",
     "distance": "6.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9760312,
+    "lng_hint": 107.6353339,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bojongsoang%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9760312,107.6353339"
   },
   {
     "id": "878",
@@ -5649,13 +5649,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kopo Bihbul, Jl. Kopo Bihbul, Margahayu Tengah, Kec. Margahayu, Kab. Bandung, Jawa Barat 40228",
     "distance": "6.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.962557,
+    "lng_hint": 107.578,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kopo%20Bihbul"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.962557,107.578"
   },
   {
     "id": "861",
@@ -5663,13 +5663,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.40502 Kota Cimahi, Jl. Jend. H. Amir Machmud No.294, Cibabat, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40513",
     "distance": "7.7 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8885496,
+    "lng_hint": 107.5559073,
     "is_open": true,
     "hours": "06:10 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.40502%20Kota%20Cimahi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8885496,107.5559073"
   },
   {
     "id": "876",
@@ -5677,13 +5677,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Kopo Indah 2, Jl. Taman Kopo Indah I , Margahayu Sel., Kec. Margaasih, Bandung, Jawa Barat 40218",
     "distance": "8.1 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9633206,
+    "lng_hint": 107.5625829,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Kopo%20Indah%202"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9633206,107.5625829"
   },
   {
     "id": "1339",
@@ -5691,13 +5691,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cibabat Cimahi, Jl. Jend. H. Amir Machmud No. 110, RT. 001 RW.1, Kel. Cibabat, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40513",
     "distance": "8.4 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8821544,
+    "lng_hint": 107.5520906,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cibabat%20Cimahi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8821544,107.5520906"
   },
   {
     "id": "890",
@@ -5705,13 +5705,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ubertos, Ujung Berung Town Square, GF-26B, Jl. A. H. Nasution No. 46A, Pakemitan, Kec. Ujung Berung, Kota Bandung, Jawa Barat 40611",
     "distance": "8.6 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.915556,
+    "lng_hint": 107.69674,
     "is_open": true,
     "hours": "10:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ubertos%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.915556,107.69674"
   },
   {
     "id": "894",
@@ -5719,13 +5719,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ujung Berung Bandung, Jl. AH. Nasution No. 198, Kel. Pasanggrahan, Kec. Ujung Berung, Kota Bandung, Jawa Barat 40617",
     "distance": "9.4 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.91518545,
+    "lng_hint": 107.70389557,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ujung%20Berung%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.91518545,107.70389557"
   },
   {
     "id": "898",
@@ -5733,13 +5733,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Mall Bandung Signature, Summarecon Mall Lantai Dasar Unit DGF 801 & DGF 801 O, Jl Boulevard  Utama, Cisaranten Kidul, Gedebage, Kota Bandung, Jawa Barat 40295",
     "distance": "9.6 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9541018,
+    "lng_hint": 107.6983088,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20SMB"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9541018,107.6983088"
   },
   {
     "id": "897",
@@ -5747,13 +5747,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Summarecon Mall Bandung Island, Summarecon Mall Lantai  1F - IC 807, Jl Boulevard  Utama, Cisaranten Kidul, Gedebage, Kota Bandung, Jawa Barat 40295",
     "distance": "9.6 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.9541928,
+    "lng_hint": 107.6979498,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Summarecon%20Mall%20Bandung%20Island"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9541928,107.6979498"
   },
   {
     "id": "1304",
@@ -5761,13 +5761,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Baleendah Kab. Bandung, Jl. Jaksa Naranata No. 165 Rt 08 Rw 10, Kel. Baleendah, Kec. Baleendah, Kab. Bandung, Jawa Barat 40375",
     "distance": "9.8 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -7.004541,
+    "lng_hint": 107.632126,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Baleendah%20Kab.%20Bandung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.004541,107.632126"
   },
   {
     "id": "896",
@@ -5775,13 +5775,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 34.40316 Baleendah, Jl. Raya Banjaran, Andir, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
     "distance": "9.9 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -7.0061461,
+    "lng_hint": 107.6147333,
     "is_open": true,
     "hours": "08:00 - 22:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2034.40316%20Baleendah"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0061461,107.6147333"
   },
   {
     "id": "859",
@@ -5789,13 +5789,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Padasuka Cimahi, Jl. Jend. H. Amir Machmud No.462, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40525",
     "distance": "10.7 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.8697304,
+    "lng_hint": 107.5350181,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Padasuka%20Cimahi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8697304,107.5350181"
   },
   {
     "id": "884",
@@ -5803,13 +5803,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Katapang Soreang, Jl. Terusan Kopo No.square, Pangauban, Kec. Katapang, Kabupaten Bandung",
     "distance": "11.4 km",
     "city_hint": "Bandung",
-    "lat_hint": -6.9175,
-    "lng_hint": 107.6191,
+    "lat_hint": -6.997443,
+    "lng_hint": 107.5542541,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Katapang%20Soreang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.997443,107.5542541"
   },
   {
     "id": "1091",
@@ -5817,13 +5817,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ambengan Surabaya, Jl. Ambengan, Ketabang, Surabaya Selatan, Surabaya, Jawa Timur 60179",
     "distance": "300 m",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.255728,
+    "lng_hint": 112.749807,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ambengan%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.255728,112.749807"
   },
   {
     "id": "1097",
@@ -5831,13 +5831,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Gubeng Surabaya, Pacar Keling, Kec. Tambaksari, Kota Surabaya, Jawa Timur 60131",
     "distance": "900 m",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2656925,
+    "lng_hint": 112.7519859,
     "is_open": true,
     "hours": "06:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Gubeng%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2656925,112.7519859"
   },
   {
     "id": "1093",
@@ -5845,13 +5845,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP Pemuda, Jl. Pemuda No 72 RT 001 RW 03 Embong Kaliasin, Genteng, Surabaya, 60271",
     "distance": "1.0 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2652438,
+    "lng_hint": 112.7474491,
     "is_open": true,
     "hours": "06:00 - 22:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Pemuda%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2652438,112.7474491"
   },
   {
     "id": "1088",
@@ -5859,13 +5859,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tunjungan Plaza 3, Lantai 5, Jl. Basuki Rahmat No.107, Tegalsari, Surabaya, 60261",
     "distance": "1.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2634859,
+    "lng_hint": 112.7396328,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tunjungan%20Plaza%203"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2634859,112.7396328"
   },
   {
     "id": "1085",
@@ -5873,13 +5873,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP Embong Malang (DT), Jl. Embong Malang, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261",
     "distance": "1.7 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2598639,
+    "lng_hint": 112.7365209,
     "is_open": true,
     "hours": "06:20 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Embong%20Malang%20%28DT%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2598639,112.7365209"
   },
   {
     "id": "1103",
@@ -5887,13 +5887,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dharmahusada Surabaya, Jl. Dharmahusada 72-58, Mojo, Kec. Gubeng, Kota SBY, Jawa Timur 60285",
     "distance": "1.7 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2659668,
+    "lng_hint": 112.7644233,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dharmahusada%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2659668,112.7644233"
   },
   {
     "id": "1092",
@@ -5901,13 +5901,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 54.601.42 Kenjeran Surabaya, Jl. Kenjeran No.118, Tambakrejo, Kec. Simokerto, Kota SBY, Jawa Timur 60142",
     "distance": "1.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2430023,
+    "lng_hint": 112.7594378,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.601.42%20Kenjeran%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2430023,112.7594378"
   },
   {
     "id": "1082",
@@ -5915,13 +5915,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pasar Atom , Lantai 1 tahap 3 Jl.Bunguran No.45,Pabean Cantian,Surabaya, Jawa Timur - 60161",
     "distance": "2.0 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2417535,
+    "lng_hint": 112.743908,
     "is_open": true,
     "hours": "10:00 - 17:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pasar%20Atom%20%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2417535,112.743908"
   },
   {
     "id": "1081",
@@ -5929,13 +5929,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BG JUNCTION, Lobby Level - C42, C55, Jl. Bubutan No 1-7 Surabaya 60174",
     "distance": "2.1 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.254575,
+    "lng_hint": 112.733299,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BG%20Junction"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.254575,112.733299"
   },
   {
     "id": "1100",
@@ -5943,13 +5943,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sulawesi Surabaya, PPFX+4P2, Jl. Sulawesi, Ngagel, Kec. Wonokromo, Surabaya, Jawa Timur 60281",
     "distance": "2.2 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.27731576,
+    "lng_hint": 112.74961168,
     "is_open": true,
     "hours": "00:05 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sulawesi%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.27731576,112.74961168"
   },
   {
     "id": "1077",
@@ -5957,13 +5957,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Pasar Turi, Jl. Semarang No.1, Tembok Dukuh, Kec. Bubutan, Kota SBY, Jawa Timur 60173",
     "distance": "2.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2484326,
+    "lng_hint": 112.7311239,
     "is_open": true,
     "hours": "05:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Pasar%20Turi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2484326,112.7311239"
   },
   {
     "id": "1105",
@@ -5971,13 +5971,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pucang Anom Surabaya, PQ94+89P, Kertajaya, Gubeng, Surabaya, East Java 60282",
     "distance": "2.7 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2817657,
+    "lng_hint": 112.7559521,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pucang%20Anom%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2817657,112.7559521"
   },
   {
     "id": "1110",
@@ -5985,13 +5985,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "\"Ruko Manyar Surabaya, Jl. Manyar Kertoarjo, 33, Mojo, Kec. Gubeng\nKota Surabaya, Jawa Timur 60285 \"",
     "distance": "3.0 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2796225,
+    "lng_hint": 112.7673603,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Manyar%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2796225,112.7673603"
   },
   {
     "id": "1119",
@@ -5999,13 +5999,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mulyorejo Surabaya, Jl. Dr. Ir. H. Soekarno No.196, Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60115",
     "distance": "3.6 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2708995,
+    "lng_hint": 112.7817246,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Raya%20Galaxy"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2708995,112.7817246"
   },
   {
     "id": "1070",
@@ -6013,13 +6013,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Shell Dupak, Jl. Dupak No. 81, Gundih, Kec. Bubutan, Kota SBY, Jawa Timur 60172",
     "distance": "3.6 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2456463,
+    "lng_hint": 112.7213691,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Shell%20Dupak"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2456463,112.7213691"
   },
   {
     "id": "1076",
@@ -6027,13 +6027,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Iskandar Muda Surabaya, Jl. Sultan Iskandar Muda 37-45, Ampel, Kec. Semampir, Kota SBY, Jawa Timur 60151",
     "distance": "3.7 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.225388,
+    "lng_hint": 112.744752,
     "is_open": true,
     "hours": "06:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Iskandar%20Muda%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.225388,112.744752"
   },
   {
     "id": "1120",
@@ -6041,13 +6041,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Galaxy Mall 3, Lt Dasar No G-343B, Jl. Dr. Ir. H. Soekarno, Mulyorejo, Kec. Mulyorejo, Kota SBY, Jawa Timur 60115",
     "distance": "3.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2769844,
+    "lng_hint": 112.779858,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20Galaxy%20Mall%203"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2769844,112.779858"
   },
   {
     "id": "1094",
@@ -6055,13 +6055,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Diponegoro Darmo Surabaya, Jl. Diponegoro No.129A, RT.011/RW.01, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241",
     "distance": "3.9 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.288008,
+    "lng_hint": 112.734825,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Diponegoro%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.288008,112.734825"
   },
   {
     "id": "1069",
@@ -6069,13 +6069,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Perak Surabaya, Jl. Perak Timur No.100, Perak Tim., Kec. Pabean Cantikan, Surabaya, Jawa Timur 60177",
     "distance": "4.1 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2266542,
+    "lng_hint": 112.7311733,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Perak%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2266542,112.7311733"
   },
   {
     "id": "1113",
@@ -6083,13 +6083,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ngagel, Jl. Ngagel Jaya Selatan Blok B, Baratajaya, Gubeng, Surabaya, Jawa Timur, 60284",
     "distance": "4.1 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.293817,
+    "lng_hint": 112.760666,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ngagel"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.293817,112.760666"
   },
   {
     "id": "1124",
@@ -6097,13 +6097,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP Kertajaya Indah, Jl. Raya Kertajaya Indah, Manyar Sabrangan, Kec. Mulyorejo, Surabaya, Jawa Timur - 60117",
     "distance": "4.4 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.280808,
+    "lng_hint": 112.784008,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Kertajaya%20Indah"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.280808,112.784008"
   },
   {
     "id": "1116",
@@ -6111,13 +6111,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 54.60.115 Sutorejo (Container), Jl. Kenjeran No.661, Dukuh Sutorejo, Kec. Mulyorejo, Kota SBY, Jawa Timur 60134",
     "distance": "4.4 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.251545,
+    "lng_hint": 112.7916959,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.60.115%20Sutorejo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.251545,112.7916959"
   },
   {
     "id": "1101",
@@ -6125,13 +6125,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Ngagel No.185, Ngagel, Kec. Wonokromo, Kota SBY, Jawa Timur 60246",
     "distance": "4.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.296757,
+    "lng_hint": 112.74234,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Ngagel%29%20%28Drive%20Thru%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.296757,112.74234"
   },
   {
     "id": "1098",
@@ -6139,13 +6139,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Adityawarman Surabaya, Unit No.1 Jl. Adityawarman No.22-24 Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60242",
     "distance": "4.7 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2947833,
+    "lng_hint": 112.732812,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Adityawarman%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2947833,112.732812"
   },
   {
     "id": "1123",
@@ -6153,13 +6153,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mulyosari Surabaya, Jl Mulyosari No 76G Kec. Mulyorejo, Kel. Kalisari, Surabaya 60112",
     "distance": "4.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2617734,
+    "lng_hint": 112.7952625,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mulyosari%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2617734,112.7952625"
   },
   {
     "id": "1087",
@@ -6167,13 +6167,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ciputra World Surabaya, LG, Jl. Mayjen Sungkono No. 89, Gunung Sari, Dukuhpakis, Surabaya, Jawa Timur - 60224",
     "distance": "5.4 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2929392,
+    "lng_hint": 112.719083,
     "is_open": true,
     "hours": "08:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciputra%20World%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2929392,112.719083"
   },
   {
     "id": "1345",
@@ -6181,13 +6181,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bendul Merisi Surabaya, Jl. Bendul Merisi No.56, Bendul Merisi, Kec. Wonokromo, Surabaya, Jawa Timur 60244",
     "distance": "5.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.3059116,
+    "lng_hint": 112.741778,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bendul%20Merisi%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3059116,112.741778"
   },
   {
     "id": "1074",
@@ -6195,13 +6195,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kupang Jaya Surabaya, Jl. Kupang Jaya, Simomulyo, Kec. Sukomanunggal, Surabaya, Jawa Timur 60189",
     "distance": "5.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.275892,
+    "lng_hint": 112.7061364,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kupang%20Jaya%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.275892,112.7061364"
   },
   {
     "id": "1068",
@@ -6209,13 +6209,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rs. PHC Surabaya (Container), Jl. Prapat Kurung Selatan No.1, Perak Utara, Kec. Pabean Cantian, Kota SBY, Jawa Timur 60165",
     "distance": "5.6 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2095703,
+    "lng_hint": 112.7359398,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rs.%20PHC%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2095703,112.7359398"
   },
   {
     "id": "1127",
@@ -6223,13 +6223,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 54.60264 Panjang Jiwo Surabaya (Container), Jl. Panjang Jiwo No.54 Panjang Jiwo, Kecamatan Tenggilis Mejoyo Kota Surabaya Jawa Timur 60299",
     "distance": "5.9 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.3086147,
+    "lng_hint": 112.767987,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Panjang%20Jiwo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3086147,112.767987"
   },
   {
     "id": "1132",
@@ -6237,13 +6237,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Avenue A-6 (MERR Surabaya),Jl. Dr. Ir. H. Soekarno No.18-21, Semolowaru, Kec. Sukolilo, Kota SBY, Jawa Timur 60119",
     "distance": "5.9 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.30213,
+    "lng_hint": 112.7813304,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Avenue%20A-6%20%28MERR%20Surabaya%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.30213,112.7813304"
   },
   {
     "id": "1130",
@@ -6251,13 +6251,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko San Antonio Surabaya, PRM3+QVR, Jl. Kalisari Utara I, Kalisari, Kec. Mulyorejo, Surabaya, Jawa Timur 60112",
     "distance": "5.9 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2655318,
+    "lng_hint": 112.8046879,
     "is_open": true,
     "hours": "06:00 - 22:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2655318,112.8046879"
   },
   {
     "id": "1102",
@@ -6265,13 +6265,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Royal Plaza Surabaya, LG, Jl. Ahmad Yani No. 16-18, Ketintang, Gayungan, Surabaya, Jawa Timur - 60231",
     "distance": "6.1 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.3092503,
+    "lng_hint": 112.7339263,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Royal%20Plaza%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3092503,112.7339263"
   },
   {
     "id": "1079",
@@ -6279,13 +6279,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lagoon Avenue Sungkono, GF, Jl. Abdul Wahab Siamin Kav. 9-10, Dukuh Kupang, Dukuh Pakis, Surabaya, Jawa Timur - 60225.",
     "distance": "6.2 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.289148,
+    "lng_hint": 112.7061338,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lagoon%20Avenue%20Sungkono"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.289148,112.7061338"
   },
   {
     "id": "1133",
@@ -6293,13 +6293,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pakuwon City Mall, GF, Jl. Raya Laguna KJW Putih Tambak No.2, Kejawaan Putih Tamba, Mulyorejo, Surabaya, Jawa Timur, 60112",
     "distance": "6.3 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2770039,
+    "lng_hint": 112.8060192,
     "is_open": true,
     "hours": "10:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20Pakuwon%20City%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2770039,112.8060192"
   },
   {
     "id": "1065",
@@ -6307,13 +6307,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Satelit Utara Surabaya, PMPV+7JP, Jl. Raya Satelit Utara, Tanjungsari, Kec. Sukomanunggal, Surabaya, Jawa Timur 60187",
     "distance": "6.4 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.26427091,
+    "lng_hint": 112.69408373,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Satelit%20Utara%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.26427091,112.69408373"
   },
   {
     "id": "1350",
@@ -6321,13 +6321,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ketintang UNESA, Ketintang, Unesa Ketintang, Surabaya, East Java",
     "distance": "6.5 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.311071,
+    "lng_hint": 112.729566,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ketintang%20UNESA"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.311071,112.729566"
   },
   {
     "id": "1107",
@@ -6335,13 +6335,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Ahmad Yani, Kec. Wonocolo, Surabaya, Jawa Timur 60238",
     "distance": "6.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.3162873,
+    "lng_hint": 112.7344237,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ahmad%20Yani%20Surabaya%20%28Drive%20Thru%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3162873,112.7344237"
   },
   {
     "id": "1112",
@@ -6349,13 +6349,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "BP Margorejo, Jl. Margorejo Indah No.237, Margorejo, Kec. Wonocolo, Kota SBY, Jawa Timur 60238",
     "distance": "6.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.3179316,
+    "lng_hint": 112.7433425,
     "is_open": true,
     "hours": "06:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=BP%20Margorejo%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3179316,112.7433425"
   },
   {
     "id": "1072",
@@ -6363,13 +6363,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko HR Muhammad Surabaya, Jl. Mayjen HR. Muhammad No.28, Manukan Kulon, Kec. Benowo, Surabaya, Jawa Timur 60189",
     "distance": "6.8 km",
     "city_hint": "Surabaya",
-    "lat_hint": -7.2575,
-    "lng_hint": 112.7521,
+    "lat_hint": -7.2855244,
+    "lng_hint": 112.6968994,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20HR%20Muhammad%20Surabaya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.2855244,112.6968994"
   },
   {
     "id": "962",
@@ -6377,13 +6377,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Queen City Semarang, Lt GF Main Lobby, Jl. Pemuda No.29, Pandansari, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139",
     "distance": "800 m",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9732993,
+    "lng_hint": 110.420381,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Queen%20City%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9732993,110.420381"
   },
   {
     "id": "967",
@@ -6391,13 +6391,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gajah Mada Semarang, Jl. Gajahmada No 72 C, Bangunharjo, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50133",
     "distance": "1.2 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.977142,
+    "lng_hint": 110.420814,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gajah%20Mada%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.977142,110.420814"
   },
   {
     "id": "960",
@@ -6405,13 +6405,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Telagamas Semarang, Jl. Telaga Mas Raya No.12A, Panggung Lor, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50176",
     "distance": "1.2 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.95923973,
+    "lng_hint": 110.408576,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Telagamas%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.95923973,110.408576"
   },
   {
     "id": "963",
@@ -6419,13 +6419,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Tawang, Jl. Taman Tawang No.1, Tj. Mas, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50211",
     "distance": "1.2 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9649799,
+    "lng_hint": 110.4274162,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Tawang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9649799,110.4274162"
   },
   {
     "id": "964",
@@ -6433,13 +6433,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Paragon Mall Semarang, Lantai 3, Jl. Pemuda No.118, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132",
     "distance": "1.4 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9789586,
+    "lng_hint": 110.4158845,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Paragon%20Mall%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9789586,110.4158845"
   },
   {
     "id": "965",
@@ -6447,13 +6447,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "DP Mall, Lantai 1, Jl. Pemuda No.150, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132",
     "distance": "1.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9835241,
+    "lng_hint": 110.4123373,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=DP%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9835241,110.4123373"
   },
   {
     "id": "969",
@@ -6461,13 +6461,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mall Ciputra Semarang, Unit GF, EMT 17, Jl. Simpang Lima No.70, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50134",
     "distance": "2.6 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.988879,
+    "lng_hint": 110.423566,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mall%20Ciputra%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.988879,110.423566"
   },
   {
     "id": "970",
@@ -6475,13 +6475,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SIM Square, IL 03, Jl. Kh Ahmad Dahlan No.39, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136",
     "distance": "2.6 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9878277,
+    "lng_hint": 110.4268847,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SIM%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9878277,110.4268847"
   },
   {
     "id": "959",
@@ -6489,13 +6489,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Anjasmoro Semarang, Jl. Anjasmoro Raya No. 44, Karangayu, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50149",
     "distance": "3.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.977371,
+    "lng_hint": 110.390868,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Anjasmoro%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.977371,110.390868"
   },
   {
     "id": "971",
@@ -6503,13 +6503,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ahmad Yani Semarang, Jl. Ahmad Yani No.168, Karangkidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50241",
     "distance": "3.3 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9932952,
+    "lng_hint": 110.4301247,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ahmad%20Yani%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9932952,110.4301247"
   },
   {
     "id": "968",
@@ -6517,13 +6517,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gedung KAI Veteran, Jl. Veteran No.4, Bendungan, Kec. Gajahmungkur, Kota Semarang, Jawa Tengah 50231, Indonesia",
     "distance": "3.3 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9958576,
+    "lng_hint": 110.4103758,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gedung%20KAI%20Veteran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9958576,110.4103758"
   },
   {
     "id": "961",
@@ -6531,13 +6531,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 44.501.19, Pamularsih (Container),Jl.Pamularsih raya No.50 Salamanmloyo kec.Semarang Baru,Kota Semarang  Jawa Tengah 50149",
     "distance": "3.5 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9887837,
+    "lng_hint": 110.3939472,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2044.501.19%20Pamularsih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9887837,110.3939472"
   },
   {
     "id": "957",
@@ -6545,13 +6545,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bandara Ahmad Yani Semarang, Jl Puad A Yani Bandara Ahmad Yani Semarang 5014",
     "distance": "4.6 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9663185,
+    "lng_hint": 110.374923,
     "is_open": true,
     "hours": "05:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Terminal%20Keberangkatan%20Bandara%20Ahmad%20Yani%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9663185,110.374923"
   },
   {
     "id": "973",
@@ -6559,13 +6559,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tlogosari Semarang, Jl. Tlogosari Raya II No.47, Tlogosari Kulon, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50196Ruko Tlogosari Semarang",
     "distance": "5.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9822849,
+    "lng_hint": 110.4602432,
     "is_open": true,
     "hours": "08:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tlogosari%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9822849,110.4602432"
   },
   {
     "id": "1311",
@@ -6573,13 +6573,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sultan Agung Semarang, Jl. Sultan Agung No.102, Wonotingal, Kec. Candisari, Kota Semarang, Jawa Tengah 50252",
     "distance": "5.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0126784,
+    "lng_hint": 110.416992,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultan%20Agung%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0126784,110.416992"
   },
   {
     "id": "974",
@@ -6587,13 +6587,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tentara Pelajar Semarang, Jl. Tentara Pelajar No.73, Jomblang, Kec. Candisari, Kota Semarang, Jawa Tengah 50256",
     "distance": "5.3 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.00975039,
+    "lng_hint": 110.43769354,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tentara%20Pelajar%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.00975039,110.43769354"
   },
   {
     "id": "972",
@@ -6601,13 +6601,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 41.502.02 Kaliwiru, Jl. Sisingamangaraja, Kaliwiru, Kec. Candisari, Kota Semarang, Jawa Tengah 50253",
     "distance": "5.5 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0158429,
+    "lng_hint": 110.418848,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2041.502.02%20Kaliwiru"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0158429,110.418848"
   },
   {
     "id": "966",
@@ -6615,13 +6615,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Menoreh Semarang, Jl. Menoreh Raya No. 67, Sampangan, Kec. Gajahmungkur, Semarang, Jawa Tengah 50232",
     "distance": "5.7 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0116677,
+    "lng_hint": 110.3910344,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Menoreh%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0116677,110.3910344"
   },
   {
     "id": "976",
@@ -6629,13 +6629,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Majapahit  No 324 F Semarang (Container)",
     "distance": "7.0 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.00858,
+    "lng_hint": 110.464176,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jl.%20Majapahit%20No.%20324%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.00858,110.464176"
   },
   {
     "id": "978",
@@ -6643,13 +6643,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kedungmundu Semarang,Jl.Sambiroto Raya 58 E 58 F Sambiroto,Kec.Tembalang,Kota Semarang Jawa Tengah  50276",
     "distance": "8.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0252773,
+    "lng_hint": 110.4596743,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kedungmundu%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0252773,110.4596743"
   },
   {
     "id": "979",
@@ -6657,13 +6657,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Citra Grand Semarang, Sambiroto, Semarang City, Central Java",
     "distance": "9.0 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0373453,
+    "lng_hint": 110.4556534,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Citra%20Grand%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0373453,110.4556534"
   },
   {
     "id": "956",
@@ -6671,13 +6671,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ngaliyan, Ruko Komplek Citandel No.B, Ngalian, Semarang, Jawa Tengah 50184",
     "distance": "9.2 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0010211,
+    "lng_hint": 110.3410537,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ngaliyan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0010211,110.3410537"
   },
   {
     "id": "975",
@@ -6685,13 +6685,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Banyumanik Semarang, Jl. Ngesrep Tim. V No.79, Sumurboto, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50269",
     "distance": "9.5 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0515677,
+    "lng_hint": 110.4263656,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Banyumanik%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0515677,110.4263656"
   },
   {
     "id": "977",
@@ -6699,13 +6699,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tembalang Semarang, Jl. Tembalang Baru No.11, Tembalang, Kec. Tembalang, Kota Semarang, Jawa Tengah 50275",
     "distance": "10.0 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.054969,
+    "lng_hint": 110.434509,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tembalang%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.054969,110.434509"
   },
   {
     "id": "982",
@@ -6713,13 +6713,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area 429, Tol Bawen km 22, Kalianyar, Kalirejo, Kec. Ungaran Tim., Semarang, Jawa Tengah 50515",
     "distance": "18.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.1291477,
+    "lng_hint": 110.4243994,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20Km%20429%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.1291477,110.4243994"
   },
   {
     "id": "981",
@@ -6727,13 +6727,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko A. Yani Ungaran Semarang, Jl. Ahmad Yani, Putotan, Sidomulyo, Kec. Ungaran Tim., Kabupaten Semarang,  Jawa Tengah 50514",
     "distance": "18.8 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.1355926,
+    "lng_hint": 110.409524,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20A.%20Yani%20Ungaran%20Semarang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.1355926,110.409524"
   },
   {
     "id": "983",
@@ -6741,13 +6741,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pemuda Demak, Jl. Pemuda No. 74 RT 001 / RW 006, Petengan Selatan, Kel. Bintoro, Kec. Demak, Kab. Demak, Jawa Tengah 59511",
     "distance": "25.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.8900953,
+    "lng_hint": 110.6385766,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pemuda%20Demak"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8900953,110.6385766"
   },
   {
     "id": "989",
@@ -6755,13 +6755,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kartini Salatiga, Jl. Kartini No. 34, Salatiga, Kec. Siderejo, Kota Salatiga, Jawa Tengah 50711",
     "distance": "40.8 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.3245456,
+    "lng_hint": 110.4987153,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kartini%20Salatiga"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3245456,110.4987153"
   },
   {
     "id": "990",
@@ -6769,13 +6769,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kaloka Patimura Salatiga, Jl. Patimura, Salatiga, Kec. Sidorejo Kota Salatiga, Jawa Tengah 50711",
     "distance": "40.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.324219,
+    "lng_hint": 110.504836,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kaloka%20Patimura%20Salatiga"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.324219,110.504836"
   },
   {
     "id": "993",
@@ -6783,13 +6783,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Resta 456, Resta Pendopo 456, Rest Area KM 456 Tol Semarang-Solo, Baok, Ujung-Ujung, Kec. Pabelan, Semarang, Jawa Tengah 50771",
     "distance": "41.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.3265197,
+    "lng_hint": 110.5303848,
     "is_open": true,
     "hours": "06:10 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20Pendopo%20B%20%28KM%20456%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3265197,110.5303848"
   },
   {
     "id": "991",
@@ -6797,13 +6797,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 44.507.06 Veteran Salatiga, Jl. Veteran No.135, Tegalrejo, Kec. Argomulyo, Kota Salatiga, Jawa Tengah 50733",
     "distance": "42.3 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.3378874,
+    "lng_hint": 110.4989762,
     "is_open": true,
     "hours": "07:25 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Pasar%20Sapi%20Veteran%20Salatiga"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3378874,110.4989762"
   },
   {
     "id": "980",
@@ -6811,13 +6811,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Margoyoso Jepara, Jl. Raya Jepara - Kudus No.KM. 18, RT.02/RW.01, Rw. I, Kriyan, Kec. Kalinyamatan, Kabupaten Jepara, Jawa Tengah 59467",
     "distance": "42.7 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.7295903,
+    "lng_hint": 110.7206825,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Margoyoso%20Jepara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.7295903,110.7206825"
   },
   {
     "id": "953",
@@ -6825,13 +6825,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area Km 379A (Container), Jl. Tol Semarang - Batang No.Km 379 A, Plelen Lor, Plelen, Kec. Gringsing, Kabupaten Batang, Jawa Tengah 51281",
     "distance": "44.4 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9579134,
+    "lng_hint": 110.0145454,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20Km%20379A%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9579134,110.0145454"
   },
   {
     "id": "1305",
@@ -6839,13 +6839,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Diponegoro Temanggung, Jl. Diponegoro No. 27, Gendongan, Temanggung I, Temanggung Regency,Central Java",
     "distance": "46.7 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.314553,
+    "lng_hint": 110.178751,
     "is_open": true,
     "hours": "00:10 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Diponegoro%20Temanggung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.314553,110.178751"
   },
   {
     "id": "958",
@@ -6853,13 +6853,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pemuda Jepara, Jl Pemuda No 53, Potroyudan Kec Jepara Kab Jepara, Jawa Tengah 59412",
     "distance": "49.8 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.5969365,
+    "lng_hint": 110.6719791,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pemuda%20Jepara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.5969365,110.6719791"
   },
   {
     "id": "955",
@@ -6867,13 +6867,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kartini Jepara, Jl. Kartini No. 36, Kelurahan Panggang, Kecamatan Jepara, Kabupaten Jepara, Jawa Tengah 59411",
     "distance": "49.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.592985,
+    "lng_hint": 110.6669069,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kartini%20Jepara"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.592985,110.6669069"
   },
   {
     "id": "988",
@@ -6881,13 +6881,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dersalam Square Jend. Sudirman Kudus, Ruko Dersalam Square No A&B, Jl. Jend. Sudirman No. 470, Salam Kidul, Dersalam, Kec. Bae, Kab. Kudus Jawa Tengah 59321",
     "distance": "52.9 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.8042315,
+    "lng_hint": 110.8674046,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dersalam%20Square%20Jend.%20Sudirman%20Kudus"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.8042315,110.8674046"
   },
   {
     "id": "996",
@@ -6895,13 +6895,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "R Suprapto Purwodadi, Jl. R. Suprapto Nomor 85, Jetis Timur, Purwodadi, Kec. Purwodadi, Kab. Grobogan, Jawa Tengah 58111",
     "distance": "56.3 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.0893087,
+    "lng_hint": 110.9114168,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=R%20Suprapto%20Purwodadi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.0893087,110.9114168"
   },
   {
     "id": "984",
@@ -6909,13 +6909,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pemuda Kota Magelang, Jl. Pemuda No. 70, Kemirirejo, Kec. Magelang Tengah, Kota Magelang, Jawa Tengah 56122",
     "distance": "61.1 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -7.4807745,
+    "lng_hint": 110.2201411,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pemuda%20Kota%20Magelang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4807745,110.2201411"
   },
   {
     "id": "952",
@@ -6923,13 +6923,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area 360B Batang, Jl. Tol Semarang - Batang Km. 360, Gondang, Kec. Subah, Kabupaten Batang, Jawa Tengah 51263",
     "distance": "61.5 km",
     "city_hint": "Semarang",
-    "lat_hint": -6.9667,
-    "lng_hint": 110.4167,
+    "lat_hint": -6.9206986,
+    "lng_hint": 109.8613747,
     "is_open": true,
     "hours": "08:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20360B%20Batang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.9206986,109.8613747"
   },
   {
     "id": "1007",
@@ -6937,13 +6937,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ramai Malioboro, Jl. Jend. Ahmad Yani No.73, Ngupasan, Kec. Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55122",
     "distance": "500 m",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7971674,
+    "lng_hint": 110.3650798,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ramai%20Malioboro"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7971674,110.3650798"
   },
   {
     "id": "1004",
@@ -6951,13 +6951,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ahmad Dahlan Yogyakarta, Jl. KH. Ahmad Dahlan No.87, Notoprajan, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55262",
     "distance": "1.3 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.801321,
+    "lng_hint": 110.3590955,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ahmad%20Dahlan%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.801321,110.3590955"
   },
   {
     "id": "1005",
@@ -6979,13 +6979,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Terban Yogyakarta, SPBU Pertamina 44.552.06 Terban, Jl. C. Simanjuntak No.17, Terban, Kec. Gondokusuman, Kota Yogyakarta, DIY 55223",
     "distance": "1.5 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.782013,
+    "lng_hint": 110.3721127,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Terban%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.782013,110.3721127"
   },
   {
     "id": "1012",
@@ -6993,13 +6993,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Siswa Yogyakarta, Jl. Taman Siswa No.75, Wirogunan, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55151",
     "distance": "1.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.80891085,
+    "lng_hint": 110.37737274,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Siswa%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.80891085,110.37737274"
   },
   {
     "id": "1009",
@@ -7007,13 +7007,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lippo Plaza Jogja, Ground Floor, Jl. Laksda Adisucipto No. 32-34, Demangan, Gondokusuman, Yogyakarta, DIY - 55221",
     "distance": "2.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.783901,
+    "lng_hint": 110.390443,
     "is_open": true,
     "hours": "10:00 - 20:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lippo%20Plaza%20Jogja"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.783901,110.390443"
   },
   {
     "id": "1015",
@@ -7021,13 +7021,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Timoho Yogyakarta, SPBU Pertamina 44.551.19, Jl. Ipda Tut Harsono No.28, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165",
     "distance": "2.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.79819697,
+    "lng_hint": 110.39262216,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Timoho%C2%A0Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.79819697,110.39262216"
   },
   {
     "id": "1008",
@@ -7035,13 +7035,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Colombo Yogyakarta, Jl. Colombo No. 06, Kel. Catur Tunggal, Kec. Depok, Kab. Sleman, Daerah Istimewa Yogyakarta",
     "distance": "2.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7779785,
+    "lng_hint": 110.3859992,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Colombo%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7779785,110.3859992"
   },
   {
     "id": "1013",
@@ -7049,13 +7049,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Parangtritis Yogyakarta, Jl. Parangtritis No. 80 A, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55143",
     "distance": "2.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.819635,
+    "lng_hint": 110.367937,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Prawirotaman%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.819635,110.367937"
   },
   {
     "id": "998",
@@ -7063,13 +7063,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Godean Yogyakarta, Jl. Godean No. 23B, Kembang, Ngestiharjo, Kec. Kasihan, Kab. Bantul, Daerah Istimewa Yogyakarta 55182",
     "distance": "2.8 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7809034,
+    "lng_hint": 110.3485013,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Godean%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7809034,110.3485013"
   },
   {
     "id": "1001",
@@ -7077,13 +7077,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RSUP Dr. Sardjito Yogyakarta, Jl. Kesehatan Sendowo No.1, Sinduadi, Kec. Mlati, Kab. Sleman, Daerah Istimewa Yogyakarta 55281",
     "distance": "3.1 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7677422,
+    "lng_hint": 110.3734924,
     "is_open": true,
     "hours": "06:00 - 19:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RSUP%20Dr.%20Sardjito%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7677422,110.3734924"
   },
   {
     "id": "1014",
@@ -7091,13 +7091,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Parangtritis Yogyakarta (Container),  Jl. Menukan No.1-3, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153",
     "distance": "3.2 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.82434515,
+    "lng_hint": 110.36791022,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Parangtritis%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.82434515,110.36791022"
   },
   {
     "id": "1002",
@@ -7105,13 +7105,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kaliurang Km 5 Yogyakarta, Jalan Kaliurang Km 5 No 36 Rt 013 Rw 05, Karang Wuni, Caturtunggal, Kec Depok, Kab. Sleman, Daerah Istimewa Yogyakarta 55284",
     "distance": "4.0 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7610815,
+    "lng_hint": 110.3804286,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=KK%20Ruko%20Kaliurang%20KM5%20Bawah"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7610815,110.3804286"
   },
   {
     "id": "1016",
@@ -7119,13 +7119,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina COCO 41.552.01 Laksda Adisucipto Yogyakarta (Container), Jl. Laksda Adisucipto Km. 6, Caturtunggal, Kec. Sleman, Caturtunggal, Kecamatan Depok, Ngentak, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
     "distance": "4.5 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7829746,
+    "lng_hint": 110.4080741,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20COCO%2041.552.01%20Laksda%20Adisucipto%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7829746,110.4080741"
   },
   {
     "id": "997",
@@ -7133,13 +7133,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Yogya City Mall, Lantai 2, Jl. Magelang KM 6 No. 18, Sinduadi, Mlati, Sleman, Yogyakarta - 55284",
     "distance": "4.8 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7533064,
+    "lng_hint": 110.3609796,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jogja%20City%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7533064,110.3609796"
   },
   {
     "id": "1006",
@@ -7147,13 +7147,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pakuwon Mall, Lantai LG, Jl. Ringroad Utara, Sanggrahan, Kaliwaru Condong Catur, Depok, Sleman, Yogyakarta - 55281",
     "distance": "5.2 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.75954,
+    "lng_hint": 110.399024,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pakuwon%20Jogja"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.75954,110.399024"
   },
   {
     "id": "1010",
@@ -7161,13 +7161,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jalan Seturan, Jl. Seturan Raya, Ngropoh, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
     "distance": "5.5 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7671182,
+    "lng_hint": 110.4103377,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jalan%20Seturan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7671182,110.4103377"
   },
   {
     "id": "1000",
@@ -7175,13 +7175,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kaliurang Yogyakarta, Jl. Kaliurang No.51 B, Kentungan, Condongcatur, Depok, Sleman, Yogyakarta 55281",
     "distance": "5.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.748724,
+    "lng_hint": 110.3868235,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kaliurang%20KM6%20Atas"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.748724,110.3868235"
   },
   {
     "id": "1373",
@@ -7189,13 +7189,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl Palagan Yogyakarta, Jl. Palagan Tentara Pelajar No.203, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
     "distance": "6.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7357975,
+    "lng_hint": 110.3769388,
     "is_open": true,
     "hours": "06:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl%20Palagan%20Yogyakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7357975,110.3769388"
   },
   {
     "id": "999",
@@ -7203,13 +7203,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alfamidi Super Sinduharjo, Kaliurang St Blok A No.1, Gondangan, Sinduharjo, Ngaglik, Sleman Regency, Special Region of Yogyakarta 55581",
     "distance": "8.1 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7284678,
+    "lng_hint": 110.398658,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alfamidi%20Super%20Kaliurang%20KM%209"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7284678,110.398658"
   },
   {
     "id": "995",
@@ -7217,13 +7217,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "GF, Jl. Grojogan No.Km. 1, Penggung, Tridadi, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55511",
     "distance": "8.4 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.72079166,
+    "lng_hint": 110.36255579,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sleman%20City%20Hall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.72079166,110.36255579"
   },
   {
     "id": "994",
@@ -7231,13 +7231,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 44.564.04 Baledono Magelang, Jl. Magelang No.Km 20, Jagang Lor, Salam, Kec. Salam, Kabupaten Magelang, Jawa Tengah 56484",
     "distance": "18.0 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.6403008,
+    "lng_hint": 110.3225825,
     "is_open": true,
     "hours": "09:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2044.564.04%20Baledono%20Magelang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.6403008,110.3225825"
   },
   {
     "id": "1377",
@@ -7245,13 +7245,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kol. Sugiono Wates, Jl. Kolonel Sugiono, Kedungdowo, Wates, Kec. Wates, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55651",
     "distance": "24.5 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.8656732,
+    "lng_hint": 110.1588329,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kol.%20Sugiono%20Wates"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.8656732,110.1588329"
   },
   {
     "id": "992",
@@ -7259,13 +7259,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Muntilan Magelang, Jl. Semarang - Yogyakarta, Tegal Slerem, Sedayu, Kec. Muntilan, Kabupaten Magelang, Jawa Tengah 56412",
     "distance": "25.4 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5816431,
+    "lng_hint": 110.2876592,
     "is_open": true,
     "hours": "06:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Muntilan%20Magelang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5816431,110.2876592"
   },
   {
     "id": "1018",
@@ -7273,13 +7273,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pemuda Klaten, Jl. Pemuda No. 58, Mlinjon, Tonggalan, Kec. Klaten Tengah Kabupaten Klaten, Jawa Tengah 57411",
     "distance": "26.5 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.7117297,
+    "lng_hint": 110.5948775,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pemuda%20Klaten"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7117297,110.5948775"
   },
   {
     "id": "1019",
@@ -7287,13 +7287,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 44.574.03 Jonggrangan Klaten (Container), Jl Raya Solo, Peraksangkal, Jonggrangan, Kec. Klaten Utara, Kabupaten Klaten, Jawa Tengah 57435",
     "distance": "29.8 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.6897215,
+    "lng_hint": 110.6183096,
     "is_open": true,
     "hours": "10:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2044.574.03%20Jonggrangan%20Klaten"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.6897215,110.6183096"
   },
   {
     "id": "1316",
@@ -7301,13 +7301,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Agus Salim Wonosari, Jl. KH Agus Salim No.66, Kepek I, Kepek, Kec. Wonosari, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta 55861",
     "distance": "31.0 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.961068,
+    "lng_hint": 110.5961181,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Agus%20Salim%20Wonosari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.961068,110.5961181"
   },
   {
     "id": "987",
@@ -7315,13 +7315,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Mertoyudan Kedungdowo Magelang, Jl. Mayjend. Bambang Sugeng, Kedungdowo, Mertoyudan, Kec. Mertoyudan, Kab. Magelang, Jawa Tengah 56172",
     "distance": "35.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5083822,
+    "lng_hint": 110.2248256,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mertoyudan%20Kedungdowo%20Magelang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5083822,110.2248256"
   },
   {
     "id": "986",
@@ -7329,13 +7329,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Armada Town Square Magelang, Jl. Mayjen Bambang Soegeng No.1, Kedungdowo, Mertoyudan, Kec. Mertoyudan, Kabupaten Magelang, Jawa Tengah 56172",
     "distance": "36.1 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5038609,
+    "lng_hint": 110.2247899,
     "is_open": true,
     "hours": "10:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Armada%20Town%20Square%20Magelang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5038609,110.2247899"
   },
   {
     "id": "985",
@@ -7343,13 +7343,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pakelan Magelang (Container), Jl. Magelang Jl. Magelang - Salaman No.99, Kedungingas, Banyurojo, Kec. Mertoyudan, Kota Magelang, Jawa Tengah 56172",
     "distance": "37.0 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.506013,
+    "lng_hint": 110.204572,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pakelan%20Magelang%20%28Container%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.506013,110.204572"
   },
   {
     "id": "1011",
@@ -7357,13 +7357,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mojosongo Boyolali, Jl. Merdeka Timur Alun-Alun Kidul No 9 D & 9 E, Wonosari, Kemiri, Kec. Mojosongo, Kab. Boyolali, Jawa Tengah 57482",
     "distance": "38.7 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.54415,
+    "lng_hint": 110.6127284,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mojosongo%20Boyolali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.54415,110.6127284"
   },
   {
     "id": "1017",
@@ -7371,13 +7371,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Harlin Solo,Ruko Harlin Malangjiwan Blok B 11,Jl.Adi Sumarmo Colomadu 57177",
     "distance": "50.3 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5386795,
+    "lng_hint": 110.7455547,
     "is_open": true,
     "hours": "07:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Harlin%20Solo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5386795,110.7455547"
   },
   {
     "id": "1024",
@@ -7385,13 +7385,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gentan Sukoharjo, Jl. Joko Tingkir Nomor 36, Ngebrak, Gentan, Kec. Baki, Kabupaten Sukoharjo, Jawa Tengah 57556",
     "distance": "51.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5766574,
+    "lng_hint": 110.782607,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gentan%20Sukoharjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5766574,110.782607"
   },
   {
     "id": "1020",
@@ -7399,13 +7399,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Alfamidi Adi Sucipto Solo, Jl. Adi Sucipto, Blukukan Dua, Blulukan, Kec. Colomadu, Kabupaten Karanganyar, Jawa Tengah 57174",
     "distance": "51.8 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5396485,
+    "lng_hint": 110.762599,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Alfamidi%20Adi%20Sucipto%20Solo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5396485,110.762599"
   },
   {
     "id": "1021",
@@ -7413,13 +7413,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Garuda Mas Solo, Jl. Garuda Mas No. 8 Rt 006 / Rw 007, Kel. Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57148",
     "distance": "51.9 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5490558,
+    "lng_hint": 110.7698862,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Garuda%20Mas%20Solo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5490558,110.7698862"
   },
   {
     "id": "1023",
@@ -7427,13 +7427,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Solo Square, Lantai 3, Jl. Slamet Riyadi No. 451-455, Pajang, Laweyan, Surakarta, Jawa Tengah - 57146",
     "distance": "53.0 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.56123604,
+    "lng_hint": 110.78863105,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Solo%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.56123604,110.78863105"
   },
   {
     "id": "1025",
@@ -7441,13 +7441,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Dr Radjiman Surakarta, Jl. Dr. Rajiman No.476, Bumi, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57148",
     "distance": "53.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5705584,
+    "lng_hint": 110.7996501,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Radjiman%20Surakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5705584,110.7996501"
   },
   {
     "id": "1022",
@@ -7455,13 +7455,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Fajar Indah Solo, Jl. Adisucipto, Jajar, Laweyan, Surakarta City, Central Java 57144",
     "distance": "53.6 km",
     "city_hint": "Yogyakarta",
-    "lat_hint": -7.7956,
-    "lng_hint": 110.3695,
+    "lat_hint": -7.5504134,
+    "lng_hint": 110.7884035,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Fajar%20Indah%20Solo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5504134,110.7884035"
   },
   {
     "id": "1029",
@@ -7469,13 +7469,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Keprabon Surakarta, Jl. Teuku Umar No. 17, Keprabon, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
     "distance": "700 m",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.568999,
+    "lng_hint": 110.823688,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Keprabon%20Surakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.568999,110.823688"
   },
   {
     "id": "1027",
@@ -7483,13 +7483,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Ronggowarsito,Jln Ronggo Warsito No.23,Rt 00/Rw 05,Kelurahan Timuran,Kec.Banjarsari,Surakarta Solo",
     "distance": "1.4 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5660225,
+    "lng_hint": 110.8156832,
     "is_open": true,
     "hours": "07:30 - 21:20 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Ronggowarsito"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5660225,110.8156832"
   },
   {
     "id": "1026",
@@ -7497,13 +7497,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stasiun Solo Balapan, Jalan Wolter Monginsidi No.112, Kestalan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57133",
     "distance": "2.1 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5571852,
+    "lng_hint": 110.8209647,
     "is_open": true,
     "hours": "06:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stasiun%20Solo%20Balapan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5571852,110.8209647"
   },
   {
     "id": "1031",
@@ -7511,13 +7511,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "The Park Mall, Lantai 1, Jl. Ir. Soekarno, Madegondo, Grogol, Sukoharjo, Jawa Tengah - 57552",
     "distance": "2.7 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5986662,
+    "lng_hint": 110.8164043,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Park%20Mall%20Solo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5986662,110.8164043"
   },
   {
     "id": "1030",
@@ -7525,13 +7525,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Sutarto (RSUD Moewardi), Jebres Square Ruko No. 2 Jl. Kolonel Sutarto, RT. 01 / RW. 05 Kelurahan Jebres, Kecamatan Jebres Kota Surakarta Jawa Tengah 57126",
     "distance": "2.8 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5596689,
+    "lng_hint": 110.8435935,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl.%20Sutarto%20%28RSUD%20Moewardi%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5596689,110.8435935"
   },
   {
     "id": "1028",
@@ -7539,13 +7539,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Letjend Sutoyo Surakarta, Jl. Letjen Sutoyo No 21-B, Nusukan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57135",
     "distance": "2.8 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5512964,
+    "lng_hint": 110.8296898,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Letjend%20Sutoyo%20Surakarta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5512964,110.8296898"
   },
   {
     "id": "1035",
@@ -7553,13 +7553,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Karanganyar, Jl Lawu No 180, Kodokan, Papahan, Kec. Tasikmadu, Kabupaten Karanganyar, Jawa Tengah 57722",
     "distance": "12.1 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.5911125,
+    "lng_hint": 110.9331719,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Karanganyar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.5911125,110.9331719"
   },
   {
     "id": "1032",
@@ -7567,13 +7567,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM519A Solo Ngawi (DT), Dusun III, Karang Malang, Masaran, Sragen Regency, Central Java 57282",
     "distance": "14.9 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.4798952,
+    "lng_hint": 110.9187795,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM519A%20Solo%20Ngawi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4798952,110.9187795"
   },
   {
     "id": "1033",
@@ -7581,13 +7581,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM519B Solo Ngawi, Rest Area KM 519B, Jl. Tol Solo – Ngawi, Kabupaten Sragen, Jawa Tengah",
     "distance": "15.0 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.4809548,
+    "lng_hint": 110.9207298,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM519B%20Solo%20Ngawi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4809548,110.9207298"
   },
   {
     "id": "1034",
@@ -7595,13 +7595,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sukowati Sragen, Jl. Sukowati, Magero, Sragen Tengah, Kec. Sragen, Kabupaten Sragen, Jawa Tengah 57214",
     "distance": "27.7 km",
     "city_hint": "Solo",
-    "lat_hint": -7.5755,
-    "lng_hint": 110.8243,
+    "lat_hint": -7.4268096,
+    "lng_hint": 111.0260356,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sukowati%20Sragen"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4268096,111.0260356"
   },
   {
     "id": "1160",
@@ -7609,13 +7609,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Stand Alone Ijen, Jl. Ijen No.90-92, RT.005/RW.05, Klojen, Kota Malang 65116",
     "distance": "900 m",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.9633141,
+    "lng_hint": 112.6253385,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Stand%20Alone%20Ijen%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.9633141,112.6253385"
   },
   {
     "id": "1163",
@@ -7623,13 +7623,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kawi, Jl. Kawi Atas No.34B, Kelurahan Bareng, Kec. Klojen, Kota Malang, Jawa Timur  65116",
     "distance": "1.7 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.97551,
+    "lng_hint": 112.619674,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kawi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.97551,112.619674"
   },
   {
     "id": "1164",
@@ -7637,13 +7637,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko S. Parman Malang, Jl. Letjend S. Parman No.54, Purwantoro, Kec. Blimbing, Kota Malang, Jawa Timur 65126",
     "distance": "1.8 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.951633,
+    "lng_hint": 112.639473,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20S.%20Parman%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.951633,112.639473"
   },
   {
     "id": "1156",
@@ -7651,13 +7651,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Malang Town Square, Jl. Veteran No.2, Penanggungan, Kec. Klojen, Kota Malang, Jawa Timur 65111",
     "distance": "1.9 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.956927,
+    "lng_hint": 112.618242,
     "is_open": true,
     "hours": "07:30 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malang%20Town%20Square%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.956927,112.618242"
   },
   {
     "id": "1158",
@@ -7665,13 +7665,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Bondowoso Malang, Jl. Bondowoso No.44, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65115",
     "distance": "2.0 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.9672236,
+    "lng_hint": 112.6142193,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bondowoso%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.9672236,112.6142193"
   },
   {
     "id": "1155",
@@ -7679,13 +7679,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jalan Soekarno Hatta, Ruko Soekarno Hatta Business Center, Jl. Soekarno Hatta kav. 5A-10 Malang, 65141",
     "distance": "2.9 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.943111,
+    "lng_hint": 112.620518,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jalan%20Soekarno%20Hatta"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.943111,112.620518"
   },
   {
     "id": "1168",
@@ -7693,13 +7693,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sawojajar Malang, Jl. Dirgantara No.3, Lesanpuro, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139",
     "distance": "2.9 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.98135808,
+    "lng_hint": 112.65416852,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sawojajar%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.98135808,112.65416852"
   },
   {
     "id": "1165",
@@ -7707,13 +7707,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 54.651.63 Plaosan Blimbing (Container), Jl. Raden Panji Suroso, Purwodadi, Kec. Blimbing, Kota Malang, Jawa Timur 65126",
     "distance": "3.3 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.9417029,
+    "lng_hint": 112.6492356,
     "is_open": true,
     "hours": "06:30 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.651.63%20Plaosan%20Blimbing"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.9417029,112.6492356"
   },
   {
     "id": "1166",
@@ -7721,13 +7721,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sukun Malang, Jl. S. Supriadi No.70CD, Sukun, Kec. Sukun, Kota Malang, Jawa Timur 65147",
     "distance": "3.8 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.99784974,
+    "lng_hint": 112.61888727,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sukun%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.99784974,112.61888727"
   },
   {
     "id": "1170",
@@ -7735,13 +7735,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Ampeldento Malang, Jl. Raya Ampeldento Jl. Raya Bamban No.1, Meduran, Asrikaton, Kec. Pakis, Kabupaten Malang, Jawa Timur 65154",
     "distance": "5.3 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.96680365,
+    "lng_hint": 112.68057276,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Ampeldento%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.96680365,112.68057276"
   },
   {
     "id": "1154",
@@ -7749,13 +7749,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tlogomas Malang (DOCO), Jl. Raya Tlogomas No.20, Tlogomas, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144",
     "distance": "5.5 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.92718853,
+    "lng_hint": 112.60238071,
     "is_open": true,
     "hours": "00:15 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tlogomas%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.92718853,112.60238071"
   },
   {
     "id": "1159",
@@ -7763,13 +7763,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pertamina Gas Station 54.651.75 Karanglo Malang, SPBU 54.651.75, Jl. Raya Karanglo No.131, Karanglo, Banjararum, Kec. Singosari, Kabupaten Malang, Jawa Timur 65153",
     "distance": "5.6 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.9204184,
+    "lng_hint": 112.6523907,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Gas%20Station%2054.651.75%20Karanglo%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.9204184,112.6523907"
   },
   {
     "id": "1157",
@@ -7777,13 +7777,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Singosari Malang, Jl. Raya Singosari No.141, Pangetan, Pagentan, Kec. Singosari, Kabupaten Malang, Jawa Timur 65153",
     "distance": "8.6 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.896462,
+    "lng_hint": 112.665131,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Singosari%20Malang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.896462,112.665131"
   },
   {
     "id": "1167",
@@ -7791,13 +7791,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM 84A Pandaan Malang, Rest Area KM 84A Tol Pandaan Malang, Kecamatan Singosari, Kabupaten Malang, Jawa Timur 65153",
     "distance": "10.5 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.8975868,
+    "lng_hint": 112.6978807,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%2084A%20%28%20Arah%20ke%20Malang%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.8975868,112.6978807"
   },
   {
     "id": "1147",
@@ -7805,13 +7805,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lippo Plaza Batu, GF,  Jl. Diponegoro No.1, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65314",
     "distance": "14.6 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.8786243,
+    "lng_hint": 112.5346599,
     "is_open": true,
     "hours": "10:00 - 20:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lippo%20Plaza%20Batu"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.8786243,112.5346599"
   },
   {
     "id": "1151",
@@ -7819,13 +7819,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM 66 B (Container) Drive Thru, Tol Malang Pandaan KM 66, Bejigeneng, Sumbersuko, Purwosari, Pasuruan, Jawa Timur 67162",
     "distance": "26.5 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.7435839,
+    "lng_hint": 112.7169168,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%2066B%20%28Arah%20ke%20Surabaya%29%20DT"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7435839,112.7169168"
   },
   {
     "id": "1152",
@@ -7833,13 +7833,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM 66 A (Container), Tol Pandaan Malang KM 66, Bejigeneng, Sumbersuko, Purwosari, Pasuruan, Jawa Timur 67162",
     "distance": "26.6 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.7430264,
+    "lng_hint": 112.7174669,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%2066A%20%28Arah%20ke%20Malang%29%20Container"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7430264,112.7174669"
   },
   {
     "id": "1148",
@@ -7847,13 +7847,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Taman Dayu Pandaan, Jl. Raya Surabaya-Malang No.15, Sukorejo, Karang Jati, Kec. Pandaan, Pasuruan, Jawa Timur 67156",
     "distance": "34.1 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.667402,
+    "lng_hint": 112.6986506,
     "is_open": true,
     "hours": "06:15 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Taman%20Dayu%20Pandaan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.667402,112.6986506"
   },
   {
     "id": "1162",
@@ -7861,13 +7861,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area 792 B Tol Gempol Pasuruan, 8VV3+RJ3, Unnamed Road, Area Sawah, Sungi Kulon, Kec. Pohjentrek, Pasuruan, Jawa Timur 67171",
     "distance": "42.3 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.6561217,
+    "lng_hint": 112.85453,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20792%20B%20Tol%20Gempol%20Pasuruan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.6561217,112.85453"
   },
   {
     "id": "1161",
@@ -7875,13 +7875,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area 792 A Tol Gempol Pasuruan, Kec. Pohjentrek, Pasuruan, Jawa Timur 67171\tEast Java\tPasuruan",
     "distance": "42.6 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.6530988,
+    "lng_hint": 112.8541177,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20792%20A%20Tol%20Gempol%20Pasuruan%20%28DT%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.6530988,112.8541177"
   },
   {
     "id": "1169",
@@ -7889,13 +7889,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Kebonagung Pasuruan (DOCO), SPBU 54.671, Jl. Urip Sumoharjo No.50, Kebonagung, Kec. Purworejo, Kota Pasuruan, Jawa Timur 67171",
     "distance": "44.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.66209381,
+    "lng_hint": 112.89305406,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Kebonagung%20Pasuruan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.66209381,112.89305406"
   },
   {
     "id": "1121",
@@ -7903,13 +7903,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Veteran Blitar, Jl. Veteran No.16, Kepanjen Kidul, Kec. Kepanjenkidul, Kota Blitar, Jawa Timur 66117",
     "distance": "53.2 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -8.10063406,
+    "lng_hint": 112.16849803,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Veteran%20Blitar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.10063406,112.16849803"
   },
   {
     "id": "1382",
@@ -7917,13 +7917,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pare Kediri, Jl. Pb. Sudirman No.40, Puhrejo, Kota, Kec. Pare, Kabupaten Kediri, Jawa Timur 64212",
     "distance": "54.1 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.764643,
+    "lng_hint": 112.1852972,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pare%20Kediri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.764643,112.1852972"
   },
   {
     "id": "1146",
@@ -7931,13 +7931,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 54.61252 Gelam Sidoarjo, Jl. Raya Gelam No.46, Gelam, Kec. Candi, Kabupaten Sidoarjo, Jawa Timur 61271",
     "distance": "54.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4836485,
+    "lng_hint": 112.7130916,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.61252%20Gelam%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4836485,112.7130916"
   },
   {
     "id": "1145",
@@ -7945,13 +7945,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "RSUD Sidoarjo Jawa Timur, Jl. Mojopahit No.667, Sidowayah, Celep, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61215",
     "distance": "56.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.46524,
+    "lng_hint": 112.7130674,
     "is_open": true,
     "hours": "06:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=RSUD%20Sidoarjo%20Jawa%20Timur"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.46524,112.7130674"
   },
   {
     "id": "1144",
@@ -7959,13 +7959,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Diponegoro Sidoarjo, Jl. Diponegoro No.104, Lemah Putro, Lemahputro, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61213",
     "distance": "57.2 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4582603,
+    "lng_hint": 112.7136044,
     "is_open": true,
     "hours": "06:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Diponegoro%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4582603,112.7136044"
   },
   {
     "id": "1141",
@@ -7973,13 +7973,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pahlawan Sidoarjo, Jl. Pahlawan No.8, Kwadengan Barat, Lemahputro, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61213",
     "distance": "58.1 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.449632,
+    "lng_hint": 112.707939,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pahlawan%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.449632,112.707939"
   },
   {
     "id": "1137",
@@ -7987,13 +7987,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pondokjati Sidoarjo, Jl. Pd. Jati Ai-21B, Pondokjati, Pagerwojo, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61252",
     "distance": "58.7 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.44328793,
+    "lng_hint": 112.70289481,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pondokjati%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.44328793,112.70289481"
   },
   {
     "id": "1054",
@@ -8001,13 +8001,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sunrise Mall Mojokerto, Jl. Benteng Pancasila No.9, Mergelo, Balongsari, Kec. Magersari, Kota Mojokerto, Jawa Timur 61314",
     "distance": "58.9 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.47076388,
+    "lng_hint": 112.44379895,
     "is_open": true,
     "hours": "07:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sunrise%20Mall%20Mojokerto"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.47076388,112.44379895"
   },
   {
     "id": "1143",
@@ -8015,13 +8015,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 54.612.36 Jenggolo (Container), Jl. Jenggolo No.58 A, Pucang, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61219SPBU Pertamina 54.612.36 Jenggolo",
     "distance": "59.2 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4411512,
+    "lng_hint": 112.7204383,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.612.36%20Jenggolo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4411512,112.7204383"
   },
   {
     "id": "1051",
@@ -8029,13 +8029,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gajah Mada Mojokerto, Jl. Gajah Mada No.137, Mergelo, Balongsari, Kec. Magersari, Kota Mojokerto, Jawa Timur 61314",
     "distance": "59.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4684067,
+    "lng_hint": 112.4371934,
     "is_open": true,
     "hours": "00:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gajah%20Mada%20Mojokerto"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4684067,112.4371934"
   },
   {
     "id": "1131",
@@ -8043,13 +8043,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area KM 754 (Container), Porong Hwy No.26, Ngepung, Sidokepung, Buduran, Kabupaten Sidoarjo, Jawa Timur 61252",
     "distance": "60.5 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.425898,
+    "lng_hint": 112.6938253,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%20754%20%28Arah%20ke%20Sidoarjo%29%20DT"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.425898,112.6938253"
   },
   {
     "id": "1128",
@@ -8057,13 +8057,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area Km753 Sidoarjo",
     "distance": "61.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4180462,
+    "lng_hint": 112.6936683,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20KM%20753%20%28Arah%20ke%20Surabaya%29%20Non%20DT"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4180462,112.6936683"
   },
   {
     "id": "1307",
@@ -8071,13 +8071,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Krian Sidoarjo, Jl. Mayjen Bambang Yuwono, RT.2 RW8, Sidodadi, Kemangsen, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
     "distance": "62.0 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.4117286,
+    "lng_hint": 112.5729349,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Krian%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.4117286,112.5729349"
   },
   {
     "id": "1109",
@@ -8085,13 +8085,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sukodono Sidoarjo, Jl. Raya Sukodono No.21, Sawo, Sukodono, Kec. Sukodono, Kabupaten Sidoarjo, Jawa Timur 61258",
     "distance": "62.0 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.41024117,
+    "lng_hint": 112.6729321,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sukodono%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.41024117,112.6729321"
   },
   {
     "id": "1046",
@@ -8099,13 +8099,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Wahid Hasyim Jombang, Jl. KH. Wahid Hasyim No.181, Kec. Jombang, Kabupaten Jombang, Jawa Timur 61419",
     "distance": "63.3 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.55456905,
+    "lng_hint": 112.23568919,
     "is_open": true,
     "hours": "00:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Wahid%20Hasyim%20Jombang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.55456905,112.23568919"
   },
   {
     "id": "1134",
@@ -8113,13 +8113,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 54.61208 Gedangan, Jl. Raya Gedangan 97-99, Desa Seruni Gedangan, Sidoarjo, Jawa Timur 61254",
     "distance": "64.4 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.3952078,
+    "lng_hint": 112.72722,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%2054.61208%20Gedangan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3952078,112.72722"
   },
   {
     "id": "1075",
@@ -8127,13 +8127,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Harmoni City Center, Jl. Citra Harmoni Blok RC10-RC11, Troboso, Trosobo, Kec. Taman, Kabupaten Sidoarjo, Jawa Timur 61257",
     "distance": "65.8 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.3753169,
+    "lng_hint": 112.6403037,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Harmoni%20City%20Center"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3753169,112.6403037"
   },
   {
     "id": "1057",
@@ -8141,13 +8141,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Rest Area 725A Gresik (Container) Drive Thru, Jalan Tol Mojokerto - Surabaya KM 725 , Pasinan Lemahputih, Wringinanom, Gresik Regency, East Java 61176",
     "distance": "66.1 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.3789642,
+    "lng_hint": 112.5444887,
     "is_open": true,
     "hours": "06:00 - 22:30 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rest%20Area%20725A%20Gresik%20%28Container%29%20Drive%20Thru"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3789642,112.5444887"
   },
   {
     "id": "1080",
@@ -8155,13 +8155,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Citra Harmoni Sidoarjo, Ruko Gateway no.14 Jalan Citra Harmoni, Bringin Kulon, Bringin Bendo, Taman, Sidoarjo Regency, East Java 61257",
     "distance": "66.1 km",
     "city_hint": "Malang",
-    "lat_hint": -7.9666,
-    "lng_hint": 112.6326,
+    "lat_hint": -7.3725064,
+    "lng_hint": 112.6497394,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Citra%20Harmoni%20Sidoarjo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.3725064,112.6497394"
   },
   {
     "id": "96",
@@ -8169,13 +8169,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Deli Park, Lower Mezzanine, Jalan Guru Patimpus Blok OPQ No.1, Kesawan, Kec. Medan Barat, Kota Medan, Sumatera Utara 20111",
     "distance": "200 m",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5937935,
+    "lng_hint": 98.6739001,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Deli%20Park"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5937935,98.6739001"
   },
   {
     "id": "98",
@@ -8183,13 +8183,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. H. Adam Malik No.11, Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20114",
     "distance": "400 m",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5943363,
+    "lng_hint": 98.66872171,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Station%202%20Adam%20Malik"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5943363,98.66872171"
   },
   {
     "id": "92",
@@ -8197,13 +8197,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Centre Point Medan, LG-Island-8, Jl Jawa No 8 Medan, Sumatera Utara 20231",
     "distance": "1.0 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.592272,
+    "lng_hint": 98.680759,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Centre%20Point%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.592272,98.680759"
   },
   {
     "id": "100",
@@ -8211,13 +8211,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Medan Fair, Lantai 1, Jl. Gatot Subroto No.30, Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20113",
     "distance": "1.1 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5930747,
+    "lng_hint": 98.6627444,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Medan%20Fair"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5930747,98.6627444"
   },
   {
     "id": "1325",
@@ -8225,13 +8225,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sutomo Ujung Medan, Jl. Sutomo Ujung No.73B, Gaharu, Kec. Medan Tim., Kota Medan, Sumatera Utara 20155",
     "distance": "1.1 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.60170535,
+    "lng_hint": 98.68023268,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sutomo%20Ujung%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.60170535,98.68023268"
   },
   {
     "id": "94",
@@ -8239,13 +8239,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Cambridge City Store, Jl. Zainul Arifin dan S. Parman Medan, Lantai Ground (G)",
     "distance": "1.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5843327,
+    "lng_hint": 98.6672488,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cambridge%20City%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5843327,98.6672488"
   },
   {
     "id": "89",
@@ -8253,13 +8253,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sun Plaza, Jl. KH. Zainul Arifin No.7, Madras Hulu, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152",
     "distance": "1.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5831125,
+    "lng_hint": 98.6718303,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenangan%20Signature%20Sun%20Plaza"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5831125,98.6718303"
   },
   {
     "id": "87",
@@ -8267,13 +8267,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Ahmad Yani Kesawan II Medan, Jl. Balaikota No.87, Kesawan, Kec. Medan Bar., Kota Medan, Sumatera Utara 20212",
     "distance": "1.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5862531,
+    "lng_hint": 98.6797494,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl.%20Ahmad%20Yani%20Kesawan%20II%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5862531,98.6797494"
   },
   {
     "id": "88",
@@ -8281,13 +8281,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sun Plaza, Lantai 4, Jl. KH. Zainul Arifin No.7, Madras Hulu, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152",
     "distance": "1.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5831125,
+    "lng_hint": 98.6718303,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sun%20Plaza"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5831125,98.6718303"
   },
   {
     "id": "106",
@@ -8295,13 +8295,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Karya, Jl. Karya Sudut Gang Sepakat Sei, Agul, Medan Barat",
     "distance": "1.7 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.609347,
+    "lng_hint": 98.665309,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jalan%20Karya"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.609347,98.665309"
   },
   {
     "id": "103",
@@ -8309,13 +8309,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Gatot Subroto Medan (Drive Thru), Jl. Gatot Subroto, Sei Sikambing D, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20114",
     "distance": "2.2 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5903435,
+    "lng_hint": 98.6529089,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gatot%20Subroto%20Medan%20%28Drive%20Thru%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5903435,98.6529089"
   },
   {
     "id": "105",
@@ -8323,13 +8323,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Glugur Darat - UMSU, Gaharu Town House, Glugur Darat II, Kec. Medan Tim., Kota Medan, Sumatera Utara 20238",
     "distance": "2.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6153162,
+    "lng_hint": 98.6758617,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Glugur%20Darat%20-%20UMSU"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6153162,98.6758617"
   },
   {
     "id": "84",
@@ -8337,13 +8337,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Multatuli Medan, Jl. Multatuli 29-35, Hamdan, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20212",
     "distance": "2.4 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5752563,
+    "lng_hint": 98.680034,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Multatuli%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5752563,98.680034"
   },
   {
     "id": "95",
@@ -8351,13 +8351,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Abdullah Lubis Medan, Jl. Abdullah Lubis No.75/61b, Merdeka, Kec. Medan Baru, Kota Medan, Sumatera Utara 20153",
     "distance": "2.6 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5769713,
+    "lng_hint": 98.6577032,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Abdullah%20Lubis%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5769713,98.6577032"
   },
   {
     "id": "90",
@@ -8365,13 +8365,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Iskandar Muda No.11, Merdeka, Kec. Medan Baru, Kota Medan, Sumatera Utara 20222",
     "distance": "2.7 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5734556,
+    "lng_hint": 98.660648,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Iskandar%20Muda%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5734556,98.660648"
   },
   {
     "id": "108",
@@ -8379,13 +8379,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Kapten Muslim, Jl. Kapten Muslim No.97, Dwi Kora, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20118",
     "distance": "3.1 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.598729,
+    "lng_hint": 98.644716,
     "is_open": true,
     "hours": "07:00 - 22:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Kapten%20Muslim"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.598729,98.644716"
   },
   {
     "id": "110",
@@ -8393,13 +8393,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kapten Muslim, Jalan Kapten Muslim.232 B-C (dekat simpang lapangan zipur, Helvetia Tim., Kota Medan, Sumatera Utara 20124",
     "distance": "3.4 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6096404,
+    "lng_hint": 98.6452406,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kapten%20Muslim"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6096404,98.6452406"
   },
   {
     "id": "79",
@@ -8407,13 +8407,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. Brigjend Katamso No.266, Sei Mati, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20159",
     "distance": "3.4 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.56836153,
+    "lng_hint": 98.68660205,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Station%20Brig.%20Katamso"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.56836153,98.68660205"
   },
   {
     "id": "85",
@@ -8421,13 +8421,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko M. Yamin Medan, Jl. Prof. HM. Yamin Sh No.606, Pahlawan, Kec. Medan Perjuangan Kota Medan, Sumatera Utara 20222",
     "distance": "3.5 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5979312,
+    "lng_hint": 98.7039125,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20M.%20Yamin%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5979312,98.7039125"
   },
   {
     "id": "80",
@@ -8435,13 +8435,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Asiamegamas Medan, Jl. Komp. Asia Mega Mas Jl. Timah Putih No.16 Blok G, Sukaramai II, Kec. Medan Area, Kota Medan, Sumatera Utara 20224",
     "distance": "3.6 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5862082,
+    "lng_hint": 98.7031222,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Asiamegamas%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5862082,98.7031222"
   },
   {
     "id": "107",
@@ -8449,13 +8449,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Krakatau Medan, Pulo Brayan Darat II, Kec. Medan Tim., Kota Medan, Sumatera Utara 20237",
     "distance": "3.6 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6267671,
+    "lng_hint": 98.6807903,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl.%20Krakatau%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6267671,98.6807903"
   },
   {
     "id": "1341",
@@ -8463,13 +8463,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sisingamangaraja Medan (DT), Jl. Sisingamangaraja, Teladan Bar., Kec. Medan Kota, Kota Medan, Sumatera Utara 20217",
     "distance": "3.7 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.56818121,
+    "lng_hint": 98.69116978,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sisingamangaraja%20Medan%20%28DT%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.56818121,98.69116978"
   },
   {
     "id": "112",
@@ -8477,13 +8477,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Citraland Helvetia, Jl. Pertempuran, Tj. Gusta, Kec. Sunggal, Kabupaten Deli Serdang, Sumatera Utara 20116",
     "distance": "3.8 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6273479,
+    "lng_hint": 98.6598473,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Citraland%20Helvetia"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6273479,98.6598473"
   },
   {
     "id": "78",
@@ -8491,13 +8491,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina 14.202.126 Sisingamangaraja Medan, Jl. Sisingamangaraja No.45, Sitirejo II, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20217",
     "distance": "3.9 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.566194,
+    "lng_hint": 98.6921371,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Sisingamangaraja%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.566194,98.6921371"
   },
   {
     "id": "93",
@@ -8505,13 +8505,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dr Mansyur Medan, Jl. Dr. Mansyur No.80, Padang Bulan Selayang I, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20153",
     "distance": "3.9 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5676811,
+    "lng_hint": 98.6510838,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dr%20Mansyur%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5676811,98.6510838"
   },
   {
     "id": "77",
@@ -8519,13 +8519,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Pertamina DODO AR Hakim No 118 Medan, SPBU AR Hakim Medan 14-202.14 Jalan A.R. Hakim No. 118 (Medan Area), Medan, Sumatera Utara, 20126",
     "distance": "4.2 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5731779,
+    "lng_hint": 98.7031462,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20AR%20Hakim%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5731779,98.7031462"
   },
   {
     "id": "111",
@@ -8533,13 +8533,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Brayan Medan, Tanjung Mulia, Medan Deli, Medan City, North Sumatra 20239",
     "distance": "4.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.633768,
+    "lng_hint": 98.669098,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Brayan%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.633768,98.669098"
   },
   {
     "id": "91",
@@ -8547,13 +8547,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pancing Medan, Jl. Pancing No.184, Sidorejo Hilir, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20371",
     "distance": "4.5 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6153909,
+    "lng_hint": 98.7072918,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Drive%20Thru%20Pancing%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6153909,98.7072918"
   },
   {
     "id": "97",
@@ -8561,13 +8561,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Setiabudi Medan (Relocation), Jl. Setia Budi No.203 B, Tj. Rejo, Kec. Medan Sunggal, Kota Medan, Sumatera Utara 20122",
     "distance": "4.8 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.56612881,
+    "lng_hint": 98.64074863,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Setiabudi%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.56612881,98.64074863"
   },
   {
     "id": "83",
@@ -8575,13 +8575,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jamin Ginting Medan, Jalan Jamin Ginting, Titi Rantai, Medan, Titi Rantai, Kec. Medan Baru, Kota Medan",
     "distance": "4.9 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5523347,
+    "lng_hint": 98.6603573,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jamin%20Ginting%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5523347,98.6603573"
   },
   {
     "id": "109",
@@ -8589,13 +8589,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Manhattan Time Square, LG, Jl. Gatot Subroto No.217, Sei Sikambing B, Kec. Medan Sunggal, Kota Medan, Sumatera Utara 20123",
     "distance": "5.1 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5908461,
+    "lng_hint": 98.6266261,
     "is_open": true,
     "hours": "09:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Manhattan%20Time%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5908461,98.6266261"
   },
   {
     "id": "104",
@@ -8603,13 +8603,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cemara Asri Boulevard, Jl Cemara Asri Boulevard C7-26 Sampali Per Cut Sei Tuan Deli Serdang",
     "distance": "5.3 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6345894,
+    "lng_hint": 98.6996875,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Cemara%20Asri%20Boulevard"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6345894,98.6996875"
   },
   {
     "id": "99",
@@ -8617,13 +8617,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl. H. Anif, Medan Estate, Kec. Percut Sei Tuan, Kota Medan, Sumatera Utara 20221",
     "distance": "5.4 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6292729,
+    "lng_hint": 98.7073305,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20H.%20Anif%20Cemara%20Asri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6292729,98.7073305"
   },
   {
     "id": "1360",
@@ -8631,13 +8631,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Brigjend Katamso Medan, Jl. Brigjend Katamso, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
     "distance": "5.5 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.547851,
+    "lng_hint": 98.6879683,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Brigjend%20Katamso%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.547851,98.6879683"
   },
   {
     "id": "73",
@@ -8645,13 +8645,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko STM, Jl. STM No.27, Sitirejo II, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20217",
     "distance": "5.6 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.548976,
+    "lng_hint": 98.691879,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20STM"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.548976,98.691879"
   },
   {
     "id": "74",
@@ -8659,13 +8659,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl Denai Medan, Jl. Denai No.232, Tegal Sari Mandala II, Kec. Medan Denai, Kota Medan, Sumatera Utara 20317",
     "distance": "5.7 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.5813124,
+    "lng_hint": 98.7216244,
     "is_open": true,
     "hours": "07:00 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl%20Denai%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.5813124,98.7216244"
   },
   {
     "id": "102",
@@ -8687,13 +8687,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko OCBC Medan, Jl. Ringroad Komplek OCBC No B72, Kel. Asam Kumbang, Kec. Medan Selayang, Mdan 20133",
     "distance": "6.2 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.563967,
+    "lng_hint": 98.626312,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Chigo%20Ruko%20OCBC%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.563967,98.626312"
   },
   {
     "id": "113",
@@ -8701,13 +8701,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Helvetia Medan,  Jl. Setia No. 26 Tanjung Gusta, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20126",
     "distance": "6.9 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.6089735,
+    "lng_hint": 98.6113434,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Helvetia%20Medan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.6089735,98.6113434"
   },
   {
     "id": "76",
@@ -8715,13 +8715,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko JCity Square AA-6, Jl. Karya Wisata Kel.Pangkalan Masyhur Kecamatan Medan Johor",
     "distance": "6.9 km",
     "city_hint": "Medan",
-    "lat_hint": 3.5952,
-    "lng_hint": 98.6722,
+    "lat_hint": 3.534203,
+    "lng_hint": 98.662963,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20JCity%20Square"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=3.534203,98.662963"
   },
   {
     "id": "141",
@@ -8729,13 +8729,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Lemabang Palembang, Ruko Komplek Lemabang Mas no.1380, Jl. Yos Sudarso, Palembang, Sumatera Selatan 30118",
     "distance": "900 m",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9743166,
+    "lng_hint": 104.7832108,
     "is_open": true,
     "hours": "08:15 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Lemabang%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9743166,104.7832108"
   },
   {
     "id": "138",
@@ -8743,13 +8743,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Singapore Station M. Isa, Jalan Doktor Muhammad Isa No. 16, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
     "distance": "1.0 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.97023717,
+    "lng_hint": 104.76907102,
     "is_open": true,
     "hours": "07:30 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Station%20M.%20Isa"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.97023717,104.76907102"
   },
   {
     "id": "139",
@@ -8757,13 +8757,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Social Market Palembang (Container), Jl. Veteran No. 999, IIir Timur II Palembang, Sumatera Selatan 30113",
     "distance": "1.0 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9756685,
+    "lng_hint": 104.7665147,
     "is_open": true,
     "hours": "07:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Social%20Market%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9756685,104.7665147"
   },
   {
     "id": "136",
@@ -8771,13 +8771,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Veteran Palembang, Jl. Veteran No. 292 D, 20 Ilir D. I, Kecamatan Ilir Timur I, Kota Palembang, Sumatera Selatan 30126",
     "distance": "2.1 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.97575883,
+    "lng_hint": 104.75681241,
     "is_open": true,
     "hours": "07:20 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Veteran%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.97575883,104.75681241"
   },
   {
     "id": "144",
@@ -8785,13 +8785,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Plaju, Jl. Jenderal Ahmad Yani, 9/10 Ulu, Kecamatan Seberang Ulu I, Kota Palembang, Sumatera Selatan 30116",
     "distance": "2.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.99649841,
+    "lng_hint": 104.77488082,
     "is_open": true,
     "hours": "08:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Plaju"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.99649841,104.77488082"
   },
   {
     "id": "146",
@@ -8799,13 +8799,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko DI Panjaitan Palembang, Jl. DI Panjaitan No 54 Rt 019 Rw 06, Tangga Takat, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
     "distance": "2.4 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9897558,
+    "lng_hint": 104.7923788,
     "is_open": true,
     "hours": "00:01 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20DI%20Panjaitan%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9897558,104.7923788"
   },
   {
     "id": "137",
@@ -8813,13 +8813,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Palembang Indah Mall, UG, Jl. Letkol Iskandar No.18, 24 Ilir, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30134",
     "distance": "2.6 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.984803,
+    "lng_hint": 104.7537295,
     "is_open": true,
     "hours": "09:45 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Palembang%20Indah%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.984803,104.7537295"
   },
   {
     "id": "140",
@@ -8827,13 +8827,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Merdeka Palembang, Jl. Merdeka No. 345, Kel. Talang Semut, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30136",
     "distance": "3.0 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9907103,
+    "lng_hint": 104.7528593,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Merdeka%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9907103,104.7528593"
   },
   {
     "id": "132",
@@ -8841,13 +8841,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jend. Sudirman Palembang, Jl. Jend. Sudirman No 408, Blok D-03 Rt 035 Rw 11, Sekip Jaya, Kec. Kemuning, Palembang, Sumatera Selatan 30126",
     "distance": "3.0 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9688,
+    "lng_hint": 104.749845,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jend.%20Sudirman%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9688,104.749845"
   },
   {
     "id": "131",
@@ -8855,13 +8855,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Palembang Trade Center, Jln. R. Sukamto Komplex Ruko PTC Blok G-7, Kec. Ilir Timur II, Kel. 8 Ilir, Palembang, Sumatera Selatan 30118",
     "distance": "3.1 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.951128,
+    "lng_hint": 104.7622489,
     "is_open": true,
     "hours": "07:10 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Palembang%20Trade%20Center"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.951128,104.7622489"
   },
   {
     "id": "135",
@@ -8869,13 +8869,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Super Indo Basilica, Komp. The Basilica, Bukit Sangkal, Kec. Kalidoni, Kota Palembang, Sumatera Selatan 30163",
     "distance": "3.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9477717,
+    "lng_hint": 104.7851695,
     "is_open": true,
     "hours": "08:00 - 21:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Super%20Indo%20Basilica"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9477717,104.7851695"
   },
   {
     "id": "145",
@@ -8883,13 +8883,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pusri Palembang, Jl. May Zen No. 5, Sei Selayur, Kec. Kalidoni, Kota Palembang, Sumatera Selatan 30161",
     "distance": "3.5 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.96740549,
+    "lng_hint": 104.80579643,
     "is_open": true,
     "hours": "07:20 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pusri%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.96740549,104.80579643"
   },
   {
     "id": "134",
@@ -8897,13 +8897,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kapten A Rivai Palembang, Jl. Kapten A. Rivai No 52-53, 26 Ilir D.I, Kec. Ilir Barat I, Kota Palembang, Sumatera Selatan 30135",
     "distance": "3.6 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9850929,
+    "lng_hint": 104.7442491,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kapten%20A%20Rivai%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9850929,104.7442491"
   },
   {
     "id": "143",
@@ -8911,13 +8911,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kertapati Palembang, Jl. KH Wahid Hasyim No. 1580 - 1581, Kel. Satu Ulu, Kec. Seberang Ulu  Satu, Kota Palembang, Sumatera Selatan",
     "distance": "4.6 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.012821,
+    "lng_hint": 104.756748,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kertapati%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.012821,104.756748"
   },
   {
     "id": "129",
@@ -8925,13 +8925,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kenten Food Market, GF, Jl. MP. Mangkunegara No.11-10, 8 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30961",
     "distance": "4.7 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9342381,
+    "lng_hint": 104.7692956,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kenten%20Food%20Market"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9342381,104.7692956"
   },
   {
     "id": "133",
@@ -8939,13 +8939,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bukit Lama Palembang, Jl. Srijaya Negara No. 29 B, Bukit Lama, Kec. Ilir Barat I, Kota Palembang, Sumatera Selatan 30121",
     "distance": "4.9 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9877989,
+    "lng_hint": 104.7327776,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bukit%20Lama%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9877989,104.7327776"
   },
   {
     "id": "130",
@@ -8953,13 +8953,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Demang Palembang, Jl. Demang Lebar Daun 507 No. 8 RT 051 / RW 015, Lorok Pakjo, IIr Barat I, Palembang, Sumatera Selatan",
     "distance": "5.4 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.974869,
+    "lng_hint": 104.72694,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Demang%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.974869,104.72694"
   },
   {
     "id": "127",
@@ -8967,13 +8967,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kenten Palembang, Jl. Residen H. Najamuddin No 4 dan 5 RT 19 RW 10 Kel. Suka Maju, Kec. Sako, Kota Palembang, Sumatera Selatan 30961",
     "distance": "6.2 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9208321,
+    "lng_hint": 104.7704759,
     "is_open": true,
     "hours": "08:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kenten%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9208321,104.7704759"
   },
   {
     "id": "147",
@@ -8981,13 +8981,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Opi Mall, GF, Jl. Gubernur H. A Bastari, Sungai Kedukan, Kec. Rambutan, Kabupaten Banyu Asin, Sumatera Selatan 30257",
     "distance": "6.9 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.0361649,
+    "lng_hint": 104.7917946,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Opi%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.0361649,104.7917946"
   },
   {
     "id": "148",
@@ -8995,13 +8995,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jakabaring Sumatera Selatan, Jl. Opi Raya, Perum OPI Blok A3, Rt 063 Rw 013, Kelurahan 15 Ulu, Kec. Jakabaring, Kota Palembang, Sumatera Selatan 30257",
     "distance": "7.7 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.0445405,
+    "lng_hint": 104.7845128,
     "is_open": true,
     "hours": "08:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Opi%20Raya%20Sumatera%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.0445405,104.7845128"
   },
   {
     "id": "125",
@@ -9009,13 +9009,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Simpang Bandara Palembang, Komplek Ruko Bandara Mas No 10, Jl. Soekarno Hatta, Kel. Karya Baru, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30121",
     "distance": "9.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.92351957,
+    "lng_hint": 104.71062097,
     "is_open": true,
     "hours": "07:30 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Simpang%20Bandara%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.92351957,104.71062097"
   },
   {
     "id": "124",
@@ -9023,13 +9023,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko KM 12 Sukarami Palembang, Jl. Sultan Mahmud Badaruddin II, RT. 01 / RW 01, Sukodadi, Kec. Sukarami, Kota Palembang, Sumatera Selatan 30154",
     "distance": "12.5 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.9131974,
+    "lng_hint": 104.6817592,
     "is_open": true,
     "hours": "00:20 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20KM%2012%20Sukarami%20Palembang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.9131974,104.6817592"
   },
   {
     "id": "149",
@@ -9037,13 +9037,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko UNSRI Indralaya Sumatera Selatan, Jl. Palembang - Prabumulih Km. 32, Kel. Timbangan, Kec. Indralaya Utara, Kab Ogan Ilir, Sumatera Selatan 30862",
     "distance": "29.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.20829274,
+    "lng_hint": 104.65043952,
     "is_open": true,
     "hours": "07:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20UNSRI%20Indralaya%20Sumatera%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.20829274,104.65043952"
   },
   {
     "id": "150",
@@ -9051,13 +9051,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Indralaya Sumatera Selatan, Jl. Indralaya Raya No. 34, Indralaya Mulia, Kec. Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan 30862",
     "distance": "31.5 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.2373682,
+    "lng_hint": 104.6667974,
     "is_open": true,
     "hours": "08:15 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Indralaya%20Sumatera%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.2373682,104.6667974"
   },
   {
     "id": "151",
@@ -9065,13 +9065,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Kayu Agung, Jl Letnan Muchtar Saleh No 92, Celikah, Kec Kayu Agung Kab. Ogan Komering Ilir, Sumatera Selatan 30867",
     "distance": "45.4 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.3810003,
+    "lng_hint": 104.8271531,
     "is_open": true,
     "hours": "07:00 - 22:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Kayu%20Agung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.3810003,104.8271531"
   },
   {
     "id": "142",
@@ -9079,13 +9079,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Padat Karya Prabumulih, Jl Padat Karya Nomor 7, Gn. Ibul, Kec. Prabumulih Timur, Kota Prabumulih, Sumatera Selatan 31146",
     "distance": "75.0 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.4173592,
+    "lng_hint": 104.2650243,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Padat%20Karya%20Prabumulih"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.4173592,104.2650243"
   },
   {
     "id": "126",
@@ -9093,13 +9093,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jend. Sudirman Muara Enim, Jl. Jend. Sudirman No. 78, Muara Enim Kab. Lematang Ilir, Ogan Tengah, Kab. Muara Enim, Sumatera Selatan 31314",
     "distance": "135.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.6608901,
+    "lng_hint": 103.7684414,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jend.%20Sudirman%20Muara%20Enim"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.6608901,103.7684414"
   },
   {
     "id": "154",
@@ -9107,13 +9107,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dr M Hatta Baturaja, Jl. Dr. M. Hatta Nomor 05., Baturaja Lama, Kec. Baturaja Timur, Kabupaten Ogan Komering Ulu, Sumatera Selatan 32111",
     "distance": "144.2 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -4.1226214,
+    "lng_hint": 104.1672904,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dr%20M%20Hatta%20Baturaja"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.1226214,104.1672904"
   },
   {
     "id": "128",
@@ -9121,13 +9121,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bandar Agung Lahat, Jl. Lintas Sumatera, Bandar Agung, Kec. Lahat, Kab. Lahat, Sumatera Selatan 31419",
     "distance": "161.8 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.7794446,
+    "lng_hint": 103.5595597,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bandar%20Agung%20Lahat"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.7794446,103.5595597"
   },
   {
     "id": "153",
@@ -9135,13 +9135,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl Kartini Pangkal Pinang, Jl. Kartini No.2, Batin Tikal, Kec. Taman Sari, Kota Pangkal Pinang, Kepulauan Bangka Belitung 33684",
     "distance": "176.4 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -2.1191285,
+    "lng_hint": 106.1119975,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jl%20Kartini%20Pangkal%20Pinang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.1191285,106.1119975"
   },
   {
     "id": "47",
@@ -9149,13 +9149,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Beringin Jambi, Jl. H. Adam Malik No.41, Handil Jaya, Kec. Jelutung, Kota Jambi, Jambi 36125",
     "distance": "196.8 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.6339288,
+    "lng_hint": 103.6205323,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Beringin%20Jambi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.6339288,103.6205323"
   },
   {
     "id": "46",
@@ -9163,13 +9163,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Selincah Jambi, Jl. Sentot Alibasyah, Payo Selincah, Kec. Jambi Tim., Kota Jambi, Jambi 36121",
     "distance": "197.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.6061924,
+    "lng_hint": 103.6468528,
     "is_open": true,
     "hours": "07:00 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Selincah%20Jambi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.6061924,103.6468528"
   },
   {
     "id": "44",
@@ -9177,13 +9177,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Mayang Mangurai, 9H5J+M5Q, Jl. Sk. Rd. Syahbudin, Mayang Mangurai, Kec. Kota Baru, Kota Jambi, Jambi 36129",
     "distance": "199.2 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.6408185,
+    "lng_hint": 103.5801896,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Mayang%20Mangurai"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.6408185,103.5801896"
   },
   {
     "id": "45",
@@ -9191,13 +9191,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jambi Prima Mall, Lantai Dasar Unit 32, Jl. Jend. Sudirman No.90, Talang Jauh, Kec. Jelutung, Kota Jambi, Jambi 36133",
     "distance": "199.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.6047803,
+    "lng_hint": 103.6199854,
     "is_open": true,
     "hours": "09:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jambi%20Prima%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.6047803,103.6199854"
   },
   {
     "id": "43",
@@ -9205,13 +9205,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU 24.361.06 Samsat Gajah Mada Jambi (Container), Jl. Gajah Mada No.51, Jelutung, Kec. Jelutung, Kota Jambi, Jambi 36124",
     "distance": "199.7 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.612832,
+    "lng_hint": 103.605811,
     "is_open": true,
     "hours": "07:30 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pertamina%20Samsat%20Jelutung"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.612832,103.605811"
   },
   {
     "id": "42",
@@ -9219,13 +9219,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sipin Jambi (Container) Drive Thru, Jl. Sumantri Brojonegoro 135-20, Selamat, Kec. Telanaipura, Kota Jambi, Jambi 36124",
     "distance": "200.5 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.61070856,
+    "lng_hint": 103.59605091,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": true,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sipin%20Jambi%20%28Container%29%20Drive%20Thru"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.61070856,103.59605091"
   },
   {
     "id": "41",
@@ -9247,13 +9247,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Telanaipura Jambi, Depan UNJA, Jl. Imam Bonjol No.16A, Telanaipura, Jambi City, Jambi 36361",
     "distance": "201.8 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.609601,
+    "lng_hint": 103.5794723,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Telanaipura%20Jambi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.609601,103.5794723"
   },
   {
     "id": "40",
@@ -9261,13 +9261,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko UNJA Jambi, 9GRC+FVJ, Mendalo Darat, Jambi Luar Kota, Muaro Jambi Regency, Jambi 36361",
     "distance": "206.2 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -1.60871595,
+    "lng_hint": 103.52201808,
     "is_open": true,
     "hours": "08:00 - 22:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20UNJA%20Jambi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-1.60871595,103.52201808"
   },
   {
     "id": "67",
@@ -9275,13 +9275,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Lubuklinggau Sumatera Selatan, Jl. Yos Sudarso No 35 - 36, Taba Jemekeh, Kec. Lubuk Linggau Timur I, Kota Lubuklinggau, Sumatera Selatan 31628",
     "distance": "212.3 km",
     "city_hint": "Palembang",
-    "lat_hint": -2.9761,
-    "lng_hint": 104.7754,
+    "lat_hint": -3.2823339,
+    "lng_hint": 102.8877205,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Lubuklinggau%20Sumatera%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.2823339,102.8877205"
   },
   {
     "id": "1232",
@@ -9289,13 +9289,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Level 21 Mall Bali, Jl. Teuku Umar No.1, Dauh Puri Klod, Kec. Denpasar Bar., Kota Denpasar, Bali",
     "distance": "300 m",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.66959,
+    "lng_hint": 115.215004,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Level%2021%20Mall%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.66959,115.215004"
   },
   {
     "id": "1230",
@@ -9303,13 +9303,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Simpang 6 Teuku Umar Bali, Jl. Pulau Tarakan No.31C, Dauh Puri Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80112",
     "distance": "900 m",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.676278,
+    "lng_hint": 115.2070591,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Simpang%206%20Teuku%20Umar%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.676278,115.2070591"
   },
   {
     "id": "1234",
@@ -9317,13 +9317,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Renon Bali, Jl. Cok Agung Tresna No.37, Dangin Puri Klod, Kec. Denpasar Tim., Kota Denpasar, Bali 80234",
     "distance": "1.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.6668216,
+    "lng_hint": 115.2284979,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Renon%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.6668216,115.2284979"
   },
   {
     "id": "1236",
@@ -9331,13 +9331,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Hayam Wuruk E1 Denpasar, English 1 Denpasar,  Jl. Hayam Wuruk No.210 - 212, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80235",
     "distance": "3.1 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.6612519,
+    "lng_hint": 115.2396857,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=English%201%20Hayam%20Wuruk%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.6612519,115.2396857"
   },
   {
     "id": "1238",
@@ -9345,13 +9345,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sesetan, Jl. Raya Sesetan No.221c, Sesetan, Denpasar Selatan, Kota Denpasar, Bali 80223",
     "distance": "3.2 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.69880359,
+    "lng_hint": 115.21935525,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sesetan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.69880359,115.21935525"
   },
   {
     "id": "1227",
@@ -9359,13 +9359,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gatot Subroto Barat Bali, Jl. Gatot Subroto 31 Denpasar Utara",
     "distance": "3.9 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.635991,
+    "lng_hint": 115.2184067,
     "is_open": true,
     "hours": "07:15 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gatot%20Subroto%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.635991,115.2184067"
   },
   {
     "id": "1229",
@@ -9373,13 +9373,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Dewi Sri, Jl.Dewi Sri No.47F Pertokoan Kimia Farma 2, Kuta, Kabupaten Badung, Bali 80361",
     "distance": "5.5 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.7067636,
+    "lng_hint": 115.178158,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Dewi%20Sri"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.7067636,115.178158"
   },
   {
     "id": "1226",
@@ -9387,13 +9387,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Padang Luwih Bali, Jl. Raya Padang Luwih Dalung No. 210, Padang Luwih Dalung, Kecamatan Kuta Utara, Kabupaten Badung Bali 80361",
     "distance": "5.7 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.6347905,
+    "lng_hint": 115.1754339,
     "is_open": true,
     "hours": "07:15 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Padang%20Luwih%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.6347905,115.1754339"
   },
   {
     "id": "1225",
@@ -9401,13 +9401,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Canggu Raya Bali, Jl. Raya Canggu No, 4 Kerobokan, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",
     "distance": "6.3 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.6454544,
+    "lng_hint": 115.161065,
     "is_open": true,
     "hours": "00:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Canggu%20Raya%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.6454544,115.161065"
   },
   {
     "id": "1235",
@@ -9415,13 +9415,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Batubulan, Jl. Raya Batubulan, Batubulan, Kec. Sukawati, Kabupaten Gianyar, Bali 80237",
     "distance": "7.1 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.624575,
+    "lng_hint": 115.257145,
     "is_open": true,
     "hours": "07:00 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Batubulan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.624575,115.257145"
   },
   {
     "id": "1233",
@@ -9429,13 +9429,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko By Pass Ngurah Rai, Jl. Bypass Ngurah Rai No.7, Tuban, Kuta, Kabupaten Badung, Bali 80361",
     "distance": "7.6 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.7303706,
+    "lng_hint": 115.178586,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20By%20Pass%20Ngurah%20Rai"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.7303706,115.178586"
   },
   {
     "id": "1231",
@@ -9443,13 +9443,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Terminal Kedatangan Domestik Bandara Ngurah Rai Bali, Jl. Raya Gusti Ngurah Rai, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80362",
     "distance": "9.7 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.743473,
+    "lng_hint": 115.1638704,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Terminal%20Kedatangan%20Domestik%20Bandara%20Ngurah%20Rai%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.743473,115.1638704"
   },
   {
     "id": "1239",
@@ -9457,13 +9457,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Udayana Hub Jimbaran, Jl. Raya Kampus Unud, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80361",
     "distance": "13.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.789838,
+    "lng_hint": 115.1773278,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Udayana%20Hub%20Jimbaran"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.789838,115.1773278"
   },
   {
     "id": "1224",
@@ -9471,13 +9471,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tabanan Bali, Jl. Dr. Ir. Soekarno, Banjar Anyar, Kec. Kediri, Kabupaten Tabanan, Bali 82123",
     "distance": "15.7 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.552862,
+    "lng_hint": 115.134224,
     "is_open": true,
     "hours": "07:30 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tabanan%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.552862,115.134224"
   },
   {
     "id": "1237",
@@ -9485,13 +9485,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gianyar Bali, Jl. Dharma Giri No.88, Gianyar, Kec. Gianyar, Kabupaten Gianyar, Bali 80511",
     "distance": "18.5 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.5412041,
+    "lng_hint": 115.3191712,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gianyar%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.5412041,115.3191712"
   },
   {
     "id": "1220",
@@ -9499,13 +9499,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Singaraja Bali, Jl. A. Yani No.102, Kaliuntu, Kec. Buleleng, Kabupaten Buleleng, Bali 81116",
     "distance": "63.6 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.11325,
+    "lng_hint": 115.083069,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Singaraja%20Bali"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.11325,115.083069"
   },
   {
     "id": "1240",
@@ -9513,13 +9513,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pendidikan Mataram, Jl. Pendidikan No.60, Dasan Agung Baru, Kec. Selaparang, Kota Mataram, Nusa Tenggara Bar. 83126",
     "distance": "97.0 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.5805024,
+    "lng_hint": 116.0900103,
     "is_open": true,
     "hours": "07:05 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pendidikan%20Mataram"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.5805024,116.0900103"
   },
   {
     "id": "1241",
@@ -9527,13 +9527,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Sriwijaya Mataram, Jl. Sriwijaya No.22, Cilinaya, Kec. Cakranegara, Kota Mataram, Nusa Tenggara Barat, 83127",
     "distance": "99.6 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.5941313,
+    "lng_hint": 116.1155893,
     "is_open": true,
     "hours": "07:00 - 22:45 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sriwijaya%20Mataram"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.5941313,116.1155893"
   },
   {
     "id": "1242",
@@ -9541,13 +9541,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pejanggik Mataram, C47F+789, West Cakranegara, Cakranegara, Mataram City, West Nusa Tenggara 83239",
     "distance": "100.5 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.5868538,
+    "lng_hint": 116.1232962,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pejanggik%20Mataram"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.5868538,116.1232962"
   },
   {
     "id": "1198",
@@ -9555,13 +9555,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Ahmad Yani Banyuwangi, Jl. Jenderal Ahmad Yani No.73, Tukangkayu, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur 68416",
     "distance": "105.4 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.2231012,
+    "lng_hint": 114.3675344,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Ahmad%20Yani%20Banyuwangi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.2231012,114.3675344"
   },
   {
     "id": "1197",
@@ -9569,13 +9569,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Roxy Banyuwangi, Jl. Jenderal Ahmad Yani No.21, Penganjuran, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur 68416",
     "distance": "105.7 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.2183002,
+    "lng_hint": 114.3673408,
     "is_open": true,
     "hours": "09:00 - 20:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxy%20Banyuwangi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.2183002,114.3673408"
   },
   {
     "id": "1195",
@@ -9583,13 +9583,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Rogojampi Banyuwangi, Dusun Sidomulyo, Gitik, Kec. Rogojampi, Kabupaten Banyuwangi, Jawa Timur 68462",
     "distance": "108.7 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.304862,
+    "lng_hint": 114.295997,
     "is_open": true,
     "hours": "08:00 - 21:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Rogojampi%20Banyuwangi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.304862,114.295997"
   },
   {
     "id": "1180",
@@ -9597,13 +9597,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Genteng Banyuwangi, Jl. Gajah Mada No.281, Dusun Krajan, Genteng Kulon, Kec. Genteng, Kabupaten Banyuwangi, Jawa Timur 68465",
     "distance": "122.3 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.3648698,
+    "lng_hint": 114.1445642,
     "is_open": true,
     "hours": "09:30 - 20:31 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Genteng%20Banyuwangi"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.3648698,114.1445642"
   },
   {
     "id": "1357",
@@ -9611,13 +9611,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Basuki Rahmat Situbondo, Jl. Basuki Rahmat No.6, Mimbaan Utara, Mimbaan, Kec. Panji, Kabupaten Situbondo, Jawa Timur 68322",
     "distance": "169.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -7.7007601,
+    "lng_hint": 114.0210903,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Basuki%20Rahmat%20Situbondo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7007601,114.0210903"
   },
   {
     "id": "1176",
@@ -9625,13 +9625,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Sumbersari Jember, Jl. Kalimantan No.84b, Krajan Timur, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68121",
     "distance": "174.3 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.1640039,
+    "lng_hint": 113.7129653,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Sumbersari%20Jember"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.1640039,113.7129653"
   },
   {
     "id": "1175",
@@ -9639,13 +9639,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Gajah Mada Jember, Jl. Gajah Mada No.84, Kel. Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
     "distance": "176.4 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.1734086,
+    "lng_hint": 113.6895628,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Gajah%20Mada%20Jember"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.1734086,113.6895628"
   },
   {
     "id": "1174",
@@ -9653,13 +9653,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Roxy Square Jember, Jl. Hayam Wuruk No.50-58, Gerdu, Sempusari, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
     "distance": "178.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.184767,
+    "lng_hint": 113.6626821,
     "is_open": true,
     "hours": "10:00 - 21:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxy%20Square%20Jember"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.184767,113.6626821"
   },
   {
     "id": "1351",
@@ -9667,13 +9667,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Kraksaan Probolinggo, Jl. Raya Panglima Sudirman No.57 No.56, Kapuran, Kraksaan Wetan, Kec. Kraksaan, Kabupaten Probolinggo, Jawa Timur 67282",
     "distance": "220.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -7.7594679,
+    "lng_hint": 113.4296492,
     "is_open": true,
     "hours": "07:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kraksaan%20Probolinggo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.7594679,113.4296492"
   },
   {
     "id": "1173",
@@ -9681,13 +9681,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Panglima Sudirman Lumajang, Jl. Panglima Besar Sudirman No.143, Tompokersan, Kec. Lumajang, Kabupaten Lumajang, Jawa Timur 67316",
     "distance": "226.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -8.127956,
+    "lng_hint": 113.2248522,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Panglima%20Sudirman%20Lumajang"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-8.127956,113.2248522"
   },
   {
     "id": "1171",
@@ -9695,13 +9695,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pamekasan Madura, Jl. Jokotole No.26, Rw. 03, Barurambat Kota, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur 69317",
     "distance": "253.8 km",
     "city_hint": "Denpasar Bali",
-    "lat_hint": -8.6705,
-    "lng_hint": 115.2126,
+    "lat_hint": -7.1611412,
+    "lng_hint": 113.4836416,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pamekasan%20Madura"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-7.1611412,113.4836416"
   },
   {
     "id": "1257",
@@ -9709,13 +9709,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Rapoccini, Jl. Rappocini Raya No.40, Maricaya Sel., Kec. Mamajang, Kota Makassar, Sulawesi Selatan 90222",
     "distance": "900 m",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.15389418,
+    "lng_hint": 119.42759959,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Rapoccini"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.15389418,119.42759959"
   },
   {
     "id": "1259",
@@ -9723,13 +9723,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Urip Sumoharjo Makassar, Jl. Urip Sumoharjo No.36B, Karuwisi Utara, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231",
     "distance": "1.4 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.13542654,
+    "lng_hint": 119.43609234,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Urip%20Sumoharjo%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.13542654,119.43609234"
   },
   {
     "id": "1256",
@@ -9737,13 +9737,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bawakareeng Makassar, Jl. G. Bawakaraeng, Maccini, Gusung, Kota Makassar, Sulawesi Selatan",
     "distance": "1.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1351179,
+    "lng_hint": 119.4267519,
     "is_open": true,
     "hours": "00:05 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bawakaraeng%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1351179,119.4267519"
   },
   {
     "id": "1255",
@@ -9751,13 +9751,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Monginsidi Makassar, Jl. Monginsidi No.40, Maricaya Baru, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90142",
     "distance": "1.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1481477,
+    "lng_hint": 119.4192505,
     "is_open": true,
     "hours": "08:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Monginsidi%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1481477,119.4192505"
   },
   {
     "id": "1263",
@@ -9765,13 +9765,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Panakkukang Mall, Lantai Dasar, Gedung B, Jl. Boulevard No.1, Masale, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231",
     "distance": "1.8 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1575036,
+    "lng_hint": 119.4460964,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Panakkukang%20Mall"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1575036,119.4460964"
   },
   {
     "id": "1258",
@@ -9779,13 +9779,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Landak Makassar, Jl. Andi Djemma No.76, Banta-Bantaeng, Kec. Rappocini, Kota Makassar, Sulawesi Selatan 90222",
     "distance": "2.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1639515,
+    "lng_hint": 119.424577,
     "is_open": true,
     "hours": "08:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Landak%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1639515,119.424577"
   },
   {
     "id": "1261",
@@ -9793,13 +9793,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Pettarani Makassar, Jl. A. P. Pettarani No.04, Mannuruki, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90221",
     "distance": "2.7 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.171858,
+    "lng_hint": 119.432753,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pettarani%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.171858,119.432753"
   },
   {
     "id": "1251",
@@ -9807,13 +9807,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko A.Yani Makasar,Jl.Ahmad Yani,Pattunuang.Kec.Wajo,Kota Makasar Sulawesi Selatan 90171",
     "distance": "3.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1327639,
+    "lng_hint": 119.4104031,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20A.%20Yani%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1327639,119.4104031"
   },
   {
     "id": "1253",
@@ -9821,13 +9821,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl.Andalas No.147,Parang Layang,Kec.Bontoala,Kota Makasar,Sulawesi Selatan 90154",
     "distance": "3.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.12489325,
+    "lng_hint": 119.41815889,
     "is_open": true,
     "hours": "08:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Andalas%20Makassar%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.12489325,119.41815889"
   },
   {
     "id": "1265",
@@ -9835,13 +9835,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Alauddin Makassar,Ruko Kompleks Clariti@alaudin,Jl.Sultan Alaudin,Kel.Gn Sari,Kec.Rappocini-Kota Makasar 90221",
     "distance": "3.7 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1799988,
+    "lng_hint": 119.4403652,
     "is_open": true,
     "hours": "00:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Alauddin"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1799988,119.4403652"
   },
   {
     "id": "1254",
@@ -9849,13 +9849,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Cendrawasih Makassar, Jl. Cendrawasih, Sambung Jawa, Kec. Mamajang, Kota Makassar, Sulawesi Selatan",
     "distance": "3.8 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1734462,
+    "lng_hint": 119.4099521,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Cendrawasih%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1734462,119.4099521"
   },
   {
     "id": "1260",
@@ -9863,13 +9863,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Daeng Tata Raya Makassar, Jl. Daeng Tata Raya, Parang Tambung, Kec Tamalate, Kota Makassar, Sulawesi Selatan 90224",
     "distance": "4.2 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.183642,
+    "lng_hint": 119.42167,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Daeng%20Tata%20Raya%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.183642,119.42167"
   },
   {
     "id": "1249",
@@ -9877,13 +9877,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Trans Studio Mall Makassar, LGA No 15 & 15A, Jl. Metro Tj. Bunga, Maccini Sombala, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90224",
     "distance": "4.4 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.15898709,
+    "lng_hint": 119.39457195,
     "is_open": true,
     "hours": "10:00 - 21:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Trans%20Studio%20Mall%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.15898709,119.39457195"
   },
   {
     "id": "1267",
@@ -9891,13 +9891,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Citraland Celebes Makassar, Per.Citraland Celebes A, Blk. 1A, Tombolo, Kec. Somba Opu, Kota Makassar 90233",
     "distance": "4.9 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1797255,
+    "lng_hint": 119.4636246,
     "is_open": true,
     "hours": "07:30 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Citraland%20Celebes%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1797255,119.4636246"
   },
   {
     "id": "1268",
@@ -9905,13 +9905,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Tamangapa Makassar, Jl. Tamangapa Raya No.39 G, Bangkala, Kec. Manggala, Kota Makassar, Sulawesi Selatan 90235",
     "distance": "5.8 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1704456,
+    "lng_hint": 119.4800035,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Tamangapa%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1704456,119.4800035"
   },
   {
     "id": "1269",
@@ -9919,13 +9919,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Perintis Makassar, Jl. Perintis Kemerdekaan Km. 9, Tamalanrea Jaya, Makassar, Sulawesi Selatan",
     "distance": "6.8 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.13895754,
+    "lng_hint": 119.49337419,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Perintis%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.13895754,119.49337419"
   },
   {
     "id": "1250",
@@ -9933,13 +9933,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "SPBU Barombong Makassar, Jl. Permandian Alam No.16, Barombong, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90225",
     "distance": "7.7 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.19941594,
+    "lng_hint": 119.38698692,
     "is_open": true,
     "hours": "07:00 - 22:30 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Barombong%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.19941594,119.38698692"
   },
   {
     "id": "1271",
@@ -9947,13 +9947,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bumi Tamanlarea Permai, Jl. Bumi Tamanlarea Permai Blok 9M No.24A - B Tamanlarea, Kec. Tamanlarea, Kota Makassar, Sulawesi Selatan 90245",
     "distance": "8.1 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.133515,
+    "lng_hint": 119.504144,
     "is_open": true,
     "hours": "01:10 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bumi%20Tamanlarea%20Permai"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.133515,119.504144"
   },
   {
     "id": "1266",
@@ -9961,13 +9961,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pallangga Gowa, Jl. Poros Limbung KM. 10 Mangalli, Tetebatu, Kec. Pallangga, Kabupaten Gowa, Sulawesi Selatan 92161",
     "distance": "8.7 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.2253105,
+    "lng_hint": 119.4426099,
     "is_open": true,
     "hours": "08:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pallangga%20Gowa"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.2253105,119.4426099"
   },
   {
     "id": "1272",
@@ -9975,13 +9975,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Perintis II Makassar, Jl Paccerakkang, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan",
     "distance": "9.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.1161631,
+    "lng_hint": 119.5123364,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Paccerakkang%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.1161631,119.5123364"
   },
   {
     "id": "1270",
@@ -9989,13 +9989,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Jl.Perintis kemerdekaan No.KM.19,Pai,Kec.Biringkanaya,Kota Makassar,Sulawesi Selatan 90242",
     "distance": "10.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.0954328,
+    "lng_hint": 119.5118635,
     "is_open": true,
     "hours": "07:00 - 23:31 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=SPBU%20Pertamina%20%28Perintis%20Makassar%29"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.0954328,119.5118635"
   },
   {
     "id": "1273",
@@ -10003,13 +10003,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl Poros Maros Makassar, WGXW+GWJ Bontoa, Maros Regency, South Sulawesi",
     "distance": "16.6 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.050958,
+    "lng_hint": 119.5472179,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl%20Poros%20Maros%20Makassar"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.050958,119.5472179"
   },
   {
     "id": "1274",
@@ -10017,13 +10017,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jendral Sudirman Maros, Jl. Jend. Sudirman, Pettuadae, Kec. Turikale, Kabupaten Maros, Sulawesi Selatan 90516",
     "distance": "21.8 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.010485,
+    "lng_hint": 119.572942,
     "is_open": true,
     "hours": "07:30 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jendral%20Sudirman%20Maros"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.010485,119.572942"
   },
   {
     "id": "1264",
@@ -10031,13 +10031,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Pangkep Sulawesi Selatan, 5G9W+V9P, Jl. Kemakmuran, Mappasaile, Kec. Pangkajene, Kabupaten Pangkajene Dan Kepulauan, Sulawesi Selatan 90614",
     "distance": "37.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.8298813,
+    "lng_hint": 119.5459987,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Pangkep%20Sulawesi%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.8298813,119.5459987"
   },
   {
     "id": "1372",
@@ -10045,13 +10045,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jenderal Ahmad Yani Bone, Jl. Jend. Ahmad Yani No.38, Macege, Kec. Tanete Riattang Bar., Kabupaten Bone, Sulawesi Selatan 92732",
     "distance": "118.9 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.539726,
+    "lng_hint": 120.315597,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jenderal%20Ahmad%20Yani%20Bone"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.539726,120.315597"
   },
   {
     "id": "1247",
@@ -10059,13 +10059,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Bau Massepe Pare Pare, XJ7G+XGP, Jl. Bau Massepe, Cappa Galung, Kec. Bacukiki Bar., Kota Parepare, Sulawesi Selatan 91122",
     "distance": "125.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.035429,
+    "lng_hint": 119.626312,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Bau%20Massepe%20Pare%20Pare"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.035429,119.626312"
   },
   {
     "id": "1246",
@@ -10073,13 +10073,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jl. Lahalede Pare Pare, Ujung Lare, Soreang, Parepare, South Sulawesi",
     "distance": "128.6 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.0075364,
+    "lng_hint": 119.6295084,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jl.%20Lahalede%20Pare%20Pare"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.0075364,119.6295084"
   },
   {
     "id": "1315",
@@ -10087,13 +10087,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Belopa Luwu, Jl. Poros Palopo - Belopa, Kel. Tampumia Radda, Kec. Belopa, Kabupaten Luwu, Sulawesi Selatan 91994",
     "distance": "221.3 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.389888,
+    "lng_hint": 120.368941,
     "is_open": true,
     "hours": "08:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Belopa%20Luwu"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.389888,120.368941"
   },
   {
     "id": "1276",
@@ -10101,13 +10101,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Andi Djemma Palopo, Jl. Andi Djemma, Tompotika, Kec. Wara, Kota Palopo, Sulawesi Selatan 91911",
     "distance": "253.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.0050179,
+    "lng_hint": 120.2001412,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Andi%20Djemma%20Palopo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.0050179,120.2001412"
   },
   {
     "id": "1275",
@@ -10115,13 +10115,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Manennungeng Palopo, Jl. Manennungeng, Batupasi, Kec. Wara Utara, Kota Palopo, Sulawesi Selatan 91913",
     "distance": "254.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -2.992993,
+    "lng_hint": 120.19268,
     "is_open": true,
     "hours": "08:30 - 22:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Manennungeng%20Palopo"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.992993,120.19268"
   },
   {
     "id": "1243",
@@ -10129,13 +10129,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Jenderal Sudirman Mamuju, Jl. Jenderal Sudirman, Simboro, Kec. Simboro dan Kepulauan, Kab. Mamuju, Sulawesi barat 91512",
     "distance": "281.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -2.6834321,
+    "lng_hint": 118.8698463,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Jenderal%20Sudirman%20Mamuju"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-2.6834321,118.8698463"
   },
   {
     "id": "1284",
@@ -10143,13 +10143,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Betoambari Bau Bau, Jl. Betoambari, Katobengke, Kec. Betoambari, Kota Bau Bau, Sulawesi Tenggara 93714",
     "distance": "351.1 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.470736,
+    "lng_hint": 122.58691,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Betoambari%20Bau%20Bau"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.470736,122.58691"
   },
   {
     "id": "1285",
@@ -10157,13 +10157,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Murhum Bau Bau, Jl. Murhum No.41 Lanto, Kec. batupoara, Kota baubau, Sulawesi Tenggara 93717",
     "distance": "352.6 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -5.45968,
+    "lng_hint": 122.60231,
     "is_open": true,
     "hours": "07:00 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Murhum%20Bau%20Bau"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-5.45968,122.60231"
   },
   {
     "id": "1279",
@@ -10171,13 +10171,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Lepo Lepo Kendari, Jl. Jenderal Ahmad Yani, Lepo-Lepo, Kec. Baruga, Kota Kendari, Sulawesi Tenggara",
     "distance": "362.3 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.026634,
+    "lng_hint": 122.502109,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lepo%20Lepo%20Kendari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.026634,122.502109"
   },
   {
     "id": "1278",
@@ -10185,13 +10185,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko MT Haryono Kendari, Jl. Jenderal M.t. Haryono No.25G, Bende, Kec. Kadia, Kota Kendari, Sulawesi Tenggara 93117",
     "distance": "364.4 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.9901922,
+    "lng_hint": 122.5081044,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20MT%20Haryono%20Kendari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.9901922,122.5081044"
   },
   {
     "id": "1277",
@@ -10199,13 +10199,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Rabam Kendari, Jl. Jend. Ahmad Yani, Pondambea, Kec. Kadia, Kota Kendari, Sulawesi Tenggara 93111",
     "distance": "365.0 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.9795253,
+    "lng_hint": 122.51017313,
     "is_open": true,
     "hours": "07:00 - 23:10 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Rabam%20Kendari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.9795253,122.51017313"
   },
   {
     "id": "1281",
@@ -10213,13 +10213,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Anduonohu Kendari, Jalan Jendral A.H. Nasution, Kambu, Kec. Kambu, Kota Kendari, Sulawesi Tenggara 93231",
     "distance": "366.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -4.0020607,
+    "lng_hint": 122.5331837,
     "is_open": true,
     "hours": "00:01 - 23:19 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Anduonohu%20Kendari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-4.0020607,122.5331837"
   },
   {
     "id": "1280",
@@ -10227,13 +10227,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Edi Sabara Kendari, Jl. Edi Sabara, Korumba, Kec. Mandonga, Kota Kendari, Sulawesi Tenggara 93461",
     "distance": "366.6 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.9758721,
+    "lng_hint": 122.5242566,
     "is_open": true,
     "hours": "07:00 - 23:00 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Edi%20Sabara%20Kendari"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.9758721,122.5242566"
   },
   {
     "id": "1178",
@@ -10241,13 +10241,13 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Tanah Bumbu Batulicin Kalimantan Selatan, JL. Raya Batulicin Kampung Baru, Kec. Simpang Empat, Kab. Tanah Bumbu, Kalimantan Selatan 72273",
     "distance": "425.5 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.43445859,
+    "lng_hint": 116.00177913,
     "is_open": true,
     "hours": "00:15 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tanah%20Bumbu%20Batulicin%20Kalimantan%20Selatan"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.43445859,116.00177913"
   },
   {
     "id": "1177",
@@ -10255,12 +10255,12 @@ export const OUTLETS_DATA: Outlet[] = [
     "address": "Ruko Batulicin, Jl. Transmigrasi Plajau Rt.08/02 Bersujud, Kec. Simpang Empat, Kab. Tanah Bumbu, Kalimantan Selatan 72211",
     "distance": "426.3 km",
     "city_hint": "Makassar",
-    "lat_hint": -5.1477,
-    "lng_hint": 119.4327,
+    "lat_hint": -3.419349,
+    "lng_hint": 116.000642,
     "is_open": true,
     "hours": "00:05 - 23:15 WIB",
     "is_drive_thru": false,
     "phone": "08128888400",
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruko%20Batulicin"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.419349,116.000642"
   }
 ];

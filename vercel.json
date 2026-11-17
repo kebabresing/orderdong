@@ -1,9 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/api/outlets",
+      "destination": "/api/outlets"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
 }
-
