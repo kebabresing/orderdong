@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Outlet, Product, CartItem } from '../types';
 import { CATEGORIES_DATA, PRODUCTS_DATA } from '../data/products';
 import { formatRupiah } from '../utils/formatters';
@@ -17,6 +17,11 @@ interface HomePageProps {
   selectedCategoryFromNav?: string | null;
 }
 
+const BANNERS = [
+  { id: 'fee', src: '/banner.jpg', alt: 'Informasi Fee Orderdong Diskon 50%' },
+  { id: 'bogo', src: '/banner2.jpg', alt: 'Promo Orderdong Buy 1 Get 1' }
+];
+
 export const HomePage: React.FC<HomePageProps> = ({
   currentOutlet,
   onSwitchOutlet,
@@ -32,6 +37,38 @@ export const HomePage: React.FC<HomePageProps> = ({
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+
+  // Hero Banner slider state
+  const [currentBanner, setCurrentBanner] = useState(0);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentBanner((prev) => (prev + 1) % BANNERS.length);
+    }, 4500);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const minSwipeDistance = 40;
+    if (distance > minSwipeDistance) {
+      setCurrentBanner((prev) => (prev + 1) % BANNERS.length);
+    } else if (distance < -minSwipeDistance) {
+      setCurrentBanner((prev) => (prev - 1 + BANNERS.length) % BANNERS.length);
+    }
+  };
 
   // Filter products by category and search
   const filteredProducts = useMemo(() => {
@@ -74,15 +111,75 @@ export const HomePage: React.FC<HomePageProps> = ({
 
   return (
     <main className="shop-shell mx-auto px-4 py-4 pb-28">
-      {/* 1. Hero Promo Banner */}
-      <section className="hero-banner relative mb-4 rounded-2xl overflow-hidden shadow-sm border border-[#EADFC8]">
+      {/* 1. Hero Promo Banner Slider */}
+      <section
+        className="hero-banner relative mb-4 rounded-2xl overflow-hidden shadow-sm border border-[#EADFC8] select-none group"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="hero-banner-inner overflow-hidden relative">
-          <img
-            src="https://jasdorkopi.id/storage/banners/01KZ55ZWA0KX8Y20BP8SNWCS14.png"
-            alt="Promo Jasdor Kopi"
-            className="w-full h-auto object-cover"
-            loading="eager"
-          />
+          <div className="grid grid-cols-1 grid-rows-1 relative">
+            {BANNERS.map((banner, idx) => (
+              <div
+                key={banner.id}
+                className={`col-start-1 row-start-1 w-full transition-opacity duration-1000 ease-in-out ${
+                  currentBanner === idx
+                    ? 'opacity-100 z-10'
+                    : 'opacity-0 pointer-events-none z-0'
+                }`}
+              >
+                <img
+                  src={banner.src}
+                  alt={banner.alt}
+                  className="w-full h-auto object-cover block"
+                  loading={idx === 0 ? 'eager' : 'lazy'}
+                  draggable={false}
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Left Arrow Button */}
+          <button
+            type="button"
+            onClick={() => setCurrentBanner((prev) => (prev - 1 + BANNERS.length) % BANNERS.length)}
+            className="absolute left-2.5 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all opacity-80 hover:opacity-100 cursor-pointer shadow-md active:scale-95 z-20"
+            aria-label="Previous slide"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Right Arrow Button */}
+          <button
+            type="button"
+            onClick={() => setCurrentBanner((prev) => (prev + 1) % BANNERS.length)}
+            className="absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all opacity-80 hover:opacity-100 cursor-pointer shadow-md active:scale-95 z-20"
+            aria-label="Next slide"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          {/* Slide Indicator Dots */}
+          <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 flex items-center gap-1.5 bg-black/35 backdrop-blur-xs px-2.5 py-1 rounded-full z-20">
+            {BANNERS.map((_, idx) => (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => setCurrentBanner(idx)}
+                className={`transition-all duration-300 rounded-full cursor-pointer ${
+                  currentBanner === idx
+                    ? 'w-4 h-1.5 bg-white'
+                    : 'w-1.5 h-1.5 bg-white/50 hover:bg-white/80'
+                }`}
+                aria-label={`Go to slide ${idx + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </section>
 

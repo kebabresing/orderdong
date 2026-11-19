@@ -12,49 +12,17 @@ interface PilihOutletPageProps {
   onBackToHome: () => void;
 }
 
-const POPULAR_CITIES = [
-  { name: 'Jaksel', fullName: 'Jakarta Selatan', lat: -6.2615, lng: 106.8106 },
-  { name: 'Jakpus', fullName: 'Jakarta Pusat', lat: -6.1754, lng: 106.8272 },
-  { name: 'Jakbar', fullName: 'Jakarta Barat', lat: -6.1674, lng: 106.7637 },
-  { name: 'Jakut', fullName: 'Jakarta Utara', lat: -6.1384, lng: 106.8640 },
-  { name: 'Jaktim', fullName: 'Jakarta Timur', lat: -6.2250, lng: 106.9004 },
-  { name: 'Tangerang', fullName: 'Kota Tangerang', lat: -6.1783, lng: 106.6319 },
-  { name: 'Tangsel / BSD', fullName: 'Tangerang Selatan', lat: -6.3016, lng: 106.6528 },
-  { name: 'Bekasi', fullName: 'Bekasi', lat: -6.2383, lng: 106.9756 },
-  { name: 'Depok', fullName: 'Depok', lat: -6.4025, lng: 106.7942 },
-  { name: 'Bogor', fullName: 'Bogor', lat: -6.5971, lng: 106.8060 },
-  { name: 'Bandung', fullName: 'Bandung', lat: -6.9175, lng: 107.6191 },
-  { name: 'Surabaya', fullName: 'Surabaya', lat: -7.2575, lng: 112.7521 },
-  { name: 'Semarang', fullName: 'Semarang', lat: -6.9667, lng: 110.4167 },
-  { name: 'Yogyakarta', fullName: 'Yogyakarta', lat: -7.7956, lng: 110.3695 },
-  { name: 'Medan', fullName: 'Medan', lat: 3.5952, lng: 98.6722 },
-  { name: 'Bali', fullName: 'Denpasar / Bali', lat: -8.6705, lng: 115.2126 },
-  { name: 'Makassar', fullName: 'Makassar', lat: -5.1477, lng: 119.4327 }
-];
-
 export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
   currentOutlet,
   onSelectOutlet,
   onBackToHome
 }) => {
-  const { location, requestLocation, clearLocation, setManualCoordinates } = useLocation();
+  const { location, requestLocation } = useLocation();
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCityName, setSelectedCityName] = useState<string | null>(null);
-  const [showTroubleshootGuide, setShowTroubleshootGuide] = useState(false);
-  const [activeTab, setActiveTab] = useState<'ios' | 'android'>(() => {
-    return location.deviceOs === 'ios' ? 'ios' : 'android';
-  });
-
   const [detailModalOutlet, setDetailModalOutlet] = useState<Outlet | null>(null);
   const [selectedSuccessOutlet, setSelectedSuccessOutlet] = useState<Outlet | null>(null);
   const [liveOutlets, setLiveOutlets] = useState<Outlet[] | null>(null);
   const [isLoadingLive, setIsLoadingLive] = useState(false);
-
-  // Sync tab with detected OS if changes
-  useEffect(() => {
-    if (location.deviceOs === 'ios') setActiveTab('ios');
-    else if (location.deviceOs === 'android') setActiveTab('android');
-  }, [location.deviceOs]);
 
   // Fetch real-time outlets when GPS coordinates change or search query changes
   useEffect(() => {
@@ -75,8 +43,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
           }
 
           const res = await fetch(`/api/outlets?${params.toString()}`);
-          const contentType = res.headers.get('content-type') || '';
-          if (res.ok && contentType.includes('application/json')) {
+          if (res.ok) {
             const data = await res.json();
             if (active && data.success && Array.isArray(data.outlets) && data.outlets.length > 0) {
               setLiveOutlets(data.outlets);
@@ -164,11 +131,6 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
     }
   };
 
-  const handleSelectCityPreset = (city: typeof POPULAR_CITIES[0]) => {
-    setSelectedCityName(city.name);
-    setManualCoordinates(city.lat, city.lng, city.fullName);
-  };
-
   return (
     <main className="shop-shell mx-auto px-4 py-5 pb-28">
       {/* Header Info */}
@@ -195,90 +157,45 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
         </p>
       </div>
 
-      {/* 1. Location Active Bar (shown when location is granted) */}
+      {/* Location Active Bar (shown when location is granted) */}
       {location.status === 'granted' && (
         <div
           id="location-active-bar"
-          className="mb-3.5 bg-[#FAF6F0] border border-[#EADFC8] px-3.5 py-3 rounded-xl text-xs shadow-xs"
+          className="mb-3 flex items-center justify-between bg-[#FAF6F0] border border-[#EADFC8] px-3.5 py-2.5 rounded-xl text-xs shadow-xs"
         >
-          <div className="flex items-center justify-between gap-2">
-            <div className="flex items-center gap-2 text-[#6B4423] font-medium truncate">
-              <span className="relative flex h-2.5 w-2.5 shrink-0">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" />
-              </span>
-              <span className="truncate">
-                {selectedCityName ? (
-                  <span>📍 Lokasi Terpilih: <strong>{selectedCityName}</strong></span>
-                ) : location.lat && location.lng ? (
-                  <span>
-                    GPS Aktif ({location.lat.toFixed(4)}, {location.lng.toFixed(4)})
-                    {location.accuracy ? ` · ±${Math.round(location.accuracy)}m` : ''}
-                  </span>
-                ) : (
-                  'Lokasi aktif · Menampilkan outlet terdekat'
-                )}
-              </span>
-            </div>
-            <div className="flex items-center gap-2 shrink-0">
-              <button
-                type="button"
-                onClick={() => {
-                  setSelectedCityName(null);
-                  requestLocation(true);
-                }}
-                className="text-[11px] font-bold text-[#6B4423] hover:text-[#1A1614] underline cursor-pointer"
-              >
-                Perbarui GPS
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setSelectedCityName(null);
-                  clearLocation();
-                }}
-                className="text-[11px] text-[#A08972] hover:text-[#1A1614] cursor-pointer"
-                title="Hapus lokasi"
-              >
-                Reset
-              </button>
-            </div>
+          <div className="flex items-center gap-2 text-[#6B4423] font-medium truncate">
+            <span className="relative flex h-2.5 w-2.5 shrink-0">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" />
+            </span>
+            <span className="truncate">
+              {location.lat && location.lng
+                ? `GPS Aktif (${location.lat.toFixed(4)}, ${location.lng.toFixed(4)}) · Menampilkan outlet terdekat`
+                : 'Lokasi aktif · Menampilkan outlet terdekat'}
+            </span>
           </div>
+          <button
+            type="button"
+            onClick={() => requestLocation(true)}
+            className="text-[11px] font-bold text-[#6B4423] hover:text-[#1A1614] underline shrink-0 cursor-pointer ml-2"
+          >
+            Perbarui
+          </button>
         </div>
       )}
 
-      {/* 2. Insecure Context Notice (when accessed over HTTP on mobile) */}
-      {location.status === 'insecure_context' && (
-        <div className="mb-4 bg-amber-50 border border-amber-300 rounded-2xl p-4 text-xs text-[#78350F] shadow-xs">
-          <div className="flex items-start gap-2.5">
-            <span className="text-base shrink-0">⚠️</span>
-            <div className="flex-1">
-              <p className="font-bold text-xs text-[#92400E]">
-                GPS Memerlukan Koneksi HTTPS di HP
-              </p>
-              <p className="mt-1 text-[11px] text-[#78350F] leading-relaxed">
-                Browser HP (Safari iOS & Chrome Android) secara ketat menonaktifkan sensor GPS jika website dibuka melalui alamat HTTP lokal (misal <code className="bg-amber-100 px-1 py-0.5 rounded font-mono">http://192.168.x.x</code>).
-              </p>
-              <p className="mt-1.5 text-[11px] text-[#78350F]">
-                👉 <strong>Solusi:</strong> Silakan pilih kota terdekat di bawah (1 klik), cari nama outlet di kolom pencarian, atau deploy ke Vercel agar berjalan di <strong>HTTPS</strong>.
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* 3. Location Gate Card (shown when location is NOT yet granted or requesting) */}
-      {location.status !== 'granted' && location.status !== 'insecure_context' && (
+      {/* Location Gate Card (shown when location is NOT yet granted or requesting) */}
+      {location.status !== 'granted' && (
         <div
           id="location-gate-card"
-          className="mb-4 bg-gradient-to-br from-[#FFFDF9] to-[#F5ECE0] border-2 border-[#EADFC8] rounded-2xl p-4 text-center shadow-xs"
+          className="mb-4 bg-gradient-to-br from-[#FFFDF9] to-[#F5ECE0] border-2 border-[#EADFC8] rounded-2xl p-5 text-center shadow-xs"
         >
-          <div className="w-12 h-12 rounded-full bg-white border border-[#EADFC8] mx-auto flex items-center justify-center text-[#D97706] mb-2.5 shadow-xs">
+          <div className="w-12 h-12 rounded-full bg-white border border-[#EADFC8] mx-auto flex items-center justify-center text-[#D97706] mb-3 shadow-xs">
             <svg
-              className={`w-6 h-6 ${location.status === 'requesting' ? 'animate-spin text-[#6B4423]' : 'animate-bounce'}`}
+              className="w-6 h-6 animate-bounce"
               fill="none"
               stroke="currentColor"
-              style={{ animationDuration: location.status === 'requesting' ? '1s' : '2s' }}
+              style={{ animationDuration: '2s' }}
               viewBox="0 0 24 24"
             >
               <path
@@ -296,20 +213,13 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
             </svg>
           </div>
           <h3 className="font-extrabold text-sm text-[#1A1614]">
-            {location.status === 'requesting'
-              ? 'Mendeteksi Lokasi GPS...'
-              : location.status === 'denied'
-              ? 'Izin Lokasi Belum Aktif'
-              : location.status === 'timeout'
-              ? 'Sinyal GPS Lemah (Timeout)'
-              : 'Aktifkan GPS untuk Outlet Terdekat'}
+            {location.status === 'requesting' ? 'Mendeteksi Lokasi GPS...' : 'Izin Lokasi Diperlukan'}
           </h3>
           <p className="text-xs text-[#6B5A4B] mt-1 leading-relaxed max-w-sm mx-auto">
             {location.errorMessage ||
               'Izinkan akses lokasi di browsermu agar sistem dapat mengurutkan outlet terdekat beserta jarak akurat.'}
           </p>
-
-          <div className="mt-3.5 flex flex-wrap justify-center gap-2">
+          <div className="mt-3.5 flex justify-center gap-2">
             <button
               type="button"
               disabled={location.status === 'requesting'}
@@ -323,129 +233,11 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                   d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                 />
               </svg>
-              <span>{location.status === 'requesting' ? 'Memproses GPS...' : 'Izinkan Akses Lokasi'}</span>
+              <span>{location.status === 'requesting' ? 'Sedang Memproses GPS...' : 'Izinkan Akses Lokasi'}</span>
             </button>
-
-            {(location.status === 'denied' || location.status === 'timeout' || location.status === 'unavailable') && (
-              <button
-                type="button"
-                onClick={() => setShowTroubleshootGuide((prev) => !prev)}
-                className="bg-white border border-[#EADFC8] text-[#6B4423] hover:text-[#1A1614] font-semibold text-xs py-2.5 px-3.5 rounded-xl transition cursor-pointer"
-              >
-                {showTroubleshootGuide ? 'Tutup Panduan' : '💡 Cara Aktifkan di HP'}
-              </button>
-            )}
           </div>
-
-          {/* Troubleshoot Guide for iOS & Android */}
-          {showTroubleshootGuide && (
-            <div className="mt-4 text-left bg-white border border-[#EADFC8] rounded-xl p-3.5 text-xs animate-fadeIn">
-              <div className="flex border-b border-[#EADFC8] mb-2.5">
-                <button
-                  type="button"
-                  onClick={() => setActiveTab('ios')}
-                  className={`pb-1.5 px-3 font-bold text-xs cursor-pointer border-b-2 transition ${
-                    activeTab === 'ios'
-                      ? 'border-[#6B4423] text-[#6B4423]'
-                      : 'border-transparent text-[#A08972] hover:text-[#1A1614]'
-                  }`}
-                >
-                  🍎 iPhone (Safari)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setActiveTab('android')}
-                  className={`pb-1.5 px-3 font-bold text-xs cursor-pointer border-b-2 transition ${
-                    activeTab === 'android'
-                      ? 'border-[#6B4423] text-[#6B4423]'
-                      : 'border-transparent text-[#A08972] hover:text-[#1A1614]'
-                  }`}
-                >
-                  🤖 Android (Chrome)
-                </button>
-              </div>
-
-              {activeTab === 'ios' ? (
-                <ol className="list-decimal pl-4 space-y-1.5 text-[11px] text-[#6B5A4B] leading-relaxed">
-                  <li>
-                    Buka <strong>Pengaturan iPhone</strong> &gt; <strong>Privasi & Keamanan</strong> &gt; <strong>Layanan Lokasi</strong> (pastikan aktif / ON).
-                  </li>
-                  <li>
-                    Scroll ke bawah di halaman yang sama &gt; pilih <strong>Situs Web Safari</strong> &gt; pilih <strong>Saat Menggunakan App</strong>.
-                  </li>
-                  <li>
-                    Kembali ke Safari: Ketuk tombol <strong>aA</strong> di kiri address bar &gt; <strong>Pengaturan Situs Web</strong> &gt; <strong>Lokasi</strong> &gt; pilih <strong>Tanya</strong> atau <strong>Izinkan</strong>.
-                  </li>
-                  <li>
-                    Pastikan web dibuka melalui protokol <strong>HTTPS</strong>.
-                  </li>
-                </ol>
-              ) : (
-                <ol className="list-decimal pl-4 space-y-1.5 text-[11px] text-[#6B5A4B] leading-relaxed">
-                  <li>
-                    Tarik panel notifikasi atas HP &gt; pastikan ikon <strong>Lokasi / GPS</strong> menyala.
-                  </li>
-                  <li>
-                    Di Chrome: Ketuk ikon <strong>Izin / Gembok</strong> di sebelah kiri kolom URL &gt; <strong>Izin Situs</strong> &gt; <strong>Lokasi</strong> &gt; pilih <strong>Izinkan</strong>.
-                  </li>
-                  <li>
-                    Jika opsi lokasi redup/mati, buka Pengaturan HP &gt; Aplikasi &gt; Chrome &gt; Izin &gt; Lokasi &gt; Izinkan saat aplikasi digunakan.
-                  </li>
-                  <li>
-                    Pastikan web dibuka melalui protokol <strong>HTTPS</strong>.
-                  </li>
-                </ol>
-              )}
-            </div>
-          )}
         </div>
       )}
-
-      {/* Quick City Presets (1-tap selection for instant sorting) */}
-      <div className="mb-3.5">
-        <div className="flex items-center justify-between mb-1.5">
-          <span className="text-[11px] font-bold text-[#A08972] uppercase tracking-wider flex items-center gap-1">
-            <svg className="w-3 h-3 text-[#6B4423]" fill="currentColor" viewBox="0 0 20 20">
-              <path
-                clipRule="evenodd"
-                fillRule="evenodd"
-                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-              />
-            </svg>
-            Pilih Kota Terdekat (1 Klik):
-          </span>
-          {selectedCityName && (
-            <button
-              onClick={() => {
-                setSelectedCityName(null);
-                clearLocation();
-              }}
-              className="text-[10px] text-[#6B4423] hover:underline cursor-pointer"
-            >
-              Hapus Filter
-            </button>
-          )}
-        </div>
-        <div className="flex gap-1.5 overflow-x-auto pb-1.5 scrollbar-none no-scrollbar">
-          {POPULAR_CITIES.map((city) => {
-            const isSelected = selectedCityName === city.name;
-            return (
-              <button
-                key={city.name}
-                type="button"
-                onClick={() => handleSelectCityPreset(city)}
-                className={`text-[11px] px-2.5 py-1 rounded-full whitespace-nowrap transition cursor-pointer font-medium ${
-                  isSelected
-                    ? 'bg-[#6B4423] text-white shadow-xs'
-                    : 'bg-white border border-[#EADFC8] text-[#6B4423] hover:bg-[#FAF6F0]'
-                }`}
-              >
-                {city.name}
-              </button>
-            );
-          })}
-        </div>
-      </div>
 
       {/* Outlet Search Bar */}
       <div className="mb-4">
@@ -507,105 +299,72 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                       : 'border-[#EADFC8]'
                   }`}
                 >
-                  {/* Radio selector icon */}
-                  <div className="pt-0.5 shrink-0">
-                    <div
-                      className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition ${
-                        isSelected ? 'border-[#6B4423] bg-[#6B4423]' : 'border-[#D1C2A5] bg-white'
-                      }`}
-                    >
-                      {isSelected && <div className="w-2 h-2 rounded-full bg-white" />}
-                    </div>
+                  {/* Outlet thumbnail */}
+                  <div className="w-14 h-14 rounded-xl bg-[#FAF6F0] shrink-0 overflow-hidden flex items-center justify-center p-2 border border-[#EADFC8]">
+                    <img
+                      src="https://jasdorkopi.id/images/outlet-default.png"
+                      alt=""
+                      className="w-full h-full object-contain"
+                      loading="lazy"
+                    />
                   </div>
 
-                  {/* Outlet Content */}
+                  {/* Outlet info */}
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-start justify-between gap-2">
+                    <div className="flex items-start justify-between gap-2 mb-1">
                       <div className="flex items-center gap-1.5 flex-wrap">
-                        <span className="text-sm font-bold text-[#1A1614] leading-snug">
-                          {outlet.name}
+                        <span className="text-[9px] uppercase tracking-wider font-extrabold px-1.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800">
+                          Buka
+                        </span>
+                        <span className="text-[10px] font-bold text-[#6B4423] bg-[#F3E9DB] px-1.5 py-0.5 rounded-md border border-[#EADFC8] inline-flex items-center gap-0.5">
+                          <svg className="w-2.5 h-2.5 text-[#D97706]" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                              clipRule="evenodd"
+                              fillRule="evenodd"
+                              d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                            />
+                          </svg>
+                          <span>{outlet.distance}</span>
                         </span>
                         {outlet.is_drive_thru && (
-                          <span className="text-[10px] bg-[#EBE3D5] text-[#6B4423] font-semibold px-1.5 py-0.5 rounded">
+                          <span className="text-[9px] font-semibold text-[#6B4423] bg-[#EADFC8] px-1.5 py-0.5 rounded-md">
                             Drive Thru
                           </span>
                         )}
                       </div>
-                      {outlet.distance && (
-                        <span className="text-[11px] font-bold text-[#6B4423] shrink-0 bg-[#FAF6F0] px-2 py-0.5 rounded-full border border-[#EADFC8]">
-                          {outlet.distance}
-                        </span>
-                      )}
-                    </div>
 
-                    <p className="text-xs text-[#6B5A4B] mt-1 line-clamp-2 leading-relaxed">
-                      {outlet.address}
-                    </p>
-
-                    <div className="mt-2.5 flex items-center gap-2 text-[11px] text-[#A08972] flex-wrap">
-                      <span className="inline-flex items-center gap-1">
-                        <span
-                          className={`w-1.5 h-1.5 rounded-full ${
-                            outlet.is_open ? 'bg-emerald-500' : 'bg-red-400'
-                          }`}
-                        />
-                        <span className={outlet.is_open ? 'text-emerald-700 font-medium' : 'text-red-500'}>
-                          {outlet.is_open ? 'Buka' : 'Tutup'}
-                        </span>
-                      </span>
-                      <span>·</span>
-                      <span>{outlet.hours || '07:00 - 23:00 WIB'}</span>
-                    </div>
-
-                    {/* Action buttons on card */}
-                    <div className="mt-3 pt-2.5 border-t border-[#F2ECE1] flex items-center justify-between text-xs">
+                      {/* Detail Modal Trigger Button */}
                       <button
                         type="button"
                         onClick={(e) => {
                           e.stopPropagation();
                           setDetailModalOutlet(outlet);
                         }}
-                        className="text-[#6B4423] hover:underline font-semibold flex items-center gap-1 cursor-pointer"
+                        className="text-[11px] font-semibold text-[#6B4423] hover:text-[#1A1614] bg-[#FAF6F0] hover:bg-[#EADFC8] px-2 py-0.5 rounded-lg border border-[#EADFC8] transition shrink-0 cursor-pointer"
                       >
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        <span>Detail & Alamat</span>
+                        Detail
                       </button>
+                    </div>
 
-                      <div className="flex items-center gap-2">
-                        {outlet.maps_url && (
-                          <a
-                            href={outlet.maps_url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={(e) => e.stopPropagation()}
-                            className="text-[#A08972] hover:text-[#6B4423] flex items-center gap-1 cursor-pointer"
-                            title="Buka di Google Maps"
-                          >
-                            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                              />
-                            </svg>
-                            <span>Maps</span>
-                          </a>
-                        )}
-                        <span className="text-xs font-bold text-[#6B4423] group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
-                          <span>Pilih</span>
-                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </span>
-                      </div>
+                    <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] leading-snug line-clamp-1 group-hover:text-[#6B4423] transition-colors">
+                      {outlet.name}
+                    </h3>
+                    <p className="text-[11px] text-[#A08972] line-clamp-1 mt-0.5">{outlet.address}</p>
+
+                    <div className="flex items-center justify-between mt-2 pt-1.5 border-t border-[#FAF6F0]">
+                      <span className="text-[10px] text-[#8A7A6A] flex items-center gap-1 font-mono">
+                        <svg className="w-3 h-3 text-[#A08972]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>{outlet.hours}</span>
+                      </span>
+
+                      <span className="text-[11px] font-bold text-[#6B4423] flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                        <span>Pilih</span>
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -616,28 +375,21 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
       </div>
 
       {/* Outlet Detail Modal */}
-      {detailModalOutlet && (
-        <OutletDetailModal
-          isOpen={Boolean(detailModalOutlet)}
-          outlet={detailModalOutlet}
-          userLat={location.lat}
-          userLng={location.lng}
-          onClose={() => setDetailModalOutlet(null)}
-          onSelect={(outlet: Outlet) => {
-            setDetailModalOutlet(null);
-            handleSelectOutlet(outlet);
-          }}
-        />
-      )}
+      <OutletDetailModal
+        outlet={detailModalOutlet}
+        userLat={location.lat}
+        userLng={location.lng}
+        isOpen={!!detailModalOutlet}
+        onClose={() => setDetailModalOutlet(null)}
+        onSelect={(o) => handleSelectOutlet(o)}
+      />
 
-      {/* Location Success Redirecting Modal */}
-      {selectedSuccessOutlet && (
-        <LocationSuccessModal
-          isOpen={Boolean(selectedSuccessOutlet)}
-          outlet={selectedSuccessOutlet}
-          onFinishRedirect={handleSuccessRedirectFinish}
-        />
-      )}
+      {/* Location Success Redirect Modal */}
+      <LocationSuccessModal
+        outlet={selectedSuccessOutlet}
+        isOpen={!!selectedSuccessOutlet}
+        onFinishRedirect={handleSuccessRedirectFinish}
+      />
     </main>
   );
 };

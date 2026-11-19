@@ -11,13 +11,20 @@ const DISMISS_KEY = 'jasdor_welcome_dismiss_until';
 export const WelcomePopup: React.FC<WelcomePopupProps> = ({ isOpen, onClose }) => {
   const [dontShowAgain, setDontShowAgain] = useState(false);
 
-  // Check day of week for dynamic greeting
-  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  const dayNameIndo = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+  // Dynamic greetings and quotes per day
+  const DAILY_CONFIG: Record<number, { dayEn: string; dayId: string; quote: string }> = {
+    0: { dayEn: 'Sunday', dayId: 'Minggu', quote: 'Minggu santai, recharge energi dan kopi masih jadi pilihan paling aman. ☕️✨' },
+    1: { dayEn: 'Monday', dayId: 'Senin', quote: 'Senin lagi, hidup masih jalan dan kopi masih jadi pilihan yang aman. 💪☕️' },
+    2: { dayEn: 'Tuesday', dayId: 'Selasa', quote: 'Selasa lagi, hidup masih jalan dan kopi masih jadi pilihan yang aman. 😭☕️' },
+    3: { dayEn: 'Wednesday', dayId: 'Rabu', quote: 'Rabu lagi, setengah jalan menuju weekend dan kopi siap nemenin. ⚡️☕️' },
+    4: { dayEn: 'Thursday', dayId: 'Kamis', quote: 'Kamis lagi, hidup masih jalan dan kopi masih jadi pilihan yang aman. 😭☕️' },
+    5: { dayEn: 'Friday', dayId: 'Jumat', quote: 'Jumat lagi, selangkah menuju weekend dan kopi siap nemenin santai. 🎉☕️' },
+    6: { dayEn: 'Saturday', dayId: 'Sabtu', quote: 'Sabtu seru! Waktunya me-time atau nongkrong santai sambil ngopi. 🛋️☕️' },
+  };
+
   const today = new Date();
   const dayIndex = today.getDay();
-  const dayName = days[dayIndex];
-  const indoDay = dayNameIndo[dayIndex];
+  const currentDay = DAILY_CONFIG[dayIndex] || DAILY_CONFIG[4];
 
   const handleClose = () => {
     if (dontShowAgain) {
@@ -68,10 +75,10 @@ export const WelcomePopup: React.FC<WelcomePopupProps> = ({ isOpen, onClose }) =
         {/* Content */}
         <div className="px-6 py-5 overflow-y-auto">
           <h3 className="text-[17px] font-extrabold text-[#1A1614] text-center leading-snug mb-4">
-            ☀️ Happy {dayName}!
+            ☀️ Happy {currentDay.dayEn}!
           </h3>
           <div className="welcome-popup-content text-[13px] text-[#5C4A3A] leading-[1.65] text-center space-y-2">
-            <p>{indoDay} lagi, hidup masih jalan dan kopi masih jadi pilihan yang aman. 😭☕️</p>
+            <p>{currentDay.quote}</p>
             <p>
               Jasdor <strong>OPEN</strong> hari ini 🤎
               <br />

@@ -33,21 +33,15 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
   onOpenFeeInfo
 }) => {
   const [customerName, setCustomerName] = useState('');
-  const [nameError, setNameError] = useState(false);
-
-  // Determine which fee tier is active
-  const feeLabel =
-    subtotal >= 70000
-      ? 'Min. Rp70.000'
-      : subtotal >= 50000
-      ? 'Min. Rp50.000'
-      : 'Tanpa Minimal';
+  const [customerPhone, setCustomerPhone] = useState('');
+  const [showCheckoutModal, setShowCheckoutModal] = useState(false);
 
   // Generate WhatsApp order text
   const generateWhatsAppOrderUrl = () => {
     let text = `Halo Admin Jasdor, saya ingin memesan Kopi Kenangan:\n\n`;
-    text += `👤 *Nama Pemesan:* ${customerName}\n`;
     text += `📍 *Outlet:* ${currentOutlet?.name || 'Default Outlet'}\n`;
+    if (customerName) text += `👤 *Nama:* ${customerName}\n`;
+    if (customerPhone) text += `📱 *WhatsApp:* ${customerPhone}\n`;
     text += `\n*Daftar Pesanan:*\n`;
 
     items.forEach((item, index) => {
@@ -67,23 +61,11 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
     text += `\n*Ringkasan Biaya:*\n`;
     text += `• Subtotal: ${formatRupiah(subtotal)}\n`;
     text += `• Diskon 50%: -${formatRupiah(discount)}\n`;
-    text += `• Fee Jasdor (${feeLabel}): ${formatRupiah(fee)}\n`;
+    text += `• Fee Jasdor: ${formatRupiah(fee)}\n`;
     text += `• *TOTAL BAYAR: ${formatRupiah(grandTotal)}*\n\n`;
     text += `Mohon diproses pesanannya ya kak. Terima kasih! 🙏`;
 
     return `https://wa.me/${APP_CONFIG.adminWhatsappNumber}?text=${encodeURIComponent(text)}`;
-  };
-
-  const handleOrder = () => {
-    if (!customerName.trim()) {
-      setNameError(true);
-      // Scroll to name input
-      document.getElementById('input-nama-pemesan')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      document.getElementById('input-nama-pemesan')?.focus();
-      return;
-    }
-    setNameError(false);
-    window.open(generateWhatsAppOrderUrl(), '_blank', 'noopener noreferrer');
   };
 
   if (items.length === 0) {
@@ -160,43 +142,6 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
           </button>
         </div>
       )}
-
-      {/* Customer Name Input */}
-      <div className={`mb-4 bg-white rounded-2xl border-2 p-4 shadow-xs transition-colors ${
-        nameError ? 'border-red-400 ring-2 ring-red-200' : 'border-[#EADFC8]'
-      }`}>
-        <label htmlFor="input-nama-pemesan" className="block mb-1.5">
-          <span className="text-xs font-bold text-[#1A1614]">
-            Nama Pemesan
-            <span className="text-red-500 ml-0.5">*</span>
-          </span>
-          <span className="text-[10px] text-[#A08972] ml-1.5">(wajib diisi)</span>
-        </label>
-        <input
-          id="input-nama-pemesan"
-          type="text"
-          value={customerName}
-          onChange={(e) => {
-            setCustomerName(e.target.value);
-            if (e.target.value.trim()) setNameError(false);
-          }}
-          placeholder="Contoh: Budi, Sarah, Pak Reza..."
-          className={`w-full px-3.5 py-2.5 text-sm rounded-xl border transition focus:outline-none ${
-            nameError
-              ? 'border-red-400 bg-red-50 focus:ring-2 focus:ring-red-200 placeholder-red-300'
-              : 'border-[#EADFC8] bg-[#FAFAF9] focus:border-[#6B4423] focus:ring-2 focus:ring-[#6B4423]/20 placeholder-[#C8B89A]'
-          } text-[#1A1614]`}
-          autoComplete="name"
-        />
-        {nameError && (
-          <p className="mt-1.5 text-xs text-red-500 flex items-center gap-1">
-            <svg className="w-3.5 h-3.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-            </svg>
-            Nama pemesan harus diisi sebelum memesan
-          </p>
-        )}
-      </div>
 
       {/* Cart Items List */}
       <div className="space-y-3 mb-5">
@@ -309,10 +254,7 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </button>
-          <div className="text-right">
-            <span className="font-semibold text-[#1A1614]">{formatRupiah(fee)}</span>
-            <span className="text-[9px] text-[#A08972] block">{feeLabel}</span>
-          </div>
+          <span className="font-semibold text-[#1A1614]">{formatRupiah(fee)}</span>
         </div>
 
         <div className="pt-2 border-t border-[#EADFC8] border-dashed flex items-center justify-between">
@@ -332,16 +274,17 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
 
       {/* Actions */}
       <div className="space-y-2">
-        <button
-          type="button"
-          onClick={handleOrder}
-          className="w-full py-3.5 px-4 rounded-2xl bg-[#25D366] hover:bg-[#20BD5A] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition cursor-pointer"
+        <a
+          href={generateWhatsAppOrderUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full py-3.5 px-4 rounded-2xl bg-[#25D366] hover:bg-[#20BD5A] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition cursor-pointer text-center block"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
           </svg>
           <span>Pesan Sekarang via WhatsApp</span>
-        </button>
+        </a>
 
         <button
           onClick={onClearCart}
@@ -353,3 +296,4 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
     </main>
   );
 };
+

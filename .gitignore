@@ -26,3 +26,7 @@ dist-ssr
 # Raw reference / cache files
 _raw_reference/
 extracted/
+__pycache__/
+*.py[cod]
+cookie.txt
+scratch/
