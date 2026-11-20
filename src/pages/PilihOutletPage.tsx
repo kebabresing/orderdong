@@ -55,7 +55,6 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
     else if (location.deviceOs === 'android') setActiveTab('android');
   }, [location.deviceOs]);
 
-  // Fetch real-time outlets when GPS coordinates or search query changes
   useEffect(() => {
     let active = true;
 
@@ -103,7 +102,6 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
     };
   }, [location.lat, location.lng, searchQuery]);
 
-  // Display list (live GPS-sorted or offline Haversine with 727 real coordinates)
   const displayOutlets = useMemo(() => {
     if (liveOutlets && liveOutlets.length > 0) {
       return liveOutlets;
@@ -166,37 +164,38 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
-      {/* Sticky Top Header (Flappyyu Style: Back arrow left, centered bold title) */}
-      <header className="sticky top-0 z-30 bg-white border-b border-[#ececec] px-4 h-14 flex items-center justify-between">
+      {/* Top Header */}
+      <header className="sticky top-0 z-30 bg-[#18181b] text-white px-4 h-14 flex items-center justify-between">
         <button
           type="button"
           onClick={onBackToHome}
-          className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+          className="w-9 h-9 rounded-full flex items-center justify-center text-white hover:bg-white/10 transition cursor-pointer"
           aria-label="Kembali"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
         </button>
-        <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Pilih Outlet</h1>
+        <h1 className="text-[16px] font-extrabold">Pilih Outlet</h1>
         <div className="w-9" />
       </header>
 
       {/* Search + Geolocation Controls */}
-      <div className="px-4 pt-4 pb-3 border-b border-[#f0f0f0] bg-white space-y-3">
-        {/* Pill Search Bar with Right Royal Blue Magnifying Glass Circle */}
+      <div className="px-4 pt-4 pb-3 border-b border-[#f0f0f2] bg-white space-y-3">
         <div className="relative flex items-center">
           <input
+            id="search-outlet"
+            name="search-outlet"
             type="search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Cari nama atau alamat outlet"
-            className="w-full h-11 pl-4 pr-12 rounded-full bg-[#f3f3f3] border border-[#e8e8e8] text-[13px] font-semibold text-[#1f1f1f] placeholder-[#9a9a9a] focus:outline-none focus:border-[#1659b7] focus:bg-white transition"
+            className="w-full h-11 pl-4 pr-12 rounded-full bg-[#f4f4f5] border border-[#e4e4e7] text-[13px] font-semibold text-[#18181b] placeholder-[#a1a1aa] focus:outline-none focus:border-[#ea580c] focus:bg-white transition"
           />
           <button
             type="button"
             aria-label="Cari outlet"
-            className="absolute right-1.5 w-8 h-8 rounded-full bg-[#1659b7] hover:bg-[#124a9a] text-white flex items-center justify-center shadow-xs transition cursor-pointer"
+            className="absolute right-1.5 w-8 h-8 rounded-full bg-[#ea580c] hover:bg-[#c2410c] text-white flex items-center justify-center shadow-xs transition cursor-pointer"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.4" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -204,7 +203,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
           </button>
         </div>
 
-        {/* Soft Blue Pill: Gunakan lokasi saya */}
+        {/* Soft Orange Pill: Gunakan lokasi saya */}
         <div className="flex items-center justify-between gap-2 flex-wrap">
           <button
             type="button"
@@ -213,7 +212,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
               setSelectedCityName(null);
               requestLocation(true);
             }}
-            className="h-9 px-4 rounded-full border border-[#bcd3f0] bg-[#eff5fd] hover:bg-[#e1edfc] text-[#1659b7] text-[12px] font-extrabold inline-flex items-center gap-1.5 active:scale-95 transition cursor-pointer disabled:opacity-60"
+            className="h-9 px-4 rounded-full border border-[#fed7aa] bg-[#fff7ed] hover:bg-[#ffedd5] text-[#c2410c] text-[12px] font-extrabold inline-flex items-center gap-1.5 active:scale-95 transition cursor-pointer disabled:opacity-60"
           >
             <svg
               className={`w-4 h-4 ${location.status === 'requesting' ? 'animate-spin' : ''}`}
@@ -225,8 +224,9 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2.2"
-                d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
               />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
             <span>
               {location.status === 'requesting'
@@ -238,7 +238,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
           </button>
 
           {location.status === 'granted' && (
-            <div className="flex items-center gap-2 text-[11px] font-bold text-[#1659b7]">
+            <div className="flex items-center gap-2 text-[11px] font-bold text-[#18181b]">
               <span className="inline-flex items-center gap-1">
                 <span className="w-2 h-2 rounded-full bg-emerald-500" />
                 {selectedCityName ? selectedCityName : 'GPS Aktif'}
@@ -249,7 +249,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                   setSelectedCityName(null);
                   clearLocation();
                 }}
-                className="text-[#867e80] hover:text-[#bf1926] underline cursor-pointer"
+                className="text-[#71717a] hover:text-[#dc2626] underline cursor-pointer"
               >
                 Reset
               </button>
@@ -257,13 +257,12 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
           )}
         </div>
 
-        {/* Insecure Context or Permission Warning */}
         {(location.status === 'insecure_context' ||
           location.status === 'denied' ||
           location.status === 'timeout' ||
           location.status === 'unavailable') && (
-          <div className="rounded-lg bg-[#fff9e6] border border-[#f2e2b6] p-3 text-[11px] text-[#784b08] space-y-1.5">
-            <p className="font-bold">
+          <div className="rounded-xl bg-[#fff7ed] border border-[#fed7aa] p-3 text-[11px] text-[#9a3412] space-y-1.5">
+            <p className="font-extrabold">
               {location.status === 'insecure_context'
                 ? '⚠️ GPS HP memerlukan koneksi HTTPS'
                 : 'Izin lokasi belum aktif'}
@@ -276,20 +275,20 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
               <button
                 type="button"
                 onClick={() => setShowTroubleshootGuide((v) => !v)}
-                className="font-extrabold text-[#1659b7] underline cursor-pointer"
+                className="font-extrabold text-[#ea580c] underline cursor-pointer"
               >
                 {showTroubleshootGuide ? 'Tutup panduan' : 'Cara aktifkan GPS di iOS / Android'}
               </button>
             )}
 
             {showTroubleshootGuide && (
-              <div className="mt-2 bg-white rounded-lg border border-[#ececec] p-2.5 text-[#1f1f1f]">
-                <div className="flex gap-3 border-b border-[#ececec] pb-1.5 mb-2">
+              <div className="mt-2 bg-white rounded-lg border border-[#fed7aa] p-2.5 text-[#18181b]">
+                <div className="flex gap-3 border-b border-[#f0f0f2] pb-1.5 mb-2">
                   <button
                     type="button"
                     onClick={() => setActiveTab('ios')}
                     className={`text-[11px] font-extrabold cursor-pointer ${
-                      activeTab === 'ios' ? 'text-[#1659b7]' : 'text-[#867e80]'
+                      activeTab === 'ios' ? 'text-[#ea580c]' : 'text-[#71717a]'
                     }`}
                   >
                     iPhone (Safari)
@@ -298,19 +297,19 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                     type="button"
                     onClick={() => setActiveTab('android')}
                     className={`text-[11px] font-extrabold cursor-pointer ${
-                      activeTab === 'android' ? 'text-[#1659b7]' : 'text-[#867e80]'
+                      activeTab === 'android' ? 'text-[#ea580c]' : 'text-[#71717a]'
                     }`}
                   >
                     Android (Chrome)
                   </button>
                 </div>
                 {activeTab === 'ios' ? (
-                  <ol className="list-decimal pl-4 space-y-1 text-[11px] text-[#555]">
+                  <ol className="list-decimal pl-4 space-y-1 text-[11px] text-[#52525b]">
                     <li>Pengaturan iPhone &gt; Privasi &amp; Keamanan &gt; Layanan Lokasi (ON).</li>
                     <li>Di Safari, ketuk <strong>aA</strong> &gt; Pengaturan Situs Web &gt; Lokasi &gt; Izinkan.</li>
                   </ol>
                 ) : (
-                  <ol className="list-decimal pl-4 space-y-1 text-[11px] text-[#555]">
+                  <ol className="list-decimal pl-4 space-y-1 text-[11px] text-[#52525b]">
                     <li>Aktifkan toggle Lokasi/GPS di panel atas HP.</li>
                     <li>Di Chrome, ketuk ikon kiri URL &gt; Izin &gt; Lokasi &gt; Izinkan.</li>
                   </ol>
@@ -331,8 +330,8 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                 onClick={() => handleSelectCityPreset(city)}
                 className={`text-[11px] px-3 py-1 rounded-full whitespace-nowrap font-bold transition cursor-pointer ${
                   isActive
-                    ? 'bg-[#1659b7] text-white'
-                    : 'bg-[#f6f6f6] text-[#555555] border border-[#e8e8e8] hover:border-[#bcd3f0] hover:text-[#1659b7]'
+                    ? 'bg-[#18181b] text-white'
+                    : 'bg-[#f4f4f5] text-[#52525b] border border-[#e4e4e7] hover:border-[#fed7aa] hover:text-[#ea580c]'
                 }`}
               >
                 {city.name}
@@ -342,20 +341,19 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
         </div>
       </div>
 
-      {/* Live Loading Indicator */}
       {isLoadingLive && (
-        <div className="px-4 py-2.5 flex items-center justify-center gap-2 text-[12px] font-bold text-[#1659b7] bg-[#eff5fd]/60">
-          <span className="w-3.5 h-3.5 border-2 border-[#1659b7] border-t-transparent rounded-full animate-spin" />
+        <div className="px-4 py-2.5 flex items-center justify-center gap-2 text-[12px] font-bold text-[#ea580c] bg-[#fff7ed]/70">
+          <span className="w-3.5 h-3.5 border-2 border-[#ea580c] border-t-transparent rounded-full animate-spin" />
           <span>Mencari outlet terdekat...</span>
         </div>
       )}
 
-      {/* Outlet Cards List (Flappyyu Elevated White Cards with Crimson Distance + Blue OPEN NOW) */}
-      <main className="p-4 space-y-4 flex-1 bg-white pb-12">
+      {/* Outlet Cards List */}
+      <main className="p-4 space-y-3.5 flex-1 bg-white pb-12">
         {displayOutlets.length === 0 ? (
           <div className="text-center py-14">
-            <p className="font-extrabold text-[15px] text-[#1f1f1f]">Outlet tidak ditemukan</p>
-            <p className="text-[12px] text-[#867e80] mt-1">Coba gunakan kata kunci pencarian lain.</p>
+            <p className="font-extrabold text-[15px] text-[#18181b]">Outlet tidak ditemukan</p>
+            <p className="text-[12px] text-[#71717a] mt-1">Coba gunakan kata kunci pencarian lain.</p>
           </div>
         ) : (
           displayOutlets.map((outlet) => {
@@ -364,15 +362,14 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
               <div
                 key={`${outlet.id}-${outlet.name}`}
                 onClick={() => handleSelectOutlet(outlet)}
-                className={`rounded-[10px] border p-4 shadow-[0_4px_16px_rgba(15,23,42,0.10)] transition cursor-pointer ${
+                className={`rounded-xl border p-4 shadow-[0_4px_16px_rgba(24,24,27,0.08)] transition cursor-pointer ${
                   isSelected
-                    ? 'bg-[#f4f9ff] border-[#1659b7]'
-                    : 'bg-white border-[#ececec] hover:bg-[#f8fbff] hover:border-[#b9d7ff]'
+                    ? 'bg-[#fff7ed]/60 border-[#ea580c]'
+                    : 'bg-white border-[#ececef] hover:bg-[#fff7ed]/30 hover:border-[#fed7aa]'
                 }`}
               >
                 <div className="flex gap-3.5 items-start">
-                  {/* Left Square Store Thumbnail */}
-                  <div className="w-[74px] h-[74px] rounded-lg bg-[#f6f6f6] border border-[#ececec] shrink-0 overflow-hidden flex items-center justify-center">
+                  <div className="w-[72px] h-[72px] rounded-xl bg-[#f4f4f5] border border-[#ececef] shrink-0 overflow-hidden flex items-center justify-center">
                     <img
                       src="https://jasdorkopi.id/images/outlet-default.png"
                       alt={outlet.name}
@@ -381,44 +378,39 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                     />
                   </div>
 
-                  {/* Right Details */}
                   <div className="flex-1 min-w-0">
-                    {/* Top Badge Row: Crimson Distance + Blue OPEN NOW Pill */}
                     <div className="flex items-center gap-2 flex-wrap mb-1">
                       {outlet.distance && (
-                        <span className="text-[11px] font-extrabold text-[#bf1926] uppercase tracking-tight">
+                        <span className="text-[11px] font-extrabold text-[#ea580c] uppercase tracking-tight">
                           {outlet.distance}
                         </span>
                       )}
                       <span
                         className={`text-[10px] font-extrabold leading-none px-2 py-1 rounded uppercase ${
                           outlet.is_open
-                            ? 'text-[#1659b7] bg-white ring-1 ring-[#cfe3ff]'
-                            : 'text-[#bf1926] bg-[#fef2f2] ring-1 ring-[#fecaca]'
+                            ? 'text-[#059669] bg-[#ecfdf5] ring-1 ring-[#a7f3d0]'
+                            : 'text-[#dc2626] bg-[#fef2f2] ring-1 ring-[#fecaca]'
                         }`}
                       >
                         {outlet.is_open ? 'OPEN NOW' : 'CLOSED'}
                       </span>
                       {outlet.is_drive_thru && (
-                        <span className="text-[10px] font-extrabold text-[#c39155] bg-[#fdf8f2] px-1.5 py-0.5 rounded">
+                        <span className="text-[10px] font-extrabold text-[#18181b] bg-[#f4f4f5] px-1.5 py-0.5 rounded">
                           DRIVE THRU
                         </span>
                       )}
                     </div>
 
-                    {/* Outlet Name (Bold Royal Blue) */}
-                    <h2 className="text-[15px] font-extrabold text-[#1659b7] leading-snug">
+                    <h2 className="text-[15px] font-extrabold text-[#18181b] leading-snug">
                       {outlet.name}
                     </h2>
 
-                    {/* 3-line Muted Address */}
-                    <p className="text-[12px] text-[#867e80] line-clamp-3 leading-snug mt-1">
+                    <p className="text-[12px] text-[#71717a] line-clamp-3 leading-snug mt-1">
                       {outlet.address}
                     </p>
 
-                    {/* Subtle Footer Links */}
-                    <div className="mt-2.5 pt-2 border-t border-[#f2f2f2] flex items-center justify-between text-[11px]">
-                      <span className="text-[#9b9b9b] font-semibold">
+                    <div className="mt-2.5 pt-2 border-t border-[#f4f4f5] flex items-center justify-between text-[11px]">
+                      <span className="text-[#a1a1aa] font-semibold">
                         {outlet.hours || '07:00 - 23:00 WIB'}
                       </span>
                       <div className="flex items-center gap-3">
@@ -428,7 +420,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                             e.stopPropagation();
                             setDetailModalOutlet(outlet);
                           }}
-                          className="font-bold text-[#1659b7] hover:underline cursor-pointer"
+                          className="font-bold text-[#ea580c] hover:underline cursor-pointer"
                         >
                           Detail
                         </button>
@@ -438,7 +430,7 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
-                            className="font-bold text-[#867e80] hover:text-[#1659b7]"
+                            className="font-bold text-[#71717a] hover:text-[#18181b]"
                           >
                             Maps ↗
                           </a>
@@ -453,7 +445,6 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
         )}
       </main>
 
-      {/* Outlet Detail Modal */}
       {detailModalOutlet && (
         <OutletDetailModal
           isOpen={Boolean(detailModalOutlet)}
@@ -468,7 +459,6 @@ export const PilihOutletPage: React.FC<PilihOutletPageProps> = ({
         />
       )}
 
-      {/* Location Success Modal */}
       {selectedSuccessOutlet && (
         <LocationSuccessModal
           isOpen={Boolean(selectedSuccessOutlet)}

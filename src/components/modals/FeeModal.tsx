@@ -38,7 +38,7 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
     <ModalWrapper
       isOpen={isOpen}
       onClose={onClose}
-      title="Informasi Fee"
+      title="Informasi Fee Orderdong"
       subtitle="Biaya jasa berdasarkan total belanja"
       icon={
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,9 +46,9 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
         </svg>
       }
     >
-      <div className="mb-4 text-[12px] text-[#555555] leading-relaxed">
+      <div className="mb-4 text-[12px] text-[#52525b] leading-relaxed">
         <p>
-          Semakin besar total pesanan kamu, semakin murah biaya jasa yang dikenakan:
+          Semakin besar total pesanan kamu di <strong>Orderdong</strong>, semakin murah biaya jasa yang dikenakan:
         </p>
       </div>
 
@@ -56,38 +56,38 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
         {FEE_TIERS.map((tier) => (
           <div
             key={tier.label}
-            className={`rounded-[10px] border-2 p-2.5 text-center flex flex-col items-center gap-1.5 ${
+            className={`rounded-xl border-2 p-2.5 text-center flex flex-col items-center gap-1.5 ${
               tier.highlight
-                ? 'border-[#1659b7] bg-[#f4f9ff]'
-                : 'border-[#ececec] bg-white'
+                ? 'border-[#ea580c] bg-[#fff7ed]'
+                : 'border-[#ececef] bg-white'
             }`}
           >
             <div
               className={`w-9 h-9 rounded-full border flex items-center justify-center text-base ${
                 tier.highlight
-                  ? 'border-[#bcd3f0] bg-white'
-                  : 'border-[#ececec] bg-[#f6f6f6]'
+                  ? 'border-[#fed7aa] bg-white'
+                  : 'border-[#ececef] bg-[#f4f4f5]'
               }`}
             >
               {tier.icon}
             </div>
 
-            <div className="text-[10px] font-extrabold text-[#1659b7] leading-tight">
+            <div className="text-[10px] font-extrabold text-[#ea580c] leading-tight">
               <div>DISKON 50%</div>
-              <div className="text-[#1f1f1f]">{tier.minLabel}</div>
+              <div className="text-[#18181b]">{tier.minLabel}</div>
             </div>
 
-            <p className="text-[9.5px] text-[#867e80] leading-tight">{tier.potongan}</p>
+            <p className="text-[9.5px] text-[#71717a] leading-tight">{tier.potongan}</p>
 
-            <div className="w-full border-t border-dashed border-[#e5e5e5] my-0.5" />
+            <div className="w-full border-t border-dashed border-[#e4e4e7] my-0.5" />
 
-            <p className="text-[9px] font-semibold text-[#867e80]">Biaya Jasa:</p>
+            <p className="text-[9px] font-semibold text-[#71717a]">Biaya Jasa:</p>
 
             <div
-              className={`w-full py-1.5 rounded-md text-center font-extrabold text-[13px] ${
+              className={`w-full py-1.5 rounded-lg text-center font-extrabold text-[13px] ${
                 tier.highlight
-                  ? 'bg-[#1659b7] text-white'
-                  : 'bg-[#eff5fd] text-[#1659b7]'
+                  ? 'bg-[#ea580c] text-white'
+                  : 'bg-[#18181b] text-white'
               }`}
             >
               {tier.fee}
@@ -96,14 +96,14 @@ export const FeeModal: React.FC<FeeModalProps> = ({ isOpen, onClose }) => {
         ))}
       </div>
 
-      <div className="bg-[#fff9e6] text-[#784b08] text-[11px] p-3 rounded-lg border border-[#f2e2b6] mb-4 leading-relaxed">
-        <strong>💡 Tips Hemat:</strong> Gabungkan pesanan bersama teman untuk mendapatkan fee terendah Rp3.000!
+      <div className="bg-[#fff7ed] text-[#9a3412] text-[11px] p-3 rounded-xl border border-[#fed7aa] mb-4 leading-relaxed">
+        <strong>⚡ Tips Hemat Orderdong:</strong> Gabungkan pesanan bareng teman biar dapat fee termurah Rp3.000!
       </div>
 
       <button
         onClick={onClose}
         type="button"
-        className="w-full h-11 rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] text-white text-[14px] font-extrabold transition cursor-pointer"
+        className="w-full h-11 rounded-xl bg-[#18181b] hover:bg-[#27272a] text-white text-[14px] font-extrabold transition cursor-pointer"
       >
         Tutup
       </button>

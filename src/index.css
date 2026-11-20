@@ -3,21 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --radius: 0.625rem;
-  --brand-blue: #1659b7;
-  --brand-caramel: #c39155;
-  --brand-crimson: #bf1926;
+  --radius: 0.75rem;
+  --brand-orange: #ea580c;
+  --brand-orange-hover: #c2410c;
+  --brand-espresso: #18181b;
+  --brand-crimson: #dc2626;
 }
 
 body {
-  background-color: #f6f6f6;
-  color: #1f1f1f;
+  background-color: #f4f4f5;
+  color: #18181b;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Mobile-first centered app shell (Flappyyu Kopi Kenangan layout) */
+/* Orderdong centered mobile-first app column */
 .app-column {
   width: 100%;
   max-width: 440px;
@@ -25,11 +26,10 @@ body {
   margin-right: auto;
   min-height: 100vh;
   background-color: #ffffff;
-  box-shadow: 0 0 24px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 0 28px rgba(24, 24, 27, 0.08);
   position: relative;
 }
 
-/* Custom scrollbar hiding */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

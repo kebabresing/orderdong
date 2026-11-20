@@ -44,7 +44,6 @@ export const MainLayout: React.FC = () => {
   const [isWifiOpen, setIsWifiOpen] = useState(false);
   const [isFeeOpen, setIsFeeOpen] = useState(false);
 
-  // Listen to hash changes for browser back/forward or deep links
   useEffect(() => {
     const handleHash = () => {
       const hash = window.location.hash.replace('#', '');
@@ -74,8 +73,7 @@ export const MainLayout: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#f6f6f6] text-[#1f1f1f] font-sans selection:bg-[#1659b7]/15 selection:text-[#1659b7]">
-      {/* Centered Mobile-First App Column (Flappyyu Kopi Kenangan Shell) */}
+    <div className="min-h-screen bg-[#f4f4f5] text-[#18181b] font-sans selection:bg-[#ea580c]/15 selection:text-[#ea580c]">
       <div className="app-column flex flex-col">
         {activeTab === 'home' && (
           <HomePage
@@ -136,14 +134,14 @@ export const MainLayout: React.FC = () => {
               <button
                 type="button"
                 onClick={() => handleSelectTab('home')}
-                className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-[#18181b] hover:bg-[#f4f4f5] transition cursor-pointer"
                 aria-label="Kembali"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
               </button>
-              <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Loyalty Card</h1>
+              <h1 className="text-[16px] font-extrabold text-[#18181b]">Orderdong Loyalty</h1>
               <div className="w-9" />
             </header>
             <LoyaltyPage />
@@ -156,14 +154,14 @@ export const MainLayout: React.FC = () => {
               <button
                 type="button"
                 onClick={() => handleSelectTab('home')}
-                className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-[#18181b] hover:bg-[#f4f4f5] transition cursor-pointer"
                 aria-label="Kembali"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
               </button>
-              <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Riwayat & Lacak Pesanan</h1>
+              <h1 className="text-[16px] font-extrabold text-[#18181b]">Lacak Pesanan</h1>
               <div className="w-9" />
             </header>
             <OrderPage />
@@ -186,36 +184,16 @@ export const MainLayout: React.FC = () => {
         currentOutlet={selectedOutlet}
       />
 
-      <ContactModal
-        isOpen={isContactOpen}
-        onClose={() => setIsContactOpen(false)}
-      />
-
+      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
       <BestSellerModal
         isOpen={isBestSellersOpen}
         onClose={() => setIsBestSellersOpen(false)}
         onSelectProduct={() => handleSelectTab('home')}
       />
-
-      <FaqModal
-        isOpen={isFaqOpen}
-        onClose={() => setIsFaqOpen(false)}
-      />
-
-      <AboutModal
-        isOpen={isAboutOpen}
-        onClose={() => setIsAboutOpen(false)}
-      />
-
-      <WifiModal
-        isOpen={isWifiOpen}
-        onClose={() => setIsWifiOpen(false)}
-      />
-
-      <FeeModal
-        isOpen={isFeeOpen}
-        onClose={() => setIsFeeOpen(false)}
-      />
+      <FaqModal isOpen={isFaqOpen} onClose={() => setIsFaqOpen(false)} />
+      <AboutModal isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
+      <WifiModal isOpen={isWifiOpen} onClose={() => setIsWifiOpen(false)} />
+      <FeeModal isOpen={isFeeOpen} onClose={() => setIsFeeOpen(false)} />
     </div>
   );
 };
