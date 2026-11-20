@@ -48,40 +48,38 @@ export const ModalWrapper: React.FC<ModalWrapperProps> = ({
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/50 backdrop-blur-xs transition-opacity duration-300"
+        className="fixed inset-0 bg-black/50 backdrop-blur-[2px] transition-opacity duration-300"
         onClick={onClose}
       />
 
-      {/* Sheet / Modal Container */}
+      {/* Sheet / Modal Container (centered to 440px mobile column) */}
       <div
-        className={`relative w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col z-10 transition-transform duration-300 ease-out transform translate-y-0 ${maxHeight}`}
+        className={`relative w-full max-w-[440px] bg-white rounded-t-2xl sm:rounded-2xl shadow-2xl overflow-hidden flex flex-col z-10 ${maxHeight}`}
       >
-        {/* Handle Bar for mobile drag gesture appearance */}
         {showHandle && (
           <div className="flex justify-center pt-3 pb-1 cursor-grab">
-            <div className="w-10 h-1.5 bg-[#EADFC8] rounded-full" />
+            <div className="w-10 h-1.5 bg-[#e5e5e5] rounded-full" />
           </div>
         )}
 
-        {/* Modal Header if title is provided */}
         {title && (
-          <div className="flex items-center justify-between border-b border-[#EADFC8] px-5 py-3">
+          <div className="flex items-center justify-between border-b border-[#ececec] px-5 py-3">
             <div className="flex items-center gap-2.5">
               {icon && (
-                <div className="w-9 h-9 rounded-xl bg-[#FAF6F0] text-[#6B4423] border border-[#EADFC8] flex items-center justify-center font-bold text-base shrink-0">
+                <div className="w-9 h-9 rounded-xl bg-[#eff5fd] text-[#1659b7] border border-[#bcd3f0] flex items-center justify-center font-bold text-base shrink-0">
                   {icon}
                 </div>
               )}
               <div>
-                <h2 className="font-bold text-base text-[#1A1614]">{title}</h2>
-                {subtitle && <p className="text-xs text-[#A08972]">{subtitle}</p>}
+                <h2 className="font-extrabold text-[15px] text-[#1f1f1f]">{title}</h2>
+                {subtitle && <p className="text-[11.5px] text-[#867e80]">{subtitle}</p>}
               </div>
             </div>
 
             <button
               type="button"
               onClick={onClose}
-              className="w-8 h-8 rounded-full bg-[#FAF6F0] hover:bg-[#EADFC8] text-[#5C4A3A] flex items-center justify-center transition cursor-pointer"
+              className="w-8 h-8 rounded-full bg-[#f6f6f6] hover:bg-[#ececec] text-[#555555] flex items-center justify-center transition cursor-pointer"
               aria-label="Tutup"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,10 +89,8 @@ export const ModalWrapper: React.FC<ModalWrapperProps> = ({
           </div>
         )}
 
-        {/* Modal Body */}
         <div className="p-5 overflow-y-auto">{children}</div>
       </div>
     </div>
   );
 };
-

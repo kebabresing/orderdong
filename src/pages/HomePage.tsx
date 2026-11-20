@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Outlet, Product, CartItem } from '../types';
 import { CATEGORIES_DATA, PRODUCTS_DATA } from '../data/products';
 import { formatRupiah } from '../utils/formatters';
@@ -6,7 +6,14 @@ import { ProductModal } from '../components/modals/ProductModal';
 
 interface HomePageProps {
   currentOutlet: Outlet | null;
+  cartItems: CartItem[];
+  totalItems: number;
+  subtotal: number;
+  grandTotal: number;
   onSwitchOutlet: () => void;
+  onOpenMenu: () => void;
+  onOpenCart: () => void;
+  onOpenOrder: () => void;
   onAddToCart: (item: CartItem) => void;
   onOpenBestSellers: () => void;
   onOpenFaq: () => void;
@@ -14,63 +21,37 @@ interface HomePageProps {
   onOpenWifi: () => void;
   onOpenFee: () => void;
   onOpenContact: () => void;
-  selectedCategoryFromNav?: string | null;
 }
-
-const BANNERS = [
-  { id: 'fee', src: '/banner.jpg', alt: 'Informasi Fee Orderdong Diskon 50%' },
-  { id: 'bogo', src: '/banner2.jpg', alt: 'Promo Orderdong Buy 1 Get 1' }
-];
 
 export const HomePage: React.FC<HomePageProps> = ({
   currentOutlet,
+  cartItems,
+  totalItems,
+  subtotal,
+  grandTotal,
   onSwitchOutlet,
+  onOpenMenu,
+  onOpenCart,
+  onOpenOrder,
   onAddToCart,
-  onOpenBestSellers,
-  onOpenFaq,
-  onOpenAbout,
-  onOpenWifi,
   onOpenFee,
-  onOpenContact,
-  selectedCategoryFromNav
+  onOpenWifi
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // Hero Banner slider state
-  const [currentBanner, setCurrentBanner] = useState(0);
-  const [touchStart, setTouchStart] = useState<number | null>(null);
-  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  // Map productId -> quantity in cart for crimson "1 x" badge on product cards
+  const cartQtyByProduct = useMemo(() => {
+    const map: Record<string, number> = {};
+    cartItems.forEach((item) => {
+      map[item.productId] = (map[item.productId] || 0) + item.quantity;
+    });
+    return map;
+  }, [cartItems]);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentBanner((prev) => (prev + 1) % BANNERS.length);
-    }, 4500);
-    return () => clearInterval(timer);
-  }, []);
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    setTouchEnd(e.targetTouches[0].clientX);
-  };
-
-  const handleTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const minSwipeDistance = 40;
-    if (distance > minSwipeDistance) {
-      setCurrentBanner((prev) => (prev + 1) % BANNERS.length);
-    } else if (distance < -minSwipeDistance) {
-      setCurrentBanner((prev) => (prev - 1 + BANNERS.length) % BANNERS.length);
-    }
-  };
-
-  // Filter products by category and search
+  // Filter products by search or selected category
   const filteredProducts = useMemo(() => {
     let list = PRODUCTS_DATA;
     if (activeCategory !== 'all') {
@@ -88,394 +69,338 @@ export const HomePage: React.FC<HomePageProps> = ({
     return list;
   }, [activeCategory, searchQuery]);
 
-  // Group filtered products by category for section layout
+  // Group products by category for default scrollable view
   const groupedProducts = useMemo(() => {
     if (searchQuery.trim() || activeCategory !== 'all') {
-      return null; // flat list when searching or filtering single category
+      return null;
     }
     return CATEGORIES_DATA.map((cat) => ({
       ...cat,
       items: PRODUCTS_DATA.filter((p) => p.category_id === cat.id)
-    }));
+    })).filter((g) => g.items.length > 0);
   }, [activeCategory, searchQuery]);
 
-  const handleScrollToCategory = (catId: string) => {
+  const handleCategoryClick = (catId: string) => {
     setActiveCategory(catId);
-    if (catId !== 'all') {
-      const el = document.getElementById(`cat-${catId}`);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+    if (catId === 'all') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
-  return (
-    <main className="shop-shell mx-auto px-4 py-4 pb-28">
-      {/* 1. Hero Promo Banner Slider */}
-      <section
-        className="hero-banner relative mb-4 rounded-2xl overflow-hidden shadow-sm border border-[#EADFC8] select-none group"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
+  const handleRefresh = () => {
+    setIsRefreshing(true);
+    setTimeout(() => setIsRefreshing(false), 500);
+  };
+
+  const renderProductCard = (product: Product) => {
+    const qtyInCart = cartQtyByProduct[product.id] || 0;
+    const hasCustomOptions = Boolean(
+      (product.options && product.options.length > 0) ||
+      (product.addons && product.addons.length > 0)
+    );
+    const discountedPrice = Math.round(product.price * 0.5);
+
+    return (
+      <article
+        key={product.id}
+        onClick={() => setSelectedProduct(product)}
+        className="flex flex-col cursor-pointer group select-none"
       >
-        <div className="hero-banner-inner overflow-hidden relative">
-          <div className="grid grid-cols-1 grid-rows-1 relative">
-            {BANNERS.map((banner, idx) => (
-              <div
-                key={banner.id}
-                className={`col-start-1 row-start-1 w-full transition-opacity duration-1000 ease-in-out ${
-                  currentBanner === idx
-                    ? 'opacity-100 z-10'
-                    : 'opacity-0 pointer-events-none z-0'
-                }`}
-              >
-                <img
-                  src={banner.src}
-                  alt={banner.alt}
-                  className="w-full h-auto object-cover block"
-                  loading={idx === 0 ? 'eager' : 'lazy'}
-                  draggable={false}
-                />
-              </div>
-            ))}
-          </div>
+        {/* Clean Borderless Floating Image Area */}
+        <div className="relative w-full aspect-square flex items-center justify-center mb-2 overflow-hidden rounded-xl bg-white">
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-[88%] h-[88%] object-contain group-hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+          />
 
-          {/* Left Arrow Button */}
-          <button
-            type="button"
-            onClick={() => setCurrentBanner((prev) => (prev - 1 + BANNERS.length) % BANNERS.length)}
-            className="absolute left-2.5 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all opacity-80 hover:opacity-100 cursor-pointer shadow-md active:scale-95 z-20"
-            aria-label="Previous slide"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          {/* Right Arrow Button */}
-          <button
-            type="button"
-            onClick={() => setCurrentBanner((prev) => (prev + 1) % BANNERS.length)}
-            className="absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all opacity-80 hover:opacity-100 cursor-pointer shadow-md active:scale-95 z-20"
-            aria-label="Next slide"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Slide Indicator Dots */}
-          <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 flex items-center gap-1.5 bg-black/35 backdrop-blur-xs px-2.5 py-1 rounded-full z-20">
-            {BANNERS.map((_, idx) => (
-              <button
-                key={idx}
-                type="button"
-                onClick={() => setCurrentBanner(idx)}
-                className={`transition-all duration-300 rounded-full cursor-pointer ${
-                  currentBanner === idx
-                    ? 'w-4 h-1.5 bg-white'
-                    : 'w-1.5 h-1.5 bg-white/50 hover:bg-white/80'
-                }`}
-                aria-label={`Go to slide ${idx + 1}`}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 2. Outlet Selected Card / Switcher */}
-      {currentOutlet && (
-        <section className="mb-4 bg-white rounded-2xl border-2 border-[#EADFC8] p-3.5 shadow-xs flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <div className="w-10 h-10 rounded-xl bg-[#FAF6F0] border border-[#EADFC8] flex items-center justify-center text-[#6B4423] shrink-0">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <div className="flex items-center gap-1.5 mb-0.5">
-                <span className="text-[10px] font-bold text-[#6B4423] uppercase tracking-wider bg-[#F3E9DB] px-1.5 py-0.2 rounded">
-                  Outlet Terpilih
+          {/* Top-left Crimson Badges ("1 x" & "Custom") */}
+          {(qtyInCart > 0 || hasCustomOptions) && (
+            <div className="absolute top-1.5 left-1.5 flex flex-col items-start gap-1">
+              {qtyInCart > 0 && (
+                <span className="bg-[#bf1926] text-white rounded px-2 py-1 text-[11px] font-extrabold leading-none shadow-xs">
+                  {qtyInCart} x
                 </span>
-                <span className="text-[10px] text-[#A08972] font-semibold">{currentOutlet.distance}</span>
-              </div>
-              <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] leading-tight truncate">
-                {currentOutlet.name}
-              </h3>
-              <p className="text-[11px] text-[#A08972] truncate mt-0.5">{currentOutlet.address}</p>
+              )}
+              {qtyInCart > 0 && hasCustomOptions && (
+                <span className="bg-[#bf1926] text-white rounded px-2 py-1 text-[11px] font-extrabold leading-none shadow-xs">
+                  Custom
+                </span>
+              )}
             </div>
-          </div>
+          )}
+        </div>
 
+        {/* Product Title */}
+        <h3 className="text-[14px] font-extrabold leading-tight text-[#1f1f1f] line-clamp-2 mb-1.5 group-hover:text-[#1659b7] transition-colors">
+          {product.name}
+        </h3>
+
+        {/* Price Row: Royal Blue Discounted Pill + Muted Strikethrough Original Price */}
+        <div className="flex items-center flex-wrap gap-1.5 mt-auto">
+          <span className="inline-flex items-center bg-[#1659b7] text-white rounded px-1.5 py-0.5 text-[12px] font-extrabold leading-none">
+            {formatRupiah(discountedPrice)}
+          </span>
+          <span className="text-[11px] font-bold text-[#9b9b9b] line-through leading-none">
+            {formatRupiah(product.price)}
+          </span>
+        </div>
+      </article>
+    );
+  };
+
+  return (
+    <div className="flex flex-col min-h-screen bg-white">
+      {/* Sticky Top Header (Flappyyu Kopi Kenangan Style) */}
+      <header className="sticky top-0 z-40 bg-white shadow-[0_2px_10px_rgba(0,0,0,0.06)]">
+        {/* Row 1: Floating Circular Buttons + Floating Outlet Pill */}
+        <div className="px-3.5 pt-3 pb-2.5 flex items-center gap-2.5">
+          {/* Left: Circular Menu Button */}
+          <button
+            type="button"
+            onClick={onOpenMenu}
+            aria-label="Menu Utama"
+            title="Menu Utama"
+            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+
+          {/* Center: Floating White Outlet Card */}
           <button
             type="button"
             onClick={onSwitchOutlet}
-            className="px-3 py-1.5 rounded-xl bg-[#FAF6F0] hover:bg-[#EADFC8] text-[#6B4423] text-xs font-bold border border-[#EADFC8] transition shrink-0 active:scale-95 cursor-pointer"
+            className="flex-1 min-w-0 rounded-[10px] border border-[#eeeeee] bg-white px-3 py-2 shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-between gap-2 text-left hover:border-[#bcd3f0] active:scale-[0.99] transition cursor-pointer"
           >
-            Ganti
+            <div className="min-w-0 flex-1">
+              <p className="text-[13px] font-extrabold text-[#1f1f1f] truncate leading-tight">
+                {currentOutlet ? currentOutlet.name : 'Pilih Outlet Terdekat'}
+              </p>
+              <p className="text-[11px] font-medium text-[#867e80] truncate leading-tight mt-0.5">
+                {currentOutlet ? currentOutlet.address : 'Ketuk untuk memilih outlet Kopi Kenangan'}
+              </p>
+            </div>
+            <span className="w-6 h-6 rounded-full border border-[#c39155] text-[#bf1926] flex items-center justify-center shrink-0">
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
           </button>
-        </section>
-      )}
 
-      {/* 3. Quick Action Buttons Row (Best Seller, FAQ, Wifi, Info Fee) */}
-      <section className="grid grid-cols-4 gap-2 mb-4">
-        <button
-          type="button"
-          onClick={onOpenBestSellers}
-          className="p-2.5 rounded-2xl bg-white border border-[#EADFC8] flex flex-col items-center justify-center text-center hover:bg-[#FAF6F0] transition shadow-xs cursor-pointer group"
-        >
-          <div className="w-8 h-8 rounded-xl bg-[#FEF3C7] text-[#D97706] flex items-center justify-center mb-1 group-hover:scale-105 transition-transform">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+          {/* Right: Circular Refresh & History/Order Buttons */}
+          <button
+            type="button"
+            onClick={handleRefresh}
+            aria-label="Refresh Menu"
+            title="Refresh Menu"
+            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
+          >
+            <svg
+              className={`w-[18px] h-[18px] ${isRefreshing ? 'animate-spin text-[#1659b7]' : ''}`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.2"
+                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+              />
             </svg>
-          </div>
-          <span className="font-bold text-[11px] text-[#1A1614] leading-tight">Best Seller</span>
-        </button>
+          </button>
 
+          <button
+            type="button"
+            onClick={onOpenOrder}
+            aria-label="Riwayat Pesanan"
+            title="Riwayat & Lacak Pesanan"
+            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
+          >
+            <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.1"
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Row 2: Horizontally Scrollable Category Underline Tabs (Caramel Gold Active Indicator) */}
+        <div className="border-b border-[#ececec] px-3.5 overflow-x-auto no-scrollbar">
+          <div className="flex items-center gap-5 w-max">
+            <button
+              type="button"
+              onClick={() => handleCategoryClick('all')}
+              className={`relative h-10 flex items-center text-[13px] font-extrabold whitespace-nowrap transition-colors cursor-pointer ${
+                activeCategory === 'all' ? 'text-[#c39155]' : 'text-[#202020] hover:text-[#c39155]'
+              }`}
+            >
+              Semua
+              {activeCategory === 'all' && (
+                <span className="absolute bottom-0 inset-x-0 h-[3px] rounded-full bg-[#c39155]" />
+              )}
+            </button>
+
+            {CATEGORIES_DATA.map((cat) => {
+              const isActive = activeCategory === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  onClick={() => handleCategoryClick(cat.id)}
+                  className={`relative h-10 flex items-center text-[13px] font-extrabold whitespace-nowrap transition-colors cursor-pointer ${
+                    isActive ? 'text-[#c39155]' : 'text-[#202020] hover:text-[#c39155]'
+                  }`}
+                >
+                  {cat.name}
+                  {isActive && (
+                    <span className="absolute bottom-0 inset-x-0 h-[3px] rounded-full bg-[#c39155]" />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Row 3: Search Input */}
+        <div className="px-3.5 py-2.5 bg-white">
+          <div className="relative">
+            <svg
+              className="w-4 h-4 text-[#9a9a9a] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Cari produk"
+              className="w-full pl-10 pr-8 py-2.5 bg-[#f7f7f7] border border-[#e8e8e8] rounded-lg text-[13px] font-semibold text-[#1f1f1f] placeholder-[#9a9a9a] focus:outline-none focus:border-[#1659b7] focus:bg-white transition"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => setSearchQuery('')}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[#9a9a9a] hover:text-[#1f1f1f] p-1 cursor-pointer"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+        </div>
+      </header>
+
+      {/* Subtle Quick Info Pills (Fee & WiFi) */}
+      <div className="px-3.5 pt-3 pb-1 flex items-center gap-2 overflow-x-auto no-scrollbar">
         <button
           type="button"
           onClick={onOpenFee}
-          className="p-2.5 rounded-2xl bg-white border border-[#EADFC8] flex flex-col items-center justify-center text-center hover:bg-[#FAF6F0] transition shadow-xs cursor-pointer group"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#fff9e6] border border-[#f2e2b6] text-[11px] font-extrabold text-[#92600a] whitespace-nowrap cursor-pointer hover:bg-[#fef3c7] transition"
         >
-          <div className="w-8 h-8 rounded-xl bg-[#DCFCE7] text-[#16A34A] flex items-center justify-center mb-1 group-hover:scale-105 transition-transform">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <span className="font-bold text-[11px] text-[#1A1614] leading-tight">Info Fee</span>
+          <span>🏷️</span>
+          <span>Diskon 50% · Fee mulai Rp3.000</span>
         </button>
-
         <button
           type="button"
           onClick={onOpenWifi}
-          className="p-2.5 rounded-2xl bg-white border border-[#EADFC8] flex flex-col items-center justify-center text-center hover:bg-[#FAF6F0] transition shadow-xs cursor-pointer group"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#eff5fd] border border-[#bcd3f0] text-[11px] font-extrabold text-[#1659b7] whitespace-nowrap cursor-pointer hover:bg-[#e1edfc] transition"
         >
-          <div className="w-8 h-8 rounded-xl bg-[#F3E9DB] text-[#6B4423] flex items-center justify-center mb-1 group-hover:scale-105 transition-transform">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
-            </svg>
-          </div>
-          <span className="font-bold text-[11px] text-[#1A1614] leading-tight">WiFi</span>
+          <span>📶</span>
+          <span>WiFi Hari Ini</span>
         </button>
+      </div>
 
-        <button
-          type="button"
-          onClick={onOpenFaq}
-          className="p-2.5 rounded-2xl bg-white border border-[#EADFC8] flex flex-col items-center justify-center text-center hover:bg-[#FAF6F0] transition shadow-xs cursor-pointer group"
-        >
-          <div className="w-8 h-8 rounded-xl bg-[#E0E7FF] text-[#4F46E5] flex items-center justify-center mb-1 group-hover:scale-105 transition-transform">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <span className="font-bold text-[11px] text-[#1A1614] leading-tight">FAQ</span>
-        </button>
-      </section>
-
-      {/* 4. Live Search Menu Bar */}
-      <section className="mb-4">
-        <div className="relative">
-          <input
-            type="search"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Cari menu kopi, minuman, roti..."
-            className="w-full pl-10 pr-4 py-2.5 bg-white border border-[#EADFC8] rounded-xl text-xs text-[#1A1614] placeholder-[#A08972] focus:outline-none focus:border-[#6B4423] focus:ring-2 focus:ring-[#6B4423]/20 shadow-xs transition"
-          />
-          <svg
-            className="w-4 h-4 text-[#A08972] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-          </svg>
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-[#A08972] hover:text-[#1A1614] p-1 cursor-pointer"
-            >
-              ✕
-            </button>
-          )}
-        </div>
-      </section>
-
-      {/* 5. Category Horizontal Pills Scroller */}
-      {!searchQuery && (
-        <section className="mb-4 -mx-4 px-4 overflow-x-auto no-scrollbar">
-          <div className="flex items-center gap-2 w-max pb-1">
-            <button
-              type="button"
-              onClick={() => handleScrollToCategory('all')}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
-                activeCategory === 'all'
-                  ? 'bg-[#1A1614] text-white shadow-sm'
-                  : 'bg-white text-[#5C4A3A] border border-[#EADFC8] hover:bg-[#FAF6F0]'
-              }`}
-            >
-              Semua Menu
-            </button>
-
-            {CATEGORIES_DATA.map((cat) => (
-              <button
-                key={cat.id}
-                type="button"
-                onClick={() => handleScrollToCategory(cat.id)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
-                  activeCategory === cat.id
-                    ? 'bg-[#1A1614] text-white shadow-sm'
-                    : 'bg-white text-[#5C4A3A] border border-[#EADFC8] hover:bg-[#FAF6F0]'
-                }`}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* 6. Products Grid or Grouped Sections */}
-      {groupedProducts ? (
-        <div className="space-y-6">
-          {groupedProducts.map((group) => (
-            <section key={group.id} id={`cat-${group.id}`} className="menu-category-block">
-              <div className="flex items-center justify-between mb-3 border-b border-[#EADFC8]/60 pb-2">
-                <h2 className="font-extrabold text-sm sm:text-base text-[#1A1614] uppercase tracking-wide">
+      {/* Main Product Catalog */}
+      <main className={`px-3.5 pt-3 flex-1 ${totalItems > 0 ? 'pb-28' : 'pb-10'}`}>
+        {groupedProducts ? (
+          <div className="space-y-8">
+            {groupedProducts.map((group) => (
+              <section key={group.id} id={`cat-${group.id}`}>
+                <h2 className="text-[21px] font-extrabold leading-tight text-[#1f1f1f] mb-4">
                   {group.name}
                 </h2>
-                <span className="text-xs text-[#A08972] font-semibold">
-                  {group.items.length} Menu
+                <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+                  {group.items.map((product) => renderProductCard(product))}
+                </div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div>
+            {searchQuery && (
+              <p className="text-[13px] font-bold text-[#867e80] mb-4">
+                Menampilkan {filteredProducts.length} hasil untuk &ldquo;{searchQuery}&rdquo;
+              </p>
+            )}
+
+            {filteredProducts.length === 0 ? (
+              <div className="text-center py-16 px-4">
+                <p className="text-[15px] font-extrabold text-[#1f1f1f]">Produk tidak ditemukan</p>
+                <p className="text-[12px] text-[#867e80] mt-1">Coba cari dengan kata kunci lain.</p>
+              </div>
+            ) : (
+              <div>
+                {!searchQuery && activeCategory !== 'all' && (
+                  <h2 className="text-[21px] font-extrabold leading-tight text-[#1f1f1f] mb-4">
+                    {CATEGORIES_DATA.find((c) => c.id === activeCategory)?.name || 'Menu'}
+                  </h2>
+                )}
+                <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+                  {filteredProducts.map((product) => renderProductCard(product))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </main>
+
+      {/* Floating Bottom Cart Bar (Exact Flappyyu Royal Blue Style) */}
+      {totalItems > 0 && (
+        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[416px] z-40">
+          <button
+            type="button"
+            onClick={onOpenCart}
+            className="w-full min-h-[58px] rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] px-4 py-2.5 text-white shadow-[0_4px_16px_rgba(22,89,183,0.3)] flex items-center justify-between active:scale-[0.98] transition cursor-pointer"
+          >
+            <div className="text-left">
+              <span className="block text-[11px] font-bold text-white/90 leading-tight">
+                {totalItems} produk
+              </span>
+              <div className="flex items-baseline gap-2 mt-0.5">
+                <span className="text-[18px] font-extrabold leading-none">
+                  {formatRupiah(grandTotal)}
+                </span>
+                <span className="text-[12px] font-bold text-white/70 line-through leading-none">
+                  {formatRupiah(subtotal)}
                 </span>
               </div>
+            </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                {group.items.map((product) => (
-                  <article
-                    key={product.id}
-                    onClick={() => setSelectedProduct(product)}
-                    className="product-card bg-white rounded-2xl border border-[#EADFC8] p-2.5 flex flex-col justify-between hover:border-[#6B4423]/50 transition-all shadow-xs cursor-pointer group"
-                  >
-                    <div>
-                      {/* Product image */}
-                      <div className="w-full aspect-square rounded-xl bg-[#FAF6F0] mb-2 overflow-hidden flex items-center justify-center p-2 border border-[#FAF6F0]">
-                        <img
-                          src={product.image}
-                          alt={product.name}
-                          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                          loading="lazy"
-                        />
-                      </div>
-
-                      {/* Product Info */}
-                      <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] leading-snug line-clamp-2 group-hover:text-[#6B4423] transition-colors">
-                        {product.name}
-                      </h3>
-                      <p className="text-[10px] text-[#A08972] line-clamp-2 leading-tight mt-1">
-                        {product.description}
-                      </p>
-                    </div>
-
-                    {/* Price & Add button */}
-                    <div className="flex items-center justify-between mt-2.5 pt-2 border-t border-[#FAF6F0]">
-                      <span className="font-bold text-xs sm:text-sm text-[#1A1614]">
-                        {formatRupiah(product.price)}
-                      </span>
-
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setSelectedProduct(product);
-                        }}
-                        className="w-7 h-7 rounded-lg bg-[#FAF6F0] group-hover:bg-[#1A1614] group-hover:text-white text-[#6B4423] border border-[#EADFC8] flex items-center justify-center transition active:scale-90 cursor-pointer"
-                        title="Tambah ke keranjang"
-                      >
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 4v16m8-8H4" />
-                        </svg>
-                      </button>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </section>
-          ))}
-        </div>
-      ) : (
-        /* Filtered Search / Flat list */
-        <div>
-          <div className="flex items-center justify-between mb-3 border-b border-[#EADFC8]/60 pb-2">
-            <h2 className="font-extrabold text-sm text-[#1A1614]">
-              {searchQuery ? `Hasil Pencarian "${searchQuery}"` : 'Daftar Menu'}
-            </h2>
-            <span className="text-xs text-[#A08972] font-semibold">
-              {filteredProducts.length} Menu
+            <span className="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center shrink-0">
+              <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.8" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
             </span>
-          </div>
-
-          {filteredProducts.length === 0 ? (
-            <div className="text-center py-12 bg-white rounded-2xl border border-[#EADFC8] p-6">
-              <p className="font-semibold text-sm text-[#1A1614]">Menu tidak ditemukan</p>
-              <p className="text-xs text-[#A08972] mt-1">Coba gunakan kata kunci pencarian yang lain.</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {filteredProducts.map((product) => (
-                <article
-                  key={product.id}
-                  onClick={() => setSelectedProduct(product)}
-                  className="product-card bg-white rounded-2xl border border-[#EADFC8] p-2.5 flex flex-col justify-between hover:border-[#6B4423]/50 transition-all shadow-xs cursor-pointer group"
-                >
-                  <div>
-                    <div className="w-full aspect-square rounded-xl bg-[#FAF6F0] mb-2 overflow-hidden flex items-center justify-center p-2 border border-[#FAF6F0]">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                        loading="lazy"
-                      />
-                    </div>
-                    <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] leading-snug line-clamp-2 group-hover:text-[#6B4423] transition-colors">
-                      {product.name}
-                    </h3>
-                    <p className="text-[10px] text-[#A08972] line-clamp-2 leading-tight mt-1">
-                      {product.description}
-                    </p>
-                  </div>
-
-                  <div className="flex items-center justify-between mt-2.5 pt-2 border-t border-[#FAF6F0]">
-                    <span className="font-bold text-xs sm:text-sm text-[#1A1614]">
-                      {formatRupiah(product.price)}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setSelectedProduct(product);
-                      }}
-                      className="w-7 h-7 rounded-lg bg-[#FAF6F0] group-hover:bg-[#1A1614] group-hover:text-white text-[#6B4423] border border-[#EADFC8] flex items-center justify-center transition active:scale-90 cursor-pointer"
-                    >
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 4v16m8-8H4" />
-                      </svg>
-                    </button>
-                  </div>
-                </article>
-              ))}
-            </div>
-          )}
+          </button>
         </div>
       )}
 
-      {/* Product Customize Modal */}
+      {/* Product Detail Sheet / Modal */}
       <ProductModal
         product={selectedProduct}
         isOpen={!!selectedProduct}
         onClose={() => setSelectedProduct(null)}
         onAddToCart={onAddToCart}
       />
-    </main>
+    </div>
   );
 };
-

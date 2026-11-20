@@ -33,15 +33,19 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
   onOpenFeeInfo
 }) => {
   const [customerName, setCustomerName] = useState('');
-  const [customerPhone, setCustomerPhone] = useState('');
-  const [showCheckoutModal, setShowCheckoutModal] = useState(false);
+  const [nameError, setNameError] = useState(false);
 
-  // Generate WhatsApp order text
+  const feeLabel =
+    subtotal >= 70000
+      ? 'Min. Rp70.000'
+      : subtotal >= 50000
+      ? 'Min. Rp50.000'
+      : 'Tanpa Minimal';
+
   const generateWhatsAppOrderUrl = () => {
-    let text = `Halo Admin Jasdor, saya ingin memesan Kopi Kenangan:\n\n`;
+    let text = `Halo Admin, saya ingin memesan Kopi Kenangan:\n\n`;
+    text += `👤 *Nama Pemesan:* ${customerName.trim()}\n`;
     text += `📍 *Outlet:* ${currentOutlet?.name || 'Default Outlet'}\n`;
-    if (customerName) text += `👤 *Nama:* ${customerName}\n`;
-    if (customerPhone) text += `📱 *WhatsApp:* ${customerPhone}\n`;
     text += `\n*Daftar Pesanan:*\n`;
 
     items.forEach((item, index) => {
@@ -61,239 +65,321 @@ export const KeranjangPage: React.FC<KeranjangPageProps> = ({
     text += `\n*Ringkasan Biaya:*\n`;
     text += `• Subtotal: ${formatRupiah(subtotal)}\n`;
     text += `• Diskon 50%: -${formatRupiah(discount)}\n`;
-    text += `• Fee Jasdor: ${formatRupiah(fee)}\n`;
+    text += `• Fee Jasdor (${feeLabel}): ${formatRupiah(fee)}\n`;
     text += `• *TOTAL BAYAR: ${formatRupiah(grandTotal)}*\n\n`;
     text += `Mohon diproses pesanannya ya kak. Terima kasih! 🙏`;
 
     return `https://wa.me/${APP_CONFIG.adminWhatsappNumber}?text=${encodeURIComponent(text)}`;
   };
 
-  if (items.length === 0) {
-    return (
-      <main className="shop-shell mx-auto px-4 py-5 pb-28">
-        <div className="flex items-center justify-between gap-3 mb-4">
-          <h1 className="text-xl font-bold text-[#1A1614]">Keranjang</h1>
-          <button
-            onClick={onContinueShopping}
-            className="inline-flex items-center gap-1.5 shrink-0 rounded-xl border border-[#eadfce] bg-white px-3 py-2 text-xs font-semibold text-[#1A1614] shadow-xs hover:bg-[#FAF6F0] active:scale-95 transition cursor-pointer"
-          >
-            <svg aria-hidden="true" className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path d="M12 4v16m8-8H4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
-            </svg>
-            <span>Tambah Menu</span>
-          </button>
-        </div>
-
-        <div className="text-center py-16 px-4 bg-white rounded-3xl border border-[#EADFC8] shadow-xs my-4">
-          <img
-            alt="Empty Cart"
-            className="w-20 h-20 mx-auto mb-5 object-contain drop-shadow-xs opacity-90 hover:scale-105 transition-transform duration-300"
-            src="https://jasdorkopi.id/storage/branding/01KYXYXERGVH7ZXQ1296QC3670.ico"
-          />
-          <p className="font-semibold text-base text-[#1A1614]">Keranjang masih kosong</p>
-          <p className="text-sm text-[#A08972] mt-1 mb-6">Yuk pilih menu favoritmu dulu.</p>
-          <button
-            onClick={onContinueShopping}
-            className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-[#1A1614] hover:bg-[#2A221C] text-white text-sm font-semibold active:scale-95 transition-transform shadow-md cursor-pointer"
-          >
-            Belanja Sekarang
-          </button>
-        </div>
-      </main>
-    );
-  }
+  const handleOrder = () => {
+    if (!customerName.trim()) {
+      setNameError(true);
+      const inputEl = document.getElementById('input-nama-pemesan');
+      inputEl?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      inputEl?.focus();
+      return;
+    }
+    setNameError(false);
+    window.open(generateWhatsAppOrderUrl(), '_blank', 'noopener,noreferrer');
+  };
 
   return (
-    <main className="shop-shell mx-auto px-4 py-5 pb-32">
-      {/* Header */}
-      <div className="flex items-center justify-between gap-3 mb-4">
-        <h1 className="text-xl font-bold text-[#1A1614]">Keranjang ({items.length})</h1>
+    <div className="min-h-screen bg-white flex flex-col">
+      {/* Sticky Top Header (Flappyyu Cart Style: Back arrow, centered Keranjang, right crimson trash) */}
+      <header className="sticky top-0 z-30 bg-white border-b border-[#ececec] px-4 h-14 flex items-center justify-between">
         <button
+          type="button"
           onClick={onContinueShopping}
-          className="inline-flex items-center gap-1.5 shrink-0 rounded-xl border border-[#eadfce] bg-white px-3 py-2 text-xs font-semibold text-[#1A1614] shadow-xs hover:bg-[#FAF6F0] active:scale-95 transition cursor-pointer"
+          className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+          aria-label="Kembali"
         >
-          <svg aria-hidden="true" className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path d="M12 4v16m8-8H4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          <span>Tambah Menu</span>
         </button>
-      </div>
 
-      {/* Outlet Pickup Info Card */}
-      {currentOutlet && (
-        <div className="mb-4 bg-white rounded-2xl border border-[#EADFC8] p-3.5 shadow-xs flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <div className="w-9 h-9 rounded-xl bg-[#FAF6F0] border border-[#EADFC8] flex items-center justify-center text-[#6B4423] shrink-0">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] uppercase font-bold text-[#A08972] tracking-wider">Pickup di Counter</p>
-              <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] truncate">{currentOutlet.name}</h3>
-              <p className="text-[11px] text-[#A08972] truncate">{currentOutlet.distance} · Ambil langsung di counter</p>
-            </div>
-          </div>
-          <button
-            onClick={onSwitchOutlet}
-            className="text-xs font-bold text-[#6B4423] hover:underline shrink-0 cursor-pointer"
-          >
-            Ganti
-          </button>
-        </div>
-      )}
+        <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Keranjang</h1>
 
-      {/* Cart Items List */}
-      <div className="space-y-3 mb-5">
-        {items.map((item) => (
-          <div
-            key={item.cartItemId}
-            className="bg-white rounded-2xl border border-[#EADFC8] p-3.5 shadow-xs flex gap-3"
-          >
-            <div className="w-16 h-16 rounded-xl bg-[#FAF6F0] shrink-0 overflow-hidden flex items-center justify-center p-1 border border-[#FAF6F0]">
-              <img src={item.image} alt={item.name} className="w-full h-full object-contain" />
-            </div>
-
-            <div className="flex-1 min-w-0 flex flex-col justify-between">
-              <div>
-                <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-bold text-xs sm:text-sm text-[#1A1614] leading-snug line-clamp-1">
-                    {item.name}
-                  </h3>
-                  <button
-                    onClick={() => onRemoveItem(item.cartItemId)}
-                    className="text-[#A08972] hover:text-red-500 transition p-1 shrink-0 cursor-pointer"
-                    title="Hapus"
-                  >
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                    </svg>
-                  </button>
-                </div>
-
-                {/* Options display */}
-                {Object.values(item.selectedOptions).length > 0 && (
-                  <p className="text-[11px] text-[#A08972] mt-0.5 line-clamp-1">
-                    {Object.values(item.selectedOptions)
-                      .map((o) => o.label)
-                      .join(' · ')}
-                  </p>
-                )}
-
-                {/* Addons display */}
-                {item.selectedAddons.length > 0 && (
-                  <p className="text-[10px] text-[#6B4423] mt-0.5 line-clamp-1">
-                    + {item.selectedAddons.map((a) => a.name).join(', ')}
-                  </p>
-                )}
-
-                {/* Notes */}
-                {item.notes && (
-                  <p className="text-[10px] text-[#8A7A6A] italic mt-0.5 line-clamp-1">
-                    "{item.notes}"
-                  </p>
-                )}
-              </div>
-
-              {/* Price & Quantity Controls */}
-              <div className="flex items-center justify-between mt-2 pt-2 border-t border-[#FAF6F0]">
-                <span className="font-bold text-xs sm:text-sm text-[#1A1614]">
-                  {formatRupiah(item.totalItemPrice)}
-                </span>
-
-                <div className="flex items-center gap-2 bg-[#FAF6F0] rounded-xl p-0.5 border border-[#EADFC8]">
-                  <button
-                    onClick={() => onUpdateQuantity(item.cartItemId, -1)}
-                    className="w-6 h-6 rounded-lg bg-white hover:bg-[#EADFC8] text-[#1A1614] font-bold text-xs flex items-center justify-center transition cursor-pointer"
-                  >
-                    −
-                  </button>
-                  <span className="text-xs font-bold text-[#1A1614] px-1">{item.quantity}</span>
-                  <button
-                    onClick={() => onUpdateQuantity(item.cartItemId, 1)}
-                    className="w-6 h-6 rounded-lg bg-white hover:bg-[#EADFC8] text-[#1A1614] font-bold text-xs flex items-center justify-center transition cursor-pointer"
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Summary Card */}
-      <div className="bg-white rounded-2xl border-2 border-[#EADFC8] p-4 shadow-xs space-y-2.5 mb-5">
-        <h3 className="font-bold text-sm text-[#1A1614] pb-2 border-b border-[#FAF6F0]">
-          Rincian Pembayaran
-        </h3>
-
-        <div className="flex items-center justify-between text-xs text-[#5C4A3A]">
-          <span>Subtotal Pesanan</span>
-          <span className="font-semibold text-[#1A1614]">{formatRupiah(subtotal)}</span>
-        </div>
-
-        <div className="flex items-center justify-between text-xs text-emerald-700">
-          <span className="flex items-center gap-1.5">
-            <span>Diskon 50% Jasdor</span>
-            <span className="text-[9px] bg-emerald-100 text-emerald-800 font-extrabold px-1.5 py-0.2 rounded">
-              VOUCHER
-            </span>
-          </span>
-          <span className="font-bold">−{formatRupiah(discount)}</span>
-        </div>
-
-        <div className="flex items-center justify-between text-xs text-[#5C4A3A]">
+        {items.length > 0 ? (
           <button
             type="button"
-            onClick={onOpenFeeInfo}
-            className="flex items-center gap-1 text-[#6B4423] hover:underline cursor-pointer"
+            onClick={onClearCart}
+            className="w-9 h-9 rounded-full flex items-center justify-center text-[#bf1926] hover:bg-[#fef2f2] transition cursor-pointer"
+            title="Kosongkan Keranjang"
+            aria-label="Kosongkan Keranjang"
           >
-            <span>Biaya Jasa Jasdor</span>
-            <svg className="w-3.5 h-3.5 text-[#A08972]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              />
             </svg>
           </button>
-          <span className="font-semibold text-[#1A1614]">{formatRupiah(fee)}</span>
-        </div>
+        ) : (
+          <div className="w-9" />
+        )}
+      </header>
 
-        <div className="pt-2 border-t border-[#EADFC8] border-dashed flex items-center justify-between">
-          <div>
-            <span className="text-xs text-[#A08972] block">Total Pembayaran</span>
-            <span className="font-extrabold text-base sm:text-lg text-[#1A1614]">
-              {formatRupiah(grandTotal)}
-            </span>
+      {items.length === 0 ? (
+        <main className="flex-1 flex flex-col items-center justify-center px-6 py-16 text-center">
+          <div className="w-16 h-16 rounded-full bg-[#eff5fd] text-[#1659b7] flex items-center justify-center mb-4">
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
           </div>
-          <div className="text-right">
-            <span className="text-[10px] text-emerald-700 font-bold bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full inline-block">
-              Hemat {formatRupiah(discount - fee)}!
-            </span>
+          <p className="text-[16px] font-extrabold text-[#1f1f1f]">Keranjang masih kosong</p>
+          <p className="text-[13px] text-[#867e80] mt-1 mb-6">
+            Yuk pilih menu Kopi Kenangan favoritmu dulu.
+          </p>
+          <button
+            type="button"
+            onClick={onContinueShopping}
+            className="h-11 px-7 rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] text-white text-[14px] font-extrabold shadow-[0_3px_12px_rgba(22,89,183,0.22)] active:scale-95 transition cursor-pointer"
+          >
+            Lihat Menu
+          </button>
+        </main>
+      ) : (
+        <>
+          <main className="flex-1 px-4 pt-4 pb-32 space-y-5">
+            {/* Outlet Summary Card */}
+            {currentOutlet && (
+              <div className="rounded-[10px] border border-[#ececec] bg-white px-4 py-3.5 shadow-[0_4px_16px_rgba(15,23,42,0.08)] flex items-center justify-between gap-3">
+                <div className="min-w-0">
+                  <p className="text-[13px] font-extrabold text-[#1f1f1f] truncate">
+                    Outlet: {currentOutlet.name}
+                  </p>
+                  <p className="text-[11px] text-[#867e80] truncate mt-0.5">
+                    {currentOutlet.address}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={onSwitchOutlet}
+                  className="text-[12px] font-extrabold text-[#1659b7] hover:underline shrink-0 cursor-pointer"
+                >
+                  Ubah
+                </button>
+              </div>
+            )}
+
+            {/* Order Items Section Header: "Pesan" + Outlined Blue Pill "Tambah Pesanan +" */}
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="text-[16px] font-extrabold text-[#1f1f1f]">Pesan</h2>
+              <button
+                type="button"
+                onClick={onContinueShopping}
+                className="h-9 px-3.5 rounded-full border-2 border-[#1659b7] text-[#1659b7] hover:bg-[#eff5fd] text-[12px] font-extrabold inline-flex items-center gap-1 transition cursor-pointer"
+              >
+                <span>Tambah Pesanan +</span>
+              </button>
+            </div>
+
+            {/* Cart Items Cards */}
+            <div className="space-y-3.5">
+              {items.map((item) => {
+                const discountedItemTotal = Math.round(item.totalItemPrice * 0.5);
+                return (
+                  <div
+                    key={item.cartItemId}
+                    className="rounded-[10px] border border-[#ececec] bg-white p-4 shadow-[0_4px_16px_rgba(15,23,42,0.08)]"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-[14px] font-extrabold text-[#1f1f1f] leading-snug">
+                          {item.name}
+                        </h3>
+
+                        {Object.values(item.selectedOptions).length > 0 && (
+                          <p className="text-[11.5px] text-[#867e80] mt-1 leading-snug">
+                            {Object.values(item.selectedOptions)
+                              .map((o) => o.label)
+                              .join(' · ')}
+                          </p>
+                        )}
+
+                        {item.selectedAddons.length > 0 && (
+                          <p className="text-[11px] text-[#c39155] font-semibold mt-0.5">
+                            + {item.selectedAddons.map((a) => a.name).join(', ')}
+                          </p>
+                        )}
+
+                        {item.notes && (
+                          <p className="text-[11px] text-[#867e80] italic mt-0.5">
+                            &ldquo;{item.notes}&rdquo;
+                          </p>
+                        )}
+
+                        <div className="flex items-baseline gap-2 mt-2.5">
+                          <span className="text-[14px] font-extrabold text-[#1f1f1f]">
+                            {formatRupiah(discountedItemTotal)}
+                          </span>
+                          <span className="text-[11.5px] font-bold text-[#9b9b9b] line-through">
+                            {formatRupiah(item.totalItemPrice)}
+                          </span>
+                        </div>
+                      </div>
+
+                      <div className="w-16 h-16 rounded-lg bg-[#f9f9f9] border border-[#f0f0f0] shrink-0 overflow-hidden flex items-center justify-center p-1">
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Bottom Control Row: Red Trash/Minus Circle + Qty + Caramel Outlined "+" Circle */}
+                    <div className="mt-3 pt-3 border-t border-[#f2f2f2] flex items-center justify-end gap-3">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          item.quantity <= 1
+                            ? onRemoveItem(item.cartItemId)
+                            : onUpdateQuantity(item.cartItemId, -1)
+                        }
+                        className="w-7 h-7 rounded-full border border-[#bf1926] text-[#bf1926] hover:bg-[#fef2f2] flex items-center justify-center transition cursor-pointer"
+                        aria-label="Kurangi atau hapus"
+                      >
+                        {item.quantity <= 1 ? (
+                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                            />
+                          </svg>
+                        ) : (
+                          <span className="text-sm font-extrabold leading-none">−</span>
+                        )}
+                      </button>
+
+                      <span className="text-[13px] font-extrabold text-[#1f1f1f] min-w-[16px] text-center">
+                        {item.quantity}
+                      </span>
+
+                      <button
+                        type="button"
+                        onClick={() => onUpdateQuantity(item.cartItemId, 1)}
+                        className="w-7 h-7 rounded-full border border-[#c39155] text-[#c39155] hover:bg-[#fdf8f2] flex items-center justify-center text-sm font-extrabold leading-none transition cursor-pointer"
+                        aria-label="Tambah jumlah"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Required Customer Name Card */}
+            <div
+              className={`rounded-[10px] border bg-white p-4 shadow-[0_4px_16px_rgba(15,23,42,0.08)] transition ${
+                nameError ? 'border-[#bf1926] ring-2 ring-[#bf1926]/15' : 'border-[#ececec]'
+              }`}
+            >
+              <label htmlFor="input-nama-pemesan" className="flex items-center gap-1.5 mb-2">
+                <svg className="w-4 h-4 text-[#1659b7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+                <span className="text-[13px] font-extrabold text-[#1f1f1f]">
+                  Nama Pemesan <span className="text-[#bf1926]">*</span>
+                </span>
+              </label>
+              <input
+                id="input-nama-pemesan"
+                type="text"
+                value={customerName}
+                onChange={(e) => {
+                  setCustomerName(e.target.value);
+                  if (e.target.value.trim()) setNameError(false);
+                }}
+                placeholder="Masukkan nama pemesan (wajib)"
+                autoComplete="name"
+                className={`w-full h-10 px-3.5 rounded-lg border text-[13px] font-semibold text-[#1f1f1f] placeholder-[#9a9a9a] focus:outline-none transition ${
+                  nameError
+                    ? 'border-[#bf1926] bg-[#fef2f2]'
+                    : 'border-[#e5e5e5] bg-[#fafafa] focus:border-[#1659b7] focus:bg-white'
+                }`}
+              />
+              {nameError && (
+                <p className="mt-1.5 text-[11.5px] font-bold text-[#bf1926]">
+                  Nama pemesan wajib diisi sebelum menekan tombol Pesan.
+                </p>
+              )}
+            </div>
+
+            {/* Rincian Biaya & Fee Card */}
+            <div className="rounded-[10px] border border-[#ececec] bg-white p-4 shadow-[0_4px_16px_rgba(15,23,42,0.08)] space-y-2 text-[12.5px]">
+              <div className="flex items-center justify-between text-[#555555]">
+                <span>Subtotal</span>
+                <span className="font-bold text-[#1f1f1f]">{formatRupiah(subtotal)}</span>
+              </div>
+              <div className="flex items-center justify-between text-[#047857]">
+                <span className="font-bold">Diskon 50%</span>
+                <span className="font-extrabold">−{formatRupiah(discount)}</span>
+              </div>
+              <div className="flex items-center justify-between text-[#555555]">
+                <button
+                  type="button"
+                  onClick={onOpenFeeInfo}
+                  className="inline-flex items-center gap-1 font-bold text-[#1659b7] hover:underline cursor-pointer"
+                >
+                  <span>Biaya Jasa ({feeLabel})</span>
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </button>
+                <span className="font-bold text-[#1f1f1f]">{formatRupiah(fee)}</span>
+              </div>
+            </div>
+          </main>
+
+          {/* Sticky Checkout Footer (Exact Flappyyu Style) */}
+          <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[440px] bg-white border-t border-[#ececec] px-4 py-3 flex items-center justify-between gap-3 z-40 shadow-[0_-4px_14px_rgba(0,0,0,0.05)]">
+            <div className="min-w-0">
+              <span className="block text-[11px] font-semibold text-[#867e80] leading-tight">
+                Total
+              </span>
+              <div className="flex items-baseline gap-2 mt-0.5">
+                <span className="text-[17px] font-extrabold text-[#1f1f1f] leading-none">
+                  {formatRupiah(grandTotal)}
+                </span>
+                <span className="text-[12px] font-bold text-[#9b9b9b] line-through leading-none">
+                  {formatRupiah(subtotal)}
+                </span>
+              </div>
+              {discount - fee > 0 && (
+                <span className="block text-[11px] font-extrabold text-[#047857] mt-1 leading-none">
+                  Hemat {formatRupiah(discount - fee)}
+                </span>
+              )}
+            </div>
+
+            <button
+              type="button"
+              onClick={handleOrder}
+              className="h-[50px] px-8 rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] text-white text-[16px] font-extrabold shadow-[0_3px_12px_rgba(22,89,183,0.22)] active:scale-[0.98] transition cursor-pointer shrink-0"
+            >
+              Pesan
+            </button>
           </div>
-        </div>
-      </div>
-
-      {/* Actions */}
-      <div className="space-y-2">
-        <a
-          href={generateWhatsAppOrderUrl()}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full py-3.5 px-4 rounded-2xl bg-[#25D366] hover:bg-[#20BD5A] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition cursor-pointer text-center block"
-        >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-          </svg>
-          <span>Pesan Sekarang via WhatsApp</span>
-        </a>
-
-        <button
-          onClick={onClearCart}
-          className="w-full py-2.5 text-xs text-[#A08972] hover:text-red-500 transition font-semibold cursor-pointer"
-        >
-          Kosongkan Keranjang
-        </button>
-      </div>
-    </main>
+        </>
+      )}
+    </div>
   );
 };
-

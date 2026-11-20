@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar } from '../components/common/Navbar';
-import { BottomNav, NavTab } from '../components/common/BottomNav';
+import { NavTab } from '../components/common/BottomNav';
 import { HomePage } from '../pages/HomePage';
 import { PilihOutletPage } from '../pages/PilihOutletPage';
 import { KategoriPage } from '../pages/KategoriPage';
@@ -15,7 +14,6 @@ import { FaqModal } from '../components/modals/FaqModal';
 import { AboutModal } from '../components/modals/AboutModal';
 import { WifiModal } from '../components/modals/WifiModal';
 import { FeeModal } from '../components/modals/FeeModal';
-import { WelcomePopup } from '../components/modals/WelcomePopup';
 
 import { useOutlet } from '../hooks/useOutlet';
 import { useCart } from '../hooks/useCart';
@@ -35,7 +33,6 @@ export const MainLayout: React.FC = () => {
     clearCart
   } = useCart();
 
-  // Navigation state: starts at 'home', or can be 'lokasi' (pilih-outlet), 'kategori', 'keranjang', 'loyalty', 'order'
   const [activeTab, setActiveTab] = useState<NavTab | 'loyalty'>('home');
 
   // Modals state
@@ -46,18 +43,6 @@ export const MainLayout: React.FC = () => {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isWifiOpen, setIsWifiOpen] = useState(false);
   const [isFeeOpen, setIsFeeOpen] = useState(false);
-  const [isWelcomeOpen, setIsWelcomeOpen] = useState(false);
-
-  // Auto show welcome popup on load if not dismissed
-  useEffect(() => {
-    const dismissUntil = localStorage.getItem('jasdor_welcome_dismiss_until');
-    if (!dismissUntil || Date.now() > parseInt(dismissUntil, 10)) {
-      const timer = setTimeout(() => {
-        setIsWelcomeOpen(true);
-      }, 600);
-      return () => clearTimeout(timer);
-    }
-  }, []);
 
   // Listen to hash changes for browser back/forward or deep links
   useEffect(() => {
@@ -82,27 +67,27 @@ export const MainLayout: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
-  const handleSelectTab = (tab: NavTab) => {
+  const handleSelectTab = (tab: NavTab | 'loyalty') => {
     setActiveTab(tab);
     window.location.hash = tab === 'home' ? '' : `#${tab}`;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF6F0] text-[#1A1614] font-sans flex flex-col justify-between selection:bg-[#6B4423]/15 selection:text-[#6B4423]">
-      <div>
-        {/* Top Sticky Navbar */}
-        <Navbar
-          onOpenMenu={() => setIsMenuOpen(true)}
-          selectedOutlet={selectedOutlet}
-          onSwitchOutlet={() => handleSelectTab('lokasi')}
-        />
-
-        {/* Dynamic Page Views */}
+    <div className="min-h-screen bg-[#f6f6f6] text-[#1f1f1f] font-sans selection:bg-[#1659b7]/15 selection:text-[#1659b7]">
+      {/* Centered Mobile-First App Column (Flappyyu Kopi Kenangan Shell) */}
+      <div className="app-column flex flex-col">
         {activeTab === 'home' && (
           <HomePage
             currentOutlet={selectedOutlet}
+            cartItems={items}
+            totalItems={totalItems}
+            subtotal={subtotal}
+            grandTotal={grandTotal}
             onSwitchOutlet={() => handleSelectTab('lokasi')}
+            onOpenMenu={() => setIsMenuOpen(true)}
+            onOpenCart={() => handleSelectTab('keranjang')}
+            onOpenOrder={() => handleSelectTab('order')}
             onAddToCart={addToCart}
             onOpenBestSellers={() => setIsBestSellersOpen(true)}
             onOpenFaq={() => setIsFaqOpen(true)}
@@ -123,9 +108,7 @@ export const MainLayout: React.FC = () => {
 
         {activeTab === 'kategori' && (
           <KategoriPage
-            onSelectCategory={(catId) => {
-              handleSelectTab('home');
-            }}
+            onSelectCategory={() => handleSelectTab('home')}
             onAddToCart={addToCart}
           />
         )}
@@ -147,26 +130,52 @@ export const MainLayout: React.FC = () => {
           />
         )}
 
-        {activeTab === 'loyalty' && <LoyaltyPage />}
+        {activeTab === 'loyalty' && (
+          <div>
+            <header className="sticky top-0 z-30 bg-white border-b border-[#ececec] px-4 h-14 flex items-center justify-between">
+              <button
+                type="button"
+                onClick={() => handleSelectTab('home')}
+                className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+                aria-label="Kembali"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+              </button>
+              <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Loyalty Card</h1>
+              <div className="w-9" />
+            </header>
+            <LoyaltyPage />
+          </div>
+        )}
 
-        {activeTab === 'order' && <OrderPage />}
+        {activeTab === 'order' && (
+          <div>
+            <header className="sticky top-0 z-30 bg-white border-b border-[#ececec] px-4 h-14 flex items-center justify-between">
+              <button
+                type="button"
+                onClick={() => handleSelectTab('home')}
+                className="w-9 h-9 rounded-full flex items-center justify-center text-[#1f1f1f] hover:bg-[#f6f6f6] transition cursor-pointer"
+                aria-label="Kembali"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+              </button>
+              <h1 className="text-[16px] font-extrabold text-[#1f1f1f]">Riwayat & Lacak Pesanan</h1>
+              <div className="w-9" />
+            </header>
+            <OrderPage />
+          </div>
+        )}
       </div>
-
-      {/* Bottom Navigation */}
-      <BottomNav
-        activeTab={activeTab === 'loyalty' ? 'home' : activeTab}
-        onSelectTab={handleSelectTab}
-        cartCount={totalItems}
-      />
 
       {/* Global Modals */}
       <MenuModal
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
-        onOpenLoyalty={() => {
-          setActiveTab('loyalty');
-          window.location.hash = '#loyalty';
-        }}
+        onOpenLoyalty={() => handleSelectTab('loyalty')}
         onOpenBestSellers={() => setIsBestSellersOpen(true)}
         onOpenFaq={() => setIsFaqOpen(true)}
         onOpenAbout={() => setIsAboutOpen(true)}
@@ -185,9 +194,7 @@ export const MainLayout: React.FC = () => {
       <BestSellerModal
         isOpen={isBestSellersOpen}
         onClose={() => setIsBestSellersOpen(false)}
-        onSelectProduct={(name) => {
-          handleSelectTab('home');
-        }}
+        onSelectProduct={() => handleSelectTab('home')}
       />
 
       <FaqModal
@@ -209,12 +216,6 @@ export const MainLayout: React.FC = () => {
         isOpen={isFeeOpen}
         onClose={() => setIsFeeOpen(false)}
       />
-
-      <WelcomePopup
-        isOpen={isWelcomeOpen}
-        onClose={() => setIsWelcomeOpen(false)}
-      />
     </div>
   );
 };
-

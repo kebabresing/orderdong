@@ -8,28 +8,31 @@ export default {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#6B4423',
-          light: '#6B44231a',
-          hover: '#5A381B',
-          ring: '#6B44234d'
+          DEFAULT: '#1659b7',
+          hover: '#124a9a',
+          soft: '#eff5fd',
+          border: '#bcd3f0',
+          ring: '#cfe3ff'
         },
-        cream: {
-          DEFAULT: '#F3E9DB',
-          deep: '#EADFC8',
-          soft: '#F8F2E9'
+        caramel: {
+          DEFAULT: '#c39155',
+          soft: '#fdf8f2'
+        },
+        crimson: {
+          DEFAULT: '#bf1926'
         },
         ink: {
-          DEFAULT: '#1A1614',
-          soft: '#5C4A3A',
-          mute: '#A08972'
+          DEFAULT: '#1f1f1f',
+          soft: '#555555',
+          mute: '#867e80',
+          light: '#9b9b9b'
         },
-        surface: '#FAF6F0'
+        surface: '#f6f6f6'
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['"Mulish"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       }
     },
   },
   plugins: [],
 }
-

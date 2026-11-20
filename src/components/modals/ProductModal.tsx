@@ -22,16 +22,16 @@ export const ProductModal: React.FC<ProductModalProps> = ({
   const [selectedAddons, setSelectedAddons] = useState<
     { value: string; name: string; price: number }[]
   >([]);
+  const [openAddonGroups, setOpenAddonGroups] = useState<Record<string, boolean>>({});
   const [notes, setNotes] = useState('');
 
-  // Reset defaults when product changes
   useEffect(() => {
     if (product) {
       setQuantity(1);
       setNotes('');
       setSelectedAddons([]);
+      setOpenAddonGroups({});
 
-      // Set default options if options exist
       const initialOptions: Record<string, { value: string; label: string; price: number }> = {};
       if (product.options && product.options.length > 0) {
         product.options.forEach((opt) => {
@@ -48,13 +48,25 @@ export const ProductModal: React.FC<ProductModalProps> = ({
     }
   }, [product, isOpen]);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
   if (!isOpen || !product) return null;
 
-  // Calculate unit price: base price + option deltas + addon deltas
   const optionsDelta = Object.values(selectedOptions).reduce((sum, o) => sum + (o.price || 0), 0);
   const addonsDelta = selectedAddons.reduce((sum, a) => sum + (a.price || 0), 0);
   const unitPrice = product.price + optionsDelta + addonsDelta;
   const totalPrice = unitPrice * quantity;
+  const discountedUnitPrice = Math.round(unitPrice * 0.5);
+  const discountedTotalPrice = discountedUnitPrice * quantity;
 
   const handleSelectOption = (optKey: string, choice: ProductChoice) => {
     setSelectedOptions((prev) => ({
@@ -72,9 +84,8 @@ export const ProductModal: React.FC<ProductModalProps> = ({
       const exists = prev.some((a) => a.value === addon.value);
       if (exists) {
         return prev.filter((a) => a.value !== addon.value);
-      } else {
-        return [...prev, { value: addon.value, name: addon.name, price: addon.price }];
       }
+      return [...prev, { value: addon.value, name: addon.name, price: addon.price }];
     });
   };
 
@@ -98,172 +109,241 @@ export const ProductModal: React.FC<ProductModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
-      {/* Backdrop */}
-      <div
-        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300"
-        onClick={onClose}
-      />
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-[2px]">
+      <div className="fixed inset-0" onClick={onClose} />
 
-      {/* Modal Sheet */}
-      <div className="relative w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col z-10 max-h-[90vh]">
-        {/* Handle bar */}
-        <div className="flex justify-center pt-3 pb-1 cursor-grab sm:hidden">
-          <div className="w-10 h-1.5 bg-[#EADFC8] rounded-full" />
-        </div>
+      {/* Centered Mobile-Column Product Detail Sheet (Flappyyu Style) */}
+      <div className="relative z-10 w-full max-w-[440px] h-full sm:h-[92vh] sm:rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col">
+        {/* Scrollable Content */}
+        <div className="flex-1 overflow-y-auto">
+          {/* Top Studio Gradient Hero Image + Floating Circular Back Button */}
+          <div className="relative w-full h-56 bg-gradient-to-b from-[#ebebeb] via-[#f7f7f7] to-white flex items-center justify-center p-4">
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Kembali"
+              className="absolute top-3.5 left-3.5 w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer z-10"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+            </button>
 
-        {/* Header with Product preview */}
-        <div className="p-4 sm:p-5 border-b border-[#EADFC8] flex items-start justify-between gap-3 bg-[#FAF6F0]/60">
-          <div className="flex items-center gap-3">
-            <div className="w-16 h-16 rounded-xl bg-white border border-[#EADFC8] p-1 shrink-0 overflow-hidden shadow-xs">
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div>
-              <h3 className="font-bold text-base text-[#1A1614] leading-snug">{product.name}</h3>
-              <p className="text-xs text-[#A08972] line-clamp-1 mt-0.5">{product.description}</p>
-              <p className="font-bold text-sm text-[#6B4423] mt-1">{formatRupiah(unitPrice)}</p>
-            </div>
-          </div>
-
-          <button
-            type="button"
-            onClick={onClose}
-            className="w-8 h-8 rounded-full bg-[#FAF6F0] hover:bg-[#EADFC8] text-[#5C4A3A] flex items-center justify-center transition cursor-pointer shrink-0"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Scrollable Option List */}
-        <div className="p-5 overflow-y-auto space-y-5 flex-1">
-          {/* Options (Temperature, Size, Beans, Sugar, Ice) */}
-          {product.options && product.options.map((opt) => (
-            <div key={opt.key} className="space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-[#1A1614]">
-                  {opt.label}
-                </span>
-                <span className="text-[10px] text-[#A08972] font-semibold bg-[#FAF6F0] px-2 py-0.5 rounded-full border border-[#EADFC8]">
-                  Pilih 1
-                </span>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                {opt.choices.map((choice) => {
-                  const isSelected = selectedOptions[opt.key]?.value === choice.value;
-                  return (
-                    <button
-                      key={choice.value}
-                      type="button"
-                      onClick={() => handleSelectOption(opt.key, choice)}
-                      className={`p-2.5 rounded-xl border text-left transition flex flex-col justify-between cursor-pointer ${
-                        isSelected
-                          ? 'border-[#6B4423] bg-white ring-2 ring-[#6B4423]/20 shadow-xs'
-                          : 'border-[#EADFC8] bg-[#FAF6F0]/60 hover:bg-[#FAF6F0] text-[#5C4A3A]'
-                      }`}
-                    >
-                      <span className={`text-xs ${isSelected ? 'font-bold text-[#1A1614]' : 'font-medium'}`}>
-                        {choice.label}
-                      </span>
-                      {choice.price > 0 && (
-                        <span className="text-[11px] font-semibold text-[#6B4423] mt-0.5">
-                          +{formatRupiah(choice.price)}
-                        </span>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
-
-          {/* Addons (Syrups, Toppings) */}
-          {product.addons && product.addons.map((group) => (
-            <div key={group.key} className="space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-[#1A1614]">
-                  {group.label || group.name}
-                </span>
-                <span className="text-[10px] text-[#A08972] font-semibold bg-[#FAF6F0] px-2 py-0.5 rounded-full border border-[#EADFC8]">
-                  Opsional
-                </span>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                {group.choices.map((addon) => {
-                  const isChecked = selectedAddons.some((a) => a.value === addon.value);
-                  return (
-                    <button
-                      key={addon.value}
-                      type="button"
-                      onClick={() => handleToggleAddon(addon)}
-                      className={`p-2.5 rounded-xl border text-left transition flex items-center justify-between gap-1.5 cursor-pointer ${
-                        isChecked
-                          ? 'border-[#6B4423] bg-white ring-2 ring-[#6B4423]/20 shadow-xs'
-                          : 'border-[#EADFC8] bg-[#FAF6F0]/60 hover:bg-[#FAF6F0] text-[#5C4A3A]'
-                      }`}
-                    >
-                      <div className="min-w-0">
-                        <span className={`text-xs block truncate ${isChecked ? 'font-bold text-[#1A1614]' : 'font-medium'}`}>
-                          {addon.name}
-                        </span>
-                        <span className="text-[10px] font-semibold text-[#6B4423]">
-                          +{formatRupiah(addon.price)}
-                        </span>
-                      </div>
-                      <div
-                        className={`w-4 h-4 rounded flex items-center justify-center shrink-0 border ${
-                          isChecked ? 'bg-[#6B4423] border-[#6B4423] text-white' : 'border-[#EADFC8] bg-white'
-                        }`}
-                      >
-                        {isChecked && (
-                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
-                          </svg>
-                        )}
-                      </div>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
-
-          {/* Notes textarea */}
-          <div className="space-y-1.5">
-            <label className="text-xs font-bold uppercase tracking-wider text-[#1A1614] block">
-              Catatan Pesanan
-            </label>
-            <textarea
-              value={notes}
-              onChange={(e) => setNotes(e.target.value)}
-              placeholder="Contoh: jangan terlalu manis, dipisah sedotan..."
-              rows={2}
-              className="w-full p-3 rounded-xl border border-[#EADFC8] text-xs text-[#1A1614] bg-white focus:outline-none focus:border-[#6B4423] focus:ring-2 focus:ring-[#6B4423]/20 transition resize-none"
+            <img
+              src={product.image}
+              alt={product.name}
+              className="h-44 w-44 object-contain drop-shadow-md"
             />
           </div>
+
+          {/* Product Title, Price Pill & Description */}
+          <div className="px-4 pt-2 pb-4 border-b border-[#f0f0f0]">
+            <div className="flex items-start justify-between gap-3">
+              <h1 className="text-[20px] font-extrabold leading-tight text-[#1f1f1f]">
+                {product.name}
+              </h1>
+              <div className="text-right shrink-0">
+                <span className="inline-block bg-[#1659b7] text-white rounded px-2 py-1 text-[13px] font-extrabold leading-none">
+                  {formatRupiah(discountedUnitPrice)}
+                </span>
+                <span className="block text-[11px] font-bold text-[#9b9b9b] line-through mt-1 leading-none">
+                  {formatRupiah(unitPrice)}
+                </span>
+              </div>
+            </div>
+            {product.description && (
+              <p className="text-[12px] text-[#867e80] mt-2 leading-relaxed">
+                {product.description}
+              </p>
+            )}
+          </div>
+
+          {/* Customization Sections */}
+          <div className="px-4 py-4 space-y-5">
+            {/* Required Options (2-Column Grid with Caramel Gold Active Border & Radio Dot) */}
+            {product.options &&
+              product.options.map((opt) => (
+                <div key={opt.key} className="space-y-2.5">
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-[14px] font-extrabold text-[#1f1f1f]">{opt.label}</span>
+                    <span className="text-[11px] font-semibold text-[#9a9a9a]">Select 1</span>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2.5">
+                    {opt.choices.map((choice) => {
+                      const isSelected = selectedOptions[opt.key]?.value === choice.value;
+                      return (
+                        <button
+                          key={choice.value}
+                          type="button"
+                          onClick={() => handleSelectOption(opt.key, choice)}
+                          className={`relative rounded-[10px] px-3 py-3.5 text-center transition cursor-pointer flex flex-col items-center justify-center min-h-[62px] ${
+                            isSelected
+                              ? 'border-[1.5px] border-[#c39155] bg-white shadow-xs'
+                              : 'border border-[#eaeaea] bg-white hover:border-[#d4d4d4]'
+                          }`}
+                        >
+                          {/* Top-Right Custom Radio Circle */}
+                          <span
+                            className={`absolute top-2 right-2 w-4 h-4 rounded-full flex items-center justify-center ${
+                              isSelected
+                                ? 'border-2 border-[#c39155]'
+                                : 'border border-[#d4d4d4]'
+                            }`}
+                          >
+                            {isSelected && (
+                              <span className="w-2 h-2 rounded-full bg-[#c39155]" />
+                            )}
+                          </span>
+
+                          <span
+                            className={`text-[12.5px] leading-snug pr-3 ${
+                              isSelected ? 'font-extrabold text-[#1f1f1f]' : 'font-semibold text-[#555555]'
+                            }`}
+                          >
+                            {choice.label}
+                          </span>
+                          {choice.price > 0 && (
+                            <span className="text-[11px] font-bold text-[#c39155] mt-0.5">
+                              +{formatRupiah(choice.price)}
+                            </span>
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+
+            {/* Expandable Addon Accordions (Syrup, Topping, etc.) */}
+            {product.addons &&
+              product.addons.map((group) => {
+                const isExpanded = Boolean(openAddonGroups[group.key]);
+                const groupSelectedCount = group.choices.filter((c) =>
+                  selectedAddons.some((a) => a.value === c.value)
+                ).length;
+
+                return (
+                  <div key={group.key} className="border-t border-[#f0f0f0] pt-3">
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setOpenAddonGroups((prev) => ({
+                          ...prev,
+                          [group.key]: !prev[group.key]
+                        }))
+                      }
+                      className="w-full flex items-center justify-between py-1 cursor-pointer"
+                    >
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-[14px] font-extrabold text-[#1f1f1f]">
+                          {group.label || group.name}
+                        </span>
+                        <span className="text-[11px] font-semibold text-[#9a9a9a]">
+                          Optional · May select multiple
+                        </span>
+                        {groupSelectedCount > 0 && (
+                          <span className="text-[10px] font-extrabold bg-[#eff5fd] text-[#1659b7] px-1.5 py-0.5 rounded">
+                            {groupSelectedCount} dipilih
+                          </span>
+                        )}
+                      </div>
+                      <svg
+                        className={`w-4 h-4 text-[#867e80] transition-transform ${
+                          isExpanded ? 'rotate-180' : ''
+                        }`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+
+                    {isExpanded && (
+                      <div className="grid grid-cols-2 gap-2.5 mt-3">
+                        {group.choices.map((addon) => {
+                          const isChecked = selectedAddons.some((a) => a.value === addon.value);
+                          return (
+                            <button
+                              key={addon.value}
+                              type="button"
+                              onClick={() => handleToggleAddon(addon)}
+                              className={`relative rounded-[10px] px-3 py-3 text-left transition cursor-pointer flex items-center justify-between gap-2 ${
+                                isChecked
+                                  ? 'border-[1.5px] border-[#c39155] bg-[#fdf8f2]'
+                                  : 'border border-[#eaeaea] bg-white hover:border-[#d4d4d4]'
+                              }`}
+                            >
+                              <div className="min-w-0">
+                                <span
+                                  className={`text-[12px] block truncate ${
+                                    isChecked ? 'font-extrabold text-[#1f1f1f]' : 'font-semibold text-[#555555]'
+                                  }`}
+                                >
+                                  {addon.name}
+                                </span>
+                                <span className="text-[11px] font-bold text-[#c39155]">
+                                  +{formatRupiah(addon.price)}
+                                </span>
+                              </div>
+                              <span
+                                className={`w-4 h-4 rounded flex items-center justify-center shrink-0 border ${
+                                  isChecked
+                                    ? 'bg-[#c39155] border-[#c39155] text-white'
+                                    : 'border-[#d4d4d4] bg-white'
+                                }`}
+                              >
+                                {isChecked && (
+                                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
+                                  </svg>
+                                )}
+                              </span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+
+            {/* Catatan (Optional) */}
+            <div className="border-t border-[#f0f0f0] pt-3 space-y-2 pb-4">
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-[14px] font-extrabold text-[#1f1f1f]">Catatan</span>
+                <span className="text-[11px] font-semibold text-[#9a9a9a]">Optional</span>
+              </div>
+              <textarea
+                value={notes}
+                onChange={(e) => setNotes(e.target.value)}
+                placeholder="Tambahkan catatan"
+                rows={3}
+                className="w-full p-3 rounded-[10px] border border-[#eaeaea] bg-[#fafafa] text-[12.5px] text-[#1f1f1f] placeholder-[#9a9a9a] focus:outline-none focus:border-[#1659b7] focus:bg-white transition resize-none"
+              />
+            </div>
+          </div>
         </div>
 
-        {/* Footer actions: Quantity + Add to Cart */}
-        <div className="p-4 sm:p-5 border-t border-[#EADFC8] bg-[#FAF6F0]/70 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2 shrink-0 bg-white border border-[#EADFC8] rounded-xl p-1 shadow-xs">
+        {/* Sticky Bottom Action Bar: Stepper + Royal Blue "+ Keranjang" CTA */}
+        <div className="px-4 py-3 border-t border-[#ececec] bg-white flex items-center gap-3 shrink-0 shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
+          <div className="flex items-center border border-[#e5e5e5] rounded-[8px] h-[48px] bg-white shrink-0">
             <button
               type="button"
               onClick={() => setQuantity((q) => Math.max(1, q - 1))}
               disabled={quantity <= 1}
-              className="w-8 h-8 rounded-lg bg-[#FAF6F0] hover:bg-[#EADFC8] disabled:opacity-40 text-[#1A1614] font-bold flex items-center justify-center transition cursor-pointer"
+              className="w-10 h-full text-[#1f1f1f] disabled:text-[#c7c7c7] font-extrabold text-base flex items-center justify-center hover:bg-[#f6f6f6] rounded-l-[8px] transition cursor-pointer"
             >
               −
             </button>
-            <span className="w-8 text-center font-bold text-sm text-[#1A1614]">{quantity}</span>
+            <span className="w-8 text-center font-extrabold text-[14px] text-[#1f1f1f]">
+              {quantity}
+            </span>
             <button
               type="button"
               onClick={() => setQuantity((q) => q + 1)}
-              className="w-8 h-8 rounded-lg bg-[#FAF6F0] hover:bg-[#EADFC8] text-[#1A1614] font-bold flex items-center justify-center transition cursor-pointer"
+              className="w-10 h-full text-[#1f1f1f] font-extrabold text-base flex items-center justify-center hover:bg-[#f6f6f6] rounded-r-[8px] transition cursor-pointer"
             >
               +
             </button>
@@ -272,14 +352,12 @@ export const ProductModal: React.FC<ProductModalProps> = ({
           <button
             type="button"
             onClick={handleSubmit}
-            className="flex-1 py-3 px-4 rounded-xl bg-[#1A1614] hover:bg-[#2A221C] text-white font-bold text-xs sm:text-sm flex items-center justify-between shadow-md active:scale-[0.98] transition cursor-pointer"
+            className="flex-1 h-[48px] rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] text-white font-extrabold text-[14.5px] shadow-[0_3px_12px_rgba(22,89,183,0.22)] active:scale-[0.98] transition cursor-pointer"
           >
-            <span>Tambah ke Keranjang</span>
-            <span>{formatRupiah(totalPrice)}</span>
+            + Keranjang {formatRupiah(discountedTotalPrice)}
           </button>
         </div>
       </div>
     </div>
   );
 };
-
