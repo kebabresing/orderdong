@@ -132,7 +132,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
             <img
               src={product.image}
               alt={product.name}
-              className="h-44 w-44 object-contain drop-shadow-md"
+              className="h-44 w-44 object-contain mix-blend-multiply"
             />
           </div>
 
