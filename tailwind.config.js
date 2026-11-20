@@ -7,30 +7,30 @@ export default {
   theme: {
     extend: {
       colors: {
-        orderdong: {
-          DEFAULT: '#ea580c',
-          hover: '#c2410c',
-          soft: '#fff7ed',
-          border: '#fed7aa',
-          ring: '#fdba74',
-          dark: '#18181b'
+        brand: {
+          DEFAULT: '#1659b7',
+          hover: '#124a9a',
+          soft: '#eff5fd',
+          border: '#bcd3f0',
+          ring: '#cfe3ff'
         },
-        amber: {
-          accent: '#d97706'
+        caramel: {
+          DEFAULT: '#c39155',
+          soft: '#fdf8f2'
         },
         crimson: {
-          DEFAULT: '#dc2626'
+          DEFAULT: '#bf1926'
         },
         ink: {
-          DEFAULT: '#18181b',
-          soft: '#52525b',
-          mute: '#71717a',
-          light: '#a1a1aa'
+          DEFAULT: '#1f1f1f',
+          soft: '#555555',
+          mute: '#867e80',
+          light: '#9b9b9b'
         },
-        surface: '#f4f4f5'
+        surface: '#f6f6f6'
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', '"Mulish"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['"Mulish"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       }
     },
   },

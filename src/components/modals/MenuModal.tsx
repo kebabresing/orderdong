@@ -44,7 +44,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({
       )
     },
     {
-      title: 'Informasi Fee Orderdong',
+      title: 'Informasi Fee',
       subtitle: 'Tanpa minimal Rp5k · Min 50k Rp4k · Min 70k Rp3k',
       onClick: onOpenFee,
       icon: (
@@ -83,7 +83,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({
       )
     },
     {
-      title: 'Orderdong Loyalty',
+      title: 'Loyalty Card',
       subtitle: 'Cek rank dari nomor WhatsApp',
       onClick: onOpenLoyalty,
       icon: (
@@ -109,7 +109,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({
       )
     },
     {
-      title: 'Tentang Orderdong',
+      title: 'Cara Pemesanan & Tentang',
       subtitle: 'Alur order, pembayaran & pickup',
       onClick: onOpenAbout,
       icon: (
@@ -140,8 +140,8 @@ export const MenuModal: React.FC<MenuModalProps> = ({
     <ModalWrapper
       isOpen={isOpen}
       onClose={onClose}
-      title="Menu Orderdong"
-      subtitle="Jasa order Kopi Kenangan diskon 50%"
+      title="Menu Kopi Kenangan"
+      subtitle="Order hemat diskon 50%"
       icon={
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" />
@@ -157,25 +157,25 @@ export const MenuModal: React.FC<MenuModalProps> = ({
               onClose();
               item.onClick();
             }}
-            className="w-full p-2.5 rounded-xl bg-white border border-[#ececef] flex items-center justify-between gap-2.5 text-left hover:bg-[#fff7ed]/60 hover:border-[#fed7aa] transition group cursor-pointer"
+            className="w-full p-2.5 rounded-[10px] bg-white border border-[#ececec] flex items-center justify-between gap-2.5 text-left hover:bg-[#f8fbff] hover:border-[#b9d7ff] transition group cursor-pointer"
           >
             <div className="flex items-center gap-2.5 min-w-0">
-              <span className="w-8 h-8 rounded-lg bg-[#fff7ed] text-[#ea580c] flex items-center justify-center shrink-0">
+              <span className="w-8 h-8 rounded-lg bg-[#eff5fd] text-[#1659b7] flex items-center justify-center shrink-0">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   {item.icon}
                 </svg>
               </span>
               <div className="min-w-0">
-                <span className="font-extrabold text-[13px] text-[#18181b] block truncate">
+                <span className="font-extrabold text-[13px] text-[#1f1f1f] block truncate">
                   {item.title}
                 </span>
-                <span className="text-[11px] text-[#71717a] block truncate">
+                <span className="text-[11px] text-[#867e80] block truncate">
                   {item.subtitle}
                 </span>
               </div>
             </div>
             <svg
-              className="w-3.5 h-3.5 text-[#a1a1aa] group-hover:text-[#ea580c] group-hover:translate-x-0.5 transition shrink-0"
+              className="w-3.5 h-3.5 text-[#9b9b9b] group-hover:text-[#1659b7] group-hover:translate-x-0.5 transition shrink-0"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -189,7 +189,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({
       <button
         onClick={onClose}
         type="button"
-        className="w-full h-11 rounded-xl bg-[#18181b] hover:bg-[#27272a] text-white text-[14px] font-extrabold transition cursor-pointer"
+        className="w-full h-11 rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] text-white text-[14px] font-extrabold transition cursor-pointer"
       >
         Tutup Menu
       </button>
