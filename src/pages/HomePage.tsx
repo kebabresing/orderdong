@@ -51,7 +51,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     return map;
   }, [cartItems]);
 
-  // Filter products by search or selected category
+  // Filter products by search or selected category (deduplicate by name when searching)
   const filteredProducts = useMemo(() => {
     let list = PRODUCTS_DATA;
     if (activeCategory !== 'all') {
@@ -59,12 +59,18 @@ export const HomePage: React.FC<HomePageProps> = ({
     }
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
-      list = list.filter(
-        (p) =>
+      const seen = new Set<string>();
+      list = list.filter((p) => {
+        const matches =
           p.name.toLowerCase().includes(q) ||
           p.description.toLowerCase().includes(q) ||
-          p.category_name.toLowerCase().includes(q)
-      );
+          p.category_name.toLowerCase().includes(q);
+        if (!matches) return false;
+        const key = p.name.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
     }
     return list;
   }, [activeCategory, searchQuery]);
@@ -98,6 +104,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       (product.options && product.options.length > 0) ||
       (product.addons && product.addons.length > 0)
     );
+    const isNewItem =
+      product.category_id === 'GRP_NEW_PRODUCT' ||
+      product.id.startsWith('coffee-bluebericano') ||
+      product.id.startsWith('coffee-strawbericano') ||
+      product.id.startsWith('coffee-creamy-cheesecake') ||
+      product.id.startsWith('frappe-strawberry-cheesecake') ||
+      product.id.startsWith('frappe-blueberry-cheesecake') ||
+      product.id.startsWith('food-vanilla-cream-long-bread');
     const discountedPrice = Math.round(product.price * 0.5);
 
     return (
@@ -129,6 +143,13 @@ export const HomePage: React.FC<HomePageProps> = ({
                 </span>
               )}
             </div>
+          )}
+
+          {/* Bottom-left Mint "New" Badge (matching Kopi Kenangan app) */}
+          {isNewItem && (
+            <span className="absolute bottom-1 left-1 bg-[#ecfdf5] text-[#059669] rounded px-1.5 py-0.5 text-[10px] font-extrabold leading-none">
+              New
+            </span>
           )}
         </div>
 
