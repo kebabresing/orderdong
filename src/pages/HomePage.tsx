@@ -173,99 +173,102 @@ export const HomePage: React.FC<HomePageProps> = ({
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {/* Sticky Top Header (Flappyyu Kopi Kenangan Style) */}
-      <header className="sticky top-0 z-40 bg-white shadow-[0_2px_10px_rgba(0,0,0,0.06)]">
-        {/* Row 1: Floating Circular Buttons + Floating Outlet Pill */}
-        <div className="px-3.5 pt-3 pb-2.5 flex items-center gap-2.5">
-          {/* Left: Circular Menu Button */}
+      {/* Sticky iOS 27 Liquid Glass Top Header */}
+      <header className="sticky top-0 z-40 ios-glass-header">
+        {/* Row 1: Floating Liquid Glass Circular Buttons + Capsule Outlet Selector */}
+        <div className="px-3.5 pt-3 pb-2 flex items-center gap-2">
+          {/* Left: Circular Liquid Glass Menu Button */}
           <button
             type="button"
             onClick={onOpenMenu}
             aria-label="Menu Utama"
             title="Menu Utama"
-            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
+            className="w-10 h-10 rounded-full ios-glass-pill text-[#1d1d1f] flex items-center justify-center shrink-0 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007aff]/40"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.2" d="M4 6h16M4 12h16M4 18h16" />
+            <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7h16M4 12h16M4 17h16" />
             </svg>
           </button>
 
-          {/* Center: Floating White Outlet Card */}
+          {/* Center: Floating Liquid Glass Capsule Outlet Pill */}
           <button
             type="button"
             onClick={onSwitchOutlet}
-            className="flex-1 min-w-0 rounded-[10px] border border-[#eeeeee] bg-white px-3 py-2 shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-between gap-2 text-left hover:border-[#bcd3f0] active:scale-[0.99] transition cursor-pointer"
+            className="flex-1 min-w-0 h-11 rounded-full ios-glass-pill pl-3.5 pr-2 flex items-center justify-between gap-2 text-left active:scale-[0.98] transition-all duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007aff]/40"
           >
             <div className="min-w-0 flex-1">
-              <p className="text-[13px] font-extrabold text-[#1f1f1f] truncate leading-tight">
+              <p className="text-[13px] font-extrabold text-[#1d1d1f] truncate leading-tight tracking-[-0.01em]">
                 {currentOutlet ? currentOutlet.name : 'Pilih Outlet Terdekat'}
               </p>
-              <p className="text-[11px] font-medium text-[#867e80] truncate leading-tight mt-0.5">
+              <p className="text-[10.5px] font-medium text-[#6e6e73] truncate leading-tight mt-0.5">
                 {currentOutlet ? currentOutlet.address : 'Ketuk untuk memilih outlet Kopi Kenangan'}
               </p>
             </div>
-            <span className="w-6 h-6 rounded-full border border-[#c39155] text-[#bf1926] flex items-center justify-center shrink-0">
+            <span className="w-7 h-7 rounded-full bg-black/[0.045] border border-white/80 text-[#1659b7] flex items-center justify-center shrink-0">
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.4" d="M19 9l-7 7-7-7" />
               </svg>
             </span>
           </button>
 
-          {/* Right: Circular Refresh & History/Order Buttons */}
-          <button
-            type="button"
-            onClick={handleRefresh}
-            aria-label="Refresh Menu"
-            title="Refresh Menu"
-            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
-          >
-            <svg
-              className={`w-[18px] h-[18px] ${isRefreshing ? 'animate-spin text-[#1659b7]' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          {/* Right: Grouped Liquid Glass Action Capsule (Refresh + Riwayat) */}
+          <div className="h-10 rounded-full ios-glass-pill px-1 flex items-center gap-0.5 shrink-0">
+            <button
+              type="button"
+              onClick={handleRefresh}
+              aria-label="Refresh Menu"
+              title="Refresh Menu"
+              className="w-8 h-8 rounded-full text-[#1d1d1f] hover:bg-black/[0.05] flex items-center justify-center active:scale-90 transition cursor-pointer focus:outline-none"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2.2"
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              />
-            </svg>
-          </button>
+              <svg
+                className={`w-[16px] h-[16px] ${isRefreshing ? 'animate-spin text-[#007aff]' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                />
+              </svg>
+            </button>
 
-          <button
-            type="button"
-            onClick={onOpenOrder}
-            aria-label="Riwayat Pesanan"
-            title="Riwayat & Lacak Pesanan"
-            className="w-10 h-10 rounded-full bg-white text-[#1f1f1f] shadow-[0_3px_10px_rgba(0,0,0,0.14)] flex items-center justify-center shrink-0 hover:bg-[#f6f6f6] active:scale-95 transition cursor-pointer"
-          >
-            <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2.1"
-                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-              />
-            </svg>
-          </button>
+            <span className="w-px h-4 bg-black/[0.08]" />
+
+            <button
+              type="button"
+              onClick={onOpenOrder}
+              aria-label="Riwayat Pesanan"
+              title="Riwayat & Lacak Pesanan"
+              className="w-8 h-8 rounded-full text-[#1d1d1f] hover:bg-black/[0.05] flex items-center justify-center active:scale-90 transition cursor-pointer focus:outline-none"
+            >
+              <svg className="w-[16px] h-[16px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
 
-        {/* Row 2: Horizontally Scrollable Category Underline Tabs (Caramel Gold Active Indicator) */}
-        <div className="border-b border-[#ececec] px-3.5 overflow-x-auto no-scrollbar">
-          <div className="flex items-center gap-5 w-max">
+        {/* Row 2: iOS 27 Liquid Glass Floating Segmented Pill Tabs */}
+        <div className="px-3.5 py-1.5 overflow-x-auto no-scrollbar">
+          <div className="inline-flex items-center gap-1 p-1 rounded-full ios-glass-track w-max">
             <button
               type="button"
               onClick={() => handleCategoryClick('all')}
-              className={`relative h-10 flex items-center text-[13px] font-extrabold whitespace-nowrap transition-colors cursor-pointer ${
-                activeCategory === 'all' ? 'text-[#c39155]' : 'text-[#202020] hover:text-[#c39155]'
+              className={`h-8 px-3.5 rounded-full text-[12.5px] whitespace-nowrap transition-all duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007aff]/40 ${
+                activeCategory === 'all'
+                  ? 'ios-glass-tab-active font-extrabold text-[#1d1d1f]'
+                  : 'font-semibold text-[#6e6e73] hover:text-[#1d1d1f]'
               }`}
             >
               Semua
-              {activeCategory === 'all' && (
-                <span className="absolute bottom-0 inset-x-0 h-[3px] rounded-full bg-[#c39155]" />
-              )}
             </button>
 
             {CATEGORIES_DATA.map((cat) => {
@@ -275,25 +278,24 @@ export const HomePage: React.FC<HomePageProps> = ({
                   key={cat.id}
                   type="button"
                   onClick={() => handleCategoryClick(cat.id)}
-                  className={`relative h-10 flex items-center text-[13px] font-extrabold whitespace-nowrap transition-colors cursor-pointer ${
-                    isActive ? 'text-[#c39155]' : 'text-[#202020] hover:text-[#c39155]'
+                  className={`h-8 px-3.5 rounded-full text-[12.5px] whitespace-nowrap transition-all duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007aff]/40 ${
+                    isActive
+                      ? 'ios-glass-tab-active font-extrabold text-[#1d1d1f]'
+                      : 'font-semibold text-[#6e6e73] hover:text-[#1d1d1f]'
                   }`}
                 >
                   {cat.name}
-                  {isActive && (
-                    <span className="absolute bottom-0 inset-x-0 h-[3px] rounded-full bg-[#c39155]" />
-                  )}
                 </button>
               );
             })}
           </div>
         </div>
 
-        {/* Row 3: Search Input */}
-        <div className="px-3.5 py-2.5 bg-white">
-          <div className="relative">
+        {/* Row 3: iOS 27 Liquid Glass Search Capsule */}
+        <div className="px-3.5 pt-1 pb-3">
+          <div className="relative flex items-center rounded-full ios-glass-search transition-all duration-200">
             <svg
-              className="w-4 h-4 text-[#9a9a9a] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
+              className="w-4 h-4 text-[#8e8e93] absolute left-3.5 pointer-events-none"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -305,13 +307,13 @@ export const HomePage: React.FC<HomePageProps> = ({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Cari produk"
-              className="w-full pl-10 pr-8 py-2.5 bg-[#f7f7f7] border border-[#e8e8e8] rounded-lg text-[13px] font-semibold text-[#1f1f1f] placeholder-[#9a9a9a] focus:outline-none focus:border-[#1659b7] focus:bg-white transition"
+              className="w-full h-10 pl-10 pr-9 bg-transparent rounded-full text-[13.5px] font-medium text-[#1d1d1f] placeholder-[#8e8e93] focus:outline-none"
             />
             {searchQuery && (
               <button
                 type="button"
                 onClick={() => setSearchQuery('')}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[#9a9a9a] hover:text-[#1f1f1f] p-1 cursor-pointer"
+                className="absolute right-2.5 w-5 h-5 rounded-full bg-[#8e8e93]/30 hover:bg-[#8e8e93]/50 text-[#1d1d1f] text-[10px] font-bold flex items-center justify-center cursor-pointer transition"
               >
                 ✕
               </button>
@@ -320,12 +322,12 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </header>
 
-      {/* Subtle Quick Info Pills (Fee & WiFi) */}
+      {/* Subtle Quick Info Glass Pills (Fee & WiFi) */}
       <div className="px-3.5 pt-3 pb-1 flex items-center gap-2 overflow-x-auto no-scrollbar">
         <button
           type="button"
           onClick={onOpenFee}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#fff9e6] border border-[#f2e2b6] text-[11px] font-extrabold text-[#92600a] whitespace-nowrap cursor-pointer hover:bg-[#fef3c7] transition"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#fff9e6]/90 backdrop-blur-md border border-[#f2e2b6] text-[11px] font-extrabold text-[#92600a] whitespace-nowrap cursor-pointer hover:bg-[#fef3c7] active:scale-95 transition shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
         >
           <span>🏷️</span>
           <span>Diskon 50% · Fee mulai Rp3.000</span>
@@ -333,7 +335,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <button
           type="button"
           onClick={onOpenWifi}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#eff5fd] border border-[#bcd3f0] text-[11px] font-extrabold text-[#1659b7] whitespace-nowrap cursor-pointer hover:bg-[#e1edfc] transition"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#eff5fd]/90 backdrop-blur-md border border-[#bcd3f0] text-[11px] font-extrabold text-[#1659b7] whitespace-nowrap cursor-pointer hover:bg-[#e1edfc] active:scale-95 transition shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
         >
           <span>📶</span>
           <span>WiFi Hari Ini</span>
@@ -384,13 +386,13 @@ export const HomePage: React.FC<HomePageProps> = ({
         )}
       </main>
 
-      {/* Floating Bottom Cart Bar (Exact Flappyyu Royal Blue Style) */}
+      {/* Floating Bottom Cart Bar (iOS 27 Liquid Glass Blue Capsule) */}
       {totalItems > 0 && (
         <div className="fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[416px] z-40">
           <button
             type="button"
             onClick={onOpenCart}
-            className="w-full min-h-[58px] rounded-[8px] bg-[#1659b7] hover:bg-[#124a9a] px-4 py-2.5 text-white shadow-[0_4px_16px_rgba(22,89,183,0.3)] flex items-center justify-between active:scale-[0.98] transition cursor-pointer"
+            className="w-full min-h-[60px] rounded-full ios-glass-blue px-5 py-2.5 text-white flex items-center justify-between active:scale-[0.97] transition-all duration-200 cursor-pointer focus:outline-none"
           >
             <div className="text-left">
               <span className="block text-[11px] font-bold text-white/90 leading-tight">
