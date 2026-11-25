@@ -322,23 +322,49 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </header>
 
-      {/* Subtle Quick Info Glass Pills (Fee & WiFi) */}
+      {/* Quick Info Liquid Glass Pills (iOS 27 Native Style — no emojis) */}
       <div className="px-3.5 pt-3 pb-1 flex items-center gap-2 overflow-x-auto no-scrollbar">
         <button
           type="button"
           onClick={onOpenFee}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#fff9e6]/90 backdrop-blur-md border border-[#f2e2b6] text-[11px] font-extrabold text-[#92600a] whitespace-nowrap cursor-pointer hover:bg-[#fef3c7] active:scale-95 transition shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
+          className="h-9 px-3.5 rounded-full ios-glass-pill inline-flex items-center gap-2 text-[12px] font-bold text-[#1d1d1f] whitespace-nowrap cursor-pointer active:scale-[0.96] transition-all duration-200 focus:outline-none"
         >
-          <span>🏷️</span>
-          <span>Diskon 50% · Fee mulai Rp3.000</span>
+          <span className="w-5 h-5 rounded-full bg-[#1659b7]/10 text-[#1659b7] flex items-center justify-center shrink-0">
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.2"
+                d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
+              />
+            </svg>
+          </span>
+          <span className="tracking-[-0.01em]">Diskon 50%</span>
+          <span className="text-[#8e8e93] font-semibold">· Fee mulai 3k</span>
+          <svg className="w-3 h-3 text-[#aeaeb2] -ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.4" d="M9 5l7 7-7 7" />
+          </svg>
         </button>
+
         <button
           type="button"
           onClick={onOpenWifi}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#eff5fd]/90 backdrop-blur-md border border-[#bcd3f0] text-[11px] font-extrabold text-[#1659b7] whitespace-nowrap cursor-pointer hover:bg-[#e1edfc] active:scale-95 transition shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
+          className="h-9 px-3.5 rounded-full ios-glass-pill inline-flex items-center gap-2 text-[12px] font-bold text-[#1d1d1f] whitespace-nowrap cursor-pointer active:scale-[0.96] transition-all duration-200 focus:outline-none"
         >
-          <span>📶</span>
-          <span>WiFi Hari Ini</span>
+          <span className="w-5 h-5 rounded-full bg-black/[0.05] text-[#1d1d1f] flex items-center justify-center shrink-0">
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.2"
+                d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+              />
+            </svg>
+          </span>
+          <span className="tracking-[-0.01em]">WiFi</span>
+          <svg className="w-3 h-3 text-[#aeaeb2] -ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.4" d="M9 5l7 7-7 7" />
+          </svg>
         </button>
       </div>
 
