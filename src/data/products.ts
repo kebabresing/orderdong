@@ -4,7 +4,7 @@ export const CATEGORIES_DATA = [
   {
     "id": "GRP_NEW_PRODUCT",
     "name": "NEW PRODUCT",
-    "count": 9
+    "count": 15
   },
   {
     "id": "Menu0002",
@@ -29,6 +29,1652 @@ export const CATEGORIES_DATA = [
 ];
 
 export const PRODUCTS_DATA: Product[] = [
+  {
+    "id": "new-bluebericano",
+    "slug_id": "new-bluebericano",
+    "name": "Bluebericano",
+    "description": "Perpaduan segar espresso khas Kopi Kenangan dengan sirup blueberry manis asam",
+    "image": "/products/bluebericano.png",
+    "price_display": "Rp19.000",
+    "price": 19000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [
+      {
+        "key": "size",
+        "label": "SIZE",
+        "choices": [
+          {
+            "value": "regular",
+            "label": "Regular",
+            "price": 0
+          },
+          {
+            "value": "large",
+            "label": "Large",
+            "price": 8000
+          },
+          {
+            "value": "jumbo",
+            "label": "Jumbo",
+            "price": 12000
+          }
+        ]
+      },
+      {
+        "key": "beans",
+        "label": "PILIHAN BIJI KOPI",
+        "choices": [
+          {
+            "value": "kenangan_blend",
+            "label": "Kenangan Blend",
+            "price": 0
+          },
+          {
+            "value": "juwara_beans",
+            "label": "Juwara Beans",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "sugar_level",
+        "label": "SUGAR LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Sugar",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Sugar",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Sugar",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "ice_level",
+        "label": "ICE LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Ice",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Ice",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Ice",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "key": "2904",
+        "code": "2904",
+        "label": "Syrup",
+        "name": "Syrup",
+        "group": "Syrup",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4079",
+            "name": "Vanilla Syrup",
+            "label": "Vanilla Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741000",
+            "icon": "https://cdn.kopikenangan.com/public/9cd1e244-71b6-cda9-7b55-ad29237aaef3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4080",
+            "name": "Hazelnut Syrup",
+            "label": "Hazelnut Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741001",
+            "icon": "https://cdn.kopikenangan.com/public/e1e67078-e333-f6a1-5c16-f04e52594d7f",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4081",
+            "name": "Caramel Syrup",
+            "label": "Caramel Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741002",
+            "icon": "https://cdn.kopikenangan.com/public/e1901c8d-edd6-ba82-10ef-a7f35a3f5d54",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4082",
+            "name": "Salted Caramel Sauce",
+            "label": "Salted Caramel Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741003",
+            "icon": "https://cdn.kopikenangan.com/public/7d0e8125-a3b1-b6c3-988c-5660a1513e53",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4083",
+            "name": "Choco Sauce",
+            "label": "Choco Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741004",
+            "icon": "https://cdn.kopikenangan.com/public/5387f50b-b088-9798-c686-90fbfc99865a",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4084",
+            "name": "Butterscotch Sauce",
+            "label": "Butterscotch Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741005",
+            "icon": "https://cdn.kopikenangan.com/public/ff8c3dc9-7fd5-0478-fdcc-69cdc9605766",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2905",
+        "code": "2905",
+        "label": "Topping",
+        "name": "Topping",
+        "group": "Topping",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4099",
+            "name": "Espresso Shot Kenangan Blend",
+            "label": "Espresso Shot Kenangan Blend",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930000",
+            "icon": "https://cdn.kopikenangan.com/public/2dc93124-65e4-8981-dac3-f5eece9aa493",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4100",
+            "name": "Espresso Shot Juwara Beans",
+            "label": "Espresso Shot Juwara Beans",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930001",
+            "icon": "https://cdn.kopikenangan.com/public/cdccaaf5-d451-29a2-c2ea-e32278f1e94c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4101",
+            "name": "Golden Boba",
+            "label": "Golden Boba",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930002",
+            "icon": "https://cdn.kopikenangan.com/public/e8e22b76-6836-8e77-3e19-1114521d1fff",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4102",
+            "name": "Grass Jelly",
+            "label": "Grass Jelly",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930003",
+            "icon": "https://cdn.kopikenangan.com/public/b9f6fe17-c85d-31f9-83b0-3055df1dd154",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4103",
+            "name": "Oreo",
+            "label": "Oreo",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930004",
+            "icon": "https://cdn.kopikenangan.com/public/0970165f-80dc-fa27-9e7a-5505b473e5f4",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4104",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930005",
+            "icon": "https://cdn.kopikenangan.com/public/47df3da7-bc88-6dbe-80af-6fff1e0667b0",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4105",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930006",
+            "icon": "https://cdn.kopikenangan.com/public/ecc6be1e-28bb-6149-d899-468176f6a044",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4106",
+            "name": "Caramel Crumble",
+            "label": "Caramel Crumble",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930007",
+            "icon": "https://cdn.kopikenangan.com/public/5b92ca12-3d21-c2fd-bbf5-b1f584f14da3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4107",
+            "name": "Gula Aren",
+            "label": "Gula Aren",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930008",
+            "icon": "https://cdn.kopikenangan.com/public/f72288eb-ea81-fdf4-e268-e45cb0aa9110",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      }
+    ],
+    "is_promo": false,
+    "original_price": null
+  },
+  {
+    "id": "new-strawbericano",
+    "slug_id": "new-strawbericano",
+    "name": "Strawbericano",
+    "description": "Espresso khas Kopi Kenangan dipadukan dengan kesegaran rasa stroberi",
+    "image": "/products/strawbericano.png",
+    "price_display": "Rp19.000",
+    "price": 19000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [
+      {
+        "key": "size",
+        "label": "SIZE",
+        "choices": [
+          {
+            "value": "regular",
+            "label": "Regular",
+            "price": 0
+          },
+          {
+            "value": "large",
+            "label": "Large",
+            "price": 8000
+          },
+          {
+            "value": "jumbo",
+            "label": "Jumbo",
+            "price": 12000
+          }
+        ]
+      },
+      {
+        "key": "beans",
+        "label": "PILIHAN BIJI KOPI",
+        "choices": [
+          {
+            "value": "kenangan_blend",
+            "label": "Kenangan Blend",
+            "price": 0
+          },
+          {
+            "value": "juwara_beans",
+            "label": "Juwara Beans",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "sugar_level",
+        "label": "SUGAR LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Sugar",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Sugar",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Sugar",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "ice_level",
+        "label": "ICE LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Ice",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Ice",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Ice",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "key": "2904",
+        "code": "2904",
+        "label": "Syrup",
+        "name": "Syrup",
+        "group": "Syrup",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4079",
+            "name": "Vanilla Syrup",
+            "label": "Vanilla Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741000",
+            "icon": "https://cdn.kopikenangan.com/public/9cd1e244-71b6-cda9-7b55-ad29237aaef3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4080",
+            "name": "Hazelnut Syrup",
+            "label": "Hazelnut Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741001",
+            "icon": "https://cdn.kopikenangan.com/public/e1e67078-e333-f6a1-5c16-f04e52594d7f",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4081",
+            "name": "Caramel Syrup",
+            "label": "Caramel Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741002",
+            "icon": "https://cdn.kopikenangan.com/public/e1901c8d-edd6-ba82-10ef-a7f35a3f5d54",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4082",
+            "name": "Salted Caramel Sauce",
+            "label": "Salted Caramel Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741003",
+            "icon": "https://cdn.kopikenangan.com/public/7d0e8125-a3b1-b6c3-988c-5660a1513e53",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4083",
+            "name": "Choco Sauce",
+            "label": "Choco Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741004",
+            "icon": "https://cdn.kopikenangan.com/public/5387f50b-b088-9798-c686-90fbfc99865a",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4084",
+            "name": "Butterscotch Sauce",
+            "label": "Butterscotch Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741005",
+            "icon": "https://cdn.kopikenangan.com/public/ff8c3dc9-7fd5-0478-fdcc-69cdc9605766",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2905",
+        "code": "2905",
+        "label": "Topping",
+        "name": "Topping",
+        "group": "Topping",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4099",
+            "name": "Espresso Shot Kenangan Blend",
+            "label": "Espresso Shot Kenangan Blend",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930000",
+            "icon": "https://cdn.kopikenangan.com/public/2dc93124-65e4-8981-dac3-f5eece9aa493",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4100",
+            "name": "Espresso Shot Juwara Beans",
+            "label": "Espresso Shot Juwara Beans",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930001",
+            "icon": "https://cdn.kopikenangan.com/public/cdccaaf5-d451-29a2-c2ea-e32278f1e94c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4101",
+            "name": "Golden Boba",
+            "label": "Golden Boba",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930002",
+            "icon": "https://cdn.kopikenangan.com/public/e8e22b76-6836-8e77-3e19-1114521d1fff",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4102",
+            "name": "Grass Jelly",
+            "label": "Grass Jelly",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930003",
+            "icon": "https://cdn.kopikenangan.com/public/b9f6fe17-c85d-31f9-83b0-3055df1dd154",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4103",
+            "name": "Oreo",
+            "label": "Oreo",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930004",
+            "icon": "https://cdn.kopikenangan.com/public/0970165f-80dc-fa27-9e7a-5505b473e5f4",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4104",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930005",
+            "icon": "https://cdn.kopikenangan.com/public/47df3da7-bc88-6dbe-80af-6fff1e0667b0",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4105",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930006",
+            "icon": "https://cdn.kopikenangan.com/public/ecc6be1e-28bb-6149-d899-468176f6a044",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4106",
+            "name": "Caramel Crumble",
+            "label": "Caramel Crumble",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930007",
+            "icon": "https://cdn.kopikenangan.com/public/5b92ca12-3d21-c2fd-bbf5-b1f584f14da3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4107",
+            "name": "Gula Aren",
+            "label": "Gula Aren",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930008",
+            "icon": "https://cdn.kopikenangan.com/public/f72288eb-ea81-fdf4-e268-e45cb0aa9110",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      }
+    ],
+    "is_promo": false,
+    "original_price": null
+  },
+  {
+    "id": "new-creamy-cheesecake-latte",
+    "slug_id": "new-creamy-cheesecake-latte",
+    "name": "Creamy Cheesecake Latte",
+    "description": "Kopi susu creamy dengan paduan rasa cheesecake lembut dan kaya rasa",
+    "image": "/products/creamy-cheesecake-latte.png",
+    "price_display": "Rp22.000",
+    "price": 22000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [
+      {
+        "key": "temperature",
+        "label": "TEMPERATURE",
+        "choices": [
+          {
+            "value": "ice",
+            "label": "Ice",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "size",
+        "label": "SIZE",
+        "choices": [
+          {
+            "value": "regular",
+            "label": "Regular",
+            "price": 0
+          },
+          {
+            "value": "large",
+            "label": "Large",
+            "price": 8000
+          }
+        ]
+      },
+      {
+        "key": "milk_option",
+        "label": "PILIHAN SUSU",
+        "choices": [
+          {
+            "value": "milk",
+            "label": "Milk",
+            "price": 0
+          },
+          {
+            "value": "oatside",
+            "label": "Oatside",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "beans",
+        "label": "PILIHAN BIJI KOPI",
+        "choices": [
+          {
+            "value": "kenangan_blend",
+            "label": "Kenangan Blend",
+            "price": 0
+          },
+          {
+            "value": "juwara_beans",
+            "label": "Juwara Beans",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "sugar_level",
+        "label": "SUGAR LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Sugar",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Sugar",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "ice_level",
+        "label": "ICE LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Ice",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Ice",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Ice",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "key": "2904",
+        "code": "2904",
+        "label": "Syrup",
+        "name": "Syrup",
+        "group": "Syrup",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4079",
+            "name": "Vanilla Syrup",
+            "label": "Vanilla Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741000",
+            "icon": "https://cdn.kopikenangan.com/public/9cd1e244-71b6-cda9-7b55-ad29237aaef3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4080",
+            "name": "Hazelnut Syrup",
+            "label": "Hazelnut Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741001",
+            "icon": "https://cdn.kopikenangan.com/public/e1e67078-e333-f6a1-5c16-f04e52594d7f",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4081",
+            "name": "Caramel Syrup",
+            "label": "Caramel Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741002",
+            "icon": "https://cdn.kopikenangan.com/public/e1901c8d-edd6-ba82-10ef-a7f35a3f5d54",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4082",
+            "name": "Salted Caramel Sauce",
+            "label": "Salted Caramel Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741003",
+            "icon": "https://cdn.kopikenangan.com/public/7d0e8125-a3b1-b6c3-988c-5660a1513e53",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4083",
+            "name": "Choco Sauce",
+            "label": "Choco Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741004",
+            "icon": "https://cdn.kopikenangan.com/public/5387f50b-b088-9798-c686-90fbfc99865a",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4084",
+            "name": "Butterscotch Sauce",
+            "label": "Butterscotch Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "579741005",
+            "icon": "https://cdn.kopikenangan.com/public/ff8c3dc9-7fd5-0478-fdcc-69cdc9605766",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2905",
+        "code": "2905",
+        "label": "Topping",
+        "name": "Topping",
+        "group": "Topping",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4099",
+            "name": "Espresso Shot Kenangan Blend",
+            "label": "Espresso Shot Kenangan Blend",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930000",
+            "icon": "https://cdn.kopikenangan.com/public/2dc93124-65e4-8981-dac3-f5eece9aa493",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4100",
+            "name": "Espresso Shot Juwara Beans",
+            "label": "Espresso Shot Juwara Beans",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930001",
+            "icon": "https://cdn.kopikenangan.com/public/cdccaaf5-d451-29a2-c2ea-e32278f1e94c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4101",
+            "name": "Golden Boba",
+            "label": "Golden Boba",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930002",
+            "icon": "https://cdn.kopikenangan.com/public/e8e22b76-6836-8e77-3e19-1114521d1fff",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4102",
+            "name": "Grass Jelly",
+            "label": "Grass Jelly",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930003",
+            "icon": "https://cdn.kopikenangan.com/public/b9f6fe17-c85d-31f9-83b0-3055df1dd154",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4103",
+            "name": "Oreo",
+            "label": "Oreo",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930004",
+            "icon": "https://cdn.kopikenangan.com/public/0970165f-80dc-fa27-9e7a-5505b473e5f4",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4104",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930005",
+            "icon": "https://cdn.kopikenangan.com/public/47df3da7-bc88-6dbe-80af-6fff1e0667b0",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4105",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930006",
+            "icon": "https://cdn.kopikenangan.com/public/ecc6be1e-28bb-6149-d899-468176f6a044",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4106",
+            "name": "Caramel Crumble",
+            "label": "Caramel Crumble",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930007",
+            "icon": "https://cdn.kopikenangan.com/public/5b92ca12-3d21-c2fd-bbf5-b1f584f14da3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4107",
+            "name": "Gula Aren",
+            "label": "Gula Aren",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "223930008",
+            "icon": "https://cdn.kopikenangan.com/public/f72288eb-ea81-fdf4-e268-e45cb0aa9110",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      }
+    ],
+    "is_promo": false,
+    "original_price": null
+  },
+  {
+    "id": "new-strawberry-cheesecake-frappe",
+    "slug_id": "new-strawberry-cheesecake-frappe",
+    "name": "Strawberry Cheesecake Frappe",
+    "description": "Minuman frappe lembut rasa cheesecake dengan potongan saus stroberi segar",
+    "image": "/products/strawberry-cheesecake-frappe.png",
+    "price_display": "Rp26.000",
+    "price": 26000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [
+      {
+        "key": "size",
+        "label": "SIZE",
+        "choices": [
+          {
+            "value": "regular",
+            "label": "Regular",
+            "price": 0
+          },
+          {
+            "value": "large",
+            "label": "Large",
+            "price": 10000
+          }
+        ]
+      },
+      {
+        "key": "milk_option",
+        "label": "PILIHAN SUSU",
+        "choices": [
+          {
+            "value": "milk",
+            "label": "Milk",
+            "price": 0
+          },
+          {
+            "value": "oatside",
+            "label": "Oatside",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "beans",
+        "label": "PILIHAN BIJI KOPI",
+        "choices": [
+          {
+            "value": "kenangan_blend",
+            "label": "Kenangan Blend",
+            "price": 0
+          },
+          {
+            "value": "juwara_beans",
+            "label": "Juwara Beans",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "sugar_level",
+        "label": "SUGAR LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Sugar",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Sugar",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Sugar",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "ice_level",
+        "label": "ICE LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Ice",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Ice",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "key": "2975",
+        "code": "2975",
+        "label": "Whipped Cream",
+        "name": "Whipped Cream",
+        "group": "Whipped Cream",
+        "type": "single",
+        "only_one": true,
+        "mandatory": true,
+        "required": true,
+        "single": true,
+        "choices": [
+          {
+            "value": "4705",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032000",
+            "icon": "https://cdn.kopikenangan.com/public/fb37e0d9-969f-09c5-42df-18d43e4d3e42",
+            "default": true,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4706",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032001",
+            "icon": "https://cdn.kopikenangan.com/public/3cc29dd4-b474-ad38-f8af-c834bc178931",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4707",
+            "name": "No Whipped Cream",
+            "label": "No Whipped Cream",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032002",
+            "icon": "https://cdn.kopikenangan.com/public/ca8bf79f-fe86-69e6-722d-176e9a94905c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2944",
+        "code": "2944",
+        "label": "Syrup",
+        "name": "Syrup",
+        "group": "Syrup",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4423",
+            "name": "Vanilla Syrup",
+            "label": "Vanilla Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679000",
+            "icon": "https://cdn.kopikenangan.com/public/db1f8e3f-db2b-0c0c-86c1-497bc458a4f6",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4424",
+            "name": "Hazelnut Syrup",
+            "label": "Hazelnut Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679001",
+            "icon": "https://cdn.kopikenangan.com/public/2c67445a-f8da-7c0e-b885-5eee60201fe8",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4425",
+            "name": "Caramel Syrup",
+            "label": "Caramel Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679002",
+            "icon": "https://cdn.kopikenangan.com/public/ccf66a26-a794-612e-ffce-6aec565767ec",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4426",
+            "name": "Salted Caramel Sauce",
+            "label": "Salted Caramel Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679003",
+            "icon": "https://cdn.kopikenangan.com/public/8d22cfcf-8642-b62e-172a-c5a9a55b6533",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4427",
+            "name": "Choco Sauce",
+            "label": "Choco Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679004",
+            "icon": "https://cdn.kopikenangan.com/public/0f0ad8dd-c165-b153-0f45-7f1f977a85d9",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4428",
+            "name": "Butterscotch Sauce",
+            "label": "Butterscotch Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679005",
+            "icon": "https://cdn.kopikenangan.com/public/a5701797-9f1b-4725-a3ac-d92dfd1cb14a",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2945",
+        "code": "2945",
+        "label": "Topping",
+        "name": "Topping",
+        "group": "Topping",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4443",
+            "name": "Espresso Shot Kenangan Blend",
+            "label": "Espresso Shot Kenangan Blend",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993000",
+            "icon": "https://cdn.kopikenangan.com/public/6da772dc-f84b-a1c8-731f-4ee1a6eada7e",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4444",
+            "name": "Espresso Shot Juwara Beans",
+            "label": "Espresso Shot Juwara Beans",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993001",
+            "icon": "https://cdn.kopikenangan.com/public/93b4b631-d72d-13e0-b285-8d694f8c2779",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4445",
+            "name": "Golden boba",
+            "label": "Golden boba",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993002",
+            "icon": "https://cdn.kopikenangan.com/public/2b202936-8747-7506-08f0-f608becd29c3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4446",
+            "name": "Grass Jelly",
+            "label": "Grass Jelly",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993003",
+            "icon": "https://cdn.kopikenangan.com/public/7440b9be-01e7-9999-f91f-afe4d3051f2c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4447",
+            "name": "Oreo",
+            "label": "Oreo",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993004",
+            "icon": "https://cdn.kopikenangan.com/public/0bffae7b-2eee-7c0d-7c51-019ba5d8e6b0",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4448",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993005",
+            "icon": "https://cdn.kopikenangan.com/public/b9c4b7f7-16e0-73e1-e5fe-c03ef834b796",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4449",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993006",
+            "icon": "https://cdn.kopikenangan.com/public/2b876a8e-875d-4b9b-c7e5-05814f0e42d9",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4450",
+            "name": "Caramel Crumble",
+            "label": "Caramel Crumble",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993007",
+            "icon": "https://cdn.kopikenangan.com/public/e413b794-9467-c3af-4022-b22cfcc2f3cc",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      }
+    ],
+    "is_promo": false,
+    "original_price": null
+  },
+  {
+    "id": "new-blueberry-cheesecake-frappe",
+    "slug_id": "new-blueberry-cheesecake-frappe",
+    "name": "Blueberry Cheesecake Frappe",
+    "description": "Minuman frappe lembut rasa cheesecake dengan selai blueberry manis segar",
+    "image": "/products/blueberry-cheesecake-frappe.png",
+    "price_display": "Rp26.000",
+    "price": 26000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [
+      {
+        "key": "size",
+        "label": "SIZE",
+        "choices": [
+          {
+            "value": "regular",
+            "label": "Regular",
+            "price": 0
+          },
+          {
+            "value": "large",
+            "label": "Large",
+            "price": 10000
+          }
+        ]
+      },
+      {
+        "key": "milk_option",
+        "label": "PILIHAN SUSU",
+        "choices": [
+          {
+            "value": "milk",
+            "label": "Milk",
+            "price": 0
+          },
+          {
+            "value": "oatside",
+            "label": "Oatside",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "beans",
+        "label": "PILIHAN BIJI KOPI",
+        "choices": [
+          {
+            "value": "kenangan_blend",
+            "label": "Kenangan Blend",
+            "price": 0
+          },
+          {
+            "value": "juwara_beans",
+            "label": "Juwara Beans",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "key": "sugar_level",
+        "label": "SUGAR LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Sugar",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Sugar",
+            "price": 0
+          },
+          {
+            "value": "no",
+            "label": "No Sugar",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "key": "ice_level",
+        "label": "ICE LEVEL",
+        "choices": [
+          {
+            "value": "normal",
+            "label": "Normal Ice",
+            "price": 0
+          },
+          {
+            "value": "less",
+            "label": "Less Ice",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "key": "2975",
+        "code": "2975",
+        "label": "Whipped Cream",
+        "name": "Whipped Cream",
+        "group": "Whipped Cream",
+        "type": "single",
+        "only_one": true,
+        "mandatory": true,
+        "required": true,
+        "single": true,
+        "choices": [
+          {
+            "value": "4705",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032000",
+            "icon": "https://cdn.kopikenangan.com/public/fb37e0d9-969f-09c5-42df-18d43e4d3e42",
+            "default": true,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4706",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032001",
+            "icon": "https://cdn.kopikenangan.com/public/3cc29dd4-b474-ad38-f8af-c834bc178931",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4707",
+            "name": "No Whipped Cream",
+            "label": "No Whipped Cream",
+            "price": 0,
+            "delta": 0,
+            "sku": "201032002",
+            "icon": "https://cdn.kopikenangan.com/public/ca8bf79f-fe86-69e6-722d-176e9a94905c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2944",
+        "code": "2944",
+        "label": "Syrup",
+        "name": "Syrup",
+        "group": "Syrup",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4423",
+            "name": "Vanilla Syrup",
+            "label": "Vanilla Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679000",
+            "icon": "https://cdn.kopikenangan.com/public/db1f8e3f-db2b-0c0c-86c1-497bc458a4f6",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4424",
+            "name": "Hazelnut Syrup",
+            "label": "Hazelnut Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679001",
+            "icon": "https://cdn.kopikenangan.com/public/2c67445a-f8da-7c0e-b885-5eee60201fe8",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4425",
+            "name": "Caramel Syrup",
+            "label": "Caramel Syrup",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679002",
+            "icon": "https://cdn.kopikenangan.com/public/ccf66a26-a794-612e-ffce-6aec565767ec",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4426",
+            "name": "Salted Caramel Sauce",
+            "label": "Salted Caramel Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679003",
+            "icon": "https://cdn.kopikenangan.com/public/8d22cfcf-8642-b62e-172a-c5a9a55b6533",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4427",
+            "name": "Choco Sauce",
+            "label": "Choco Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679004",
+            "icon": "https://cdn.kopikenangan.com/public/0f0ad8dd-c165-b153-0f45-7f1f977a85d9",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4428",
+            "name": "Butterscotch Sauce",
+            "label": "Butterscotch Sauce",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "710679005",
+            "icon": "https://cdn.kopikenangan.com/public/a5701797-9f1b-4725-a3ac-d92dfd1cb14a",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      },
+      {
+        "key": "2945",
+        "code": "2945",
+        "label": "Topping",
+        "name": "Topping",
+        "group": "Topping",
+        "type": "multi",
+        "only_one": false,
+        "mandatory": false,
+        "required": false,
+        "single": false,
+        "choices": [
+          {
+            "value": "4443",
+            "name": "Espresso Shot Kenangan Blend",
+            "label": "Espresso Shot Kenangan Blend",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993000",
+            "icon": "https://cdn.kopikenangan.com/public/6da772dc-f84b-a1c8-731f-4ee1a6eada7e",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4444",
+            "name": "Espresso Shot Juwara Beans",
+            "label": "Espresso Shot Juwara Beans",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993001",
+            "icon": "https://cdn.kopikenangan.com/public/93b4b631-d72d-13e0-b285-8d694f8c2779",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4445",
+            "name": "Golden boba",
+            "label": "Golden boba",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993002",
+            "icon": "https://cdn.kopikenangan.com/public/2b202936-8747-7506-08f0-f608becd29c3",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4446",
+            "name": "Grass Jelly",
+            "label": "Grass Jelly",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993003",
+            "icon": "https://cdn.kopikenangan.com/public/7440b9be-01e7-9999-f91f-afe4d3051f2c",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4447",
+            "name": "Oreo",
+            "label": "Oreo",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993004",
+            "icon": "https://cdn.kopikenangan.com/public/0bffae7b-2eee-7c0d-7c51-019ba5d8e6b0",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4448",
+            "name": "Whipped Cream Chocolate",
+            "label": "Whipped Cream Chocolate",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993005",
+            "icon": "https://cdn.kopikenangan.com/public/b9c4b7f7-16e0-73e1-e5fe-c03ef834b796",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4449",
+            "name": "Whipped Cream Vanilla",
+            "label": "Whipped Cream Vanilla",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993006",
+            "icon": "https://cdn.kopikenangan.com/public/2b876a8e-875d-4b9b-c7e5-05814f0e42d9",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          },
+          {
+            "value": "4450",
+            "name": "Caramel Crumble",
+            "label": "Caramel Crumble",
+            "price": 6000,
+            "delta": 6000,
+            "sku": "677993007",
+            "icon": "https://cdn.kopikenangan.com/public/e413b794-9467-c3af-4022-b22cfcc2f3cc",
+            "default": false,
+            "available": true,
+            "api_sold_out": false
+          }
+        ]
+      }
+    ],
+    "is_promo": false,
+    "original_price": null
+  },
+  {
+    "id": "new-vanilla-cream-long-bread",
+    "slug_id": "new-vanilla-cream-long-bread",
+    "name": "Vanilla Cream Long Bread",
+    "description": "Roti panjang lembut dengan isian krim vanila manis yang lumer di mulut",
+    "image": "/products/vanilla-cream-long-bread.png",
+    "price_display": "Rp14.000",
+    "price": 14000,
+    "category_id": "GRP_NEW_PRODUCT",
+    "category_name": "NEW PRODUCT",
+    "modal_url": "",
+    "options": [],
+    "addons": [],
+    "is_promo": false,
+    "original_price": null
+  },
   {
     "id": "1561",
     "slug_id": "5952206000",
